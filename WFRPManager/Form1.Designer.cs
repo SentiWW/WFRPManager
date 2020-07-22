@@ -28,33 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.TopMenuStrip = new System.Windows.Forms.MenuStrip();
             this.placeholderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.BottomStatusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.menuStrip1.SuspendLayout();
-            this.statusStrip1.SuspendLayout();
+            this.MainPanel = new System.Windows.Forms.Panel();
+            this.LeftPictureBox = new System.Windows.Forms.PictureBox();
+            this.RightPictureBox = new System.Windows.Forms.PictureBox();
+            this.TopMenuStrip.SuspendLayout();
+            this.BottomStatusStrip.SuspendLayout();
+            this.MainPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.LeftPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RightPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // TopMenuStrip
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.TopMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.placeholderToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 428);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(800, 22);
-            this.statusStrip1.TabIndex = 1;
-            this.statusStrip1.Text = "statusStrip1";
+            this.TopMenuStrip.Location = new System.Drawing.Point(0, 0);
+            this.TopMenuStrip.Name = "TopMenuStrip";
+            this.TopMenuStrip.Size = new System.Drawing.Size(800, 24);
+            this.TopMenuStrip.TabIndex = 0;
+            this.TopMenuStrip.Text = "TopMenuStrip";
             // 
             // placeholderToolStripMenuItem
             // 
@@ -62,26 +58,72 @@
             this.placeholderToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.placeholderToolStripMenuItem.Text = "Placeholder";
             // 
+            // BottomStatusStrip
+            // 
+            this.BottomStatusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1});
+            this.BottomStatusStrip.Location = new System.Drawing.Point(0, 428);
+            this.BottomStatusStrip.Name = "BottomStatusStrip";
+            this.BottomStatusStrip.Size = new System.Drawing.Size(800, 22);
+            this.BottomStatusStrip.TabIndex = 1;
+            this.BottomStatusStrip.Text = "BottomStatusStrip";
+            // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(69, 17);
             this.toolStripStatusLabel1.Text = "Placeholder";
             // 
+            // MainPanel
+            // 
+            this.MainPanel.AutoScroll = true;
+            this.MainPanel.Controls.Add(this.RightPictureBox);
+            this.MainPanel.Controls.Add(this.LeftPictureBox);
+            this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MainPanel.Location = new System.Drawing.Point(0, 24);
+            this.MainPanel.Name = "MainPanel";
+            this.MainPanel.Size = new System.Drawing.Size(800, 404);
+            this.MainPanel.TabIndex = 2;
+            // 
+            // LeftPictureBox
+            // 
+            this.LeftPictureBox.Dock = System.Windows.Forms.DockStyle.Left;
+            this.LeftPictureBox.Location = new System.Drawing.Point(0, 0);
+            this.LeftPictureBox.Name = "LeftPictureBox";
+            this.LeftPictureBox.Size = new System.Drawing.Size(100, 404);
+            this.LeftPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.LeftPictureBox.TabIndex = 0;
+            this.LeftPictureBox.TabStop = false;
+            // 
+            // RightPictureBox
+            // 
+            this.RightPictureBox.Dock = System.Windows.Forms.DockStyle.Left;
+            this.RightPictureBox.Location = new System.Drawing.Point(100, 0);
+            this.RightPictureBox.Name = "RightPictureBox";
+            this.RightPictureBox.Size = new System.Drawing.Size(100, 404);
+            this.RightPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.RightPictureBox.TabIndex = 1;
+            this.RightPictureBox.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.statusStrip1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.Controls.Add(this.MainPanel);
+            this.Controls.Add(this.BottomStatusStrip);
+            this.Controls.Add(this.TopMenuStrip);
+            this.MainMenuStrip = this.TopMenuStrip;
             this.Name = "Form1";
             this.Text = "Form1";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
+            this.TopMenuStrip.ResumeLayout(false);
+            this.TopMenuStrip.PerformLayout();
+            this.BottomStatusStrip.ResumeLayout(false);
+            this.BottomStatusStrip.PerformLayout();
+            this.MainPanel.ResumeLayout(false);
+            this.MainPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.LeftPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RightPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -89,10 +131,13 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip TopMenuStrip;
         private System.Windows.Forms.ToolStripMenuItem placeholderToolStripMenuItem;
-        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.StatusStrip BottomStatusStrip;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.Panel MainPanel;
+        private System.Windows.Forms.PictureBox LeftPictureBox;
+        private System.Windows.Forms.PictureBox RightPictureBox;
     }
 }
 
