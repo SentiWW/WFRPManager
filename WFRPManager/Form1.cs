@@ -19,6 +19,11 @@ namespace WFRPManager
         public MainWindow()
         {
             InitializeComponent();
+            _ = FillElementsLists();
+        }
+
+        private async Task FillElementsLists()
+        {
             FirstPageTextBoxs.AddRange(new List<TextBox>()
             {
                 //
@@ -86,12 +91,38 @@ namespace WFRPManager
                 WeaponTraits3,
                 WeaponTraits4,
                 WeaponTraits5,
-                WeaponTraits6
+                WeaponTraits6,
                 //
                 //  Armour
                 //
-
+                SimpleArmourType,
+                SimpleArmorPZ,
+                AdvancedArmorType1,
+                AdvancedArmorType2,
+                AdvancedArmorType3,
+                AdvancedArmorType4,
+                AdvancedArmorType5,
+                AdvancedArmorType6,
+                AdvancedArmorWeight1,
+                AdvancedArmorWeight2,
+                AdvancedArmorWeight3,
+                AdvancedArmorWeight4,
+                AdvancedArmorWeight5,
+                AdvancedArmorWeight6,
+                AdvancedArmorLocation1,
+                AdvancedArmorLocation2,
+                AdvancedArmorLocation3,
+                AdvancedArmorLocation4,
+                AdvancedArmorLocation5,
+                AdvancedArmorLocation6,
+                AdvancedArmorPZ1,
+                AdvancedArmorPZ2,
+                AdvancedArmorPZ3,
+                AdvancedArmorPZ4,
+                AdvancedArmorPZ5,
+                AdvancedArmorPZ6
             });
+            await Task.Delay(0);
             FirstPageNumericUpDown.AddRange(new List<NumericUpDown>()
             {
                 //Main
@@ -145,6 +176,7 @@ namespace WFRPManager
                 CharacterActualPO,
                 CharacterActualPP
             });
+            await Task.Delay(0);
             SecondPageTextBoxs.AddRange(new List<TextBox>()
             {
 
