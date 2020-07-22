@@ -33,10 +33,11 @@
             this.BottomStatusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.MainPanel = new System.Windows.Forms.Panel();
+            this.NextPage = new System.Windows.Forms.Button();
+            this.LeftFlowPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.FirstPictureBox = new System.Windows.Forms.PictureBox();
             this.SecondPictureBox = new System.Windows.Forms.PictureBox();
-            this.LeftFlowPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.NextPage = new System.Windows.Forms.Button();
+            this.CharacterName = new System.Windows.Forms.TextBox();
             this.TopMenuStrip.SuspendLayout();
             this.BottomStatusStrip.SuspendLayout();
             this.MainPanel.SuspendLayout();
@@ -79,6 +80,7 @@
             // MainPanel
             // 
             this.MainPanel.AutoScroll = true;
+            this.MainPanel.Controls.Add(this.CharacterName);
             this.MainPanel.Controls.Add(this.NextPage);
             this.MainPanel.Controls.Add(this.LeftFlowPanel);
             this.MainPanel.Controls.Add(this.FirstPictureBox);
@@ -88,6 +90,25 @@
             this.MainPanel.Name = "MainPanel";
             this.MainPanel.Size = new System.Drawing.Size(1027, 440);
             this.MainPanel.TabIndex = 2;
+            // 
+            // NextPage
+            // 
+            this.NextPage.Location = new System.Drawing.Point(1834, 3);
+            this.NextPage.Name = "NextPage";
+            this.NextPage.Size = new System.Drawing.Size(32, 32);
+            this.NextPage.TabIndex = 3;
+            this.NextPage.Text = ">";
+            this.NextPage.UseVisualStyleBackColor = true;
+            this.NextPage.Click += new System.EventHandler(this.NextPage_Click);
+            // 
+            // LeftFlowPanel
+            // 
+            this.LeftFlowPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LeftFlowPanel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.LeftFlowPanel.Location = new System.Drawing.Point(0, 0);
+            this.LeftFlowPanel.Name = "LeftFlowPanel";
+            this.LeftFlowPanel.Size = new System.Drawing.Size(200, 2175);
+            this.LeftFlowPanel.TabIndex = 2;
             // 
             // FirstPictureBox
             // 
@@ -109,24 +130,15 @@
             this.SecondPictureBox.TabIndex = 1;
             this.SecondPictureBox.TabStop = false;
             // 
-            // LeftFlowPanel
+            // CharacterName
             // 
-            this.LeftFlowPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LeftFlowPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.LeftFlowPanel.Location = new System.Drawing.Point(0, 0);
-            this.LeftFlowPanel.Name = "LeftFlowPanel";
-            this.LeftFlowPanel.Size = new System.Drawing.Size(200, 2175);
-            this.LeftFlowPanel.TabIndex = 2;
-            // 
-            // NextPage
-            // 
-            this.NextPage.Location = new System.Drawing.Point(1834, 3);
-            this.NextPage.Name = "NextPage";
-            this.NextPage.Size = new System.Drawing.Size(32, 32);
-            this.NextPage.TabIndex = 3;
-            this.NextPage.Text = ">";
-            this.NextPage.UseVisualStyleBackColor = true;
-            this.NextPage.Click += new System.EventHandler(this.NextPage_Click);
+            this.CharacterName.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterName.Location = new System.Drawing.Point(277, 103);
+            this.CharacterName.Name = "CharacterName";
+            this.CharacterName.Size = new System.Drawing.Size(638, 37);
+            this.CharacterName.TabIndex = 4;
             // 
             // MainWindow
             // 
@@ -164,6 +176,7 @@
         private System.Windows.Forms.PictureBox SecondPictureBox;
         private System.Windows.Forms.FlowLayoutPanel LeftFlowPanel;
         private System.Windows.Forms.Button NextPage;
+        private System.Windows.Forms.TextBox CharacterName;
     }
 }
 
