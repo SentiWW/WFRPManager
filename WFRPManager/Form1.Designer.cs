@@ -33,22 +33,22 @@
             this.BottomStatusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.MainPanel = new System.Windows.Forms.Panel();
-            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown10 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown11 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown12 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown13 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown14 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown15 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown16 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
+            this.CharacterActualOgd = new System.Windows.Forms.NumericUpDown();
+            this.CharacterActualSW = new System.Windows.Forms.NumericUpDown();
+            this.CharacterActualInt = new System.Windows.Forms.NumericUpDown();
+            this.CharacterActualZr = new System.Windows.Forms.NumericUpDown();
+            this.CharacterActuaOdp = new System.Windows.Forms.NumericUpDown();
+            this.CharacterActualK = new System.Windows.Forms.NumericUpDown();
+            this.CharacterActualUS = new System.Windows.Forms.NumericUpDown();
+            this.CharacterActualWW = new System.Windows.Forms.NumericUpDown();
+            this.CharacterGrowthOgd = new System.Windows.Forms.NumericUpDown();
+            this.CharacterGrowthSW = new System.Windows.Forms.NumericUpDown();
+            this.CharacterGrowthInt = new System.Windows.Forms.NumericUpDown();
+            this.CharacterGrowthZr = new System.Windows.Forms.NumericUpDown();
+            this.CharacterGrowthOdp = new System.Windows.Forms.NumericUpDown();
+            this.CharacterGrowthK = new System.Windows.Forms.NumericUpDown();
+            this.CharacterGrowthUS = new System.Windows.Forms.NumericUpDown();
+            this.CharacterGrowthWW = new System.Windows.Forms.NumericUpDown();
             this.CharacterStartingOgd = new System.Windows.Forms.NumericUpDown();
             this.CharacterStartingSW = new System.Windows.Forms.NumericUpDown();
             this.CharacterStartingInt = new System.Windows.Forms.NumericUpDown();
@@ -102,22 +102,22 @@
             this.TopMenuStrip.SuspendLayout();
             this.BottomStatusStrip.SuspendLayout();
             this.MainPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterActualOgd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterActualSW)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterActualInt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterActualZr)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterActuaOdp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterActualK)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterActualUS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterActualWW)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterGrowthOgd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterGrowthSW)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterGrowthInt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterGrowthZr)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterGrowthOdp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterGrowthK)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterGrowthUS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterGrowthWW)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingOgd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingSW)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingInt)).BeginInit();
@@ -213,22 +213,22 @@
             this.MainPanel.Controls.Add(this.numericUpDown38);
             this.MainPanel.Controls.Add(this.numericUpDown39);
             this.MainPanel.Controls.Add(this.numericUpDown40);
-            this.MainPanel.Controls.Add(this.numericUpDown9);
-            this.MainPanel.Controls.Add(this.numericUpDown10);
-            this.MainPanel.Controls.Add(this.numericUpDown11);
-            this.MainPanel.Controls.Add(this.numericUpDown12);
-            this.MainPanel.Controls.Add(this.numericUpDown13);
-            this.MainPanel.Controls.Add(this.numericUpDown14);
-            this.MainPanel.Controls.Add(this.numericUpDown15);
-            this.MainPanel.Controls.Add(this.numericUpDown16);
-            this.MainPanel.Controls.Add(this.numericUpDown1);
-            this.MainPanel.Controls.Add(this.numericUpDown2);
-            this.MainPanel.Controls.Add(this.numericUpDown3);
-            this.MainPanel.Controls.Add(this.numericUpDown4);
-            this.MainPanel.Controls.Add(this.numericUpDown5);
-            this.MainPanel.Controls.Add(this.numericUpDown6);
-            this.MainPanel.Controls.Add(this.numericUpDown7);
-            this.MainPanel.Controls.Add(this.numericUpDown8);
+            this.MainPanel.Controls.Add(this.CharacterActualOgd);
+            this.MainPanel.Controls.Add(this.CharacterActualSW);
+            this.MainPanel.Controls.Add(this.CharacterActualInt);
+            this.MainPanel.Controls.Add(this.CharacterActualZr);
+            this.MainPanel.Controls.Add(this.CharacterActuaOdp);
+            this.MainPanel.Controls.Add(this.CharacterActualK);
+            this.MainPanel.Controls.Add(this.CharacterActualUS);
+            this.MainPanel.Controls.Add(this.CharacterActualWW);
+            this.MainPanel.Controls.Add(this.CharacterGrowthOgd);
+            this.MainPanel.Controls.Add(this.CharacterGrowthSW);
+            this.MainPanel.Controls.Add(this.CharacterGrowthInt);
+            this.MainPanel.Controls.Add(this.CharacterGrowthZr);
+            this.MainPanel.Controls.Add(this.CharacterGrowthOdp);
+            this.MainPanel.Controls.Add(this.CharacterGrowthK);
+            this.MainPanel.Controls.Add(this.CharacterGrowthUS);
+            this.MainPanel.Controls.Add(this.CharacterGrowthWW);
             this.MainPanel.Controls.Add(this.CharacterStartingOgd);
             this.MainPanel.Controls.Add(this.CharacterStartingSW);
             this.MainPanel.Controls.Add(this.CharacterStartingInt);
@@ -261,149 +261,149 @@
             this.MainPanel.Size = new System.Drawing.Size(1813, 771);
             this.MainPanel.TabIndex = 2;
             // 
-            // numericUpDown9
+            // CharacterActualOgd
             // 
-            this.numericUpDown9.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.numericUpDown9.Location = new System.Drawing.Point(849, 866);
-            this.numericUpDown9.Name = "numericUpDown9";
-            this.numericUpDown9.Size = new System.Drawing.Size(71, 47);
-            this.numericUpDown9.TabIndex = 41;
+            this.CharacterActualOgd.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualOgd.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualOgd.Location = new System.Drawing.Point(849, 866);
+            this.CharacterActualOgd.Name = "CharacterActualOgd";
+            this.CharacterActualOgd.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualOgd.TabIndex = 41;
             // 
-            // numericUpDown10
+            // CharacterActualSW
             // 
-            this.numericUpDown10.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown10.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.numericUpDown10.Location = new System.Drawing.Point(777, 866);
-            this.numericUpDown10.Name = "numericUpDown10";
-            this.numericUpDown10.Size = new System.Drawing.Size(71, 47);
-            this.numericUpDown10.TabIndex = 40;
+            this.CharacterActualSW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualSW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualSW.Location = new System.Drawing.Point(777, 866);
+            this.CharacterActualSW.Name = "CharacterActualSW";
+            this.CharacterActualSW.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualSW.TabIndex = 40;
             // 
-            // numericUpDown11
+            // CharacterActualInt
             // 
-            this.numericUpDown11.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown11.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.numericUpDown11.Location = new System.Drawing.Point(705, 866);
-            this.numericUpDown11.Name = "numericUpDown11";
-            this.numericUpDown11.Size = new System.Drawing.Size(71, 47);
-            this.numericUpDown11.TabIndex = 39;
+            this.CharacterActualInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualInt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualInt.Location = new System.Drawing.Point(705, 866);
+            this.CharacterActualInt.Name = "CharacterActualInt";
+            this.CharacterActualInt.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualInt.TabIndex = 39;
             // 
-            // numericUpDown12
+            // CharacterActualZr
             // 
-            this.numericUpDown12.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.numericUpDown12.Location = new System.Drawing.Point(633, 866);
-            this.numericUpDown12.Name = "numericUpDown12";
-            this.numericUpDown12.Size = new System.Drawing.Size(71, 47);
-            this.numericUpDown12.TabIndex = 38;
+            this.CharacterActualZr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualZr.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualZr.Location = new System.Drawing.Point(633, 866);
+            this.CharacterActualZr.Name = "CharacterActualZr";
+            this.CharacterActualZr.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualZr.TabIndex = 38;
             // 
-            // numericUpDown13
+            // CharacterActuaOdp
             // 
-            this.numericUpDown13.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown13.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.numericUpDown13.Location = new System.Drawing.Point(561, 866);
-            this.numericUpDown13.Name = "numericUpDown13";
-            this.numericUpDown13.Size = new System.Drawing.Size(71, 47);
-            this.numericUpDown13.TabIndex = 37;
+            this.CharacterActuaOdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActuaOdp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActuaOdp.Location = new System.Drawing.Point(561, 866);
+            this.CharacterActuaOdp.Name = "CharacterActuaOdp";
+            this.CharacterActuaOdp.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActuaOdp.TabIndex = 37;
             // 
-            // numericUpDown14
+            // CharacterActualK
             // 
-            this.numericUpDown14.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown14.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.numericUpDown14.Location = new System.Drawing.Point(489, 866);
-            this.numericUpDown14.Name = "numericUpDown14";
-            this.numericUpDown14.Size = new System.Drawing.Size(71, 47);
-            this.numericUpDown14.TabIndex = 36;
+            this.CharacterActualK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualK.Location = new System.Drawing.Point(489, 866);
+            this.CharacterActualK.Name = "CharacterActualK";
+            this.CharacterActualK.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualK.TabIndex = 36;
             // 
-            // numericUpDown15
+            // CharacterActualUS
             // 
-            this.numericUpDown15.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown15.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.numericUpDown15.Location = new System.Drawing.Point(417, 866);
-            this.numericUpDown15.Name = "numericUpDown15";
-            this.numericUpDown15.Size = new System.Drawing.Size(71, 47);
-            this.numericUpDown15.TabIndex = 35;
+            this.CharacterActualUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualUS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualUS.Location = new System.Drawing.Point(417, 866);
+            this.CharacterActualUS.Name = "CharacterActualUS";
+            this.CharacterActualUS.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualUS.TabIndex = 35;
             // 
-            // numericUpDown16
+            // CharacterActualWW
             // 
-            this.numericUpDown16.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown16.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.numericUpDown16.Location = new System.Drawing.Point(345, 866);
-            this.numericUpDown16.Name = "numericUpDown16";
-            this.numericUpDown16.Size = new System.Drawing.Size(71, 47);
-            this.numericUpDown16.TabIndex = 34;
+            this.CharacterActualWW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualWW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualWW.Location = new System.Drawing.Point(345, 866);
+            this.CharacterActualWW.Name = "CharacterActualWW";
+            this.CharacterActualWW.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualWW.TabIndex = 34;
             // 
-            // numericUpDown1
+            // CharacterGrowthOgd
             // 
-            this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.numericUpDown1.Location = new System.Drawing.Point(849, 818);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(71, 47);
-            this.numericUpDown1.TabIndex = 33;
+            this.CharacterGrowthOgd.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthOgd.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthOgd.Location = new System.Drawing.Point(849, 818);
+            this.CharacterGrowthOgd.Name = "CharacterGrowthOgd";
+            this.CharacterGrowthOgd.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthOgd.TabIndex = 33;
             // 
-            // numericUpDown2
+            // CharacterGrowthSW
             // 
-            this.numericUpDown2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.numericUpDown2.Location = new System.Drawing.Point(777, 818);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(71, 47);
-            this.numericUpDown2.TabIndex = 32;
+            this.CharacterGrowthSW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthSW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthSW.Location = new System.Drawing.Point(777, 818);
+            this.CharacterGrowthSW.Name = "CharacterGrowthSW";
+            this.CharacterGrowthSW.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthSW.TabIndex = 32;
             // 
-            // numericUpDown3
+            // CharacterGrowthInt
             // 
-            this.numericUpDown3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.numericUpDown3.Location = new System.Drawing.Point(705, 818);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(71, 47);
-            this.numericUpDown3.TabIndex = 31;
+            this.CharacterGrowthInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthInt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthInt.Location = new System.Drawing.Point(705, 818);
+            this.CharacterGrowthInt.Name = "CharacterGrowthInt";
+            this.CharacterGrowthInt.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthInt.TabIndex = 31;
             // 
-            // numericUpDown4
+            // CharacterGrowthZr
             // 
-            this.numericUpDown4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.numericUpDown4.Location = new System.Drawing.Point(633, 818);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(71, 47);
-            this.numericUpDown4.TabIndex = 30;
+            this.CharacterGrowthZr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthZr.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthZr.Location = new System.Drawing.Point(633, 818);
+            this.CharacterGrowthZr.Name = "CharacterGrowthZr";
+            this.CharacterGrowthZr.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthZr.TabIndex = 30;
             // 
-            // numericUpDown5
+            // CharacterGrowthOdp
             // 
-            this.numericUpDown5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.numericUpDown5.Location = new System.Drawing.Point(561, 818);
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(71, 47);
-            this.numericUpDown5.TabIndex = 29;
+            this.CharacterGrowthOdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthOdp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthOdp.Location = new System.Drawing.Point(561, 818);
+            this.CharacterGrowthOdp.Name = "CharacterGrowthOdp";
+            this.CharacterGrowthOdp.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthOdp.TabIndex = 29;
             // 
-            // numericUpDown6
+            // CharacterGrowthK
             // 
-            this.numericUpDown6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.numericUpDown6.Location = new System.Drawing.Point(489, 818);
-            this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(71, 47);
-            this.numericUpDown6.TabIndex = 28;
+            this.CharacterGrowthK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthK.Location = new System.Drawing.Point(489, 818);
+            this.CharacterGrowthK.Name = "CharacterGrowthK";
+            this.CharacterGrowthK.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthK.TabIndex = 28;
             // 
-            // numericUpDown7
+            // CharacterGrowthUS
             // 
-            this.numericUpDown7.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.numericUpDown7.Location = new System.Drawing.Point(417, 818);
-            this.numericUpDown7.Name = "numericUpDown7";
-            this.numericUpDown7.Size = new System.Drawing.Size(71, 47);
-            this.numericUpDown7.TabIndex = 27;
+            this.CharacterGrowthUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthUS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthUS.Location = new System.Drawing.Point(417, 818);
+            this.CharacterGrowthUS.Name = "CharacterGrowthUS";
+            this.CharacterGrowthUS.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthUS.TabIndex = 27;
             // 
-            // numericUpDown8
+            // CharacterGrowthWW
             // 
-            this.numericUpDown8.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.numericUpDown8.Location = new System.Drawing.Point(345, 818);
-            this.numericUpDown8.Name = "numericUpDown8";
-            this.numericUpDown8.Size = new System.Drawing.Size(71, 47);
-            this.numericUpDown8.TabIndex = 26;
+            this.CharacterGrowthWW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthWW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthWW.Location = new System.Drawing.Point(345, 818);
+            this.CharacterGrowthWW.Name = "CharacterGrowthWW";
+            this.CharacterGrowthWW.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthWW.TabIndex = 26;
             // 
             // CharacterStartingOgd
             // 
@@ -874,22 +874,22 @@
             this.BottomStatusStrip.PerformLayout();
             this.MainPanel.ResumeLayout(false);
             this.MainPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterActualOgd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterActualSW)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterActualInt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterActualZr)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterActuaOdp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterActualK)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterActualUS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterActualWW)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterGrowthOgd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterGrowthSW)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterGrowthInt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterGrowthZr)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterGrowthOdp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterGrowthK)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterGrowthUS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterGrowthWW)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingOgd)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingSW)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingInt)).EndInit();
@@ -956,22 +956,22 @@
         private System.Windows.Forms.TextBox CharacterFeatures;
         private System.Windows.Forms.NumericUpDown CharacterStartingWW;
         private System.Windows.Forms.NumericUpDown CharacterStartingUS;
-        private System.Windows.Forms.NumericUpDown numericUpDown9;
-        private System.Windows.Forms.NumericUpDown numericUpDown10;
-        private System.Windows.Forms.NumericUpDown numericUpDown11;
-        private System.Windows.Forms.NumericUpDown numericUpDown12;
-        private System.Windows.Forms.NumericUpDown numericUpDown13;
-        private System.Windows.Forms.NumericUpDown numericUpDown14;
-        private System.Windows.Forms.NumericUpDown numericUpDown15;
-        private System.Windows.Forms.NumericUpDown numericUpDown16;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
-        private System.Windows.Forms.NumericUpDown numericUpDown5;
-        private System.Windows.Forms.NumericUpDown numericUpDown6;
-        private System.Windows.Forms.NumericUpDown numericUpDown7;
-        private System.Windows.Forms.NumericUpDown numericUpDown8;
+        private System.Windows.Forms.NumericUpDown CharacterActualOgd;
+        private System.Windows.Forms.NumericUpDown CharacterActualSW;
+        private System.Windows.Forms.NumericUpDown CharacterActualInt;
+        private System.Windows.Forms.NumericUpDown CharacterActualZr;
+        private System.Windows.Forms.NumericUpDown CharacterActuaOdp;
+        private System.Windows.Forms.NumericUpDown CharacterActualK;
+        private System.Windows.Forms.NumericUpDown CharacterActualUS;
+        private System.Windows.Forms.NumericUpDown CharacterActualWW;
+        private System.Windows.Forms.NumericUpDown CharacterGrowthOgd;
+        private System.Windows.Forms.NumericUpDown CharacterGrowthSW;
+        private System.Windows.Forms.NumericUpDown CharacterGrowthInt;
+        private System.Windows.Forms.NumericUpDown CharacterGrowthZr;
+        private System.Windows.Forms.NumericUpDown CharacterGrowthOdp;
+        private System.Windows.Forms.NumericUpDown CharacterGrowthK;
+        private System.Windows.Forms.NumericUpDown CharacterGrowthUS;
+        private System.Windows.Forms.NumericUpDown CharacterGrowthWW;
         private System.Windows.Forms.NumericUpDown CharacterStartingOgd;
         private System.Windows.Forms.NumericUpDown CharacterStartingSW;
         private System.Windows.Forms.NumericUpDown CharacterStartingInt;
