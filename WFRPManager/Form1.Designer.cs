@@ -38,6 +38,19 @@
             this.FirstPictureBox = new System.Windows.Forms.PictureBox();
             this.SecondPictureBox = new System.Windows.Forms.PictureBox();
             this.CharacterName = new System.Windows.Forms.TextBox();
+            this.CharacterRace = new System.Windows.Forms.TextBox();
+            this.CharacterCurrentRole = new System.Windows.Forms.TextBox();
+            this.CharacterPreviousRole = new System.Windows.Forms.TextBox();
+            this.CharacterAge = new System.Windows.Forms.TextBox();
+            this.CharacterSex = new System.Windows.Forms.TextBox();
+            this.CharacterWeight = new System.Windows.Forms.TextBox();
+            this.CharacterHeight = new System.Windows.Forms.TextBox();
+            this.CharacterSiblings = new System.Windows.Forms.TextBox();
+            this.CharacterEyeColour = new System.Windows.Forms.TextBox();
+            this.CharacterHairColor = new System.Windows.Forms.TextBox();
+            this.CharacterStartSign = new System.Windows.Forms.TextBox();
+            this.CharacterBirthplace = new System.Windows.Forms.TextBox();
+            this.CharacterFeatures = new System.Windows.Forms.TextBox();
             this.TopMenuStrip.SuspendLayout();
             this.BottomStatusStrip.SuspendLayout();
             this.MainPanel.SuspendLayout();
@@ -51,7 +64,7 @@
             this.placeholderToolStripMenuItem});
             this.TopMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.TopMenuStrip.Name = "TopMenuStrip";
-            this.TopMenuStrip.Size = new System.Drawing.Size(1027, 24);
+            this.TopMenuStrip.Size = new System.Drawing.Size(1813, 24);
             this.TopMenuStrip.TabIndex = 0;
             this.TopMenuStrip.Text = "TopMenuStrip";
             // 
@@ -65,9 +78,9 @@
             // 
             this.BottomStatusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.BottomStatusStrip.Location = new System.Drawing.Point(0, 464);
+            this.BottomStatusStrip.Location = new System.Drawing.Point(0, 795);
             this.BottomStatusStrip.Name = "BottomStatusStrip";
-            this.BottomStatusStrip.Size = new System.Drawing.Size(1027, 22);
+            this.BottomStatusStrip.Size = new System.Drawing.Size(1813, 22);
             this.BottomStatusStrip.TabIndex = 1;
             this.BottomStatusStrip.Text = "BottomStatusStrip";
             // 
@@ -80,6 +93,19 @@
             // MainPanel
             // 
             this.MainPanel.AutoScroll = true;
+            this.MainPanel.Controls.Add(this.CharacterFeatures);
+            this.MainPanel.Controls.Add(this.CharacterBirthplace);
+            this.MainPanel.Controls.Add(this.CharacterStartSign);
+            this.MainPanel.Controls.Add(this.CharacterHairColor);
+            this.MainPanel.Controls.Add(this.CharacterEyeColour);
+            this.MainPanel.Controls.Add(this.CharacterSiblings);
+            this.MainPanel.Controls.Add(this.CharacterHeight);
+            this.MainPanel.Controls.Add(this.CharacterWeight);
+            this.MainPanel.Controls.Add(this.CharacterSex);
+            this.MainPanel.Controls.Add(this.CharacterAge);
+            this.MainPanel.Controls.Add(this.CharacterPreviousRole);
+            this.MainPanel.Controls.Add(this.CharacterCurrentRole);
+            this.MainPanel.Controls.Add(this.CharacterRace);
             this.MainPanel.Controls.Add(this.CharacterName);
             this.MainPanel.Controls.Add(this.NextPage);
             this.MainPanel.Controls.Add(this.LeftFlowPanel);
@@ -88,7 +114,7 @@
             this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainPanel.Location = new System.Drawing.Point(0, 24);
             this.MainPanel.Name = "MainPanel";
-            this.MainPanel.Size = new System.Drawing.Size(1027, 440);
+            this.MainPanel.Size = new System.Drawing.Size(1813, 771);
             this.MainPanel.TabIndex = 2;
             // 
             // NextPage
@@ -135,17 +161,147 @@
             this.CharacterName.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterName.Location = new System.Drawing.Point(277, 103);
+            this.CharacterName.Location = new System.Drawing.Point(292, 103);
             this.CharacterName.Name = "CharacterName";
-            this.CharacterName.Size = new System.Drawing.Size(638, 37);
+            this.CharacterName.Size = new System.Drawing.Size(623, 37);
             this.CharacterName.TabIndex = 4;
+            // 
+            // CharacterRace
+            // 
+            this.CharacterRace.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterRace.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterRace.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterRace.Location = new System.Drawing.Point(292, 152);
+            this.CharacterRace.Name = "CharacterRace";
+            this.CharacterRace.Size = new System.Drawing.Size(585, 37);
+            this.CharacterRace.TabIndex = 5;
+            // 
+            // CharacterCurrentRole
+            // 
+            this.CharacterCurrentRole.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterCurrentRole.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterCurrentRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterCurrentRole.Location = new System.Drawing.Point(382, 200);
+            this.CharacterCurrentRole.Name = "CharacterCurrentRole";
+            this.CharacterCurrentRole.Size = new System.Drawing.Size(533, 37);
+            this.CharacterCurrentRole.TabIndex = 6;
+            // 
+            // CharacterPreviousRole
+            // 
+            this.CharacterPreviousRole.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterPreviousRole.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterPreviousRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterPreviousRole.Location = new System.Drawing.Point(409, 247);
+            this.CharacterPreviousRole.Name = "CharacterPreviousRole";
+            this.CharacterPreviousRole.Size = new System.Drawing.Size(506, 37);
+            this.CharacterPreviousRole.TabIndex = 7;
+            // 
+            // CharacterAge
+            // 
+            this.CharacterAge.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterAge.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAge.Location = new System.Drawing.Point(289, 368);
+            this.CharacterAge.Name = "CharacterAge";
+            this.CharacterAge.Size = new System.Drawing.Size(279, 37);
+            this.CharacterAge.TabIndex = 8;
+            // 
+            // CharacterSex
+            // 
+            this.CharacterSex.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterSex.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterSex.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterSex.Location = new System.Drawing.Point(636, 368);
+            this.CharacterSex.Name = "CharacterSex";
+            this.CharacterSex.Size = new System.Drawing.Size(279, 37);
+            this.CharacterSex.TabIndex = 9;
+            // 
+            // CharacterWeight
+            // 
+            this.CharacterWeight.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterWeight.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterWeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterWeight.Location = new System.Drawing.Point(648, 415);
+            this.CharacterWeight.Name = "CharacterWeight";
+            this.CharacterWeight.Size = new System.Drawing.Size(267, 37);
+            this.CharacterWeight.TabIndex = 10;
+            // 
+            // CharacterHeight
+            // 
+            this.CharacterHeight.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterHeight.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterHeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterHeight.Location = new System.Drawing.Point(663, 464);
+            this.CharacterHeight.Name = "CharacterHeight";
+            this.CharacterHeight.Size = new System.Drawing.Size(252, 37);
+            this.CharacterHeight.TabIndex = 11;
+            // 
+            // CharacterSiblings
+            // 
+            this.CharacterSiblings.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterSiblings.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterSiblings.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterSiblings.Location = new System.Drawing.Point(704, 512);
+            this.CharacterSiblings.Name = "CharacterSiblings";
+            this.CharacterSiblings.Size = new System.Drawing.Size(211, 37);
+            this.CharacterSiblings.TabIndex = 12;
+            // 
+            // CharacterEyeColour
+            // 
+            this.CharacterEyeColour.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterEyeColour.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterEyeColour.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterEyeColour.Location = new System.Drawing.Point(337, 415);
+            this.CharacterEyeColour.Name = "CharacterEyeColour";
+            this.CharacterEyeColour.Size = new System.Drawing.Size(231, 37);
+            this.CharacterEyeColour.TabIndex = 13;
+            // 
+            // CharacterHairColor
+            // 
+            this.CharacterHairColor.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterHairColor.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterHairColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterHairColor.Location = new System.Drawing.Point(360, 464);
+            this.CharacterHairColor.Name = "CharacterHairColor";
+            this.CharacterHairColor.Size = new System.Drawing.Size(208, 37);
+            this.CharacterHairColor.TabIndex = 14;
+            // 
+            // CharacterStartSign
+            // 
+            this.CharacterStartSign.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterStartSign.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterStartSign.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartSign.Location = new System.Drawing.Point(372, 512);
+            this.CharacterStartSign.Name = "CharacterStartSign";
+            this.CharacterStartSign.Size = new System.Drawing.Size(196, 37);
+            this.CharacterStartSign.TabIndex = 15;
+            // 
+            // CharacterBirthplace
+            // 
+            this.CharacterBirthplace.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterBirthplace.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterBirthplace.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterBirthplace.Location = new System.Drawing.Point(391, 559);
+            this.CharacterBirthplace.Name = "CharacterBirthplace";
+            this.CharacterBirthplace.Size = new System.Drawing.Size(524, 37);
+            this.CharacterBirthplace.TabIndex = 16;
+            // 
+            // CharacterFeatures
+            // 
+            this.CharacterFeatures.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterFeatures.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterFeatures.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterFeatures.Location = new System.Drawing.Point(391, 608);
+            this.CharacterFeatures.Name = "CharacterFeatures";
+            this.CharacterFeatures.Size = new System.Drawing.Size(524, 37);
+            this.CharacterFeatures.TabIndex = 17;
             // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.ClientSize = new System.Drawing.Size(1027, 486);
+            this.ClientSize = new System.Drawing.Size(1813, 817);
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.BottomStatusStrip);
             this.Controls.Add(this.TopMenuStrip);
@@ -177,6 +333,19 @@
         private System.Windows.Forms.FlowLayoutPanel LeftFlowPanel;
         private System.Windows.Forms.Button NextPage;
         private System.Windows.Forms.TextBox CharacterName;
+        private System.Windows.Forms.TextBox CharacterRace;
+        private System.Windows.Forms.TextBox CharacterCurrentRole;
+        private System.Windows.Forms.TextBox CharacterPreviousRole;
+        private System.Windows.Forms.TextBox CharacterBirthplace;
+        private System.Windows.Forms.TextBox CharacterStartSign;
+        private System.Windows.Forms.TextBox CharacterHairColor;
+        private System.Windows.Forms.TextBox CharacterEyeColour;
+        private System.Windows.Forms.TextBox CharacterSiblings;
+        private System.Windows.Forms.TextBox CharacterHeight;
+        private System.Windows.Forms.TextBox CharacterWeight;
+        private System.Windows.Forms.TextBox CharacterSex;
+        private System.Windows.Forms.TextBox CharacterAge;
+        private System.Windows.Forms.TextBox CharacterFeatures;
     }
 }
 
