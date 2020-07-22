@@ -48,7 +48,7 @@
             this.placeholderToolStripMenuItem});
             this.TopMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.TopMenuStrip.Name = "TopMenuStrip";
-            this.TopMenuStrip.Size = new System.Drawing.Size(800, 24);
+            this.TopMenuStrip.Size = new System.Drawing.Size(783, 24);
             this.TopMenuStrip.TabIndex = 0;
             this.TopMenuStrip.Text = "TopMenuStrip";
             // 
@@ -62,9 +62,9 @@
             // 
             this.BottomStatusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.BottomStatusStrip.Location = new System.Drawing.Point(0, 428);
+            this.BottomStatusStrip.Location = new System.Drawing.Point(0, 480);
             this.BottomStatusStrip.Name = "BottomStatusStrip";
-            this.BottomStatusStrip.Size = new System.Drawing.Size(800, 22);
+            this.BottomStatusStrip.Size = new System.Drawing.Size(783, 22);
             this.BottomStatusStrip.TabIndex = 1;
             this.BottomStatusStrip.Text = "BottomStatusStrip";
             // 
@@ -82,15 +82,16 @@
             this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainPanel.Location = new System.Drawing.Point(0, 24);
             this.MainPanel.Name = "MainPanel";
-            this.MainPanel.Size = new System.Drawing.Size(800, 404);
+            this.MainPanel.Size = new System.Drawing.Size(783, 456);
             this.MainPanel.TabIndex = 2;
             // 
             // LeftPictureBox
             // 
             this.LeftPictureBox.Dock = System.Windows.Forms.DockStyle.Left;
+            this.LeftPictureBox.ImageLocation = "D:\\vs\\repos\\WFRPManager\\WFRPManager\\resources\\w0.png";
             this.LeftPictureBox.Location = new System.Drawing.Point(0, 0);
             this.LeftPictureBox.Name = "LeftPictureBox";
-            this.LeftPictureBox.Size = new System.Drawing.Size(100, 404);
+            this.LeftPictureBox.Size = new System.Drawing.Size(1675, 439);
             this.LeftPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.LeftPictureBox.TabIndex = 0;
             this.LeftPictureBox.TabStop = false;
@@ -98,9 +99,10 @@
             // RightPictureBox
             // 
             this.RightPictureBox.Dock = System.Windows.Forms.DockStyle.Left;
-            this.RightPictureBox.Location = new System.Drawing.Point(100, 0);
+            this.RightPictureBox.ImageLocation = "D:\\vs\\repos\\WFRPManager\\WFRPManager\\resources\\w1.png";
+            this.RightPictureBox.Location = new System.Drawing.Point(1675, 0);
             this.RightPictureBox.Name = "RightPictureBox";
-            this.RightPictureBox.Size = new System.Drawing.Size(100, 404);
+            this.RightPictureBox.Size = new System.Drawing.Size(1675, 439);
             this.RightPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.RightPictureBox.TabIndex = 1;
             this.RightPictureBox.TabStop = false;
@@ -109,7 +111,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(783, 502);
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.BottomStatusStrip);
             this.Controls.Add(this.TopMenuStrip);
