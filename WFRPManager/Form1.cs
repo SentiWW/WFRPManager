@@ -21,6 +21,9 @@ namespace WFRPManager
             InitializeComponent();
             FirstPageTextBoxs.AddRange(new List<TextBox>()
             {
+                //
+                //  Character
+                //
                 CharacterName,
                 CharacterRace,
                 CharacterCurrentRole,
@@ -34,11 +37,113 @@ namespace WFRPManager
                 CharacterSex,
                 CharacterWeight,
                 CharacterHeight,
-                CharacterSiblings
+                CharacterSiblings,
+                //
+                //  Campaign
+                //
+
+                //
+                //  Weapons
+                //
+                WeaponName1,
+                WeaponName2,
+                WeaponName3,
+                WeaponName4,
+                WeaponName5,
+                WeaponName6,
+                WeaponWeight1,
+                WeaponWeight2,
+                WeaponWeight3,
+                WeaponWeight4,
+                WeaponWeight5,
+                WeaponWeight6,
+                WeaponCategory1,
+                WeaponCategory2,
+                WeaponCategory3,
+                WeaponCategory4,
+                WeaponCategory5,
+                WeaponCategory6,
+                WeaponStrength1,
+                WeaponStrength2,
+                WeaponStrength3,
+                WeaponStrength4,
+                WeaponStrength5,
+                WeaponStrength6,
+                WeaponRange1,
+                WeaponRange2,
+                WeaponRange3,
+                WeaponRange4,
+                WeaponRange5,
+                WeaponRange6,
+                WeaponReload1,
+                WeaponReload2,
+                WeaponReload3,
+                WeaponReload4,
+                WeaponReload5,
+                WeaponReload6,
+                WeaponTraits1,
+                WeaponTraits2,
+                WeaponTraits3,
+                WeaponTraits4,
+                WeaponTraits5,
+                WeaponTraits6
+                //
+                //  Armour
+                //
+
             });
             FirstPageNumericUpDown.AddRange(new List<NumericUpDown>()
             {
-
+                //Main
+                CharacterStartingWW,
+                CharacterStartingUS,
+                CharacterStartingK,
+                CharacterStartingOdp,
+                CharacterStartingZr,
+                CharacterStartingInt,
+                CharacterStartingSW,
+                CharacterStartingOgd,
+                CharacterGrowthWW,
+                CharacterGrowthUS,
+                CharacterGrowthK,
+                CharacterGrowthOdp,
+                CharacterGrowthZr,
+                CharacterGrowthInt,
+                CharacterGrowthSW,
+                CharacterGrowthOgd,
+                CharacterActualWW,
+                CharacterActualUS,
+                CharacterActualK,
+                CharacterActualOdp,
+                CharacterActualZr,
+                CharacterActualInt,
+                CharacterActualSW,
+                CharacterActualOgd,
+                //Secondary
+                CharacterStartingA,
+                CharacterStartingZyw,
+                CharacterStartingS,
+                CharacterStartingWt,
+                CharacterStartingSz,
+                CharacterStartingMag,
+                CharacterStartingPO,
+                CharacterStartingPP,
+                CharacterGrowthA,
+                CharacterGrowthZyw,
+                CharacterGrowthS,
+                CharacterGrowthWt,
+                CharacterGrowthSz,
+                CharacterGrowthMag,
+                CharacterGrowthPO,
+                CharacterGrowthPP,
+                CharacterActualA,
+                CharacterActualZyw,
+                CharacterActualS,
+                CharacterActualWt,
+                CharacterActualSz,
+                CharacterActualMag,
+                CharacterActualPO,
+                CharacterActualPP
             });
             SecondPageTextBoxs.AddRange(new List<TextBox>()
             {
@@ -57,6 +162,12 @@ namespace WFRPManager
                     element.Visible = false;
                     await Task.Delay(0);
                 }
+                foreach (var element in FirstPageNumericUpDown)
+                {
+                    element.Enabled = false;
+                    element.Visible = false;
+                    await Task.Delay(0);
+                }
 
             }
             else
@@ -68,12 +179,15 @@ namespace WFRPManager
                     element.Visible = true;
                     await Task.Delay(0);
                 }
+                foreach (var element in FirstPageNumericUpDown)
+                {
+                    element.Enabled = true;
+                    element.Visible = true;
+                    await Task.Delay(0);
+                }
             }
         }
 
-        private void NextPage_Click(object sender, EventArgs e)
-        {
-            SwitchPage();
-        }
+        private void NextPage_Click(object sender, EventArgs e) => _ = SwitchPage();
     }
 }
