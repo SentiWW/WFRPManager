@@ -28,11 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.TopMenuStrip = new System.Windows.Forms.MenuStrip();
             this.placeholderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.BottomStatusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.MainPanel = new System.Windows.Forms.Panel();
+            this.FirstPictureBox = new System.Windows.Forms.PictureBox();
+            this.PageMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.TurnPageMenuStripOption = new System.Windows.Forms.ToolStripMenuItem();
+            this.CharacterBody = new System.Windows.Forms.TextBox();
+            this.CharacterLeftLeg = new System.Windows.Forms.TextBox();
+            this.CharacterLeftArm = new System.Windows.Forms.TextBox();
+            this.CharacterRightLeg = new System.Windows.Forms.TextBox();
+            this.CharacterRightArm = new System.Windows.Forms.TextBox();
+            this.CharacterHead = new System.Windows.Forms.TextBox();
+            this.CharacterSprint = new System.Windows.Forms.TextBox();
+            this.CharacterCharge = new System.Windows.Forms.TextBox();
+            this.CharacterMovementRetreat = new System.Windows.Forms.TextBox();
+            this.CharacterTotalXP = new System.Windows.Forms.TextBox();
+            this.CharacterCurrentXP = new System.Windows.Forms.TextBox();
+            this.CampaignYear = new System.Windows.Forms.TextBox();
+            this.GameMaster = new System.Windows.Forms.TextBox();
+            this.CampaignName = new System.Windows.Forms.TextBox();
+            this.PlayerName = new System.Windows.Forms.TextBox();
             this.AdvancedArmorPZ6 = new System.Windows.Forms.TextBox();
             this.AdvancedArmorLocation6 = new System.Windows.Forms.TextBox();
             this.AdvancedArmorWeight6 = new System.Windows.Forms.TextBox();
@@ -165,11 +184,12 @@
             this.CharacterName = new System.Windows.Forms.TextBox();
             this.NextPage = new System.Windows.Forms.Button();
             this.LeftFlowPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.FirstPictureBox = new System.Windows.Forms.PictureBox();
             this.SecondPictureBox = new System.Windows.Forms.PictureBox();
             this.TopMenuStrip.SuspendLayout();
             this.BottomStatusStrip.SuspendLayout();
             this.MainPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.FirstPictureBox)).BeginInit();
+            this.PageMenuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualPP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualPO)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualMag)).BeginInit();
@@ -218,7 +238,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingK)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingUS)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingWW)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FirstPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SecondPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -228,7 +247,7 @@
             this.placeholderToolStripMenuItem});
             this.TopMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.TopMenuStrip.Name = "TopMenuStrip";
-            this.TopMenuStrip.Size = new System.Drawing.Size(1584, 24);
+            this.TopMenuStrip.Size = new System.Drawing.Size(1693, 24);
             this.TopMenuStrip.TabIndex = 0;
             this.TopMenuStrip.Text = "TopMenuStrip";
             // 
@@ -242,9 +261,9 @@
             // 
             this.BottomStatusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.BottomStatusStrip.Location = new System.Drawing.Point(0, 789);
+            this.BottomStatusStrip.Location = new System.Drawing.Point(0, 1039);
             this.BottomStatusStrip.Name = "BottomStatusStrip";
-            this.BottomStatusStrip.Size = new System.Drawing.Size(1584, 22);
+            this.BottomStatusStrip.Size = new System.Drawing.Size(1693, 22);
             this.BottomStatusStrip.TabIndex = 1;
             this.BottomStatusStrip.Text = "BottomStatusStrip";
             // 
@@ -257,6 +276,21 @@
             // MainPanel
             // 
             this.MainPanel.AutoScroll = true;
+            this.MainPanel.Controls.Add(this.CharacterBody);
+            this.MainPanel.Controls.Add(this.CharacterLeftLeg);
+            this.MainPanel.Controls.Add(this.CharacterLeftArm);
+            this.MainPanel.Controls.Add(this.CharacterRightLeg);
+            this.MainPanel.Controls.Add(this.CharacterRightArm);
+            this.MainPanel.Controls.Add(this.CharacterHead);
+            this.MainPanel.Controls.Add(this.CharacterSprint);
+            this.MainPanel.Controls.Add(this.CharacterCharge);
+            this.MainPanel.Controls.Add(this.CharacterMovementRetreat);
+            this.MainPanel.Controls.Add(this.CharacterTotalXP);
+            this.MainPanel.Controls.Add(this.CharacterCurrentXP);
+            this.MainPanel.Controls.Add(this.CampaignYear);
+            this.MainPanel.Controls.Add(this.GameMaster);
+            this.MainPanel.Controls.Add(this.CampaignName);
+            this.MainPanel.Controls.Add(this.PlayerName);
             this.MainPanel.Controls.Add(this.AdvancedArmorPZ6);
             this.MainPanel.Controls.Add(this.AdvancedArmorLocation6);
             this.MainPanel.Controls.Add(this.AdvancedArmorWeight6);
@@ -394,8 +428,183 @@
             this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainPanel.Location = new System.Drawing.Point(0, 24);
             this.MainPanel.Name = "MainPanel";
-            this.MainPanel.Size = new System.Drawing.Size(1584, 765);
+            this.MainPanel.Size = new System.Drawing.Size(1693, 1015);
             this.MainPanel.TabIndex = 2;
+            // 
+            // FirstPictureBox
+            // 
+            this.FirstPictureBox.ContextMenuStrip = this.PageMenuStrip;
+            this.FirstPictureBox.ImageLocation = "D:\\vs\\repos\\WFRPManager\\WFRPManager\\resources\\w0.png";
+            this.FirstPictureBox.Location = new System.Drawing.Point(193, 0);
+            this.FirstPictureBox.Name = "FirstPictureBox";
+            this.FirstPictureBox.Size = new System.Drawing.Size(1675, 2175);
+            this.FirstPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.FirstPictureBox.TabIndex = 0;
+            this.FirstPictureBox.TabStop = false;
+            // 
+            // PageMenuStrip
+            // 
+            this.PageMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.TurnPageMenuStripOption});
+            this.PageMenuStrip.Name = "PageMenuStrip";
+            this.PageMenuStrip.Size = new System.Drawing.Size(144, 26);
+            // 
+            // TurnPageMenuStripOption
+            // 
+            this.TurnPageMenuStripOption.Name = "TurnPageMenuStripOption";
+            this.TurnPageMenuStripOption.Size = new System.Drawing.Size(143, 22);
+            this.TurnPageMenuStripOption.Text = "Obróć stronę";
+            this.TurnPageMenuStripOption.Click += new System.EventHandler(this.TurnPageMenuStripOption_Click);
+            // 
+            // CharacterBody
+            // 
+            this.CharacterBody.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterBody.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterBody.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterBody.Location = new System.Drawing.Point(1546, 800);
+            this.CharacterBody.Name = "CharacterBody";
+            this.CharacterBody.Size = new System.Drawing.Size(68, 37);
+            this.CharacterBody.TabIndex = 148;
+            // 
+            // CharacterLeftLeg
+            // 
+            this.CharacterLeftLeg.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterLeftLeg.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterLeftLeg.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterLeftLeg.Location = new System.Drawing.Point(1546, 1495);
+            this.CharacterLeftLeg.Name = "CharacterLeftLeg";
+            this.CharacterLeftLeg.Size = new System.Drawing.Size(68, 37);
+            this.CharacterLeftLeg.TabIndex = 147;
+            // 
+            // CharacterLeftArm
+            // 
+            this.CharacterLeftArm.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterLeftArm.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterLeftArm.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterLeftArm.Location = new System.Drawing.Point(1546, 1135);
+            this.CharacterLeftArm.Name = "CharacterLeftArm";
+            this.CharacterLeftArm.Size = new System.Drawing.Size(68, 37);
+            this.CharacterLeftArm.TabIndex = 146;
+            // 
+            // CharacterRightLeg
+            // 
+            this.CharacterRightLeg.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterRightLeg.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterRightLeg.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterRightLeg.Location = new System.Drawing.Point(1018, 1495);
+            this.CharacterRightLeg.Name = "CharacterRightLeg";
+            this.CharacterRightLeg.Size = new System.Drawing.Size(68, 37);
+            this.CharacterRightLeg.TabIndex = 145;
+            // 
+            // CharacterRightArm
+            // 
+            this.CharacterRightArm.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterRightArm.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterRightArm.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterRightArm.Location = new System.Drawing.Point(1018, 1135);
+            this.CharacterRightArm.Name = "CharacterRightArm";
+            this.CharacterRightArm.Size = new System.Drawing.Size(68, 37);
+            this.CharacterRightArm.TabIndex = 144;
+            // 
+            // CharacterHead
+            // 
+            this.CharacterHead.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterHead.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterHead.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterHead.Location = new System.Drawing.Point(1018, 800);
+            this.CharacterHead.Name = "CharacterHead";
+            this.CharacterHead.Size = new System.Drawing.Size(68, 37);
+            this.CharacterHead.TabIndex = 143;
+            // 
+            // CharacterSprint
+            // 
+            this.CharacterSprint.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterSprint.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterSprint.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterSprint.Location = new System.Drawing.Point(1480, 608);
+            this.CharacterSprint.Name = "CharacterSprint";
+            this.CharacterSprint.Size = new System.Drawing.Size(176, 37);
+            this.CharacterSprint.TabIndex = 142;
+            // 
+            // CharacterCharge
+            // 
+            this.CharacterCharge.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterCharge.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterCharge.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterCharge.Location = new System.Drawing.Point(1259, 608);
+            this.CharacterCharge.Name = "CharacterCharge";
+            this.CharacterCharge.Size = new System.Drawing.Size(156, 37);
+            this.CharacterCharge.TabIndex = 141;
+            // 
+            // CharacterMovementRetreat
+            // 
+            this.CharacterMovementRetreat.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterMovementRetreat.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterMovementRetreat.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterMovementRetreat.Location = new System.Drawing.Point(1096, 608);
+            this.CharacterMovementRetreat.Name = "CharacterMovementRetreat";
+            this.CharacterMovementRetreat.Size = new System.Drawing.Size(84, 37);
+            this.CharacterMovementRetreat.TabIndex = 140;
+            // 
+            // CharacterTotalXP
+            // 
+            this.CharacterTotalXP.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterTotalXP.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterTotalXP.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterTotalXP.Location = new System.Drawing.Point(1259, 488);
+            this.CharacterTotalXP.Name = "CharacterTotalXP";
+            this.CharacterTotalXP.Size = new System.Drawing.Size(347, 37);
+            this.CharacterTotalXP.TabIndex = 139;
+            // 
+            // CharacterCurrentXP
+            // 
+            this.CharacterCurrentXP.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterCurrentXP.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterCurrentXP.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterCurrentXP.Location = new System.Drawing.Point(1050, 488);
+            this.CharacterCurrentXP.Name = "CharacterCurrentXP";
+            this.CharacterCurrentXP.Size = new System.Drawing.Size(130, 37);
+            this.CharacterCurrentXP.TabIndex = 138;
+            // 
+            // CampaignYear
+            // 
+            this.CampaignYear.BackColor = System.Drawing.SystemColors.Window;
+            this.CampaignYear.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CampaignYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CampaignYear.Location = new System.Drawing.Point(1450, 368);
+            this.CampaignYear.Name = "CampaignYear";
+            this.CampaignYear.Size = new System.Drawing.Size(206, 37);
+            this.CampaignYear.TabIndex = 137;
+            // 
+            // GameMaster
+            // 
+            this.GameMaster.BackColor = System.Drawing.SystemColors.Window;
+            this.GameMaster.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.GameMaster.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GameMaster.Location = new System.Drawing.Point(1430, 320);
+            this.GameMaster.Name = "GameMaster";
+            this.GameMaster.Size = new System.Drawing.Size(226, 37);
+            this.GameMaster.TabIndex = 136;
+            // 
+            // CampaignName
+            // 
+            this.CampaignName.BackColor = System.Drawing.SystemColors.Window;
+            this.CampaignName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CampaignName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CampaignName.Location = new System.Drawing.Point(1077, 368);
+            this.CampaignName.Name = "CampaignName";
+            this.CampaignName.Size = new System.Drawing.Size(232, 37);
+            this.CampaignName.TabIndex = 135;
+            // 
+            // PlayerName
+            // 
+            this.PlayerName.BackColor = System.Drawing.SystemColors.Window;
+            this.PlayerName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.PlayerName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PlayerName.Location = new System.Drawing.Point(1024, 320);
+            this.PlayerName.Name = "PlayerName";
+            this.PlayerName.Size = new System.Drawing.Size(285, 37);
+            this.PlayerName.TabIndex = 134;
             // 
             // AdvancedArmorPZ6
             // 
@@ -1652,22 +1861,13 @@
             this.LeftFlowPanel.Size = new System.Drawing.Size(200, 2175);
             this.LeftFlowPanel.TabIndex = 2;
             // 
-            // FirstPictureBox
-            // 
-            this.FirstPictureBox.ImageLocation = "D:\\vs\\repos\\WFRPManager\\WFRPManager\\resources\\w0.png";
-            this.FirstPictureBox.Location = new System.Drawing.Point(193, 0);
-            this.FirstPictureBox.Name = "FirstPictureBox";
-            this.FirstPictureBox.Size = new System.Drawing.Size(1675, 2175);
-            this.FirstPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.FirstPictureBox.TabIndex = 0;
-            this.FirstPictureBox.TabStop = false;
-            // 
             // SecondPictureBox
             // 
+            this.SecondPictureBox.ContextMenuStrip = this.PageMenuStrip;
             this.SecondPictureBox.ImageLocation = "D:\\vs\\repos\\WFRPManager\\WFRPManager\\resources\\w1.png";
             this.SecondPictureBox.Location = new System.Drawing.Point(193, 0);
             this.SecondPictureBox.Name = "SecondPictureBox";
-            this.SecondPictureBox.Size = new System.Drawing.Size(1675, 2175);
+            this.SecondPictureBox.Size = new System.Drawing.Size(1672, 2175);
             this.SecondPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.SecondPictureBox.TabIndex = 1;
             this.SecondPictureBox.TabStop = false;
@@ -1677,12 +1877,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.ClientSize = new System.Drawing.Size(1584, 811);
+            this.ClientSize = new System.Drawing.Size(1693, 1061);
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.BottomStatusStrip);
             this.Controls.Add(this.TopMenuStrip);
             this.MainMenuStrip = this.TopMenuStrip;
             this.Name = "MainWindow";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Text = "WFRPManager";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.TopMenuStrip.ResumeLayout(false);
@@ -1691,6 +1892,8 @@
             this.BottomStatusStrip.PerformLayout();
             this.MainPanel.ResumeLayout(false);
             this.MainPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.FirstPictureBox)).EndInit();
+            this.PageMenuStrip.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualPP)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualPO)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualMag)).EndInit();
@@ -1739,7 +1942,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingK)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingUS)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingWW)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FirstPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SecondPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1887,6 +2089,23 @@
         private System.Windows.Forms.TextBox AdvancedArmorWeight1;
         private System.Windows.Forms.TextBox AdvancedArmorType1;
         private System.Windows.Forms.TextBox WeaponWeight6;
+        private System.Windows.Forms.TextBox CharacterSprint;
+        private System.Windows.Forms.TextBox CharacterCharge;
+        private System.Windows.Forms.TextBox CharacterMovementRetreat;
+        private System.Windows.Forms.TextBox CharacterTotalXP;
+        private System.Windows.Forms.TextBox CharacterCurrentXP;
+        private System.Windows.Forms.TextBox CampaignYear;
+        private System.Windows.Forms.TextBox GameMaster;
+        private System.Windows.Forms.TextBox CampaignName;
+        private System.Windows.Forms.TextBox PlayerName;
+        private System.Windows.Forms.TextBox CharacterBody;
+        private System.Windows.Forms.TextBox CharacterLeftLeg;
+        private System.Windows.Forms.TextBox CharacterLeftArm;
+        private System.Windows.Forms.TextBox CharacterRightLeg;
+        private System.Windows.Forms.TextBox CharacterRightArm;
+        private System.Windows.Forms.TextBox CharacterHead;
+        private System.Windows.Forms.ContextMenuStrip PageMenuStrip;
+        private System.Windows.Forms.ToolStripMenuItem TurnPageMenuStripOption;
     }
 }
 

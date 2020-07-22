@@ -12,9 +12,9 @@ namespace WFRPManager
 {
     public partial class MainWindow : Form
     {
-        private List<TextBox> FirstPageTextBoxs = new List<TextBox>();
-        private List<NumericUpDown> FirstPageNumericUpDown = new List<NumericUpDown>();
-        private List<TextBox> SecondPageTextBoxs = new List<TextBox>();
+        public List<TextBox> FirstPageTextBoxs = new List<TextBox>();
+        public List<NumericUpDown> FirstPageNumericUpDown = new List<NumericUpDown>();
+        public List<TextBox> SecondPageTextBoxs = new List<TextBox>();
 
         public MainWindow()
         {
@@ -43,10 +43,23 @@ namespace WFRPManager
                 CharacterWeight,
                 CharacterHeight,
                 CharacterSiblings,
+                CharacterCurrentXP,
+                CharacterTotalXP,
+                CharacterMovementRetreat,
+                CharacterCharge,
+                CharacterSprint,
+                CharacterHead,
+                CharacterRightArm,
+                CharacterRightLeg,
+                CharacterLeftArm,
+                CharacterLeftLeg,
                 //
                 //  Campaign
                 //
-
+                PlayerName,
+                CampaignName,
+                GameMaster,
+                CampaignYear,
                 //
                 //  Weapons
                 //
@@ -221,5 +234,7 @@ namespace WFRPManager
         }
 
         private void NextPage_Click(object sender, EventArgs e) => _ = SwitchPage();
+
+        private void TurnPageMenuStripOption_Click(object sender, EventArgs e) => _ = SwitchPage();
     }
 }
