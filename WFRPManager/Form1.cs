@@ -13,7 +13,7 @@ namespace WFRPManager
     public partial class MainWindow : Form
     {
         public List<TextBox> FirstPageTextBoxs = new List<TextBox>();
-        public List<NumericUpDown> FirstPageNumericUpDown = new List<NumericUpDown>();
+        public List<NumericUpDownNoScroll> FirstPageNumericUpDown = new List<NumericUpDownNoScroll>();
         public List<TextBox> SecondPageTextBoxs = new List<TextBox>();
 
         public MainWindow()
@@ -136,7 +136,7 @@ namespace WFRPManager
                 AdvancedArmorPZ6
             });
             await Task.Delay(0);
-            FirstPageNumericUpDown.AddRange(new List<NumericUpDown>()
+            FirstPageNumericUpDown.AddRange(new List<NumericUpDownNoScroll>()
             {
                 //Main
                 CharacterStartingWW,
