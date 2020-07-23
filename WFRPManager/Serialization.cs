@@ -9,6 +9,7 @@ namespace WFRPManager
 {
     class Serialization
     {
+        /*
         private async Task PackData()
         {
             throw new NotImplementedException();
@@ -37,5 +38,6 @@ namespace WFRPManager
         {
             throw new NotImplementedException();
         }
+        */
     }
 }

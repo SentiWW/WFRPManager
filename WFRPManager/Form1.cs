@@ -23,6 +23,7 @@ namespace WFRPManager
             InitializeComponent();
             _ = FillElementsLists();
             _ = EnableSecondPage(false);
+            var formData = new FormData();
         }
 
         private async Task FillElementsLists()
