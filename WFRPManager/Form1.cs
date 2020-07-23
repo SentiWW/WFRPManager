@@ -12,16 +12,17 @@ namespace WFRPManager
 {
     public partial class MainWindow : Form
     {
-        public List<TextBox> FirstPageTextBoxs = new List<TextBox>();
-        public List<NumericUpDownNoScroll> FirstPageNumericUpDown = new List<NumericUpDownNoScroll>();
-        public List<TextBox> SecondPageTextBoxs = new List<TextBox>();
-        public List<CheckBox> SecondPageCheckBoxs = new List<CheckBox>();
-        public List<NumericUpDownNoScroll> SecondPageNumericUpDown = new List<NumericUpDownNoScroll>();
+        private List<TextBox> FirstPageTextBoxs = new List<TextBox>();
+        private List<NumericUpDownNoScroll> FirstPageNumericUpDown = new List<NumericUpDownNoScroll>();
+        private List<TextBox> SecondPageTextBoxs = new List<TextBox>();
+        private List<CheckBox> SecondPageCheckBoxs = new List<CheckBox>();
+        private List<NumericUpDownNoScroll> SecondPageNumericUpDown = new List<NumericUpDownNoScroll>();
 
         public MainWindow()
         {
             InitializeComponent();
             _ = FillElementsLists();
+            _ = EnableSecondPage(false);
         }
 
         private async Task FillElementsLists()
@@ -461,40 +462,77 @@ namespace WFRPManager
             });
         }
 
-        private async Task SwitchPage()
+        private async Task EnablePictureBox(bool enable, PictureBox picture)
         {
-            if (FirstPictureBox.Visible)
+            if (enable)
             {
-                FirstPictureBox.Visible = false;
-                foreach (var element in FirstPageTextBoxs)
-                {
-                    element.Enabled = false;
-                    element.Visible = false;
-                    await Task.Delay(0);
-                }
-                foreach (var element in FirstPageNumericUpDown)
-                {
-                    element.Enabled = false;
-                    element.Visible = false;
-                    await Task.Delay(0);
-                }
-
+                await Task.Run(() => picture.Enabled = true);
+                await Task.Run(() => picture.Visible = true);
             }
             else
             {
-                FirstPictureBox.Visible = true;
-                foreach (var element in FirstPageTextBoxs)
-                {
-                    element.Enabled = true;
-                    element.Visible = true;
-                    await Task.Delay(0);
-                }
-                foreach (var element in FirstPageNumericUpDown)
-                {
-                    element.Enabled = true;
-                    element.Visible = true;
-                    await Task.Delay(0);
-                }
+                await Task.Run(() => picture.Enabled = false);
+                await Task.Run(() => picture.Visible = false);
+            }
+        }
+
+        private async Task EnableFirstPage(bool enable)
+        {
+            foreach (var element in FirstPageTextBoxs)
+            {
+                element.Visible = enable;
+                element.Enabled = enable;
+                await Task.Delay(0);
+            }
+            foreach (var element in FirstPageNumericUpDown)
+            {
+                element.Visible = enable;
+                element.Enabled = enable;
+                await Task.Delay(0);
+            }
+            if (enable)
+                await EnablePictureBox(true, FirstPictureBox);
+            else
+                await EnablePictureBox(false, FirstPictureBox);
+        }
+
+        private async Task EnableSecondPage(bool enable)
+        {
+            foreach(var element in SecondPageTextBoxs)
+            {
+                element.Visible = enable;
+                element.Enabled = enable;
+                await Task.Delay(0);
+            }
+            foreach(var element in SecondPageCheckBoxs)
+            {
+                element.Visible = enable;
+                element.Enabled = enable;
+                await Task.Delay(0);
+            }
+            foreach(var element in SecondPageNumericUpDown)
+            {
+                element.Visible = enable;
+                element.Enabled = enable;
+                await Task.Delay(0);
+            }
+            if (enable)
+                await EnablePictureBox(true, SecondPictureBox);
+            else
+                await EnablePictureBox(false, SecondPictureBox);
+        }
+
+        private async Task SwitchPage()
+        {
+            if (FirstPictureBox.Enabled)
+            {
+                await EnableFirstPage(false);
+                await EnableSecondPage(true);
+            }
+            else
+            {
+                await EnableSecondPage(false);
+                await EnableFirstPage(true);
             }
         }
 
