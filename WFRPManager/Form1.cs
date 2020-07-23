@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,23 +13,50 @@ namespace WFRPManager
 {
     public partial class MainWindow : Form
     {
-        private List<TextBox> FirstPageTextBoxs = new List<TextBox>();
-        private List<NumericUpDownNoScroll> FirstPageNumericUpDown = new List<NumericUpDownNoScroll>();
-        private List<TextBox> SecondPageTextBoxs = new List<TextBox>();
-        private List<CheckBox> SecondPageCheckBoxs = new List<CheckBox>();
-        private List<NumericUpDownNoScroll> SecondPageNumericUpDown = new List<NumericUpDownNoScroll>();
+        private List<TextBox> FirstPageTextBoxsTemp = new List<TextBox>();
+        private ConcurrentBag<TextBox> FirstPageTextBoxs = new ConcurrentBag<TextBox>();
+        private List<NumericUpDownNoScroll> FirstPageNumericUpDownTemp = new List<NumericUpDownNoScroll>();
+        private ConcurrentBag<NumericUpDownNoScroll> FirstPageNumericUpDown = new ConcurrentBag<NumericUpDownNoScroll>();
+        private List<TextBox> SecondPageTextBoxsTemp = new List<TextBox>();
+        private ConcurrentBag<TextBox> SecondPageTextBoxs = new ConcurrentBag<TextBox>();
+        private List<CheckBox> SecondPageCheckBoxsTemp = new List<CheckBox>();
+        private ConcurrentBag<CheckBox> SecondPageCheckBoxs = new ConcurrentBag<CheckBox>();
+        private List<NumericUpDownNoScroll> SecondPageNumericUpDownTemp = new List<NumericUpDownNoScroll>();
+        private ConcurrentBag<NumericUpDownNoScroll> SecondPageNumericUpDown = new ConcurrentBag<NumericUpDownNoScroll>();
 
         public MainWindow()
         {
             InitializeComponent();
-            _ = FillElementsLists();
+            _ = FillElementsToBag();
             _ = EnableSecondPage(false);
             var formData = new FormData();
         }
-
+        private async Task FillElementsToBag()
+        {
+            _ = FillElementsLists();
+            foreach (var element in FirstPageTextBoxsTemp)
+                FirstPageTextBoxs.Add(element);
+            FirstPageTextBoxsTemp.Clear();
+            await Task.Delay(0);
+            foreach (var element in FirstPageNumericUpDownTemp)
+                FirstPageNumericUpDown.Add(element);
+            FirstPageNumericUpDownTemp.Clear();
+            await Task.Delay(0);
+            foreach (var element in SecondPageTextBoxsTemp)
+                SecondPageTextBoxs.Add(element);
+            SecondPageTextBoxsTemp.Clear();
+            await Task.Delay(0);
+            foreach (var element in SecondPageCheckBoxsTemp)
+                SecondPageCheckBoxs.Add(element);
+            SecondPageCheckBoxsTemp.Clear();
+            await Task.Delay(0);
+            foreach (var element in SecondPageNumericUpDownTemp)
+                SecondPageNumericUpDown.Add(element);
+            SecondPageNumericUpDownTemp.Clear();
+        }
         private async Task FillElementsLists()
         {
-            FirstPageTextBoxs.AddRange(new List<TextBox>()
+            FirstPageTextBoxsTemp.AddRange(new List<TextBox>()
             {
                 //
                 //  Character
@@ -141,7 +169,7 @@ namespace WFRPManager
                 AdvancedArmorPZ6
             });
             await Task.Delay(0);
-            FirstPageNumericUpDown.AddRange(new List<NumericUpDownNoScroll>()
+            FirstPageNumericUpDownTemp.AddRange(new List<NumericUpDownNoScroll>()
             {
                 //
                 //  Main
@@ -199,7 +227,7 @@ namespace WFRPManager
                 CharacterActualPP
             });
             await Task.Delay(0);
-            SecondPageTextBoxs.AddRange(new List<TextBox>()
+            SecondPageTextBoxsTemp.AddRange(new List<TextBox>()
             {
                 //
                 //  Character skills
@@ -337,7 +365,7 @@ namespace WFRPManager
                 CharacterItemDescription14
             });
             await Task.Delay(0);
-            SecondPageCheckBoxs.AddRange(new List<CheckBox>()
+            SecondPageCheckBoxsTemp.AddRange(new List<CheckBox>()
             {
                 //
                 //  Character skills
@@ -452,7 +480,7 @@ namespace WFRPManager
                 CharacterAdvancedSkill15_3
             });
             await Task.Delay(0);
-            SecondPageNumericUpDown.AddRange(new List<NumericUpDownNoScroll>()
+            SecondPageNumericUpDownTemp.AddRange(new List<NumericUpDownNoScroll>()
             {
                 //
                 //  Character money
@@ -483,14 +511,15 @@ namespace WFRPManager
             {
                 element.Visible = enable;
                 element.Enabled = enable;
-                await Task.Delay(0);
             }
+            await Task.Delay(0);
             foreach (var element in FirstPageNumericUpDown)
             {
                 element.Visible = enable;
                 element.Enabled = enable;
-                await Task.Delay(0);
+                
             }
+            await Task.Delay(0);
             if (enable)
                 await EnablePictureBox(true, FirstPictureBox);
             else
@@ -503,20 +532,20 @@ namespace WFRPManager
             {
                 element.Visible = enable;
                 element.Enabled = enable;
-                await Task.Delay(0);
             }
-            foreach(var element in SecondPageCheckBoxs)
+            await Task.Delay(0);
+            foreach (var element in SecondPageCheckBoxs)
             {
                 element.Visible = enable;
                 element.Enabled = enable;
-                await Task.Delay(0);
             }
-            foreach(var element in SecondPageNumericUpDown)
+            await Task.Delay(0);
+            foreach (var element in SecondPageNumericUpDown)
             {
                 element.Visible = enable;
                 element.Enabled = enable;
-                await Task.Delay(0);
             }
+            await Task.Delay(0);
             if (enable)
                 await EnablePictureBox(true, SecondPictureBox);
             else
