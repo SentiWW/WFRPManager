@@ -34,36 +34,108 @@
             this.BottomStatusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.MainPanel = new System.Windows.Forms.Panel();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox46 = new System.Windows.Forms.TextBox();
-            this.textBox47 = new System.Windows.Forms.TextBox();
-            this.textBox48 = new System.Windows.Forms.TextBox();
-            this.textBox49 = new System.Windows.Forms.TextBox();
-            this.textBox50 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.CharacterItem14 = new System.Windows.Forms.TextBox();
+            this.CharacterItem13 = new System.Windows.Forms.TextBox();
+            this.CharacterItem12 = new System.Windows.Forms.TextBox();
+            this.CharacterItem11 = new System.Windows.Forms.TextBox();
+            this.CharacterItem10 = new System.Windows.Forms.TextBox();
+            this.CharacterItem9 = new System.Windows.Forms.TextBox();
+            this.CharacterItem8 = new System.Windows.Forms.TextBox();
+            this.CharacterItem7 = new System.Windows.Forms.TextBox();
+            this.CharacterItem6 = new System.Windows.Forms.TextBox();
+            this.CharacterItem5 = new System.Windows.Forms.TextBox();
+            this.CharacterItem4 = new System.Windows.Forms.TextBox();
+            this.CharacterItem3 = new System.Windows.Forms.TextBox();
+            this.CharacterItem2 = new System.Windows.Forms.TextBox();
+            this.CharacterItem1 = new System.Windows.Forms.TextBox();
+            this.CharacterItemWeight14 = new System.Windows.Forms.TextBox();
+            this.CharacterItemWeight13 = new System.Windows.Forms.TextBox();
+            this.CharacterItemWeight12 = new System.Windows.Forms.TextBox();
+            this.CharacterItemWeight11 = new System.Windows.Forms.TextBox();
+            this.CharacterItemWeight10 = new System.Windows.Forms.TextBox();
+            this.CharacterItemWeight9 = new System.Windows.Forms.TextBox();
+            this.CharacterItemWeight8 = new System.Windows.Forms.TextBox();
+            this.CharacterItemWeight7 = new System.Windows.Forms.TextBox();
+            this.CharacterItemWeight6 = new System.Windows.Forms.TextBox();
+            this.CharacterItemWeight5 = new System.Windows.Forms.TextBox();
+            this.CharacterItemWeight4 = new System.Windows.Forms.TextBox();
+            this.CharacterItemWeight3 = new System.Windows.Forms.TextBox();
+            this.CharacterItemWeight2 = new System.Windows.Forms.TextBox();
+            this.CharacterItemWeight1 = new System.Windows.Forms.TextBox();
+            this.CharacterItemDescription14 = new System.Windows.Forms.TextBox();
+            this.CharacterItemDescription13 = new System.Windows.Forms.TextBox();
+            this.CharacterItemDescription12 = new System.Windows.Forms.TextBox();
+            this.CharacterItemDescription11 = new System.Windows.Forms.TextBox();
+            this.CharacterItemDescription10 = new System.Windows.Forms.TextBox();
+            this.CharacterItemDescription9 = new System.Windows.Forms.TextBox();
+            this.CharacterItemDescription8 = new System.Windows.Forms.TextBox();
+            this.CharacterItemDescription7 = new System.Windows.Forms.TextBox();
+            this.CharacterItemDescription6 = new System.Windows.Forms.TextBox();
+            this.CharacterItemDescription5 = new System.Windows.Forms.TextBox();
+            this.CharacterItemDescription4 = new System.Windows.Forms.TextBox();
+            this.CharacterItemDescription3 = new System.Windows.Forms.TextBox();
+            this.CharacterItemDescription2 = new System.Windows.Forms.TextBox();
+            this.CharacterItemDescription1 = new System.Windows.Forms.TextBox();
+            this.CharacterAbilityDescription15 = new System.Windows.Forms.TextBox();
+            this.CharacterAbilityDescription14 = new System.Windows.Forms.TextBox();
+            this.CharacterAbilityDescription13 = new System.Windows.Forms.TextBox();
+            this.CharacterAbilityDescription12 = new System.Windows.Forms.TextBox();
+            this.CharacterAbilityDescription11 = new System.Windows.Forms.TextBox();
+            this.CharacterAbilityDescription10 = new System.Windows.Forms.TextBox();
+            this.CharacterAbilityDescription9 = new System.Windows.Forms.TextBox();
+            this.CharacterAbilityDescription8 = new System.Windows.Forms.TextBox();
+            this.CharacterAbilityDescription7 = new System.Windows.Forms.TextBox();
+            this.CharacterAbilityDescription6 = new System.Windows.Forms.TextBox();
+            this.CharacterAbilityDescription5 = new System.Windows.Forms.TextBox();
+            this.CharacterAbilityDescription4 = new System.Windows.Forms.TextBox();
+            this.CharacterAbilityDescription3 = new System.Windows.Forms.TextBox();
+            this.CharacterAbilityDescription2 = new System.Windows.Forms.TextBox();
+            this.CharacterAbilityDescription1 = new System.Windows.Forms.TextBox();
+            this.CharacterAbility15 = new System.Windows.Forms.TextBox();
+            this.CharacterAbility14 = new System.Windows.Forms.TextBox();
+            this.CharacterAbility13 = new System.Windows.Forms.TextBox();
+            this.CharacterAbility12 = new System.Windows.Forms.TextBox();
+            this.CharacterAbility11 = new System.Windows.Forms.TextBox();
+            this.CharacterAbility10 = new System.Windows.Forms.TextBox();
+            this.CharacterAbility9 = new System.Windows.Forms.TextBox();
+            this.CharacterAbility8 = new System.Windows.Forms.TextBox();
+            this.CharacterAbility7 = new System.Windows.Forms.TextBox();
+            this.CharacterAbility6 = new System.Windows.Forms.TextBox();
+            this.CharacterAbility5 = new System.Windows.Forms.TextBox();
+            this.CharacterAbility4 = new System.Windows.Forms.TextBox();
+            this.CharacterAbility3 = new System.Windows.Forms.TextBox();
+            this.CharacterAbility2 = new System.Windows.Forms.TextBox();
+            this.CharacterAbility1 = new System.Windows.Forms.TextBox();
+            this.CharacterAdvancedSkill15 = new System.Windows.Forms.TextBox();
+            this.CharacterAdvancedSkill14 = new System.Windows.Forms.TextBox();
+            this.CharacterAdvancedSkill13 = new System.Windows.Forms.TextBox();
+            this.CharacterAdvancedSkill12 = new System.Windows.Forms.TextBox();
+            this.CharacterAdvancedSkill11 = new System.Windows.Forms.TextBox();
+            this.CharacterAdvancedSkill10 = new System.Windows.Forms.TextBox();
+            this.CharacterAdvancedSkill9 = new System.Windows.Forms.TextBox();
+            this.CharacterAdvancedSkill8 = new System.Windows.Forms.TextBox();
+            this.CharacterAdvancedSkill7 = new System.Windows.Forms.TextBox();
+            this.CharacterAdvancedSkill6 = new System.Windows.Forms.TextBox();
+            this.CharacterAdvancedSkill5 = new System.Windows.Forms.TextBox();
+            this.CharacterAdvancedSkill4 = new System.Windows.Forms.TextBox();
+            this.CharacterAdvancedSkill3 = new System.Windows.Forms.TextBox();
+            this.CharacterAdvancedSkill2 = new System.Windows.Forms.TextBox();
+            this.CharacterAdvancedSkill1 = new System.Windows.Forms.TextBox();
+            this.CharacterConnectedAdvancedSkill15 = new System.Windows.Forms.TextBox();
+            this.CharacterConnectedAdvancedSkill14 = new System.Windows.Forms.TextBox();
+            this.CharacterConnectedAdvancedSkill13 = new System.Windows.Forms.TextBox();
+            this.CharacterConnectedAdvancedSkill12 = new System.Windows.Forms.TextBox();
+            this.CharacterConnectedAdvancedSkill11 = new System.Windows.Forms.TextBox();
+            this.CharacterConnectedAdvancedSkill10 = new System.Windows.Forms.TextBox();
+            this.CharacterConnectedAdvancedSkill9 = new System.Windows.Forms.TextBox();
+            this.CharacterConnectedAdvancedSkill8 = new System.Windows.Forms.TextBox();
+            this.CharacterConnectedAdvancedSkill7 = new System.Windows.Forms.TextBox();
+            this.CharacterConnectedAdvancedSkill6 = new System.Windows.Forms.TextBox();
+            this.CharacterConnectedAdvancedSkill5 = new System.Windows.Forms.TextBox();
+            this.CharacterConnectedAdvancedSkill4 = new System.Windows.Forms.TextBox();
+            this.CharacterConnectedAdvancedSkill3 = new System.Windows.Forms.TextBox();
+            this.CharacterConnectedAdvancedSkill2 = new System.Windows.Forms.TextBox();
+            this.CharacterConnectedAdvancedSkill1 = new System.Windows.Forms.TextBox();
             this.CharacterConnectedSkill20 = new System.Windows.Forms.TextBox();
             this.CharacterConnectedSkill19 = new System.Windows.Forms.TextBox();
             this.CharacterConnectedSkill18 = new System.Windows.Forms.TextBox();
@@ -84,51 +156,51 @@
             this.CharacterConnectedSkill3 = new System.Windows.Forms.TextBox();
             this.CharacterConnectedSkill2 = new System.Windows.Forms.TextBox();
             this.CharacterConnectedSkill1 = new System.Windows.Forms.TextBox();
-            this.checkBox100 = new System.Windows.Forms.CheckBox();
-            this.checkBox101 = new System.Windows.Forms.CheckBox();
-            this.checkBox102 = new System.Windows.Forms.CheckBox();
-            this.checkBox103 = new System.Windows.Forms.CheckBox();
-            this.checkBox104 = new System.Windows.Forms.CheckBox();
-            this.checkBox105 = new System.Windows.Forms.CheckBox();
-            this.checkBox85 = new System.Windows.Forms.CheckBox();
-            this.checkBox86 = new System.Windows.Forms.CheckBox();
-            this.checkBox87 = new System.Windows.Forms.CheckBox();
-            this.checkBox88 = new System.Windows.Forms.CheckBox();
-            this.checkBox89 = new System.Windows.Forms.CheckBox();
-            this.checkBox90 = new System.Windows.Forms.CheckBox();
-            this.checkBox91 = new System.Windows.Forms.CheckBox();
-            this.checkBox92 = new System.Windows.Forms.CheckBox();
-            this.checkBox93 = new System.Windows.Forms.CheckBox();
-            this.checkBox94 = new System.Windows.Forms.CheckBox();
-            this.checkBox95 = new System.Windows.Forms.CheckBox();
-            this.checkBox96 = new System.Windows.Forms.CheckBox();
-            this.checkBox97 = new System.Windows.Forms.CheckBox();
-            this.checkBox98 = new System.Windows.Forms.CheckBox();
-            this.checkBox99 = new System.Windows.Forms.CheckBox();
-            this.checkBox73 = new System.Windows.Forms.CheckBox();
-            this.checkBox74 = new System.Windows.Forms.CheckBox();
-            this.checkBox75 = new System.Windows.Forms.CheckBox();
-            this.checkBox76 = new System.Windows.Forms.CheckBox();
-            this.checkBox77 = new System.Windows.Forms.CheckBox();
-            this.checkBox78 = new System.Windows.Forms.CheckBox();
-            this.checkBox79 = new System.Windows.Forms.CheckBox();
-            this.checkBox80 = new System.Windows.Forms.CheckBox();
-            this.checkBox81 = new System.Windows.Forms.CheckBox();
-            this.checkBox82 = new System.Windows.Forms.CheckBox();
-            this.checkBox83 = new System.Windows.Forms.CheckBox();
-            this.checkBox84 = new System.Windows.Forms.CheckBox();
-            this.checkBox64 = new System.Windows.Forms.CheckBox();
-            this.checkBox65 = new System.Windows.Forms.CheckBox();
-            this.checkBox66 = new System.Windows.Forms.CheckBox();
-            this.checkBox67 = new System.Windows.Forms.CheckBox();
-            this.checkBox68 = new System.Windows.Forms.CheckBox();
-            this.checkBox69 = new System.Windows.Forms.CheckBox();
-            this.checkBox61 = new System.Windows.Forms.CheckBox();
-            this.checkBox62 = new System.Windows.Forms.CheckBox();
-            this.checkBox63 = new System.Windows.Forms.CheckBox();
-            this.checkBox70 = new System.Windows.Forms.CheckBox();
-            this.checkBox71 = new System.Windows.Forms.CheckBox();
-            this.checkBox72 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill15_3 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill15_2 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill15_1 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill14_3 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill14_2 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill14_1 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill13_3 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill13_2 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill13_1 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill12_3 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill12_2 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill12_1 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill11_3 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill11_2 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill11_1 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill10_3 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill10_2 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill10_1 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill9_3 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill9_2 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill9_1 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill8_3 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill8_2 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill8_1 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill7_3 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill7_2 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill7_1 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill6_3 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill6_2 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill6_1 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill5_3 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill5_2 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill5_1 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill4_3 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill4_2 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill4_1 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill3_3 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill3_2 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill3_1 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill2_3 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill2_2 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill2_1 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill1_3 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill1_2 = new System.Windows.Forms.CheckBox();
+            this.CharacterAdvancedSkill1_1 = new System.Windows.Forms.CheckBox();
             this.CharacterSkill20_3 = new System.Windows.Forms.CheckBox();
             this.CharacterSkill20_2 = new System.Windows.Forms.CheckBox();
             this.CharacterSkill20_1 = new System.Windows.Forms.CheckBox();
@@ -292,78 +364,6 @@
             this.NextPage = new System.Windows.Forms.Button();
             this.LeftFlowPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.FirstPictureBox = new System.Windows.Forms.PictureBox();
-            this.textBox51 = new System.Windows.Forms.TextBox();
-            this.textBox52 = new System.Windows.Forms.TextBox();
-            this.textBox53 = new System.Windows.Forms.TextBox();
-            this.textBox54 = new System.Windows.Forms.TextBox();
-            this.textBox55 = new System.Windows.Forms.TextBox();
-            this.textBox56 = new System.Windows.Forms.TextBox();
-            this.textBox57 = new System.Windows.Forms.TextBox();
-            this.textBox58 = new System.Windows.Forms.TextBox();
-            this.textBox59 = new System.Windows.Forms.TextBox();
-            this.textBox60 = new System.Windows.Forms.TextBox();
-            this.textBox61 = new System.Windows.Forms.TextBox();
-            this.textBox62 = new System.Windows.Forms.TextBox();
-            this.textBox63 = new System.Windows.Forms.TextBox();
-            this.textBox64 = new System.Windows.Forms.TextBox();
-            this.textBox65 = new System.Windows.Forms.TextBox();
-            this.textBox66 = new System.Windows.Forms.TextBox();
-            this.textBox67 = new System.Windows.Forms.TextBox();
-            this.textBox68 = new System.Windows.Forms.TextBox();
-            this.textBox69 = new System.Windows.Forms.TextBox();
-            this.textBox70 = new System.Windows.Forms.TextBox();
-            this.textBox71 = new System.Windows.Forms.TextBox();
-            this.textBox72 = new System.Windows.Forms.TextBox();
-            this.textBox73 = new System.Windows.Forms.TextBox();
-            this.textBox74 = new System.Windows.Forms.TextBox();
-            this.textBox75 = new System.Windows.Forms.TextBox();
-            this.textBox76 = new System.Windows.Forms.TextBox();
-            this.textBox77 = new System.Windows.Forms.TextBox();
-            this.textBox78 = new System.Windows.Forms.TextBox();
-            this.textBox79 = new System.Windows.Forms.TextBox();
-            this.textBox80 = new System.Windows.Forms.TextBox();
-            this.textBox82 = new System.Windows.Forms.TextBox();
-            this.textBox83 = new System.Windows.Forms.TextBox();
-            this.textBox84 = new System.Windows.Forms.TextBox();
-            this.textBox85 = new System.Windows.Forms.TextBox();
-            this.textBox86 = new System.Windows.Forms.TextBox();
-            this.textBox87 = new System.Windows.Forms.TextBox();
-            this.textBox88 = new System.Windows.Forms.TextBox();
-            this.textBox89 = new System.Windows.Forms.TextBox();
-            this.textBox90 = new System.Windows.Forms.TextBox();
-            this.textBox91 = new System.Windows.Forms.TextBox();
-            this.textBox92 = new System.Windows.Forms.TextBox();
-            this.textBox93 = new System.Windows.Forms.TextBox();
-            this.textBox94 = new System.Windows.Forms.TextBox();
-            this.textBox95 = new System.Windows.Forms.TextBox();
-            this.textBox81 = new System.Windows.Forms.TextBox();
-            this.textBox96 = new System.Windows.Forms.TextBox();
-            this.textBox97 = new System.Windows.Forms.TextBox();
-            this.textBox98 = new System.Windows.Forms.TextBox();
-            this.textBox99 = new System.Windows.Forms.TextBox();
-            this.textBox100 = new System.Windows.Forms.TextBox();
-            this.textBox101 = new System.Windows.Forms.TextBox();
-            this.textBox102 = new System.Windows.Forms.TextBox();
-            this.textBox103 = new System.Windows.Forms.TextBox();
-            this.textBox104 = new System.Windows.Forms.TextBox();
-            this.textBox105 = new System.Windows.Forms.TextBox();
-            this.textBox106 = new System.Windows.Forms.TextBox();
-            this.textBox107 = new System.Windows.Forms.TextBox();
-            this.textBox108 = new System.Windows.Forms.TextBox();
-            this.textBox109 = new System.Windows.Forms.TextBox();
-            this.textBox110 = new System.Windows.Forms.TextBox();
-            this.textBox111 = new System.Windows.Forms.TextBox();
-            this.textBox112 = new System.Windows.Forms.TextBox();
-            this.textBox113 = new System.Windows.Forms.TextBox();
-            this.textBox114 = new System.Windows.Forms.TextBox();
-            this.textBox115 = new System.Windows.Forms.TextBox();
-            this.textBox116 = new System.Windows.Forms.TextBox();
-            this.textBox117 = new System.Windows.Forms.TextBox();
-            this.textBox118 = new System.Windows.Forms.TextBox();
-            this.textBox119 = new System.Windows.Forms.TextBox();
-            this.textBox120 = new System.Windows.Forms.TextBox();
-            this.textBox121 = new System.Windows.Forms.TextBox();
-            this.textBox122 = new System.Windows.Forms.TextBox();
             this.CharacterMoneyP = new WFRPManager.NumericUpDownNoScroll();
             this.CharacterMoneyS = new WFRPManager.NumericUpDownNoScroll();
             this.CharacterMoneyZK = new WFRPManager.NumericUpDownNoScroll();
@@ -480,7 +480,7 @@
             this.placeholderToolStripMenuItem});
             this.TopMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.TopMenuStrip.Name = "TopMenuStrip";
-            this.TopMenuStrip.Size = new System.Drawing.Size(1693, 24);
+            this.TopMenuStrip.Size = new System.Drawing.Size(1738, 24);
             this.TopMenuStrip.TabIndex = 0;
             this.TopMenuStrip.Text = "TopMenuStrip";
             // 
@@ -494,9 +494,9 @@
             // 
             this.BottomStatusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.BottomStatusStrip.Location = new System.Drawing.Point(0, 1039);
+            this.BottomStatusStrip.Location = new System.Drawing.Point(0, 800);
             this.BottomStatusStrip.Name = "BottomStatusStrip";
-            this.BottomStatusStrip.Size = new System.Drawing.Size(1693, 22);
+            this.BottomStatusStrip.Size = new System.Drawing.Size(1738, 22);
             this.BottomStatusStrip.TabIndex = 1;
             this.BottomStatusStrip.Text = "BottomStatusStrip";
             // 
@@ -512,108 +512,108 @@
             this.MainPanel.Controls.Add(this.CharacterMoneyP);
             this.MainPanel.Controls.Add(this.CharacterMoneyS);
             this.MainPanel.Controls.Add(this.CharacterMoneyZK);
-            this.MainPanel.Controls.Add(this.textBox109);
-            this.MainPanel.Controls.Add(this.textBox110);
-            this.MainPanel.Controls.Add(this.textBox111);
-            this.MainPanel.Controls.Add(this.textBox112);
-            this.MainPanel.Controls.Add(this.textBox113);
-            this.MainPanel.Controls.Add(this.textBox114);
-            this.MainPanel.Controls.Add(this.textBox115);
-            this.MainPanel.Controls.Add(this.textBox116);
-            this.MainPanel.Controls.Add(this.textBox117);
-            this.MainPanel.Controls.Add(this.textBox118);
-            this.MainPanel.Controls.Add(this.textBox119);
-            this.MainPanel.Controls.Add(this.textBox120);
-            this.MainPanel.Controls.Add(this.textBox121);
-            this.MainPanel.Controls.Add(this.textBox122);
-            this.MainPanel.Controls.Add(this.textBox81);
-            this.MainPanel.Controls.Add(this.textBox96);
-            this.MainPanel.Controls.Add(this.textBox97);
-            this.MainPanel.Controls.Add(this.textBox98);
-            this.MainPanel.Controls.Add(this.textBox99);
-            this.MainPanel.Controls.Add(this.textBox100);
-            this.MainPanel.Controls.Add(this.textBox101);
-            this.MainPanel.Controls.Add(this.textBox102);
-            this.MainPanel.Controls.Add(this.textBox103);
-            this.MainPanel.Controls.Add(this.textBox104);
-            this.MainPanel.Controls.Add(this.textBox105);
-            this.MainPanel.Controls.Add(this.textBox106);
-            this.MainPanel.Controls.Add(this.textBox107);
-            this.MainPanel.Controls.Add(this.textBox108);
-            this.MainPanel.Controls.Add(this.textBox82);
-            this.MainPanel.Controls.Add(this.textBox83);
-            this.MainPanel.Controls.Add(this.textBox84);
-            this.MainPanel.Controls.Add(this.textBox85);
-            this.MainPanel.Controls.Add(this.textBox86);
-            this.MainPanel.Controls.Add(this.textBox87);
-            this.MainPanel.Controls.Add(this.textBox88);
-            this.MainPanel.Controls.Add(this.textBox89);
-            this.MainPanel.Controls.Add(this.textBox90);
-            this.MainPanel.Controls.Add(this.textBox91);
-            this.MainPanel.Controls.Add(this.textBox92);
-            this.MainPanel.Controls.Add(this.textBox93);
-            this.MainPanel.Controls.Add(this.textBox94);
-            this.MainPanel.Controls.Add(this.textBox95);
-            this.MainPanel.Controls.Add(this.textBox66);
-            this.MainPanel.Controls.Add(this.textBox67);
-            this.MainPanel.Controls.Add(this.textBox68);
-            this.MainPanel.Controls.Add(this.textBox69);
-            this.MainPanel.Controls.Add(this.textBox70);
-            this.MainPanel.Controls.Add(this.textBox71);
-            this.MainPanel.Controls.Add(this.textBox72);
-            this.MainPanel.Controls.Add(this.textBox73);
-            this.MainPanel.Controls.Add(this.textBox74);
-            this.MainPanel.Controls.Add(this.textBox75);
-            this.MainPanel.Controls.Add(this.textBox76);
-            this.MainPanel.Controls.Add(this.textBox77);
-            this.MainPanel.Controls.Add(this.textBox78);
-            this.MainPanel.Controls.Add(this.textBox79);
-            this.MainPanel.Controls.Add(this.textBox80);
-            this.MainPanel.Controls.Add(this.textBox51);
-            this.MainPanel.Controls.Add(this.textBox52);
-            this.MainPanel.Controls.Add(this.textBox53);
-            this.MainPanel.Controls.Add(this.textBox54);
-            this.MainPanel.Controls.Add(this.textBox55);
-            this.MainPanel.Controls.Add(this.textBox56);
-            this.MainPanel.Controls.Add(this.textBox57);
-            this.MainPanel.Controls.Add(this.textBox58);
-            this.MainPanel.Controls.Add(this.textBox59);
-            this.MainPanel.Controls.Add(this.textBox60);
-            this.MainPanel.Controls.Add(this.textBox61);
-            this.MainPanel.Controls.Add(this.textBox62);
-            this.MainPanel.Controls.Add(this.textBox63);
-            this.MainPanel.Controls.Add(this.textBox64);
-            this.MainPanel.Controls.Add(this.textBox65);
-            this.MainPanel.Controls.Add(this.textBox36);
-            this.MainPanel.Controls.Add(this.textBox37);
-            this.MainPanel.Controls.Add(this.textBox38);
-            this.MainPanel.Controls.Add(this.textBox39);
-            this.MainPanel.Controls.Add(this.textBox40);
-            this.MainPanel.Controls.Add(this.textBox41);
-            this.MainPanel.Controls.Add(this.textBox42);
-            this.MainPanel.Controls.Add(this.textBox43);
-            this.MainPanel.Controls.Add(this.textBox44);
-            this.MainPanel.Controls.Add(this.textBox45);
-            this.MainPanel.Controls.Add(this.textBox46);
-            this.MainPanel.Controls.Add(this.textBox47);
-            this.MainPanel.Controls.Add(this.textBox48);
-            this.MainPanel.Controls.Add(this.textBox49);
-            this.MainPanel.Controls.Add(this.textBox50);
-            this.MainPanel.Controls.Add(this.textBox33);
-            this.MainPanel.Controls.Add(this.textBox34);
-            this.MainPanel.Controls.Add(this.textBox35);
-            this.MainPanel.Controls.Add(this.textBox27);
-            this.MainPanel.Controls.Add(this.textBox28);
-            this.MainPanel.Controls.Add(this.textBox29);
-            this.MainPanel.Controls.Add(this.textBox30);
-            this.MainPanel.Controls.Add(this.textBox31);
-            this.MainPanel.Controls.Add(this.textBox32);
-            this.MainPanel.Controls.Add(this.textBox21);
-            this.MainPanel.Controls.Add(this.textBox22);
-            this.MainPanel.Controls.Add(this.textBox23);
-            this.MainPanel.Controls.Add(this.textBox24);
-            this.MainPanel.Controls.Add(this.textBox25);
-            this.MainPanel.Controls.Add(this.textBox26);
+            this.MainPanel.Controls.Add(this.CharacterItem14);
+            this.MainPanel.Controls.Add(this.CharacterItem13);
+            this.MainPanel.Controls.Add(this.CharacterItem12);
+            this.MainPanel.Controls.Add(this.CharacterItem11);
+            this.MainPanel.Controls.Add(this.CharacterItem10);
+            this.MainPanel.Controls.Add(this.CharacterItem9);
+            this.MainPanel.Controls.Add(this.CharacterItem8);
+            this.MainPanel.Controls.Add(this.CharacterItem7);
+            this.MainPanel.Controls.Add(this.CharacterItem6);
+            this.MainPanel.Controls.Add(this.CharacterItem5);
+            this.MainPanel.Controls.Add(this.CharacterItem4);
+            this.MainPanel.Controls.Add(this.CharacterItem3);
+            this.MainPanel.Controls.Add(this.CharacterItem2);
+            this.MainPanel.Controls.Add(this.CharacterItem1);
+            this.MainPanel.Controls.Add(this.CharacterItemWeight14);
+            this.MainPanel.Controls.Add(this.CharacterItemWeight13);
+            this.MainPanel.Controls.Add(this.CharacterItemWeight12);
+            this.MainPanel.Controls.Add(this.CharacterItemWeight11);
+            this.MainPanel.Controls.Add(this.CharacterItemWeight10);
+            this.MainPanel.Controls.Add(this.CharacterItemWeight9);
+            this.MainPanel.Controls.Add(this.CharacterItemWeight8);
+            this.MainPanel.Controls.Add(this.CharacterItemWeight7);
+            this.MainPanel.Controls.Add(this.CharacterItemWeight6);
+            this.MainPanel.Controls.Add(this.CharacterItemWeight5);
+            this.MainPanel.Controls.Add(this.CharacterItemWeight4);
+            this.MainPanel.Controls.Add(this.CharacterItemWeight3);
+            this.MainPanel.Controls.Add(this.CharacterItemWeight2);
+            this.MainPanel.Controls.Add(this.CharacterItemWeight1);
+            this.MainPanel.Controls.Add(this.CharacterItemDescription14);
+            this.MainPanel.Controls.Add(this.CharacterItemDescription13);
+            this.MainPanel.Controls.Add(this.CharacterItemDescription12);
+            this.MainPanel.Controls.Add(this.CharacterItemDescription11);
+            this.MainPanel.Controls.Add(this.CharacterItemDescription10);
+            this.MainPanel.Controls.Add(this.CharacterItemDescription9);
+            this.MainPanel.Controls.Add(this.CharacterItemDescription8);
+            this.MainPanel.Controls.Add(this.CharacterItemDescription7);
+            this.MainPanel.Controls.Add(this.CharacterItemDescription6);
+            this.MainPanel.Controls.Add(this.CharacterItemDescription5);
+            this.MainPanel.Controls.Add(this.CharacterItemDescription4);
+            this.MainPanel.Controls.Add(this.CharacterItemDescription3);
+            this.MainPanel.Controls.Add(this.CharacterItemDescription2);
+            this.MainPanel.Controls.Add(this.CharacterItemDescription1);
+            this.MainPanel.Controls.Add(this.CharacterAbilityDescription15);
+            this.MainPanel.Controls.Add(this.CharacterAbilityDescription14);
+            this.MainPanel.Controls.Add(this.CharacterAbilityDescription13);
+            this.MainPanel.Controls.Add(this.CharacterAbilityDescription12);
+            this.MainPanel.Controls.Add(this.CharacterAbilityDescription11);
+            this.MainPanel.Controls.Add(this.CharacterAbilityDescription10);
+            this.MainPanel.Controls.Add(this.CharacterAbilityDescription9);
+            this.MainPanel.Controls.Add(this.CharacterAbilityDescription8);
+            this.MainPanel.Controls.Add(this.CharacterAbilityDescription7);
+            this.MainPanel.Controls.Add(this.CharacterAbilityDescription6);
+            this.MainPanel.Controls.Add(this.CharacterAbilityDescription5);
+            this.MainPanel.Controls.Add(this.CharacterAbilityDescription4);
+            this.MainPanel.Controls.Add(this.CharacterAbilityDescription3);
+            this.MainPanel.Controls.Add(this.CharacterAbilityDescription2);
+            this.MainPanel.Controls.Add(this.CharacterAbilityDescription1);
+            this.MainPanel.Controls.Add(this.CharacterAbility15);
+            this.MainPanel.Controls.Add(this.CharacterAbility14);
+            this.MainPanel.Controls.Add(this.CharacterAbility13);
+            this.MainPanel.Controls.Add(this.CharacterAbility12);
+            this.MainPanel.Controls.Add(this.CharacterAbility11);
+            this.MainPanel.Controls.Add(this.CharacterAbility10);
+            this.MainPanel.Controls.Add(this.CharacterAbility9);
+            this.MainPanel.Controls.Add(this.CharacterAbility8);
+            this.MainPanel.Controls.Add(this.CharacterAbility7);
+            this.MainPanel.Controls.Add(this.CharacterAbility6);
+            this.MainPanel.Controls.Add(this.CharacterAbility5);
+            this.MainPanel.Controls.Add(this.CharacterAbility4);
+            this.MainPanel.Controls.Add(this.CharacterAbility3);
+            this.MainPanel.Controls.Add(this.CharacterAbility2);
+            this.MainPanel.Controls.Add(this.CharacterAbility1);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill15);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill14);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill13);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill12);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill11);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill10);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill9);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill8);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill7);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill6);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill5);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill4);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill3);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill2);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill1);
+            this.MainPanel.Controls.Add(this.CharacterConnectedAdvancedSkill15);
+            this.MainPanel.Controls.Add(this.CharacterConnectedAdvancedSkill14);
+            this.MainPanel.Controls.Add(this.CharacterConnectedAdvancedSkill13);
+            this.MainPanel.Controls.Add(this.CharacterConnectedAdvancedSkill12);
+            this.MainPanel.Controls.Add(this.CharacterConnectedAdvancedSkill11);
+            this.MainPanel.Controls.Add(this.CharacterConnectedAdvancedSkill10);
+            this.MainPanel.Controls.Add(this.CharacterConnectedAdvancedSkill9);
+            this.MainPanel.Controls.Add(this.CharacterConnectedAdvancedSkill8);
+            this.MainPanel.Controls.Add(this.CharacterConnectedAdvancedSkill7);
+            this.MainPanel.Controls.Add(this.CharacterConnectedAdvancedSkill6);
+            this.MainPanel.Controls.Add(this.CharacterConnectedAdvancedSkill5);
+            this.MainPanel.Controls.Add(this.CharacterConnectedAdvancedSkill4);
+            this.MainPanel.Controls.Add(this.CharacterConnectedAdvancedSkill3);
+            this.MainPanel.Controls.Add(this.CharacterConnectedAdvancedSkill2);
+            this.MainPanel.Controls.Add(this.CharacterConnectedAdvancedSkill1);
             this.MainPanel.Controls.Add(this.CharacterConnectedSkill20);
             this.MainPanel.Controls.Add(this.CharacterConnectedSkill19);
             this.MainPanel.Controls.Add(this.CharacterConnectedSkill18);
@@ -634,51 +634,51 @@
             this.MainPanel.Controls.Add(this.CharacterConnectedSkill3);
             this.MainPanel.Controls.Add(this.CharacterConnectedSkill2);
             this.MainPanel.Controls.Add(this.CharacterConnectedSkill1);
-            this.MainPanel.Controls.Add(this.checkBox100);
-            this.MainPanel.Controls.Add(this.checkBox101);
-            this.MainPanel.Controls.Add(this.checkBox102);
-            this.MainPanel.Controls.Add(this.checkBox103);
-            this.MainPanel.Controls.Add(this.checkBox104);
-            this.MainPanel.Controls.Add(this.checkBox105);
-            this.MainPanel.Controls.Add(this.checkBox85);
-            this.MainPanel.Controls.Add(this.checkBox86);
-            this.MainPanel.Controls.Add(this.checkBox87);
-            this.MainPanel.Controls.Add(this.checkBox88);
-            this.MainPanel.Controls.Add(this.checkBox89);
-            this.MainPanel.Controls.Add(this.checkBox90);
-            this.MainPanel.Controls.Add(this.checkBox91);
-            this.MainPanel.Controls.Add(this.checkBox92);
-            this.MainPanel.Controls.Add(this.checkBox93);
-            this.MainPanel.Controls.Add(this.checkBox94);
-            this.MainPanel.Controls.Add(this.checkBox95);
-            this.MainPanel.Controls.Add(this.checkBox96);
-            this.MainPanel.Controls.Add(this.checkBox97);
-            this.MainPanel.Controls.Add(this.checkBox98);
-            this.MainPanel.Controls.Add(this.checkBox99);
-            this.MainPanel.Controls.Add(this.checkBox73);
-            this.MainPanel.Controls.Add(this.checkBox74);
-            this.MainPanel.Controls.Add(this.checkBox75);
-            this.MainPanel.Controls.Add(this.checkBox76);
-            this.MainPanel.Controls.Add(this.checkBox77);
-            this.MainPanel.Controls.Add(this.checkBox78);
-            this.MainPanel.Controls.Add(this.checkBox79);
-            this.MainPanel.Controls.Add(this.checkBox80);
-            this.MainPanel.Controls.Add(this.checkBox81);
-            this.MainPanel.Controls.Add(this.checkBox82);
-            this.MainPanel.Controls.Add(this.checkBox83);
-            this.MainPanel.Controls.Add(this.checkBox84);
-            this.MainPanel.Controls.Add(this.checkBox64);
-            this.MainPanel.Controls.Add(this.checkBox65);
-            this.MainPanel.Controls.Add(this.checkBox66);
-            this.MainPanel.Controls.Add(this.checkBox67);
-            this.MainPanel.Controls.Add(this.checkBox68);
-            this.MainPanel.Controls.Add(this.checkBox69);
-            this.MainPanel.Controls.Add(this.checkBox61);
-            this.MainPanel.Controls.Add(this.checkBox62);
-            this.MainPanel.Controls.Add(this.checkBox63);
-            this.MainPanel.Controls.Add(this.checkBox70);
-            this.MainPanel.Controls.Add(this.checkBox71);
-            this.MainPanel.Controls.Add(this.checkBox72);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill15_3);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill15_2);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill15_1);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill14_3);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill14_2);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill14_1);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill13_3);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill13_2);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill13_1);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill12_3);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill12_2);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill12_1);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill11_3);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill11_2);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill11_1);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill10_3);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill10_2);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill10_1);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill9_3);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill9_2);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill9_1);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill8_3);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill8_2);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill8_1);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill7_3);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill7_2);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill7_1);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill6_3);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill6_2);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill6_1);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill5_3);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill5_2);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill5_1);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill4_3);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill4_2);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill4_1);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill3_3);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill3_2);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill3_1);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill2_3);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill2_2);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill2_1);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill1_3);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill1_2);
+            this.MainPanel.Controls.Add(this.CharacterAdvancedSkill1_1);
             this.MainPanel.Controls.Add(this.CharacterSkill20_3);
             this.MainPanel.Controls.Add(this.CharacterSkill20_2);
             this.MainPanel.Controls.Add(this.CharacterSkill20_1);
@@ -891,284 +891,932 @@
             this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainPanel.Location = new System.Drawing.Point(0, 24);
             this.MainPanel.Name = "MainPanel";
-            this.MainPanel.Size = new System.Drawing.Size(1693, 1015);
+            this.MainPanel.Size = new System.Drawing.Size(1738, 776);
             this.MainPanel.TabIndex = 2;
             // 
-            // textBox36
+            // CharacterItem14
             // 
-            this.textBox36.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox36.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox36.Location = new System.Drawing.Point(556, 3149);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(147, 37);
-            this.textBox36.TabIndex = 303;
+            this.CharacterItem14.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItem14.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItem14.Location = new System.Drawing.Point(1309, 1757);
+            this.CharacterItem14.Name = "CharacterItem14";
+            this.CharacterItem14.Size = new System.Drawing.Size(160, 37);
+            this.CharacterItem14.TabIndex = 375;
             // 
-            // textBox37
+            // CharacterItem13
             // 
-            this.textBox37.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox37.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox37.Location = new System.Drawing.Point(556, 3099);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(147, 37);
-            this.textBox37.TabIndex = 302;
+            this.CharacterItem13.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItem13.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItem13.Location = new System.Drawing.Point(1309, 1707);
+            this.CharacterItem13.Name = "CharacterItem13";
+            this.CharacterItem13.Size = new System.Drawing.Size(160, 37);
+            this.CharacterItem13.TabIndex = 374;
             // 
-            // textBox38
+            // CharacterItem12
             // 
-            this.textBox38.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox38.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox38.Location = new System.Drawing.Point(556, 3049);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(147, 37);
-            this.textBox38.TabIndex = 301;
+            this.CharacterItem12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItem12.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItem12.Location = new System.Drawing.Point(1309, 1657);
+            this.CharacterItem12.Name = "CharacterItem12";
+            this.CharacterItem12.Size = new System.Drawing.Size(160, 37);
+            this.CharacterItem12.TabIndex = 373;
             // 
-            // textBox39
+            // CharacterItem11
             // 
-            this.textBox39.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox39.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox39.Location = new System.Drawing.Point(556, 2999);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(147, 37);
-            this.textBox39.TabIndex = 300;
+            this.CharacterItem11.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItem11.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItem11.Location = new System.Drawing.Point(1309, 1607);
+            this.CharacterItem11.Name = "CharacterItem11";
+            this.CharacterItem11.Size = new System.Drawing.Size(160, 37);
+            this.CharacterItem11.TabIndex = 372;
             // 
-            // textBox40
+            // CharacterItem10
             // 
-            this.textBox40.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox40.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox40.Location = new System.Drawing.Point(556, 2949);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(147, 37);
-            this.textBox40.TabIndex = 299;
+            this.CharacterItem10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItem10.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItem10.Location = new System.Drawing.Point(1309, 1557);
+            this.CharacterItem10.Name = "CharacterItem10";
+            this.CharacterItem10.Size = new System.Drawing.Size(160, 37);
+            this.CharacterItem10.TabIndex = 371;
             // 
-            // textBox41
+            // CharacterItem9
             // 
-            this.textBox41.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox41.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox41.Location = new System.Drawing.Point(556, 2899);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(147, 37);
-            this.textBox41.TabIndex = 298;
+            this.CharacterItem9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItem9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItem9.Location = new System.Drawing.Point(1309, 1507);
+            this.CharacterItem9.Name = "CharacterItem9";
+            this.CharacterItem9.Size = new System.Drawing.Size(160, 37);
+            this.CharacterItem9.TabIndex = 370;
             // 
-            // textBox42
+            // CharacterItem8
             // 
-            this.textBox42.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox42.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox42.Location = new System.Drawing.Point(556, 2849);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(147, 37);
-            this.textBox42.TabIndex = 297;
+            this.CharacterItem8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItem8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItem8.Location = new System.Drawing.Point(1309, 1457);
+            this.CharacterItem8.Name = "CharacterItem8";
+            this.CharacterItem8.Size = new System.Drawing.Size(160, 37);
+            this.CharacterItem8.TabIndex = 369;
             // 
-            // textBox43
+            // CharacterItem7
             // 
-            this.textBox43.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox43.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox43.Location = new System.Drawing.Point(556, 2799);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.Size = new System.Drawing.Size(147, 37);
-            this.textBox43.TabIndex = 296;
+            this.CharacterItem7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItem7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItem7.Location = new System.Drawing.Point(1309, 1407);
+            this.CharacterItem7.Name = "CharacterItem7";
+            this.CharacterItem7.Size = new System.Drawing.Size(160, 37);
+            this.CharacterItem7.TabIndex = 368;
             // 
-            // textBox44
+            // CharacterItem6
             // 
-            this.textBox44.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox44.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox44.Location = new System.Drawing.Point(556, 2749);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.Size = new System.Drawing.Size(147, 37);
-            this.textBox44.TabIndex = 295;
+            this.CharacterItem6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItem6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItem6.Location = new System.Drawing.Point(1309, 1357);
+            this.CharacterItem6.Name = "CharacterItem6";
+            this.CharacterItem6.Size = new System.Drawing.Size(160, 37);
+            this.CharacterItem6.TabIndex = 367;
             // 
-            // textBox45
+            // CharacterItem5
             // 
-            this.textBox45.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox45.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox45.Location = new System.Drawing.Point(556, 2697);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(147, 37);
-            this.textBox45.TabIndex = 294;
+            this.CharacterItem5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItem5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItem5.Location = new System.Drawing.Point(1309, 1307);
+            this.CharacterItem5.Name = "CharacterItem5";
+            this.CharacterItem5.Size = new System.Drawing.Size(160, 37);
+            this.CharacterItem5.TabIndex = 366;
             // 
-            // textBox46
+            // CharacterItem4
             // 
-            this.textBox46.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox46.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox46.Location = new System.Drawing.Point(556, 2647);
-            this.textBox46.Name = "textBox46";
-            this.textBox46.Size = new System.Drawing.Size(147, 37);
-            this.textBox46.TabIndex = 293;
+            this.CharacterItem4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItem4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItem4.Location = new System.Drawing.Point(1309, 1257);
+            this.CharacterItem4.Name = "CharacterItem4";
+            this.CharacterItem4.Size = new System.Drawing.Size(160, 37);
+            this.CharacterItem4.TabIndex = 365;
             // 
-            // textBox47
+            // CharacterItem3
             // 
-            this.textBox47.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox47.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox47.Location = new System.Drawing.Point(556, 2597);
-            this.textBox47.Name = "textBox47";
-            this.textBox47.Size = new System.Drawing.Size(147, 37);
-            this.textBox47.TabIndex = 292;
+            this.CharacterItem3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItem3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItem3.Location = new System.Drawing.Point(1309, 1207);
+            this.CharacterItem3.Name = "CharacterItem3";
+            this.CharacterItem3.Size = new System.Drawing.Size(160, 37);
+            this.CharacterItem3.TabIndex = 364;
             // 
-            // textBox48
+            // CharacterItem2
             // 
-            this.textBox48.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox48.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox48.Location = new System.Drawing.Point(556, 2547);
-            this.textBox48.Name = "textBox48";
-            this.textBox48.Size = new System.Drawing.Size(147, 37);
-            this.textBox48.TabIndex = 291;
+            this.CharacterItem2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItem2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItem2.Location = new System.Drawing.Point(1309, 1157);
+            this.CharacterItem2.Name = "CharacterItem2";
+            this.CharacterItem2.Size = new System.Drawing.Size(160, 37);
+            this.CharacterItem2.TabIndex = 363;
             // 
-            // textBox49
+            // CharacterItem1
             // 
-            this.textBox49.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox49.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox49.Location = new System.Drawing.Point(556, 2497);
-            this.textBox49.Name = "textBox49";
-            this.textBox49.Size = new System.Drawing.Size(147, 37);
-            this.textBox49.TabIndex = 290;
+            this.CharacterItem1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItem1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItem1.Location = new System.Drawing.Point(1309, 1107);
+            this.CharacterItem1.Name = "CharacterItem1";
+            this.CharacterItem1.Size = new System.Drawing.Size(160, 37);
+            this.CharacterItem1.TabIndex = 362;
             // 
-            // textBox50
+            // CharacterItemWeight14
             // 
-            this.textBox50.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox50.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox50.Location = new System.Drawing.Point(556, 2447);
-            this.textBox50.Name = "textBox50";
-            this.textBox50.Size = new System.Drawing.Size(147, 37);
-            this.textBox50.TabIndex = 289;
+            this.CharacterItemWeight14.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemWeight14.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemWeight14.Location = new System.Drawing.Point(1534, 1757);
+            this.CharacterItemWeight14.Name = "CharacterItemWeight14";
+            this.CharacterItemWeight14.Size = new System.Drawing.Size(60, 37);
+            this.CharacterItemWeight14.TabIndex = 361;
             // 
-            // textBox33
+            // CharacterItemWeight13
             // 
-            this.textBox33.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox33.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox33.Location = new System.Drawing.Point(1044, 3147);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(147, 37);
-            this.textBox33.TabIndex = 288;
+            this.CharacterItemWeight13.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemWeight13.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemWeight13.Location = new System.Drawing.Point(1534, 1707);
+            this.CharacterItemWeight13.Name = "CharacterItemWeight13";
+            this.CharacterItemWeight13.Size = new System.Drawing.Size(60, 37);
+            this.CharacterItemWeight13.TabIndex = 360;
             // 
-            // textBox34
+            // CharacterItemWeight12
             // 
-            this.textBox34.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox34.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox34.Location = new System.Drawing.Point(1044, 3097);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(147, 37);
-            this.textBox34.TabIndex = 287;
+            this.CharacterItemWeight12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemWeight12.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemWeight12.Location = new System.Drawing.Point(1534, 1657);
+            this.CharacterItemWeight12.Name = "CharacterItemWeight12";
+            this.CharacterItemWeight12.Size = new System.Drawing.Size(60, 37);
+            this.CharacterItemWeight12.TabIndex = 359;
             // 
-            // textBox35
+            // CharacterItemWeight11
             // 
-            this.textBox35.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox35.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox35.Location = new System.Drawing.Point(1044, 3047);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(147, 37);
-            this.textBox35.TabIndex = 286;
+            this.CharacterItemWeight11.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemWeight11.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemWeight11.Location = new System.Drawing.Point(1534, 1607);
+            this.CharacterItemWeight11.Name = "CharacterItemWeight11";
+            this.CharacterItemWeight11.Size = new System.Drawing.Size(60, 37);
+            this.CharacterItemWeight11.TabIndex = 358;
             // 
-            // textBox27
+            // CharacterItemWeight10
             // 
-            this.textBox27.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox27.Location = new System.Drawing.Point(1044, 2997);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(147, 37);
-            this.textBox27.TabIndex = 285;
+            this.CharacterItemWeight10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemWeight10.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemWeight10.Location = new System.Drawing.Point(1534, 1557);
+            this.CharacterItemWeight10.Name = "CharacterItemWeight10";
+            this.CharacterItemWeight10.Size = new System.Drawing.Size(60, 37);
+            this.CharacterItemWeight10.TabIndex = 357;
             // 
-            // textBox28
+            // CharacterItemWeight9
             // 
-            this.textBox28.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox28.Location = new System.Drawing.Point(1044, 2947);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(147, 37);
-            this.textBox28.TabIndex = 284;
+            this.CharacterItemWeight9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemWeight9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemWeight9.Location = new System.Drawing.Point(1534, 1507);
+            this.CharacterItemWeight9.Name = "CharacterItemWeight9";
+            this.CharacterItemWeight9.Size = new System.Drawing.Size(60, 37);
+            this.CharacterItemWeight9.TabIndex = 356;
             // 
-            // textBox29
+            // CharacterItemWeight8
             // 
-            this.textBox29.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox29.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox29.Location = new System.Drawing.Point(1044, 2897);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(147, 37);
-            this.textBox29.TabIndex = 283;
+            this.CharacterItemWeight8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemWeight8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemWeight8.Location = new System.Drawing.Point(1534, 1457);
+            this.CharacterItemWeight8.Name = "CharacterItemWeight8";
+            this.CharacterItemWeight8.Size = new System.Drawing.Size(60, 37);
+            this.CharacterItemWeight8.TabIndex = 355;
             // 
-            // textBox30
+            // CharacterItemWeight7
             // 
-            this.textBox30.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox30.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox30.Location = new System.Drawing.Point(1044, 2847);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(147, 37);
-            this.textBox30.TabIndex = 282;
+            this.CharacterItemWeight7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemWeight7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemWeight7.Location = new System.Drawing.Point(1534, 1407);
+            this.CharacterItemWeight7.Name = "CharacterItemWeight7";
+            this.CharacterItemWeight7.Size = new System.Drawing.Size(60, 37);
+            this.CharacterItemWeight7.TabIndex = 354;
             // 
-            // textBox31
+            // CharacterItemWeight6
             // 
-            this.textBox31.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox31.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox31.Location = new System.Drawing.Point(1044, 2797);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(147, 37);
-            this.textBox31.TabIndex = 281;
+            this.CharacterItemWeight6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemWeight6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemWeight6.Location = new System.Drawing.Point(1534, 1357);
+            this.CharacterItemWeight6.Name = "CharacterItemWeight6";
+            this.CharacterItemWeight6.Size = new System.Drawing.Size(60, 37);
+            this.CharacterItemWeight6.TabIndex = 353;
             // 
-            // textBox32
+            // CharacterItemWeight5
             // 
-            this.textBox32.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox32.Location = new System.Drawing.Point(1044, 2747);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(147, 37);
-            this.textBox32.TabIndex = 280;
+            this.CharacterItemWeight5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemWeight5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemWeight5.Location = new System.Drawing.Point(1534, 1307);
+            this.CharacterItemWeight5.Name = "CharacterItemWeight5";
+            this.CharacterItemWeight5.Size = new System.Drawing.Size(60, 37);
+            this.CharacterItemWeight5.TabIndex = 352;
             // 
-            // textBox21
+            // CharacterItemWeight4
             // 
-            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox21.Location = new System.Drawing.Point(1041, 2697);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(147, 37);
-            this.textBox21.TabIndex = 279;
+            this.CharacterItemWeight4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemWeight4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemWeight4.Location = new System.Drawing.Point(1534, 1257);
+            this.CharacterItemWeight4.Name = "CharacterItemWeight4";
+            this.CharacterItemWeight4.Size = new System.Drawing.Size(60, 37);
+            this.CharacterItemWeight4.TabIndex = 351;
             // 
-            // textBox22
+            // CharacterItemWeight3
             // 
-            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox22.Location = new System.Drawing.Point(1044, 2647);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(147, 37);
-            this.textBox22.TabIndex = 278;
+            this.CharacterItemWeight3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemWeight3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemWeight3.Location = new System.Drawing.Point(1534, 1207);
+            this.CharacterItemWeight3.Name = "CharacterItemWeight3";
+            this.CharacterItemWeight3.Size = new System.Drawing.Size(60, 37);
+            this.CharacterItemWeight3.TabIndex = 350;
             // 
-            // textBox23
+            // CharacterItemWeight2
             // 
-            this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox23.Location = new System.Drawing.Point(1041, 2597);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(147, 37);
-            this.textBox23.TabIndex = 277;
+            this.CharacterItemWeight2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemWeight2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemWeight2.Location = new System.Drawing.Point(1534, 1157);
+            this.CharacterItemWeight2.Name = "CharacterItemWeight2";
+            this.CharacterItemWeight2.Size = new System.Drawing.Size(60, 37);
+            this.CharacterItemWeight2.TabIndex = 349;
             // 
-            // textBox24
+            // CharacterItemWeight1
             // 
-            this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox24.Location = new System.Drawing.Point(1041, 2547);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(147, 37);
-            this.textBox24.TabIndex = 276;
+            this.CharacterItemWeight1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemWeight1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemWeight1.Location = new System.Drawing.Point(1534, 1107);
+            this.CharacterItemWeight1.Name = "CharacterItemWeight1";
+            this.CharacterItemWeight1.Size = new System.Drawing.Size(60, 37);
+            this.CharacterItemWeight1.TabIndex = 348;
             // 
-            // textBox25
+            // CharacterItemDescription14
             // 
-            this.textBox25.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox25.Location = new System.Drawing.Point(1044, 2498);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(147, 37);
-            this.textBox25.TabIndex = 275;
+            this.CharacterItemDescription14.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemDescription14.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemDescription14.Location = new System.Drawing.Point(1667, 1757);
+            this.CharacterItemDescription14.Name = "CharacterItemDescription14";
+            this.CharacterItemDescription14.Size = new System.Drawing.Size(262, 37);
+            this.CharacterItemDescription14.TabIndex = 347;
             // 
-            // textBox26
+            // CharacterItemDescription13
             // 
-            this.textBox26.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox26.Location = new System.Drawing.Point(1044, 2447);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(147, 37);
-            this.textBox26.TabIndex = 274;
+            this.CharacterItemDescription13.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemDescription13.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemDescription13.Location = new System.Drawing.Point(1667, 1707);
+            this.CharacterItemDescription13.Name = "CharacterItemDescription13";
+            this.CharacterItemDescription13.Size = new System.Drawing.Size(262, 37);
+            this.CharacterItemDescription13.TabIndex = 346;
+            // 
+            // CharacterItemDescription12
+            // 
+            this.CharacterItemDescription12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemDescription12.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemDescription12.Location = new System.Drawing.Point(1667, 1657);
+            this.CharacterItemDescription12.Name = "CharacterItemDescription12";
+            this.CharacterItemDescription12.Size = new System.Drawing.Size(262, 37);
+            this.CharacterItemDescription12.TabIndex = 345;
+            // 
+            // CharacterItemDescription11
+            // 
+            this.CharacterItemDescription11.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemDescription11.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemDescription11.Location = new System.Drawing.Point(1667, 1607);
+            this.CharacterItemDescription11.Name = "CharacterItemDescription11";
+            this.CharacterItemDescription11.Size = new System.Drawing.Size(262, 37);
+            this.CharacterItemDescription11.TabIndex = 344;
+            // 
+            // CharacterItemDescription10
+            // 
+            this.CharacterItemDescription10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemDescription10.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemDescription10.Location = new System.Drawing.Point(1667, 1557);
+            this.CharacterItemDescription10.Name = "CharacterItemDescription10";
+            this.CharacterItemDescription10.Size = new System.Drawing.Size(262, 37);
+            this.CharacterItemDescription10.TabIndex = 343;
+            // 
+            // CharacterItemDescription9
+            // 
+            this.CharacterItemDescription9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemDescription9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemDescription9.Location = new System.Drawing.Point(1667, 1507);
+            this.CharacterItemDescription9.Name = "CharacterItemDescription9";
+            this.CharacterItemDescription9.Size = new System.Drawing.Size(262, 37);
+            this.CharacterItemDescription9.TabIndex = 342;
+            // 
+            // CharacterItemDescription8
+            // 
+            this.CharacterItemDescription8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemDescription8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemDescription8.Location = new System.Drawing.Point(1667, 1457);
+            this.CharacterItemDescription8.Name = "CharacterItemDescription8";
+            this.CharacterItemDescription8.Size = new System.Drawing.Size(262, 37);
+            this.CharacterItemDescription8.TabIndex = 341;
+            // 
+            // CharacterItemDescription7
+            // 
+            this.CharacterItemDescription7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemDescription7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemDescription7.Location = new System.Drawing.Point(1667, 1407);
+            this.CharacterItemDescription7.Name = "CharacterItemDescription7";
+            this.CharacterItemDescription7.Size = new System.Drawing.Size(262, 37);
+            this.CharacterItemDescription7.TabIndex = 340;
+            // 
+            // CharacterItemDescription6
+            // 
+            this.CharacterItemDescription6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemDescription6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemDescription6.Location = new System.Drawing.Point(1667, 1357);
+            this.CharacterItemDescription6.Name = "CharacterItemDescription6";
+            this.CharacterItemDescription6.Size = new System.Drawing.Size(262, 37);
+            this.CharacterItemDescription6.TabIndex = 339;
+            // 
+            // CharacterItemDescription5
+            // 
+            this.CharacterItemDescription5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemDescription5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemDescription5.Location = new System.Drawing.Point(1667, 1307);
+            this.CharacterItemDescription5.Name = "CharacterItemDescription5";
+            this.CharacterItemDescription5.Size = new System.Drawing.Size(262, 37);
+            this.CharacterItemDescription5.TabIndex = 338;
+            // 
+            // CharacterItemDescription4
+            // 
+            this.CharacterItemDescription4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemDescription4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemDescription4.Location = new System.Drawing.Point(1667, 1257);
+            this.CharacterItemDescription4.Name = "CharacterItemDescription4";
+            this.CharacterItemDescription4.Size = new System.Drawing.Size(262, 37);
+            this.CharacterItemDescription4.TabIndex = 337;
+            // 
+            // CharacterItemDescription3
+            // 
+            this.CharacterItemDescription3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemDescription3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemDescription3.Location = new System.Drawing.Point(1667, 1207);
+            this.CharacterItemDescription3.Name = "CharacterItemDescription3";
+            this.CharacterItemDescription3.Size = new System.Drawing.Size(262, 37);
+            this.CharacterItemDescription3.TabIndex = 336;
+            // 
+            // CharacterItemDescription2
+            // 
+            this.CharacterItemDescription2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemDescription2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemDescription2.Location = new System.Drawing.Point(1667, 1157);
+            this.CharacterItemDescription2.Name = "CharacterItemDescription2";
+            this.CharacterItemDescription2.Size = new System.Drawing.Size(262, 37);
+            this.CharacterItemDescription2.TabIndex = 335;
+            // 
+            // CharacterItemDescription1
+            // 
+            this.CharacterItemDescription1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterItemDescription1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterItemDescription1.Location = new System.Drawing.Point(1667, 1107);
+            this.CharacterItemDescription1.Name = "CharacterItemDescription1";
+            this.CharacterItemDescription1.Size = new System.Drawing.Size(262, 37);
+            this.CharacterItemDescription1.TabIndex = 334;
+            // 
+            // CharacterAbilityDescription15
+            // 
+            this.CharacterAbilityDescription15.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbilityDescription15.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbilityDescription15.Location = new System.Drawing.Point(1625, 880);
+            this.CharacterAbilityDescription15.Name = "CharacterAbilityDescription15";
+            this.CharacterAbilityDescription15.Size = new System.Drawing.Size(309, 37);
+            this.CharacterAbilityDescription15.TabIndex = 333;
+            // 
+            // CharacterAbilityDescription14
+            // 
+            this.CharacterAbilityDescription14.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbilityDescription14.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbilityDescription14.Location = new System.Drawing.Point(1625, 830);
+            this.CharacterAbilityDescription14.Name = "CharacterAbilityDescription14";
+            this.CharacterAbilityDescription14.Size = new System.Drawing.Size(309, 37);
+            this.CharacterAbilityDescription14.TabIndex = 332;
+            // 
+            // CharacterAbilityDescription13
+            // 
+            this.CharacterAbilityDescription13.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbilityDescription13.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbilityDescription13.Location = new System.Drawing.Point(1625, 780);
+            this.CharacterAbilityDescription13.Name = "CharacterAbilityDescription13";
+            this.CharacterAbilityDescription13.Size = new System.Drawing.Size(309, 37);
+            this.CharacterAbilityDescription13.TabIndex = 331;
+            // 
+            // CharacterAbilityDescription12
+            // 
+            this.CharacterAbilityDescription12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbilityDescription12.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbilityDescription12.Location = new System.Drawing.Point(1625, 730);
+            this.CharacterAbilityDescription12.Name = "CharacterAbilityDescription12";
+            this.CharacterAbilityDescription12.Size = new System.Drawing.Size(309, 37);
+            this.CharacterAbilityDescription12.TabIndex = 330;
+            // 
+            // CharacterAbilityDescription11
+            // 
+            this.CharacterAbilityDescription11.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbilityDescription11.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbilityDescription11.Location = new System.Drawing.Point(1625, 680);
+            this.CharacterAbilityDescription11.Name = "CharacterAbilityDescription11";
+            this.CharacterAbilityDescription11.Size = new System.Drawing.Size(309, 37);
+            this.CharacterAbilityDescription11.TabIndex = 329;
+            // 
+            // CharacterAbilityDescription10
+            // 
+            this.CharacterAbilityDescription10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbilityDescription10.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbilityDescription10.Location = new System.Drawing.Point(1625, 630);
+            this.CharacterAbilityDescription10.Name = "CharacterAbilityDescription10";
+            this.CharacterAbilityDescription10.Size = new System.Drawing.Size(309, 37);
+            this.CharacterAbilityDescription10.TabIndex = 328;
+            // 
+            // CharacterAbilityDescription9
+            // 
+            this.CharacterAbilityDescription9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbilityDescription9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbilityDescription9.Location = new System.Drawing.Point(1625, 580);
+            this.CharacterAbilityDescription9.Name = "CharacterAbilityDescription9";
+            this.CharacterAbilityDescription9.Size = new System.Drawing.Size(309, 37);
+            this.CharacterAbilityDescription9.TabIndex = 327;
+            // 
+            // CharacterAbilityDescription8
+            // 
+            this.CharacterAbilityDescription8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbilityDescription8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbilityDescription8.Location = new System.Drawing.Point(1625, 530);
+            this.CharacterAbilityDescription8.Name = "CharacterAbilityDescription8";
+            this.CharacterAbilityDescription8.Size = new System.Drawing.Size(309, 37);
+            this.CharacterAbilityDescription8.TabIndex = 326;
+            // 
+            // CharacterAbilityDescription7
+            // 
+            this.CharacterAbilityDescription7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbilityDescription7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbilityDescription7.Location = new System.Drawing.Point(1625, 480);
+            this.CharacterAbilityDescription7.Name = "CharacterAbilityDescription7";
+            this.CharacterAbilityDescription7.Size = new System.Drawing.Size(309, 37);
+            this.CharacterAbilityDescription7.TabIndex = 325;
+            // 
+            // CharacterAbilityDescription6
+            // 
+            this.CharacterAbilityDescription6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbilityDescription6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbilityDescription6.Location = new System.Drawing.Point(1625, 430);
+            this.CharacterAbilityDescription6.Name = "CharacterAbilityDescription6";
+            this.CharacterAbilityDescription6.Size = new System.Drawing.Size(309, 37);
+            this.CharacterAbilityDescription6.TabIndex = 324;
+            // 
+            // CharacterAbilityDescription5
+            // 
+            this.CharacterAbilityDescription5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbilityDescription5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbilityDescription5.Location = new System.Drawing.Point(1625, 380);
+            this.CharacterAbilityDescription5.Name = "CharacterAbilityDescription5";
+            this.CharacterAbilityDescription5.Size = new System.Drawing.Size(309, 37);
+            this.CharacterAbilityDescription5.TabIndex = 323;
+            // 
+            // CharacterAbilityDescription4
+            // 
+            this.CharacterAbilityDescription4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbilityDescription4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbilityDescription4.Location = new System.Drawing.Point(1625, 330);
+            this.CharacterAbilityDescription4.Name = "CharacterAbilityDescription4";
+            this.CharacterAbilityDescription4.Size = new System.Drawing.Size(309, 37);
+            this.CharacterAbilityDescription4.TabIndex = 322;
+            // 
+            // CharacterAbilityDescription3
+            // 
+            this.CharacterAbilityDescription3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbilityDescription3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbilityDescription3.Location = new System.Drawing.Point(1625, 280);
+            this.CharacterAbilityDescription3.Name = "CharacterAbilityDescription3";
+            this.CharacterAbilityDescription3.Size = new System.Drawing.Size(309, 37);
+            this.CharacterAbilityDescription3.TabIndex = 321;
+            // 
+            // CharacterAbilityDescription2
+            // 
+            this.CharacterAbilityDescription2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbilityDescription2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbilityDescription2.Location = new System.Drawing.Point(1625, 230);
+            this.CharacterAbilityDescription2.Name = "CharacterAbilityDescription2";
+            this.CharacterAbilityDescription2.Size = new System.Drawing.Size(309, 37);
+            this.CharacterAbilityDescription2.TabIndex = 320;
+            // 
+            // CharacterAbilityDescription1
+            // 
+            this.CharacterAbilityDescription1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbilityDescription1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbilityDescription1.Location = new System.Drawing.Point(1625, 180);
+            this.CharacterAbilityDescription1.Name = "CharacterAbilityDescription1";
+            this.CharacterAbilityDescription1.Size = new System.Drawing.Size(309, 37);
+            this.CharacterAbilityDescription1.TabIndex = 319;
+            // 
+            // CharacterAbility15
+            // 
+            this.CharacterAbility15.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbility15.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbility15.Location = new System.Drawing.Point(1312, 880);
+            this.CharacterAbility15.Name = "CharacterAbility15";
+            this.CharacterAbility15.Size = new System.Drawing.Size(241, 37);
+            this.CharacterAbility15.TabIndex = 318;
+            // 
+            // CharacterAbility14
+            // 
+            this.CharacterAbility14.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbility14.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbility14.Location = new System.Drawing.Point(1312, 830);
+            this.CharacterAbility14.Name = "CharacterAbility14";
+            this.CharacterAbility14.Size = new System.Drawing.Size(241, 37);
+            this.CharacterAbility14.TabIndex = 317;
+            // 
+            // CharacterAbility13
+            // 
+            this.CharacterAbility13.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbility13.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbility13.Location = new System.Drawing.Point(1312, 780);
+            this.CharacterAbility13.Name = "CharacterAbility13";
+            this.CharacterAbility13.Size = new System.Drawing.Size(241, 37);
+            this.CharacterAbility13.TabIndex = 316;
+            // 
+            // CharacterAbility12
+            // 
+            this.CharacterAbility12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbility12.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbility12.Location = new System.Drawing.Point(1312, 730);
+            this.CharacterAbility12.Name = "CharacterAbility12";
+            this.CharacterAbility12.Size = new System.Drawing.Size(241, 37);
+            this.CharacterAbility12.TabIndex = 315;
+            // 
+            // CharacterAbility11
+            // 
+            this.CharacterAbility11.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbility11.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbility11.Location = new System.Drawing.Point(1312, 680);
+            this.CharacterAbility11.Name = "CharacterAbility11";
+            this.CharacterAbility11.Size = new System.Drawing.Size(241, 37);
+            this.CharacterAbility11.TabIndex = 314;
+            // 
+            // CharacterAbility10
+            // 
+            this.CharacterAbility10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbility10.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbility10.Location = new System.Drawing.Point(1312, 630);
+            this.CharacterAbility10.Name = "CharacterAbility10";
+            this.CharacterAbility10.Size = new System.Drawing.Size(241, 37);
+            this.CharacterAbility10.TabIndex = 313;
+            // 
+            // CharacterAbility9
+            // 
+            this.CharacterAbility9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbility9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbility9.Location = new System.Drawing.Point(1312, 580);
+            this.CharacterAbility9.Name = "CharacterAbility9";
+            this.CharacterAbility9.Size = new System.Drawing.Size(241, 37);
+            this.CharacterAbility9.TabIndex = 312;
+            // 
+            // CharacterAbility8
+            // 
+            this.CharacterAbility8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbility8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbility8.Location = new System.Drawing.Point(1312, 530);
+            this.CharacterAbility8.Name = "CharacterAbility8";
+            this.CharacterAbility8.Size = new System.Drawing.Size(241, 37);
+            this.CharacterAbility8.TabIndex = 311;
+            // 
+            // CharacterAbility7
+            // 
+            this.CharacterAbility7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbility7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbility7.Location = new System.Drawing.Point(1312, 480);
+            this.CharacterAbility7.Name = "CharacterAbility7";
+            this.CharacterAbility7.Size = new System.Drawing.Size(241, 37);
+            this.CharacterAbility7.TabIndex = 310;
+            // 
+            // CharacterAbility6
+            // 
+            this.CharacterAbility6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbility6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbility6.Location = new System.Drawing.Point(1312, 430);
+            this.CharacterAbility6.Name = "CharacterAbility6";
+            this.CharacterAbility6.Size = new System.Drawing.Size(241, 37);
+            this.CharacterAbility6.TabIndex = 309;
+            // 
+            // CharacterAbility5
+            // 
+            this.CharacterAbility5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbility5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbility5.Location = new System.Drawing.Point(1312, 380);
+            this.CharacterAbility5.Name = "CharacterAbility5";
+            this.CharacterAbility5.Size = new System.Drawing.Size(241, 37);
+            this.CharacterAbility5.TabIndex = 308;
+            // 
+            // CharacterAbility4
+            // 
+            this.CharacterAbility4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbility4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbility4.Location = new System.Drawing.Point(1312, 330);
+            this.CharacterAbility4.Name = "CharacterAbility4";
+            this.CharacterAbility4.Size = new System.Drawing.Size(241, 37);
+            this.CharacterAbility4.TabIndex = 307;
+            // 
+            // CharacterAbility3
+            // 
+            this.CharacterAbility3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbility3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbility3.Location = new System.Drawing.Point(1312, 280);
+            this.CharacterAbility3.Name = "CharacterAbility3";
+            this.CharacterAbility3.Size = new System.Drawing.Size(241, 37);
+            this.CharacterAbility3.TabIndex = 306;
+            // 
+            // CharacterAbility2
+            // 
+            this.CharacterAbility2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbility2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbility2.Location = new System.Drawing.Point(1312, 230);
+            this.CharacterAbility2.Name = "CharacterAbility2";
+            this.CharacterAbility2.Size = new System.Drawing.Size(241, 37);
+            this.CharacterAbility2.TabIndex = 305;
+            // 
+            // CharacterAbility1
+            // 
+            this.CharacterAbility1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAbility1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAbility1.Location = new System.Drawing.Point(1312, 180);
+            this.CharacterAbility1.Name = "CharacterAbility1";
+            this.CharacterAbility1.Size = new System.Drawing.Size(241, 37);
+            this.CharacterAbility1.TabIndex = 304;
+            // 
+            // CharacterAdvancedSkill15
+            // 
+            this.CharacterAdvancedSkill15.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAdvancedSkill15.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAdvancedSkill15.Location = new System.Drawing.Point(537, 1972);
+            this.CharacterAdvancedSkill15.Name = "CharacterAdvancedSkill15";
+            this.CharacterAdvancedSkill15.Size = new System.Drawing.Size(147, 37);
+            this.CharacterAdvancedSkill15.TabIndex = 303;
+            // 
+            // CharacterAdvancedSkill14
+            // 
+            this.CharacterAdvancedSkill14.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAdvancedSkill14.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAdvancedSkill14.Location = new System.Drawing.Point(537, 1922);
+            this.CharacterAdvancedSkill14.Name = "CharacterAdvancedSkill14";
+            this.CharacterAdvancedSkill14.Size = new System.Drawing.Size(147, 37);
+            this.CharacterAdvancedSkill14.TabIndex = 302;
+            // 
+            // CharacterAdvancedSkill13
+            // 
+            this.CharacterAdvancedSkill13.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAdvancedSkill13.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAdvancedSkill13.Location = new System.Drawing.Point(537, 1872);
+            this.CharacterAdvancedSkill13.Name = "CharacterAdvancedSkill13";
+            this.CharacterAdvancedSkill13.Size = new System.Drawing.Size(147, 37);
+            this.CharacterAdvancedSkill13.TabIndex = 301;
+            // 
+            // CharacterAdvancedSkill12
+            // 
+            this.CharacterAdvancedSkill12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAdvancedSkill12.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAdvancedSkill12.Location = new System.Drawing.Point(537, 1822);
+            this.CharacterAdvancedSkill12.Name = "CharacterAdvancedSkill12";
+            this.CharacterAdvancedSkill12.Size = new System.Drawing.Size(147, 37);
+            this.CharacterAdvancedSkill12.TabIndex = 300;
+            // 
+            // CharacterAdvancedSkill11
+            // 
+            this.CharacterAdvancedSkill11.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAdvancedSkill11.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAdvancedSkill11.Location = new System.Drawing.Point(537, 1772);
+            this.CharacterAdvancedSkill11.Name = "CharacterAdvancedSkill11";
+            this.CharacterAdvancedSkill11.Size = new System.Drawing.Size(147, 37);
+            this.CharacterAdvancedSkill11.TabIndex = 299;
+            // 
+            // CharacterAdvancedSkill10
+            // 
+            this.CharacterAdvancedSkill10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAdvancedSkill10.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAdvancedSkill10.Location = new System.Drawing.Point(537, 1722);
+            this.CharacterAdvancedSkill10.Name = "CharacterAdvancedSkill10";
+            this.CharacterAdvancedSkill10.Size = new System.Drawing.Size(147, 37);
+            this.CharacterAdvancedSkill10.TabIndex = 298;
+            // 
+            // CharacterAdvancedSkill9
+            // 
+            this.CharacterAdvancedSkill9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAdvancedSkill9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAdvancedSkill9.Location = new System.Drawing.Point(537, 1672);
+            this.CharacterAdvancedSkill9.Name = "CharacterAdvancedSkill9";
+            this.CharacterAdvancedSkill9.Size = new System.Drawing.Size(147, 37);
+            this.CharacterAdvancedSkill9.TabIndex = 297;
+            // 
+            // CharacterAdvancedSkill8
+            // 
+            this.CharacterAdvancedSkill8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAdvancedSkill8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAdvancedSkill8.Location = new System.Drawing.Point(537, 1622);
+            this.CharacterAdvancedSkill8.Name = "CharacterAdvancedSkill8";
+            this.CharacterAdvancedSkill8.Size = new System.Drawing.Size(147, 37);
+            this.CharacterAdvancedSkill8.TabIndex = 296;
+            // 
+            // CharacterAdvancedSkill7
+            // 
+            this.CharacterAdvancedSkill7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAdvancedSkill7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAdvancedSkill7.Location = new System.Drawing.Point(537, 1572);
+            this.CharacterAdvancedSkill7.Name = "CharacterAdvancedSkill7";
+            this.CharacterAdvancedSkill7.Size = new System.Drawing.Size(147, 37);
+            this.CharacterAdvancedSkill7.TabIndex = 295;
+            // 
+            // CharacterAdvancedSkill6
+            // 
+            this.CharacterAdvancedSkill6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAdvancedSkill6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAdvancedSkill6.Location = new System.Drawing.Point(537, 1520);
+            this.CharacterAdvancedSkill6.Name = "CharacterAdvancedSkill6";
+            this.CharacterAdvancedSkill6.Size = new System.Drawing.Size(147, 37);
+            this.CharacterAdvancedSkill6.TabIndex = 294;
+            // 
+            // CharacterAdvancedSkill5
+            // 
+            this.CharacterAdvancedSkill5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAdvancedSkill5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAdvancedSkill5.Location = new System.Drawing.Point(537, 1470);
+            this.CharacterAdvancedSkill5.Name = "CharacterAdvancedSkill5";
+            this.CharacterAdvancedSkill5.Size = new System.Drawing.Size(147, 37);
+            this.CharacterAdvancedSkill5.TabIndex = 293;
+            // 
+            // CharacterAdvancedSkill4
+            // 
+            this.CharacterAdvancedSkill4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAdvancedSkill4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAdvancedSkill4.Location = new System.Drawing.Point(537, 1420);
+            this.CharacterAdvancedSkill4.Name = "CharacterAdvancedSkill4";
+            this.CharacterAdvancedSkill4.Size = new System.Drawing.Size(147, 37);
+            this.CharacterAdvancedSkill4.TabIndex = 292;
+            // 
+            // CharacterAdvancedSkill3
+            // 
+            this.CharacterAdvancedSkill3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAdvancedSkill3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAdvancedSkill3.Location = new System.Drawing.Point(537, 1370);
+            this.CharacterAdvancedSkill3.Name = "CharacterAdvancedSkill3";
+            this.CharacterAdvancedSkill3.Size = new System.Drawing.Size(147, 37);
+            this.CharacterAdvancedSkill3.TabIndex = 291;
+            // 
+            // CharacterAdvancedSkill2
+            // 
+            this.CharacterAdvancedSkill2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAdvancedSkill2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAdvancedSkill2.Location = new System.Drawing.Point(537, 1320);
+            this.CharacterAdvancedSkill2.Name = "CharacterAdvancedSkill2";
+            this.CharacterAdvancedSkill2.Size = new System.Drawing.Size(147, 37);
+            this.CharacterAdvancedSkill2.TabIndex = 290;
+            // 
+            // CharacterAdvancedSkill1
+            // 
+            this.CharacterAdvancedSkill1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAdvancedSkill1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAdvancedSkill1.Location = new System.Drawing.Point(537, 1270);
+            this.CharacterAdvancedSkill1.Name = "CharacterAdvancedSkill1";
+            this.CharacterAdvancedSkill1.Size = new System.Drawing.Size(147, 37);
+            this.CharacterAdvancedSkill1.TabIndex = 289;
+            // 
+            // CharacterConnectedAdvancedSkill15
+            // 
+            this.CharacterConnectedAdvancedSkill15.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterConnectedAdvancedSkill15.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterConnectedAdvancedSkill15.Location = new System.Drawing.Point(1025, 1970);
+            this.CharacterConnectedAdvancedSkill15.Name = "CharacterConnectedAdvancedSkill15";
+            this.CharacterConnectedAdvancedSkill15.Size = new System.Drawing.Size(147, 37);
+            this.CharacterConnectedAdvancedSkill15.TabIndex = 288;
+            // 
+            // CharacterConnectedAdvancedSkill14
+            // 
+            this.CharacterConnectedAdvancedSkill14.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterConnectedAdvancedSkill14.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterConnectedAdvancedSkill14.Location = new System.Drawing.Point(1025, 1920);
+            this.CharacterConnectedAdvancedSkill14.Name = "CharacterConnectedAdvancedSkill14";
+            this.CharacterConnectedAdvancedSkill14.Size = new System.Drawing.Size(147, 37);
+            this.CharacterConnectedAdvancedSkill14.TabIndex = 287;
+            // 
+            // CharacterConnectedAdvancedSkill13
+            // 
+            this.CharacterConnectedAdvancedSkill13.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterConnectedAdvancedSkill13.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterConnectedAdvancedSkill13.Location = new System.Drawing.Point(1025, 1870);
+            this.CharacterConnectedAdvancedSkill13.Name = "CharacterConnectedAdvancedSkill13";
+            this.CharacterConnectedAdvancedSkill13.Size = new System.Drawing.Size(147, 37);
+            this.CharacterConnectedAdvancedSkill13.TabIndex = 286;
+            // 
+            // CharacterConnectedAdvancedSkill12
+            // 
+            this.CharacterConnectedAdvancedSkill12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterConnectedAdvancedSkill12.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterConnectedAdvancedSkill12.Location = new System.Drawing.Point(1025, 1820);
+            this.CharacterConnectedAdvancedSkill12.Name = "CharacterConnectedAdvancedSkill12";
+            this.CharacterConnectedAdvancedSkill12.Size = new System.Drawing.Size(147, 37);
+            this.CharacterConnectedAdvancedSkill12.TabIndex = 285;
+            // 
+            // CharacterConnectedAdvancedSkill11
+            // 
+            this.CharacterConnectedAdvancedSkill11.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterConnectedAdvancedSkill11.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterConnectedAdvancedSkill11.Location = new System.Drawing.Point(1025, 1770);
+            this.CharacterConnectedAdvancedSkill11.Name = "CharacterConnectedAdvancedSkill11";
+            this.CharacterConnectedAdvancedSkill11.Size = new System.Drawing.Size(147, 37);
+            this.CharacterConnectedAdvancedSkill11.TabIndex = 284;
+            // 
+            // CharacterConnectedAdvancedSkill10
+            // 
+            this.CharacterConnectedAdvancedSkill10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterConnectedAdvancedSkill10.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterConnectedAdvancedSkill10.Location = new System.Drawing.Point(1025, 1720);
+            this.CharacterConnectedAdvancedSkill10.Name = "CharacterConnectedAdvancedSkill10";
+            this.CharacterConnectedAdvancedSkill10.Size = new System.Drawing.Size(147, 37);
+            this.CharacterConnectedAdvancedSkill10.TabIndex = 283;
+            // 
+            // CharacterConnectedAdvancedSkill9
+            // 
+            this.CharacterConnectedAdvancedSkill9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterConnectedAdvancedSkill9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterConnectedAdvancedSkill9.Location = new System.Drawing.Point(1025, 1670);
+            this.CharacterConnectedAdvancedSkill9.Name = "CharacterConnectedAdvancedSkill9";
+            this.CharacterConnectedAdvancedSkill9.Size = new System.Drawing.Size(147, 37);
+            this.CharacterConnectedAdvancedSkill9.TabIndex = 282;
+            // 
+            // CharacterConnectedAdvancedSkill8
+            // 
+            this.CharacterConnectedAdvancedSkill8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterConnectedAdvancedSkill8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterConnectedAdvancedSkill8.Location = new System.Drawing.Point(1025, 1620);
+            this.CharacterConnectedAdvancedSkill8.Name = "CharacterConnectedAdvancedSkill8";
+            this.CharacterConnectedAdvancedSkill8.Size = new System.Drawing.Size(147, 37);
+            this.CharacterConnectedAdvancedSkill8.TabIndex = 281;
+            // 
+            // CharacterConnectedAdvancedSkill7
+            // 
+            this.CharacterConnectedAdvancedSkill7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterConnectedAdvancedSkill7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterConnectedAdvancedSkill7.Location = new System.Drawing.Point(1025, 1570);
+            this.CharacterConnectedAdvancedSkill7.Name = "CharacterConnectedAdvancedSkill7";
+            this.CharacterConnectedAdvancedSkill7.Size = new System.Drawing.Size(147, 37);
+            this.CharacterConnectedAdvancedSkill7.TabIndex = 280;
+            // 
+            // CharacterConnectedAdvancedSkill6
+            // 
+            this.CharacterConnectedAdvancedSkill6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterConnectedAdvancedSkill6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterConnectedAdvancedSkill6.Location = new System.Drawing.Point(1022, 1520);
+            this.CharacterConnectedAdvancedSkill6.Name = "CharacterConnectedAdvancedSkill6";
+            this.CharacterConnectedAdvancedSkill6.Size = new System.Drawing.Size(147, 37);
+            this.CharacterConnectedAdvancedSkill6.TabIndex = 279;
+            // 
+            // CharacterConnectedAdvancedSkill5
+            // 
+            this.CharacterConnectedAdvancedSkill5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterConnectedAdvancedSkill5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterConnectedAdvancedSkill5.Location = new System.Drawing.Point(1025, 1470);
+            this.CharacterConnectedAdvancedSkill5.Name = "CharacterConnectedAdvancedSkill5";
+            this.CharacterConnectedAdvancedSkill5.Size = new System.Drawing.Size(147, 37);
+            this.CharacterConnectedAdvancedSkill5.TabIndex = 278;
+            // 
+            // CharacterConnectedAdvancedSkill4
+            // 
+            this.CharacterConnectedAdvancedSkill4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterConnectedAdvancedSkill4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterConnectedAdvancedSkill4.Location = new System.Drawing.Point(1022, 1420);
+            this.CharacterConnectedAdvancedSkill4.Name = "CharacterConnectedAdvancedSkill4";
+            this.CharacterConnectedAdvancedSkill4.Size = new System.Drawing.Size(147, 37);
+            this.CharacterConnectedAdvancedSkill4.TabIndex = 277;
+            // 
+            // CharacterConnectedAdvancedSkill3
+            // 
+            this.CharacterConnectedAdvancedSkill3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterConnectedAdvancedSkill3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterConnectedAdvancedSkill3.Location = new System.Drawing.Point(1022, 1370);
+            this.CharacterConnectedAdvancedSkill3.Name = "CharacterConnectedAdvancedSkill3";
+            this.CharacterConnectedAdvancedSkill3.Size = new System.Drawing.Size(147, 37);
+            this.CharacterConnectedAdvancedSkill3.TabIndex = 276;
+            // 
+            // CharacterConnectedAdvancedSkill2
+            // 
+            this.CharacterConnectedAdvancedSkill2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterConnectedAdvancedSkill2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterConnectedAdvancedSkill2.Location = new System.Drawing.Point(1025, 1321);
+            this.CharacterConnectedAdvancedSkill2.Name = "CharacterConnectedAdvancedSkill2";
+            this.CharacterConnectedAdvancedSkill2.Size = new System.Drawing.Size(147, 37);
+            this.CharacterConnectedAdvancedSkill2.TabIndex = 275;
+            // 
+            // CharacterConnectedAdvancedSkill1
+            // 
+            this.CharacterConnectedAdvancedSkill1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterConnectedAdvancedSkill1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterConnectedAdvancedSkill1.Location = new System.Drawing.Point(1025, 1270);
+            this.CharacterConnectedAdvancedSkill1.Name = "CharacterConnectedAdvancedSkill1";
+            this.CharacterConnectedAdvancedSkill1.Size = new System.Drawing.Size(147, 37);
+            this.CharacterConnectedAdvancedSkill1.TabIndex = 274;
             // 
             // CharacterConnectedSkill20
             // 
             this.CharacterConnectedSkill20.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill20.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill20.Location = new System.Drawing.Point(1041, 2293);
+            this.CharacterConnectedSkill20.Location = new System.Drawing.Point(1022, 1116);
             this.CharacterConnectedSkill20.Name = "CharacterConnectedSkill20";
             this.CharacterConnectedSkill20.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill20.TabIndex = 273;
@@ -1177,7 +1825,7 @@
             // 
             this.CharacterConnectedSkill19.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill19.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill19.Location = new System.Drawing.Point(1041, 2243);
+            this.CharacterConnectedSkill19.Location = new System.Drawing.Point(1022, 1066);
             this.CharacterConnectedSkill19.Name = "CharacterConnectedSkill19";
             this.CharacterConnectedSkill19.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill19.TabIndex = 272;
@@ -1186,7 +1834,7 @@
             // 
             this.CharacterConnectedSkill18.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill18.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill18.Location = new System.Drawing.Point(1041, 2193);
+            this.CharacterConnectedSkill18.Location = new System.Drawing.Point(1022, 1016);
             this.CharacterConnectedSkill18.Name = "CharacterConnectedSkill18";
             this.CharacterConnectedSkill18.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill18.TabIndex = 271;
@@ -1195,7 +1843,7 @@
             // 
             this.CharacterConnectedSkill17.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill17.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill17.Location = new System.Drawing.Point(1041, 2143);
+            this.CharacterConnectedSkill17.Location = new System.Drawing.Point(1022, 966);
             this.CharacterConnectedSkill17.Name = "CharacterConnectedSkill17";
             this.CharacterConnectedSkill17.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill17.TabIndex = 270;
@@ -1204,7 +1852,7 @@
             // 
             this.CharacterConnectedSkill16.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill16.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill16.Location = new System.Drawing.Point(1041, 2093);
+            this.CharacterConnectedSkill16.Location = new System.Drawing.Point(1022, 916);
             this.CharacterConnectedSkill16.Name = "CharacterConnectedSkill16";
             this.CharacterConnectedSkill16.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill16.TabIndex = 269;
@@ -1213,7 +1861,7 @@
             // 
             this.CharacterConnectedSkill15.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill15.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill15.Location = new System.Drawing.Point(1041, 2043);
+            this.CharacterConnectedSkill15.Location = new System.Drawing.Point(1022, 866);
             this.CharacterConnectedSkill15.Name = "CharacterConnectedSkill15";
             this.CharacterConnectedSkill15.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill15.TabIndex = 268;
@@ -1222,7 +1870,7 @@
             // 
             this.CharacterConnectedSkill14.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill14.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill14.Location = new System.Drawing.Point(1041, 1993);
+            this.CharacterConnectedSkill14.Location = new System.Drawing.Point(1022, 816);
             this.CharacterConnectedSkill14.Name = "CharacterConnectedSkill14";
             this.CharacterConnectedSkill14.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill14.TabIndex = 267;
@@ -1231,7 +1879,7 @@
             // 
             this.CharacterConnectedSkill13.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill13.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill13.Location = new System.Drawing.Point(1041, 1943);
+            this.CharacterConnectedSkill13.Location = new System.Drawing.Point(1022, 766);
             this.CharacterConnectedSkill13.Name = "CharacterConnectedSkill13";
             this.CharacterConnectedSkill13.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill13.TabIndex = 266;
@@ -1240,7 +1888,7 @@
             // 
             this.CharacterConnectedSkill12.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill12.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill12.Location = new System.Drawing.Point(1041, 1893);
+            this.CharacterConnectedSkill12.Location = new System.Drawing.Point(1022, 716);
             this.CharacterConnectedSkill12.Name = "CharacterConnectedSkill12";
             this.CharacterConnectedSkill12.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill12.TabIndex = 265;
@@ -1249,7 +1897,7 @@
             // 
             this.CharacterConnectedSkill11.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill11.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill11.Location = new System.Drawing.Point(1041, 1843);
+            this.CharacterConnectedSkill11.Location = new System.Drawing.Point(1022, 666);
             this.CharacterConnectedSkill11.Name = "CharacterConnectedSkill11";
             this.CharacterConnectedSkill11.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill11.TabIndex = 264;
@@ -1258,7 +1906,7 @@
             // 
             this.CharacterConnectedSkill10.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill10.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill10.Location = new System.Drawing.Point(1041, 1793);
+            this.CharacterConnectedSkill10.Location = new System.Drawing.Point(1022, 616);
             this.CharacterConnectedSkill10.Name = "CharacterConnectedSkill10";
             this.CharacterConnectedSkill10.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill10.TabIndex = 263;
@@ -1267,7 +1915,7 @@
             // 
             this.CharacterConnectedSkill9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill9.Location = new System.Drawing.Point(1041, 1743);
+            this.CharacterConnectedSkill9.Location = new System.Drawing.Point(1022, 566);
             this.CharacterConnectedSkill9.Name = "CharacterConnectedSkill9";
             this.CharacterConnectedSkill9.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill9.TabIndex = 262;
@@ -1276,7 +1924,7 @@
             // 
             this.CharacterConnectedSkill8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill8.Location = new System.Drawing.Point(1041, 1693);
+            this.CharacterConnectedSkill8.Location = new System.Drawing.Point(1022, 516);
             this.CharacterConnectedSkill8.Name = "CharacterConnectedSkill8";
             this.CharacterConnectedSkill8.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill8.TabIndex = 261;
@@ -1285,7 +1933,7 @@
             // 
             this.CharacterConnectedSkill7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill7.Location = new System.Drawing.Point(1041, 1643);
+            this.CharacterConnectedSkill7.Location = new System.Drawing.Point(1022, 466);
             this.CharacterConnectedSkill7.Name = "CharacterConnectedSkill7";
             this.CharacterConnectedSkill7.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill7.TabIndex = 260;
@@ -1294,7 +1942,7 @@
             // 
             this.CharacterConnectedSkill6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill6.Location = new System.Drawing.Point(1041, 1593);
+            this.CharacterConnectedSkill6.Location = new System.Drawing.Point(1022, 416);
             this.CharacterConnectedSkill6.Name = "CharacterConnectedSkill6";
             this.CharacterConnectedSkill6.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill6.TabIndex = 259;
@@ -1303,7 +1951,7 @@
             // 
             this.CharacterConnectedSkill5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill5.Location = new System.Drawing.Point(1041, 1543);
+            this.CharacterConnectedSkill5.Location = new System.Drawing.Point(1022, 366);
             this.CharacterConnectedSkill5.Name = "CharacterConnectedSkill5";
             this.CharacterConnectedSkill5.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill5.TabIndex = 258;
@@ -1312,7 +1960,7 @@
             // 
             this.CharacterConnectedSkill4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill4.Location = new System.Drawing.Point(1041, 1493);
+            this.CharacterConnectedSkill4.Location = new System.Drawing.Point(1022, 316);
             this.CharacterConnectedSkill4.Name = "CharacterConnectedSkill4";
             this.CharacterConnectedSkill4.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill4.TabIndex = 257;
@@ -1321,7 +1969,7 @@
             // 
             this.CharacterConnectedSkill3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill3.Location = new System.Drawing.Point(1041, 1443);
+            this.CharacterConnectedSkill3.Location = new System.Drawing.Point(1022, 266);
             this.CharacterConnectedSkill3.Name = "CharacterConnectedSkill3";
             this.CharacterConnectedSkill3.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill3.TabIndex = 256;
@@ -1330,7 +1978,7 @@
             // 
             this.CharacterConnectedSkill2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill2.Location = new System.Drawing.Point(1041, 1393);
+            this.CharacterConnectedSkill2.Location = new System.Drawing.Point(1022, 216);
             this.CharacterConnectedSkill2.Name = "CharacterConnectedSkill2";
             this.CharacterConnectedSkill2.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill2.TabIndex = 255;
@@ -1339,420 +1987,420 @@
             // 
             this.CharacterConnectedSkill1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterConnectedSkill1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterConnectedSkill1.Location = new System.Drawing.Point(1041, 1343);
+            this.CharacterConnectedSkill1.Location = new System.Drawing.Point(1022, 166);
             this.CharacterConnectedSkill1.Name = "CharacterConnectedSkill1";
             this.CharacterConnectedSkill1.Size = new System.Drawing.Size(147, 37);
             this.CharacterConnectedSkill1.TabIndex = 254;
             // 
-            // checkBox100
-            // 
-            this.checkBox100.AutoSize = true;
-            this.checkBox100.Location = new System.Drawing.Point(1007, 3170);
-            this.checkBox100.Name = "checkBox100";
-            this.checkBox100.Size = new System.Drawing.Size(15, 14);
-            this.checkBox100.TabIndex = 253;
-            this.checkBox100.UseVisualStyleBackColor = true;
-            // 
-            // checkBox101
-            // 
-            this.checkBox101.AutoSize = true;
-            this.checkBox101.Location = new System.Drawing.Point(926, 3170);
-            this.checkBox101.Name = "checkBox101";
-            this.checkBox101.Size = new System.Drawing.Size(15, 14);
-            this.checkBox101.TabIndex = 252;
-            this.checkBox101.UseVisualStyleBackColor = true;
-            // 
-            // checkBox102
-            // 
-            this.checkBox102.AutoSize = true;
-            this.checkBox102.Location = new System.Drawing.Point(824, 3170);
-            this.checkBox102.Name = "checkBox102";
-            this.checkBox102.Size = new System.Drawing.Size(15, 14);
-            this.checkBox102.TabIndex = 251;
-            this.checkBox102.UseVisualStyleBackColor = true;
-            // 
-            // checkBox103
-            // 
-            this.checkBox103.AutoSize = true;
-            this.checkBox103.Location = new System.Drawing.Point(1007, 3120);
-            this.checkBox103.Name = "checkBox103";
-            this.checkBox103.Size = new System.Drawing.Size(15, 14);
-            this.checkBox103.TabIndex = 250;
-            this.checkBox103.UseVisualStyleBackColor = true;
-            // 
-            // checkBox104
-            // 
-            this.checkBox104.AutoSize = true;
-            this.checkBox104.Location = new System.Drawing.Point(926, 3120);
-            this.checkBox104.Name = "checkBox104";
-            this.checkBox104.Size = new System.Drawing.Size(15, 14);
-            this.checkBox104.TabIndex = 249;
-            this.checkBox104.UseVisualStyleBackColor = true;
-            // 
-            // checkBox105
-            // 
-            this.checkBox105.AutoSize = true;
-            this.checkBox105.Location = new System.Drawing.Point(824, 3120);
-            this.checkBox105.Name = "checkBox105";
-            this.checkBox105.Size = new System.Drawing.Size(15, 14);
-            this.checkBox105.TabIndex = 248;
-            this.checkBox105.UseVisualStyleBackColor = true;
-            // 
-            // checkBox85
-            // 
-            this.checkBox85.AutoSize = true;
-            this.checkBox85.Location = new System.Drawing.Point(1007, 3070);
-            this.checkBox85.Name = "checkBox85";
-            this.checkBox85.Size = new System.Drawing.Size(15, 14);
-            this.checkBox85.TabIndex = 247;
-            this.checkBox85.UseVisualStyleBackColor = true;
-            // 
-            // checkBox86
-            // 
-            this.checkBox86.AutoSize = true;
-            this.checkBox86.Location = new System.Drawing.Point(926, 3070);
-            this.checkBox86.Name = "checkBox86";
-            this.checkBox86.Size = new System.Drawing.Size(15, 14);
-            this.checkBox86.TabIndex = 246;
-            this.checkBox86.UseVisualStyleBackColor = true;
-            // 
-            // checkBox87
-            // 
-            this.checkBox87.AutoSize = true;
-            this.checkBox87.Location = new System.Drawing.Point(824, 3070);
-            this.checkBox87.Name = "checkBox87";
-            this.checkBox87.Size = new System.Drawing.Size(15, 14);
-            this.checkBox87.TabIndex = 245;
-            this.checkBox87.UseVisualStyleBackColor = true;
-            // 
-            // checkBox88
-            // 
-            this.checkBox88.AutoSize = true;
-            this.checkBox88.Location = new System.Drawing.Point(1007, 3020);
-            this.checkBox88.Name = "checkBox88";
-            this.checkBox88.Size = new System.Drawing.Size(15, 14);
-            this.checkBox88.TabIndex = 244;
-            this.checkBox88.UseVisualStyleBackColor = true;
-            // 
-            // checkBox89
-            // 
-            this.checkBox89.AutoSize = true;
-            this.checkBox89.Location = new System.Drawing.Point(926, 3020);
-            this.checkBox89.Name = "checkBox89";
-            this.checkBox89.Size = new System.Drawing.Size(15, 14);
-            this.checkBox89.TabIndex = 243;
-            this.checkBox89.UseVisualStyleBackColor = true;
-            // 
-            // checkBox90
-            // 
-            this.checkBox90.AutoSize = true;
-            this.checkBox90.Location = new System.Drawing.Point(824, 3020);
-            this.checkBox90.Name = "checkBox90";
-            this.checkBox90.Size = new System.Drawing.Size(15, 14);
-            this.checkBox90.TabIndex = 242;
-            this.checkBox90.UseVisualStyleBackColor = true;
-            // 
-            // checkBox91
-            // 
-            this.checkBox91.AutoSize = true;
-            this.checkBox91.Location = new System.Drawing.Point(1007, 2970);
-            this.checkBox91.Name = "checkBox91";
-            this.checkBox91.Size = new System.Drawing.Size(15, 14);
-            this.checkBox91.TabIndex = 241;
-            this.checkBox91.UseVisualStyleBackColor = true;
-            // 
-            // checkBox92
-            // 
-            this.checkBox92.AutoSize = true;
-            this.checkBox92.Location = new System.Drawing.Point(926, 2970);
-            this.checkBox92.Name = "checkBox92";
-            this.checkBox92.Size = new System.Drawing.Size(15, 14);
-            this.checkBox92.TabIndex = 240;
-            this.checkBox92.UseVisualStyleBackColor = true;
-            // 
-            // checkBox93
-            // 
-            this.checkBox93.AutoSize = true;
-            this.checkBox93.Location = new System.Drawing.Point(824, 2970);
-            this.checkBox93.Name = "checkBox93";
-            this.checkBox93.Size = new System.Drawing.Size(15, 14);
-            this.checkBox93.TabIndex = 239;
-            this.checkBox93.UseVisualStyleBackColor = true;
-            // 
-            // checkBox94
-            // 
-            this.checkBox94.AutoSize = true;
-            this.checkBox94.Location = new System.Drawing.Point(1007, 2920);
-            this.checkBox94.Name = "checkBox94";
-            this.checkBox94.Size = new System.Drawing.Size(15, 14);
-            this.checkBox94.TabIndex = 238;
-            this.checkBox94.UseVisualStyleBackColor = true;
-            // 
-            // checkBox95
-            // 
-            this.checkBox95.AutoSize = true;
-            this.checkBox95.Location = new System.Drawing.Point(926, 2920);
-            this.checkBox95.Name = "checkBox95";
-            this.checkBox95.Size = new System.Drawing.Size(15, 14);
-            this.checkBox95.TabIndex = 237;
-            this.checkBox95.UseVisualStyleBackColor = true;
-            // 
-            // checkBox96
-            // 
-            this.checkBox96.AutoSize = true;
-            this.checkBox96.Location = new System.Drawing.Point(824, 2920);
-            this.checkBox96.Name = "checkBox96";
-            this.checkBox96.Size = new System.Drawing.Size(15, 14);
-            this.checkBox96.TabIndex = 236;
-            this.checkBox96.UseVisualStyleBackColor = true;
-            // 
-            // checkBox97
-            // 
-            this.checkBox97.AutoSize = true;
-            this.checkBox97.Location = new System.Drawing.Point(1007, 2870);
-            this.checkBox97.Name = "checkBox97";
-            this.checkBox97.Size = new System.Drawing.Size(15, 14);
-            this.checkBox97.TabIndex = 235;
-            this.checkBox97.UseVisualStyleBackColor = true;
-            // 
-            // checkBox98
-            // 
-            this.checkBox98.AutoSize = true;
-            this.checkBox98.Location = new System.Drawing.Point(926, 2870);
-            this.checkBox98.Name = "checkBox98";
-            this.checkBox98.Size = new System.Drawing.Size(15, 14);
-            this.checkBox98.TabIndex = 234;
-            this.checkBox98.UseVisualStyleBackColor = true;
-            // 
-            // checkBox99
-            // 
-            this.checkBox99.AutoSize = true;
-            this.checkBox99.Location = new System.Drawing.Point(824, 2870);
-            this.checkBox99.Name = "checkBox99";
-            this.checkBox99.Size = new System.Drawing.Size(15, 14);
-            this.checkBox99.TabIndex = 233;
-            this.checkBox99.UseVisualStyleBackColor = true;
-            // 
-            // checkBox73
-            // 
-            this.checkBox73.AutoSize = true;
-            this.checkBox73.Location = new System.Drawing.Point(1007, 2820);
-            this.checkBox73.Name = "checkBox73";
-            this.checkBox73.Size = new System.Drawing.Size(15, 14);
-            this.checkBox73.TabIndex = 232;
-            this.checkBox73.UseVisualStyleBackColor = true;
-            // 
-            // checkBox74
-            // 
-            this.checkBox74.AutoSize = true;
-            this.checkBox74.Location = new System.Drawing.Point(926, 2820);
-            this.checkBox74.Name = "checkBox74";
-            this.checkBox74.Size = new System.Drawing.Size(15, 14);
-            this.checkBox74.TabIndex = 231;
-            this.checkBox74.UseVisualStyleBackColor = true;
-            // 
-            // checkBox75
-            // 
-            this.checkBox75.AutoSize = true;
-            this.checkBox75.Location = new System.Drawing.Point(824, 2820);
-            this.checkBox75.Name = "checkBox75";
-            this.checkBox75.Size = new System.Drawing.Size(15, 14);
-            this.checkBox75.TabIndex = 230;
-            this.checkBox75.UseVisualStyleBackColor = true;
-            // 
-            // checkBox76
-            // 
-            this.checkBox76.AutoSize = true;
-            this.checkBox76.Location = new System.Drawing.Point(1007, 2770);
-            this.checkBox76.Name = "checkBox76";
-            this.checkBox76.Size = new System.Drawing.Size(15, 14);
-            this.checkBox76.TabIndex = 229;
-            this.checkBox76.UseVisualStyleBackColor = true;
-            // 
-            // checkBox77
-            // 
-            this.checkBox77.AutoSize = true;
-            this.checkBox77.Location = new System.Drawing.Point(926, 2770);
-            this.checkBox77.Name = "checkBox77";
-            this.checkBox77.Size = new System.Drawing.Size(15, 14);
-            this.checkBox77.TabIndex = 228;
-            this.checkBox77.UseVisualStyleBackColor = true;
-            // 
-            // checkBox78
-            // 
-            this.checkBox78.AutoSize = true;
-            this.checkBox78.Location = new System.Drawing.Point(824, 2770);
-            this.checkBox78.Name = "checkBox78";
-            this.checkBox78.Size = new System.Drawing.Size(15, 14);
-            this.checkBox78.TabIndex = 227;
-            this.checkBox78.UseVisualStyleBackColor = true;
-            // 
-            // checkBox79
-            // 
-            this.checkBox79.AutoSize = true;
-            this.checkBox79.Location = new System.Drawing.Point(1007, 2720);
-            this.checkBox79.Name = "checkBox79";
-            this.checkBox79.Size = new System.Drawing.Size(15, 14);
-            this.checkBox79.TabIndex = 226;
-            this.checkBox79.UseVisualStyleBackColor = true;
-            // 
-            // checkBox80
-            // 
-            this.checkBox80.AutoSize = true;
-            this.checkBox80.Location = new System.Drawing.Point(926, 2720);
-            this.checkBox80.Name = "checkBox80";
-            this.checkBox80.Size = new System.Drawing.Size(15, 14);
-            this.checkBox80.TabIndex = 225;
-            this.checkBox80.UseVisualStyleBackColor = true;
-            // 
-            // checkBox81
-            // 
-            this.checkBox81.AutoSize = true;
-            this.checkBox81.Location = new System.Drawing.Point(824, 2720);
-            this.checkBox81.Name = "checkBox81";
-            this.checkBox81.Size = new System.Drawing.Size(15, 14);
-            this.checkBox81.TabIndex = 224;
-            this.checkBox81.UseVisualStyleBackColor = true;
-            // 
-            // checkBox82
-            // 
-            this.checkBox82.AutoSize = true;
-            this.checkBox82.Location = new System.Drawing.Point(1007, 2670);
-            this.checkBox82.Name = "checkBox82";
-            this.checkBox82.Size = new System.Drawing.Size(15, 14);
-            this.checkBox82.TabIndex = 223;
-            this.checkBox82.UseVisualStyleBackColor = true;
-            // 
-            // checkBox83
-            // 
-            this.checkBox83.AutoSize = true;
-            this.checkBox83.Location = new System.Drawing.Point(926, 2670);
-            this.checkBox83.Name = "checkBox83";
-            this.checkBox83.Size = new System.Drawing.Size(15, 14);
-            this.checkBox83.TabIndex = 222;
-            this.checkBox83.UseVisualStyleBackColor = true;
-            // 
-            // checkBox84
-            // 
-            this.checkBox84.AutoSize = true;
-            this.checkBox84.Location = new System.Drawing.Point(824, 2670);
-            this.checkBox84.Name = "checkBox84";
-            this.checkBox84.Size = new System.Drawing.Size(15, 14);
-            this.checkBox84.TabIndex = 221;
-            this.checkBox84.UseVisualStyleBackColor = true;
-            // 
-            // checkBox64
-            // 
-            this.checkBox64.AutoSize = true;
-            this.checkBox64.Location = new System.Drawing.Point(1007, 2620);
-            this.checkBox64.Name = "checkBox64";
-            this.checkBox64.Size = new System.Drawing.Size(15, 14);
-            this.checkBox64.TabIndex = 220;
-            this.checkBox64.UseVisualStyleBackColor = true;
-            // 
-            // checkBox65
-            // 
-            this.checkBox65.AutoSize = true;
-            this.checkBox65.Location = new System.Drawing.Point(926, 2620);
-            this.checkBox65.Name = "checkBox65";
-            this.checkBox65.Size = new System.Drawing.Size(15, 14);
-            this.checkBox65.TabIndex = 219;
-            this.checkBox65.UseVisualStyleBackColor = true;
-            // 
-            // checkBox66
-            // 
-            this.checkBox66.AutoSize = true;
-            this.checkBox66.Location = new System.Drawing.Point(824, 2620);
-            this.checkBox66.Name = "checkBox66";
-            this.checkBox66.Size = new System.Drawing.Size(15, 14);
-            this.checkBox66.TabIndex = 218;
-            this.checkBox66.UseVisualStyleBackColor = true;
-            // 
-            // checkBox67
-            // 
-            this.checkBox67.AutoSize = true;
-            this.checkBox67.Location = new System.Drawing.Point(1007, 2570);
-            this.checkBox67.Name = "checkBox67";
-            this.checkBox67.Size = new System.Drawing.Size(15, 14);
-            this.checkBox67.TabIndex = 217;
-            this.checkBox67.UseVisualStyleBackColor = true;
-            // 
-            // checkBox68
-            // 
-            this.checkBox68.AutoSize = true;
-            this.checkBox68.Location = new System.Drawing.Point(926, 2570);
-            this.checkBox68.Name = "checkBox68";
-            this.checkBox68.Size = new System.Drawing.Size(15, 14);
-            this.checkBox68.TabIndex = 216;
-            this.checkBox68.UseVisualStyleBackColor = true;
-            // 
-            // checkBox69
-            // 
-            this.checkBox69.AutoSize = true;
-            this.checkBox69.Location = new System.Drawing.Point(824, 2570);
-            this.checkBox69.Name = "checkBox69";
-            this.checkBox69.Size = new System.Drawing.Size(15, 14);
-            this.checkBox69.TabIndex = 215;
-            this.checkBox69.UseVisualStyleBackColor = true;
-            // 
-            // checkBox61
-            // 
-            this.checkBox61.AutoSize = true;
-            this.checkBox61.Location = new System.Drawing.Point(1007, 2520);
-            this.checkBox61.Name = "checkBox61";
-            this.checkBox61.Size = new System.Drawing.Size(15, 14);
-            this.checkBox61.TabIndex = 214;
-            this.checkBox61.UseVisualStyleBackColor = true;
-            // 
-            // checkBox62
-            // 
-            this.checkBox62.AutoSize = true;
-            this.checkBox62.Location = new System.Drawing.Point(926, 2520);
-            this.checkBox62.Name = "checkBox62";
-            this.checkBox62.Size = new System.Drawing.Size(15, 14);
-            this.checkBox62.TabIndex = 213;
-            this.checkBox62.UseVisualStyleBackColor = true;
-            // 
-            // checkBox63
-            // 
-            this.checkBox63.AutoSize = true;
-            this.checkBox63.Location = new System.Drawing.Point(824, 2520);
-            this.checkBox63.Name = "checkBox63";
-            this.checkBox63.Size = new System.Drawing.Size(15, 14);
-            this.checkBox63.TabIndex = 212;
-            this.checkBox63.UseVisualStyleBackColor = true;
-            // 
-            // checkBox70
-            // 
-            this.checkBox70.AutoSize = true;
-            this.checkBox70.Location = new System.Drawing.Point(1007, 2470);
-            this.checkBox70.Name = "checkBox70";
-            this.checkBox70.Size = new System.Drawing.Size(15, 14);
-            this.checkBox70.TabIndex = 211;
-            this.checkBox70.UseVisualStyleBackColor = true;
-            // 
-            // checkBox71
-            // 
-            this.checkBox71.AutoSize = true;
-            this.checkBox71.Location = new System.Drawing.Point(926, 2470);
-            this.checkBox71.Name = "checkBox71";
-            this.checkBox71.Size = new System.Drawing.Size(15, 14);
-            this.checkBox71.TabIndex = 210;
-            this.checkBox71.UseVisualStyleBackColor = true;
-            // 
-            // checkBox72
-            // 
-            this.checkBox72.AutoSize = true;
-            this.checkBox72.Location = new System.Drawing.Point(824, 2470);
-            this.checkBox72.Name = "checkBox72";
-            this.checkBox72.Size = new System.Drawing.Size(15, 14);
-            this.checkBox72.TabIndex = 209;
-            this.checkBox72.UseVisualStyleBackColor = true;
+            // CharacterAdvancedSkill15_3
+            // 
+            this.CharacterAdvancedSkill15_3.AutoSize = true;
+            this.CharacterAdvancedSkill15_3.Location = new System.Drawing.Point(988, 1993);
+            this.CharacterAdvancedSkill15_3.Name = "CharacterAdvancedSkill15_3";
+            this.CharacterAdvancedSkill15_3.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill15_3.TabIndex = 253;
+            this.CharacterAdvancedSkill15_3.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill15_2
+            // 
+            this.CharacterAdvancedSkill15_2.AutoSize = true;
+            this.CharacterAdvancedSkill15_2.Location = new System.Drawing.Point(907, 1993);
+            this.CharacterAdvancedSkill15_2.Name = "CharacterAdvancedSkill15_2";
+            this.CharacterAdvancedSkill15_2.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill15_2.TabIndex = 252;
+            this.CharacterAdvancedSkill15_2.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill15_1
+            // 
+            this.CharacterAdvancedSkill15_1.AutoSize = true;
+            this.CharacterAdvancedSkill15_1.Location = new System.Drawing.Point(805, 1993);
+            this.CharacterAdvancedSkill15_1.Name = "CharacterAdvancedSkill15_1";
+            this.CharacterAdvancedSkill15_1.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill15_1.TabIndex = 251;
+            this.CharacterAdvancedSkill15_1.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill14_3
+            // 
+            this.CharacterAdvancedSkill14_3.AutoSize = true;
+            this.CharacterAdvancedSkill14_3.Location = new System.Drawing.Point(988, 1943);
+            this.CharacterAdvancedSkill14_3.Name = "CharacterAdvancedSkill14_3";
+            this.CharacterAdvancedSkill14_3.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill14_3.TabIndex = 250;
+            this.CharacterAdvancedSkill14_3.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill14_2
+            // 
+            this.CharacterAdvancedSkill14_2.AutoSize = true;
+            this.CharacterAdvancedSkill14_2.Location = new System.Drawing.Point(907, 1943);
+            this.CharacterAdvancedSkill14_2.Name = "CharacterAdvancedSkill14_2";
+            this.CharacterAdvancedSkill14_2.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill14_2.TabIndex = 249;
+            this.CharacterAdvancedSkill14_2.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill14_1
+            // 
+            this.CharacterAdvancedSkill14_1.AutoSize = true;
+            this.CharacterAdvancedSkill14_1.Location = new System.Drawing.Point(805, 1943);
+            this.CharacterAdvancedSkill14_1.Name = "CharacterAdvancedSkill14_1";
+            this.CharacterAdvancedSkill14_1.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill14_1.TabIndex = 248;
+            this.CharacterAdvancedSkill14_1.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill13_3
+            // 
+            this.CharacterAdvancedSkill13_3.AutoSize = true;
+            this.CharacterAdvancedSkill13_3.Location = new System.Drawing.Point(988, 1893);
+            this.CharacterAdvancedSkill13_3.Name = "CharacterAdvancedSkill13_3";
+            this.CharacterAdvancedSkill13_3.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill13_3.TabIndex = 247;
+            this.CharacterAdvancedSkill13_3.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill13_2
+            // 
+            this.CharacterAdvancedSkill13_2.AutoSize = true;
+            this.CharacterAdvancedSkill13_2.Location = new System.Drawing.Point(907, 1893);
+            this.CharacterAdvancedSkill13_2.Name = "CharacterAdvancedSkill13_2";
+            this.CharacterAdvancedSkill13_2.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill13_2.TabIndex = 246;
+            this.CharacterAdvancedSkill13_2.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill13_1
+            // 
+            this.CharacterAdvancedSkill13_1.AutoSize = true;
+            this.CharacterAdvancedSkill13_1.Location = new System.Drawing.Point(805, 1893);
+            this.CharacterAdvancedSkill13_1.Name = "CharacterAdvancedSkill13_1";
+            this.CharacterAdvancedSkill13_1.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill13_1.TabIndex = 245;
+            this.CharacterAdvancedSkill13_1.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill12_3
+            // 
+            this.CharacterAdvancedSkill12_3.AutoSize = true;
+            this.CharacterAdvancedSkill12_3.Location = new System.Drawing.Point(988, 1843);
+            this.CharacterAdvancedSkill12_3.Name = "CharacterAdvancedSkill12_3";
+            this.CharacterAdvancedSkill12_3.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill12_3.TabIndex = 244;
+            this.CharacterAdvancedSkill12_3.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill12_2
+            // 
+            this.CharacterAdvancedSkill12_2.AutoSize = true;
+            this.CharacterAdvancedSkill12_2.Location = new System.Drawing.Point(907, 1843);
+            this.CharacterAdvancedSkill12_2.Name = "CharacterAdvancedSkill12_2";
+            this.CharacterAdvancedSkill12_2.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill12_2.TabIndex = 243;
+            this.CharacterAdvancedSkill12_2.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill12_1
+            // 
+            this.CharacterAdvancedSkill12_1.AutoSize = true;
+            this.CharacterAdvancedSkill12_1.Location = new System.Drawing.Point(805, 1843);
+            this.CharacterAdvancedSkill12_1.Name = "CharacterAdvancedSkill12_1";
+            this.CharacterAdvancedSkill12_1.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill12_1.TabIndex = 242;
+            this.CharacterAdvancedSkill12_1.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill11_3
+            // 
+            this.CharacterAdvancedSkill11_3.AutoSize = true;
+            this.CharacterAdvancedSkill11_3.Location = new System.Drawing.Point(988, 1793);
+            this.CharacterAdvancedSkill11_3.Name = "CharacterAdvancedSkill11_3";
+            this.CharacterAdvancedSkill11_3.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill11_3.TabIndex = 241;
+            this.CharacterAdvancedSkill11_3.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill11_2
+            // 
+            this.CharacterAdvancedSkill11_2.AutoSize = true;
+            this.CharacterAdvancedSkill11_2.Location = new System.Drawing.Point(907, 1793);
+            this.CharacterAdvancedSkill11_2.Name = "CharacterAdvancedSkill11_2";
+            this.CharacterAdvancedSkill11_2.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill11_2.TabIndex = 240;
+            this.CharacterAdvancedSkill11_2.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill11_1
+            // 
+            this.CharacterAdvancedSkill11_1.AutoSize = true;
+            this.CharacterAdvancedSkill11_1.Location = new System.Drawing.Point(805, 1793);
+            this.CharacterAdvancedSkill11_1.Name = "CharacterAdvancedSkill11_1";
+            this.CharacterAdvancedSkill11_1.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill11_1.TabIndex = 239;
+            this.CharacterAdvancedSkill11_1.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill10_3
+            // 
+            this.CharacterAdvancedSkill10_3.AutoSize = true;
+            this.CharacterAdvancedSkill10_3.Location = new System.Drawing.Point(988, 1743);
+            this.CharacterAdvancedSkill10_3.Name = "CharacterAdvancedSkill10_3";
+            this.CharacterAdvancedSkill10_3.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill10_3.TabIndex = 238;
+            this.CharacterAdvancedSkill10_3.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill10_2
+            // 
+            this.CharacterAdvancedSkill10_2.AutoSize = true;
+            this.CharacterAdvancedSkill10_2.Location = new System.Drawing.Point(907, 1743);
+            this.CharacterAdvancedSkill10_2.Name = "CharacterAdvancedSkill10_2";
+            this.CharacterAdvancedSkill10_2.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill10_2.TabIndex = 237;
+            this.CharacterAdvancedSkill10_2.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill10_1
+            // 
+            this.CharacterAdvancedSkill10_1.AutoSize = true;
+            this.CharacterAdvancedSkill10_1.Location = new System.Drawing.Point(805, 1743);
+            this.CharacterAdvancedSkill10_1.Name = "CharacterAdvancedSkill10_1";
+            this.CharacterAdvancedSkill10_1.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill10_1.TabIndex = 236;
+            this.CharacterAdvancedSkill10_1.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill9_3
+            // 
+            this.CharacterAdvancedSkill9_3.AutoSize = true;
+            this.CharacterAdvancedSkill9_3.Location = new System.Drawing.Point(988, 1693);
+            this.CharacterAdvancedSkill9_3.Name = "CharacterAdvancedSkill9_3";
+            this.CharacterAdvancedSkill9_3.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill9_3.TabIndex = 235;
+            this.CharacterAdvancedSkill9_3.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill9_2
+            // 
+            this.CharacterAdvancedSkill9_2.AutoSize = true;
+            this.CharacterAdvancedSkill9_2.Location = new System.Drawing.Point(907, 1693);
+            this.CharacterAdvancedSkill9_2.Name = "CharacterAdvancedSkill9_2";
+            this.CharacterAdvancedSkill9_2.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill9_2.TabIndex = 234;
+            this.CharacterAdvancedSkill9_2.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill9_1
+            // 
+            this.CharacterAdvancedSkill9_1.AutoSize = true;
+            this.CharacterAdvancedSkill9_1.Location = new System.Drawing.Point(805, 1693);
+            this.CharacterAdvancedSkill9_1.Name = "CharacterAdvancedSkill9_1";
+            this.CharacterAdvancedSkill9_1.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill9_1.TabIndex = 233;
+            this.CharacterAdvancedSkill9_1.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill8_3
+            // 
+            this.CharacterAdvancedSkill8_3.AutoSize = true;
+            this.CharacterAdvancedSkill8_3.Location = new System.Drawing.Point(988, 1643);
+            this.CharacterAdvancedSkill8_3.Name = "CharacterAdvancedSkill8_3";
+            this.CharacterAdvancedSkill8_3.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill8_3.TabIndex = 232;
+            this.CharacterAdvancedSkill8_3.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill8_2
+            // 
+            this.CharacterAdvancedSkill8_2.AutoSize = true;
+            this.CharacterAdvancedSkill8_2.Location = new System.Drawing.Point(907, 1643);
+            this.CharacterAdvancedSkill8_2.Name = "CharacterAdvancedSkill8_2";
+            this.CharacterAdvancedSkill8_2.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill8_2.TabIndex = 231;
+            this.CharacterAdvancedSkill8_2.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill8_1
+            // 
+            this.CharacterAdvancedSkill8_1.AutoSize = true;
+            this.CharacterAdvancedSkill8_1.Location = new System.Drawing.Point(805, 1643);
+            this.CharacterAdvancedSkill8_1.Name = "CharacterAdvancedSkill8_1";
+            this.CharacterAdvancedSkill8_1.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill8_1.TabIndex = 230;
+            this.CharacterAdvancedSkill8_1.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill7_3
+            // 
+            this.CharacterAdvancedSkill7_3.AutoSize = true;
+            this.CharacterAdvancedSkill7_3.Location = new System.Drawing.Point(988, 1593);
+            this.CharacterAdvancedSkill7_3.Name = "CharacterAdvancedSkill7_3";
+            this.CharacterAdvancedSkill7_3.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill7_3.TabIndex = 229;
+            this.CharacterAdvancedSkill7_3.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill7_2
+            // 
+            this.CharacterAdvancedSkill7_2.AutoSize = true;
+            this.CharacterAdvancedSkill7_2.Location = new System.Drawing.Point(907, 1593);
+            this.CharacterAdvancedSkill7_2.Name = "CharacterAdvancedSkill7_2";
+            this.CharacterAdvancedSkill7_2.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill7_2.TabIndex = 228;
+            this.CharacterAdvancedSkill7_2.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill7_1
+            // 
+            this.CharacterAdvancedSkill7_1.AutoSize = true;
+            this.CharacterAdvancedSkill7_1.Location = new System.Drawing.Point(805, 1593);
+            this.CharacterAdvancedSkill7_1.Name = "CharacterAdvancedSkill7_1";
+            this.CharacterAdvancedSkill7_1.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill7_1.TabIndex = 227;
+            this.CharacterAdvancedSkill7_1.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill6_3
+            // 
+            this.CharacterAdvancedSkill6_3.AutoSize = true;
+            this.CharacterAdvancedSkill6_3.Location = new System.Drawing.Point(988, 1543);
+            this.CharacterAdvancedSkill6_3.Name = "CharacterAdvancedSkill6_3";
+            this.CharacterAdvancedSkill6_3.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill6_3.TabIndex = 226;
+            this.CharacterAdvancedSkill6_3.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill6_2
+            // 
+            this.CharacterAdvancedSkill6_2.AutoSize = true;
+            this.CharacterAdvancedSkill6_2.Location = new System.Drawing.Point(907, 1543);
+            this.CharacterAdvancedSkill6_2.Name = "CharacterAdvancedSkill6_2";
+            this.CharacterAdvancedSkill6_2.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill6_2.TabIndex = 225;
+            this.CharacterAdvancedSkill6_2.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill6_1
+            // 
+            this.CharacterAdvancedSkill6_1.AutoSize = true;
+            this.CharacterAdvancedSkill6_1.Location = new System.Drawing.Point(805, 1543);
+            this.CharacterAdvancedSkill6_1.Name = "CharacterAdvancedSkill6_1";
+            this.CharacterAdvancedSkill6_1.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill6_1.TabIndex = 224;
+            this.CharacterAdvancedSkill6_1.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill5_3
+            // 
+            this.CharacterAdvancedSkill5_3.AutoSize = true;
+            this.CharacterAdvancedSkill5_3.Location = new System.Drawing.Point(988, 1493);
+            this.CharacterAdvancedSkill5_3.Name = "CharacterAdvancedSkill5_3";
+            this.CharacterAdvancedSkill5_3.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill5_3.TabIndex = 223;
+            this.CharacterAdvancedSkill5_3.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill5_2
+            // 
+            this.CharacterAdvancedSkill5_2.AutoSize = true;
+            this.CharacterAdvancedSkill5_2.Location = new System.Drawing.Point(907, 1493);
+            this.CharacterAdvancedSkill5_2.Name = "CharacterAdvancedSkill5_2";
+            this.CharacterAdvancedSkill5_2.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill5_2.TabIndex = 222;
+            this.CharacterAdvancedSkill5_2.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill5_1
+            // 
+            this.CharacterAdvancedSkill5_1.AutoSize = true;
+            this.CharacterAdvancedSkill5_1.Location = new System.Drawing.Point(805, 1493);
+            this.CharacterAdvancedSkill5_1.Name = "CharacterAdvancedSkill5_1";
+            this.CharacterAdvancedSkill5_1.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill5_1.TabIndex = 221;
+            this.CharacterAdvancedSkill5_1.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill4_3
+            // 
+            this.CharacterAdvancedSkill4_3.AutoSize = true;
+            this.CharacterAdvancedSkill4_3.Location = new System.Drawing.Point(988, 1443);
+            this.CharacterAdvancedSkill4_3.Name = "CharacterAdvancedSkill4_3";
+            this.CharacterAdvancedSkill4_3.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill4_3.TabIndex = 220;
+            this.CharacterAdvancedSkill4_3.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill4_2
+            // 
+            this.CharacterAdvancedSkill4_2.AutoSize = true;
+            this.CharacterAdvancedSkill4_2.Location = new System.Drawing.Point(907, 1443);
+            this.CharacterAdvancedSkill4_2.Name = "CharacterAdvancedSkill4_2";
+            this.CharacterAdvancedSkill4_2.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill4_2.TabIndex = 219;
+            this.CharacterAdvancedSkill4_2.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill4_1
+            // 
+            this.CharacterAdvancedSkill4_1.AutoSize = true;
+            this.CharacterAdvancedSkill4_1.Location = new System.Drawing.Point(805, 1443);
+            this.CharacterAdvancedSkill4_1.Name = "CharacterAdvancedSkill4_1";
+            this.CharacterAdvancedSkill4_1.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill4_1.TabIndex = 218;
+            this.CharacterAdvancedSkill4_1.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill3_3
+            // 
+            this.CharacterAdvancedSkill3_3.AutoSize = true;
+            this.CharacterAdvancedSkill3_3.Location = new System.Drawing.Point(988, 1393);
+            this.CharacterAdvancedSkill3_3.Name = "CharacterAdvancedSkill3_3";
+            this.CharacterAdvancedSkill3_3.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill3_3.TabIndex = 217;
+            this.CharacterAdvancedSkill3_3.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill3_2
+            // 
+            this.CharacterAdvancedSkill3_2.AutoSize = true;
+            this.CharacterAdvancedSkill3_2.Location = new System.Drawing.Point(907, 1393);
+            this.CharacterAdvancedSkill3_2.Name = "CharacterAdvancedSkill3_2";
+            this.CharacterAdvancedSkill3_2.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill3_2.TabIndex = 216;
+            this.CharacterAdvancedSkill3_2.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill3_1
+            // 
+            this.CharacterAdvancedSkill3_1.AutoSize = true;
+            this.CharacterAdvancedSkill3_1.Location = new System.Drawing.Point(805, 1393);
+            this.CharacterAdvancedSkill3_1.Name = "CharacterAdvancedSkill3_1";
+            this.CharacterAdvancedSkill3_1.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill3_1.TabIndex = 215;
+            this.CharacterAdvancedSkill3_1.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill2_3
+            // 
+            this.CharacterAdvancedSkill2_3.AutoSize = true;
+            this.CharacterAdvancedSkill2_3.Location = new System.Drawing.Point(988, 1343);
+            this.CharacterAdvancedSkill2_3.Name = "CharacterAdvancedSkill2_3";
+            this.CharacterAdvancedSkill2_3.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill2_3.TabIndex = 214;
+            this.CharacterAdvancedSkill2_3.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill2_2
+            // 
+            this.CharacterAdvancedSkill2_2.AutoSize = true;
+            this.CharacterAdvancedSkill2_2.Location = new System.Drawing.Point(907, 1343);
+            this.CharacterAdvancedSkill2_2.Name = "CharacterAdvancedSkill2_2";
+            this.CharacterAdvancedSkill2_2.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill2_2.TabIndex = 213;
+            this.CharacterAdvancedSkill2_2.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill2_1
+            // 
+            this.CharacterAdvancedSkill2_1.AutoSize = true;
+            this.CharacterAdvancedSkill2_1.Location = new System.Drawing.Point(805, 1343);
+            this.CharacterAdvancedSkill2_1.Name = "CharacterAdvancedSkill2_1";
+            this.CharacterAdvancedSkill2_1.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill2_1.TabIndex = 212;
+            this.CharacterAdvancedSkill2_1.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill1_3
+            // 
+            this.CharacterAdvancedSkill1_3.AutoSize = true;
+            this.CharacterAdvancedSkill1_3.Location = new System.Drawing.Point(988, 1293);
+            this.CharacterAdvancedSkill1_3.Name = "CharacterAdvancedSkill1_3";
+            this.CharacterAdvancedSkill1_3.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill1_3.TabIndex = 211;
+            this.CharacterAdvancedSkill1_3.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill1_2
+            // 
+            this.CharacterAdvancedSkill1_2.AutoSize = true;
+            this.CharacterAdvancedSkill1_2.Location = new System.Drawing.Point(907, 1293);
+            this.CharacterAdvancedSkill1_2.Name = "CharacterAdvancedSkill1_2";
+            this.CharacterAdvancedSkill1_2.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill1_2.TabIndex = 210;
+            this.CharacterAdvancedSkill1_2.UseVisualStyleBackColor = true;
+            // 
+            // CharacterAdvancedSkill1_1
+            // 
+            this.CharacterAdvancedSkill1_1.AutoSize = true;
+            this.CharacterAdvancedSkill1_1.Location = new System.Drawing.Point(805, 1293);
+            this.CharacterAdvancedSkill1_1.Name = "CharacterAdvancedSkill1_1";
+            this.CharacterAdvancedSkill1_1.Size = new System.Drawing.Size(15, 14);
+            this.CharacterAdvancedSkill1_1.TabIndex = 209;
+            this.CharacterAdvancedSkill1_1.UseVisualStyleBackColor = true;
             // 
             // CharacterSkill20_3
             // 
             this.CharacterSkill20_3.AutoSize = true;
-            this.CharacterSkill20_3.Location = new System.Drawing.Point(988, 2316);
+            this.CharacterSkill20_3.Location = new System.Drawing.Point(969, 1139);
             this.CharacterSkill20_3.Name = "CharacterSkill20_3";
             this.CharacterSkill20_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill20_3.TabIndex = 208;
@@ -1761,7 +2409,7 @@
             // CharacterSkill20_2
             // 
             this.CharacterSkill20_2.AutoSize = true;
-            this.CharacterSkill20_2.Location = new System.Drawing.Point(896, 2316);
+            this.CharacterSkill20_2.Location = new System.Drawing.Point(877, 1139);
             this.CharacterSkill20_2.Name = "CharacterSkill20_2";
             this.CharacterSkill20_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill20_2.TabIndex = 207;
@@ -1770,7 +2418,7 @@
             // CharacterSkill20_1
             // 
             this.CharacterSkill20_1.AutoSize = true;
-            this.CharacterSkill20_1.Location = new System.Drawing.Point(810, 2316);
+            this.CharacterSkill20_1.Location = new System.Drawing.Point(791, 1139);
             this.CharacterSkill20_1.Name = "CharacterSkill20_1";
             this.CharacterSkill20_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill20_1.TabIndex = 206;
@@ -1779,7 +2427,7 @@
             // CharacterSkill19_3
             // 
             this.CharacterSkill19_3.AutoSize = true;
-            this.CharacterSkill19_3.Location = new System.Drawing.Point(988, 2266);
+            this.CharacterSkill19_3.Location = new System.Drawing.Point(969, 1089);
             this.CharacterSkill19_3.Name = "CharacterSkill19_3";
             this.CharacterSkill19_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill19_3.TabIndex = 205;
@@ -1788,7 +2436,7 @@
             // CharacterSkill19_2
             // 
             this.CharacterSkill19_2.AutoSize = true;
-            this.CharacterSkill19_2.Location = new System.Drawing.Point(896, 2266);
+            this.CharacterSkill19_2.Location = new System.Drawing.Point(877, 1089);
             this.CharacterSkill19_2.Name = "CharacterSkill19_2";
             this.CharacterSkill19_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill19_2.TabIndex = 204;
@@ -1797,7 +2445,7 @@
             // CharacterSkill19_1
             // 
             this.CharacterSkill19_1.AutoSize = true;
-            this.CharacterSkill19_1.Location = new System.Drawing.Point(810, 2266);
+            this.CharacterSkill19_1.Location = new System.Drawing.Point(791, 1089);
             this.CharacterSkill19_1.Name = "CharacterSkill19_1";
             this.CharacterSkill19_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill19_1.TabIndex = 203;
@@ -1806,7 +2454,7 @@
             // CharacterSkill18_3
             // 
             this.CharacterSkill18_3.AutoSize = true;
-            this.CharacterSkill18_3.Location = new System.Drawing.Point(988, 2216);
+            this.CharacterSkill18_3.Location = new System.Drawing.Point(969, 1039);
             this.CharacterSkill18_3.Name = "CharacterSkill18_3";
             this.CharacterSkill18_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill18_3.TabIndex = 202;
@@ -1815,7 +2463,7 @@
             // CharacterSkill18_2
             // 
             this.CharacterSkill18_2.AutoSize = true;
-            this.CharacterSkill18_2.Location = new System.Drawing.Point(896, 2216);
+            this.CharacterSkill18_2.Location = new System.Drawing.Point(877, 1039);
             this.CharacterSkill18_2.Name = "CharacterSkill18_2";
             this.CharacterSkill18_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill18_2.TabIndex = 201;
@@ -1824,7 +2472,7 @@
             // CharacterSkill18_1
             // 
             this.CharacterSkill18_1.AutoSize = true;
-            this.CharacterSkill18_1.Location = new System.Drawing.Point(810, 2216);
+            this.CharacterSkill18_1.Location = new System.Drawing.Point(791, 1039);
             this.CharacterSkill18_1.Name = "CharacterSkill18_1";
             this.CharacterSkill18_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill18_1.TabIndex = 200;
@@ -1833,7 +2481,7 @@
             // CharacterSkill17_3
             // 
             this.CharacterSkill17_3.AutoSize = true;
-            this.CharacterSkill17_3.Location = new System.Drawing.Point(988, 2166);
+            this.CharacterSkill17_3.Location = new System.Drawing.Point(969, 989);
             this.CharacterSkill17_3.Name = "CharacterSkill17_3";
             this.CharacterSkill17_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill17_3.TabIndex = 199;
@@ -1842,7 +2490,7 @@
             // CharacterSkill17_2
             // 
             this.CharacterSkill17_2.AutoSize = true;
-            this.CharacterSkill17_2.Location = new System.Drawing.Point(896, 2166);
+            this.CharacterSkill17_2.Location = new System.Drawing.Point(877, 989);
             this.CharacterSkill17_2.Name = "CharacterSkill17_2";
             this.CharacterSkill17_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill17_2.TabIndex = 198;
@@ -1851,7 +2499,7 @@
             // CharacterSkill17_1
             // 
             this.CharacterSkill17_1.AutoSize = true;
-            this.CharacterSkill17_1.Location = new System.Drawing.Point(810, 2166);
+            this.CharacterSkill17_1.Location = new System.Drawing.Point(791, 989);
             this.CharacterSkill17_1.Name = "CharacterSkill17_1";
             this.CharacterSkill17_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill17_1.TabIndex = 197;
@@ -1860,7 +2508,7 @@
             // CharacterSkill16_3
             // 
             this.CharacterSkill16_3.AutoSize = true;
-            this.CharacterSkill16_3.Location = new System.Drawing.Point(988, 2116);
+            this.CharacterSkill16_3.Location = new System.Drawing.Point(969, 939);
             this.CharacterSkill16_3.Name = "CharacterSkill16_3";
             this.CharacterSkill16_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill16_3.TabIndex = 196;
@@ -1869,7 +2517,7 @@
             // CharacterSkill16_2
             // 
             this.CharacterSkill16_2.AutoSize = true;
-            this.CharacterSkill16_2.Location = new System.Drawing.Point(896, 2116);
+            this.CharacterSkill16_2.Location = new System.Drawing.Point(877, 939);
             this.CharacterSkill16_2.Name = "CharacterSkill16_2";
             this.CharacterSkill16_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill16_2.TabIndex = 195;
@@ -1878,7 +2526,7 @@
             // CharacterSkill16_1
             // 
             this.CharacterSkill16_1.AutoSize = true;
-            this.CharacterSkill16_1.Location = new System.Drawing.Point(810, 2116);
+            this.CharacterSkill16_1.Location = new System.Drawing.Point(791, 939);
             this.CharacterSkill16_1.Name = "CharacterSkill16_1";
             this.CharacterSkill16_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill16_1.TabIndex = 194;
@@ -1887,7 +2535,7 @@
             // CharacterSkill15_3
             // 
             this.CharacterSkill15_3.AutoSize = true;
-            this.CharacterSkill15_3.Location = new System.Drawing.Point(988, 2066);
+            this.CharacterSkill15_3.Location = new System.Drawing.Point(969, 889);
             this.CharacterSkill15_3.Name = "CharacterSkill15_3";
             this.CharacterSkill15_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill15_3.TabIndex = 193;
@@ -1896,7 +2544,7 @@
             // CharacterSkill15_2
             // 
             this.CharacterSkill15_2.AutoSize = true;
-            this.CharacterSkill15_2.Location = new System.Drawing.Point(896, 2066);
+            this.CharacterSkill15_2.Location = new System.Drawing.Point(877, 889);
             this.CharacterSkill15_2.Name = "CharacterSkill15_2";
             this.CharacterSkill15_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill15_2.TabIndex = 192;
@@ -1905,7 +2553,7 @@
             // CharacterSkill15_1
             // 
             this.CharacterSkill15_1.AutoSize = true;
-            this.CharacterSkill15_1.Location = new System.Drawing.Point(810, 2066);
+            this.CharacterSkill15_1.Location = new System.Drawing.Point(791, 889);
             this.CharacterSkill15_1.Name = "CharacterSkill15_1";
             this.CharacterSkill15_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill15_1.TabIndex = 191;
@@ -1914,7 +2562,7 @@
             // CharacterSkill14_3
             // 
             this.CharacterSkill14_3.AutoSize = true;
-            this.CharacterSkill14_3.Location = new System.Drawing.Point(988, 2016);
+            this.CharacterSkill14_3.Location = new System.Drawing.Point(969, 839);
             this.CharacterSkill14_3.Name = "CharacterSkill14_3";
             this.CharacterSkill14_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill14_3.TabIndex = 190;
@@ -1923,7 +2571,7 @@
             // CharacterSkill14_2
             // 
             this.CharacterSkill14_2.AutoSize = true;
-            this.CharacterSkill14_2.Location = new System.Drawing.Point(896, 2016);
+            this.CharacterSkill14_2.Location = new System.Drawing.Point(877, 839);
             this.CharacterSkill14_2.Name = "CharacterSkill14_2";
             this.CharacterSkill14_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill14_2.TabIndex = 189;
@@ -1932,7 +2580,7 @@
             // CharacterSkill14_1
             // 
             this.CharacterSkill14_1.AutoSize = true;
-            this.CharacterSkill14_1.Location = new System.Drawing.Point(810, 2016);
+            this.CharacterSkill14_1.Location = new System.Drawing.Point(791, 839);
             this.CharacterSkill14_1.Name = "CharacterSkill14_1";
             this.CharacterSkill14_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill14_1.TabIndex = 188;
@@ -1941,7 +2589,7 @@
             // CharacterSkill13_3
             // 
             this.CharacterSkill13_3.AutoSize = true;
-            this.CharacterSkill13_3.Location = new System.Drawing.Point(988, 1966);
+            this.CharacterSkill13_3.Location = new System.Drawing.Point(969, 789);
             this.CharacterSkill13_3.Name = "CharacterSkill13_3";
             this.CharacterSkill13_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill13_3.TabIndex = 187;
@@ -1950,7 +2598,7 @@
             // CharacterSkill13_2
             // 
             this.CharacterSkill13_2.AutoSize = true;
-            this.CharacterSkill13_2.Location = new System.Drawing.Point(896, 1966);
+            this.CharacterSkill13_2.Location = new System.Drawing.Point(877, 789);
             this.CharacterSkill13_2.Name = "CharacterSkill13_2";
             this.CharacterSkill13_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill13_2.TabIndex = 186;
@@ -1959,7 +2607,7 @@
             // CharacterSkill13_1
             // 
             this.CharacterSkill13_1.AutoSize = true;
-            this.CharacterSkill13_1.Location = new System.Drawing.Point(810, 1966);
+            this.CharacterSkill13_1.Location = new System.Drawing.Point(791, 789);
             this.CharacterSkill13_1.Name = "CharacterSkill13_1";
             this.CharacterSkill13_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill13_1.TabIndex = 185;
@@ -1968,7 +2616,7 @@
             // CharacterSkill12_3
             // 
             this.CharacterSkill12_3.AutoSize = true;
-            this.CharacterSkill12_3.Location = new System.Drawing.Point(988, 1916);
+            this.CharacterSkill12_3.Location = new System.Drawing.Point(969, 739);
             this.CharacterSkill12_3.Name = "CharacterSkill12_3";
             this.CharacterSkill12_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill12_3.TabIndex = 184;
@@ -1977,7 +2625,7 @@
             // CharacterSkill12_2
             // 
             this.CharacterSkill12_2.AutoSize = true;
-            this.CharacterSkill12_2.Location = new System.Drawing.Point(896, 1916);
+            this.CharacterSkill12_2.Location = new System.Drawing.Point(877, 739);
             this.CharacterSkill12_2.Name = "CharacterSkill12_2";
             this.CharacterSkill12_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill12_2.TabIndex = 183;
@@ -1986,7 +2634,7 @@
             // CharacterSkill12_1
             // 
             this.CharacterSkill12_1.AutoSize = true;
-            this.CharacterSkill12_1.Location = new System.Drawing.Point(810, 1916);
+            this.CharacterSkill12_1.Location = new System.Drawing.Point(791, 739);
             this.CharacterSkill12_1.Name = "CharacterSkill12_1";
             this.CharacterSkill12_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill12_1.TabIndex = 182;
@@ -1995,7 +2643,7 @@
             // CharacterSkill11_3
             // 
             this.CharacterSkill11_3.AutoSize = true;
-            this.CharacterSkill11_3.Location = new System.Drawing.Point(988, 1866);
+            this.CharacterSkill11_3.Location = new System.Drawing.Point(969, 689);
             this.CharacterSkill11_3.Name = "CharacterSkill11_3";
             this.CharacterSkill11_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill11_3.TabIndex = 181;
@@ -2004,7 +2652,7 @@
             // CharacterSkill11_2
             // 
             this.CharacterSkill11_2.AutoSize = true;
-            this.CharacterSkill11_2.Location = new System.Drawing.Point(896, 1866);
+            this.CharacterSkill11_2.Location = new System.Drawing.Point(877, 689);
             this.CharacterSkill11_2.Name = "CharacterSkill11_2";
             this.CharacterSkill11_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill11_2.TabIndex = 180;
@@ -2013,7 +2661,7 @@
             // CharacterSkill11_1
             // 
             this.CharacterSkill11_1.AutoSize = true;
-            this.CharacterSkill11_1.Location = new System.Drawing.Point(810, 1866);
+            this.CharacterSkill11_1.Location = new System.Drawing.Point(791, 689);
             this.CharacterSkill11_1.Name = "CharacterSkill11_1";
             this.CharacterSkill11_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill11_1.TabIndex = 179;
@@ -2022,7 +2670,7 @@
             // CharacterSkill10_3
             // 
             this.CharacterSkill10_3.AutoSize = true;
-            this.CharacterSkill10_3.Location = new System.Drawing.Point(988, 1816);
+            this.CharacterSkill10_3.Location = new System.Drawing.Point(969, 639);
             this.CharacterSkill10_3.Name = "CharacterSkill10_3";
             this.CharacterSkill10_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill10_3.TabIndex = 178;
@@ -2031,7 +2679,7 @@
             // CharacterSkill10_2
             // 
             this.CharacterSkill10_2.AutoSize = true;
-            this.CharacterSkill10_2.Location = new System.Drawing.Point(896, 1816);
+            this.CharacterSkill10_2.Location = new System.Drawing.Point(877, 639);
             this.CharacterSkill10_2.Name = "CharacterSkill10_2";
             this.CharacterSkill10_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill10_2.TabIndex = 177;
@@ -2040,7 +2688,7 @@
             // CharacterSkill10_1
             // 
             this.CharacterSkill10_1.AutoSize = true;
-            this.CharacterSkill10_1.Location = new System.Drawing.Point(810, 1816);
+            this.CharacterSkill10_1.Location = new System.Drawing.Point(791, 639);
             this.CharacterSkill10_1.Name = "CharacterSkill10_1";
             this.CharacterSkill10_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill10_1.TabIndex = 176;
@@ -2049,7 +2697,7 @@
             // CharacterSkill9_3
             // 
             this.CharacterSkill9_3.AutoSize = true;
-            this.CharacterSkill9_3.Location = new System.Drawing.Point(988, 1766);
+            this.CharacterSkill9_3.Location = new System.Drawing.Point(969, 589);
             this.CharacterSkill9_3.Name = "CharacterSkill9_3";
             this.CharacterSkill9_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill9_3.TabIndex = 175;
@@ -2058,7 +2706,7 @@
             // CharacterSkill9_2
             // 
             this.CharacterSkill9_2.AutoSize = true;
-            this.CharacterSkill9_2.Location = new System.Drawing.Point(896, 1766);
+            this.CharacterSkill9_2.Location = new System.Drawing.Point(877, 589);
             this.CharacterSkill9_2.Name = "CharacterSkill9_2";
             this.CharacterSkill9_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill9_2.TabIndex = 174;
@@ -2067,7 +2715,7 @@
             // CharacterSkill9_1
             // 
             this.CharacterSkill9_1.AutoSize = true;
-            this.CharacterSkill9_1.Location = new System.Drawing.Point(810, 1766);
+            this.CharacterSkill9_1.Location = new System.Drawing.Point(791, 589);
             this.CharacterSkill9_1.Name = "CharacterSkill9_1";
             this.CharacterSkill9_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill9_1.TabIndex = 173;
@@ -2076,7 +2724,7 @@
             // CharacterSkill8_3
             // 
             this.CharacterSkill8_3.AutoSize = true;
-            this.CharacterSkill8_3.Location = new System.Drawing.Point(988, 1716);
+            this.CharacterSkill8_3.Location = new System.Drawing.Point(969, 539);
             this.CharacterSkill8_3.Name = "CharacterSkill8_3";
             this.CharacterSkill8_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill8_3.TabIndex = 172;
@@ -2085,7 +2733,7 @@
             // CharacterSkill8_2
             // 
             this.CharacterSkill8_2.AutoSize = true;
-            this.CharacterSkill8_2.Location = new System.Drawing.Point(896, 1716);
+            this.CharacterSkill8_2.Location = new System.Drawing.Point(877, 539);
             this.CharacterSkill8_2.Name = "CharacterSkill8_2";
             this.CharacterSkill8_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill8_2.TabIndex = 171;
@@ -2094,7 +2742,7 @@
             // CharacterSkill8_1
             // 
             this.CharacterSkill8_1.AutoSize = true;
-            this.CharacterSkill8_1.Location = new System.Drawing.Point(810, 1716);
+            this.CharacterSkill8_1.Location = new System.Drawing.Point(791, 539);
             this.CharacterSkill8_1.Name = "CharacterSkill8_1";
             this.CharacterSkill8_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill8_1.TabIndex = 170;
@@ -2103,7 +2751,7 @@
             // CharacterSkill7_3
             // 
             this.CharacterSkill7_3.AutoSize = true;
-            this.CharacterSkill7_3.Location = new System.Drawing.Point(988, 1666);
+            this.CharacterSkill7_3.Location = new System.Drawing.Point(969, 489);
             this.CharacterSkill7_3.Name = "CharacterSkill7_3";
             this.CharacterSkill7_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill7_3.TabIndex = 169;
@@ -2112,7 +2760,7 @@
             // CharacterSkill7_2
             // 
             this.CharacterSkill7_2.AutoSize = true;
-            this.CharacterSkill7_2.Location = new System.Drawing.Point(896, 1666);
+            this.CharacterSkill7_2.Location = new System.Drawing.Point(877, 489);
             this.CharacterSkill7_2.Name = "CharacterSkill7_2";
             this.CharacterSkill7_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill7_2.TabIndex = 168;
@@ -2121,7 +2769,7 @@
             // CharacterSkill7_1
             // 
             this.CharacterSkill7_1.AutoSize = true;
-            this.CharacterSkill7_1.Location = new System.Drawing.Point(810, 1666);
+            this.CharacterSkill7_1.Location = new System.Drawing.Point(791, 489);
             this.CharacterSkill7_1.Name = "CharacterSkill7_1";
             this.CharacterSkill7_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill7_1.TabIndex = 167;
@@ -2130,7 +2778,7 @@
             // CharacterSkill6_3
             // 
             this.CharacterSkill6_3.AutoSize = true;
-            this.CharacterSkill6_3.Location = new System.Drawing.Point(988, 1616);
+            this.CharacterSkill6_3.Location = new System.Drawing.Point(969, 439);
             this.CharacterSkill6_3.Name = "CharacterSkill6_3";
             this.CharacterSkill6_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill6_3.TabIndex = 166;
@@ -2139,7 +2787,7 @@
             // CharacterSkill6_2
             // 
             this.CharacterSkill6_2.AutoSize = true;
-            this.CharacterSkill6_2.Location = new System.Drawing.Point(896, 1616);
+            this.CharacterSkill6_2.Location = new System.Drawing.Point(877, 439);
             this.CharacterSkill6_2.Name = "CharacterSkill6_2";
             this.CharacterSkill6_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill6_2.TabIndex = 165;
@@ -2148,7 +2796,7 @@
             // CharacterSkill6_1
             // 
             this.CharacterSkill6_1.AutoSize = true;
-            this.CharacterSkill6_1.Location = new System.Drawing.Point(810, 1616);
+            this.CharacterSkill6_1.Location = new System.Drawing.Point(791, 439);
             this.CharacterSkill6_1.Name = "CharacterSkill6_1";
             this.CharacterSkill6_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill6_1.TabIndex = 164;
@@ -2157,7 +2805,7 @@
             // CharacterSkill5_3
             // 
             this.CharacterSkill5_3.AutoSize = true;
-            this.CharacterSkill5_3.Location = new System.Drawing.Point(988, 1566);
+            this.CharacterSkill5_3.Location = new System.Drawing.Point(969, 389);
             this.CharacterSkill5_3.Name = "CharacterSkill5_3";
             this.CharacterSkill5_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill5_3.TabIndex = 163;
@@ -2166,7 +2814,7 @@
             // CharacterSkill5_2
             // 
             this.CharacterSkill5_2.AutoSize = true;
-            this.CharacterSkill5_2.Location = new System.Drawing.Point(896, 1566);
+            this.CharacterSkill5_2.Location = new System.Drawing.Point(877, 389);
             this.CharacterSkill5_2.Name = "CharacterSkill5_2";
             this.CharacterSkill5_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill5_2.TabIndex = 162;
@@ -2175,7 +2823,7 @@
             // CharacterSkill5_1
             // 
             this.CharacterSkill5_1.AutoSize = true;
-            this.CharacterSkill5_1.Location = new System.Drawing.Point(810, 1566);
+            this.CharacterSkill5_1.Location = new System.Drawing.Point(791, 389);
             this.CharacterSkill5_1.Name = "CharacterSkill5_1";
             this.CharacterSkill5_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill5_1.TabIndex = 161;
@@ -2184,7 +2832,7 @@
             // CharacterSkill4_3
             // 
             this.CharacterSkill4_3.AutoSize = true;
-            this.CharacterSkill4_3.Location = new System.Drawing.Point(988, 1516);
+            this.CharacterSkill4_3.Location = new System.Drawing.Point(969, 339);
             this.CharacterSkill4_3.Name = "CharacterSkill4_3";
             this.CharacterSkill4_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill4_3.TabIndex = 160;
@@ -2193,7 +2841,7 @@
             // CharacterSkill4_2
             // 
             this.CharacterSkill4_2.AutoSize = true;
-            this.CharacterSkill4_2.Location = new System.Drawing.Point(896, 1516);
+            this.CharacterSkill4_2.Location = new System.Drawing.Point(877, 339);
             this.CharacterSkill4_2.Name = "CharacterSkill4_2";
             this.CharacterSkill4_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill4_2.TabIndex = 159;
@@ -2202,7 +2850,7 @@
             // CharacterSkill4_1
             // 
             this.CharacterSkill4_1.AutoSize = true;
-            this.CharacterSkill4_1.Location = new System.Drawing.Point(810, 1516);
+            this.CharacterSkill4_1.Location = new System.Drawing.Point(791, 339);
             this.CharacterSkill4_1.Name = "CharacterSkill4_1";
             this.CharacterSkill4_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill4_1.TabIndex = 158;
@@ -2211,7 +2859,7 @@
             // CharacterSkill3_3
             // 
             this.CharacterSkill3_3.AutoSize = true;
-            this.CharacterSkill3_3.Location = new System.Drawing.Point(988, 1466);
+            this.CharacterSkill3_3.Location = new System.Drawing.Point(969, 289);
             this.CharacterSkill3_3.Name = "CharacterSkill3_3";
             this.CharacterSkill3_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill3_3.TabIndex = 157;
@@ -2220,7 +2868,7 @@
             // CharacterSkill3_2
             // 
             this.CharacterSkill3_2.AutoSize = true;
-            this.CharacterSkill3_2.Location = new System.Drawing.Point(896, 1466);
+            this.CharacterSkill3_2.Location = new System.Drawing.Point(877, 289);
             this.CharacterSkill3_2.Name = "CharacterSkill3_2";
             this.CharacterSkill3_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill3_2.TabIndex = 156;
@@ -2229,7 +2877,7 @@
             // CharacterSkill3_1
             // 
             this.CharacterSkill3_1.AutoSize = true;
-            this.CharacterSkill3_1.Location = new System.Drawing.Point(810, 1466);
+            this.CharacterSkill3_1.Location = new System.Drawing.Point(791, 289);
             this.CharacterSkill3_1.Name = "CharacterSkill3_1";
             this.CharacterSkill3_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill3_1.TabIndex = 155;
@@ -2238,7 +2886,7 @@
             // CharacterSkill2_3
             // 
             this.CharacterSkill2_3.AutoSize = true;
-            this.CharacterSkill2_3.Location = new System.Drawing.Point(988, 1416);
+            this.CharacterSkill2_3.Location = new System.Drawing.Point(969, 239);
             this.CharacterSkill2_3.Name = "CharacterSkill2_3";
             this.CharacterSkill2_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill2_3.TabIndex = 154;
@@ -2247,7 +2895,7 @@
             // CharacterSkill2_2
             // 
             this.CharacterSkill2_2.AutoSize = true;
-            this.CharacterSkill2_2.Location = new System.Drawing.Point(896, 1416);
+            this.CharacterSkill2_2.Location = new System.Drawing.Point(877, 239);
             this.CharacterSkill2_2.Name = "CharacterSkill2_2";
             this.CharacterSkill2_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill2_2.TabIndex = 153;
@@ -2256,7 +2904,7 @@
             // CharacterSkill2_1
             // 
             this.CharacterSkill2_1.AutoSize = true;
-            this.CharacterSkill2_1.Location = new System.Drawing.Point(810, 1416);
+            this.CharacterSkill2_1.Location = new System.Drawing.Point(791, 239);
             this.CharacterSkill2_1.Name = "CharacterSkill2_1";
             this.CharacterSkill2_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill2_1.TabIndex = 152;
@@ -2265,7 +2913,7 @@
             // CharacterSkill1_3
             // 
             this.CharacterSkill1_3.AutoSize = true;
-            this.CharacterSkill1_3.Location = new System.Drawing.Point(988, 1366);
+            this.CharacterSkill1_3.Location = new System.Drawing.Point(969, 189);
             this.CharacterSkill1_3.Name = "CharacterSkill1_3";
             this.CharacterSkill1_3.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill1_3.TabIndex = 151;
@@ -2274,7 +2922,7 @@
             // CharacterSkill1_2
             // 
             this.CharacterSkill1_2.AutoSize = true;
-            this.CharacterSkill1_2.Location = new System.Drawing.Point(896, 1366);
+            this.CharacterSkill1_2.Location = new System.Drawing.Point(877, 189);
             this.CharacterSkill1_2.Name = "CharacterSkill1_2";
             this.CharacterSkill1_2.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill1_2.TabIndex = 150;
@@ -2283,7 +2931,7 @@
             // CharacterSkill1_1
             // 
             this.CharacterSkill1_1.AutoSize = true;
-            this.CharacterSkill1_1.Location = new System.Drawing.Point(810, 1366);
+            this.CharacterSkill1_1.Location = new System.Drawing.Point(791, 189);
             this.CharacterSkill1_1.Name = "CharacterSkill1_1";
             this.CharacterSkill1_1.Size = new System.Drawing.Size(15, 14);
             this.CharacterSkill1_1.TabIndex = 149;
@@ -2293,7 +2941,7 @@
             // 
             this.SecondPictureBox.ContextMenuStrip = this.PageMenuStrip;
             this.SecondPictureBox.ImageLocation = "D:\\vs\\repos\\WFRPManager\\WFRPManager\\resources\\w1.png";
-            this.SecondPictureBox.Location = new System.Drawing.Point(385, 1177);
+            this.SecondPictureBox.Location = new System.Drawing.Point(366, 0);
             this.SecondPictureBox.Name = "SecondPictureBox";
             this.SecondPictureBox.Size = new System.Drawing.Size(1672, 2175);
             this.SecondPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2319,7 +2967,7 @@
             this.CharacterBody.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterBody.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterBody.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterBody.Location = new System.Drawing.Point(1738, 1977);
+            this.CharacterBody.Location = new System.Drawing.Point(1898, 4331);
             this.CharacterBody.Name = "CharacterBody";
             this.CharacterBody.Size = new System.Drawing.Size(68, 37);
             this.CharacterBody.TabIndex = 148;
@@ -2329,7 +2977,7 @@
             this.CharacterLeftLeg.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterLeftLeg.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterLeftLeg.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterLeftLeg.Location = new System.Drawing.Point(1738, 2672);
+            this.CharacterLeftLeg.Location = new System.Drawing.Point(1898, 5026);
             this.CharacterLeftLeg.Name = "CharacterLeftLeg";
             this.CharacterLeftLeg.Size = new System.Drawing.Size(68, 37);
             this.CharacterLeftLeg.TabIndex = 147;
@@ -2339,7 +2987,7 @@
             this.CharacterLeftArm.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterLeftArm.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterLeftArm.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterLeftArm.Location = new System.Drawing.Point(1738, 2312);
+            this.CharacterLeftArm.Location = new System.Drawing.Point(1898, 4666);
             this.CharacterLeftArm.Name = "CharacterLeftArm";
             this.CharacterLeftArm.Size = new System.Drawing.Size(68, 37);
             this.CharacterLeftArm.TabIndex = 146;
@@ -2349,7 +2997,7 @@
             this.CharacterRightLeg.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterRightLeg.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterRightLeg.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterRightLeg.Location = new System.Drawing.Point(1210, 2672);
+            this.CharacterRightLeg.Location = new System.Drawing.Point(1370, 5026);
             this.CharacterRightLeg.Name = "CharacterRightLeg";
             this.CharacterRightLeg.Size = new System.Drawing.Size(68, 37);
             this.CharacterRightLeg.TabIndex = 145;
@@ -2359,7 +3007,7 @@
             this.CharacterRightArm.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterRightArm.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterRightArm.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterRightArm.Location = new System.Drawing.Point(1210, 2312);
+            this.CharacterRightArm.Location = new System.Drawing.Point(1370, 4666);
             this.CharacterRightArm.Name = "CharacterRightArm";
             this.CharacterRightArm.Size = new System.Drawing.Size(68, 37);
             this.CharacterRightArm.TabIndex = 144;
@@ -2369,7 +3017,7 @@
             this.CharacterHead.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterHead.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterHead.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterHead.Location = new System.Drawing.Point(1210, 1977);
+            this.CharacterHead.Location = new System.Drawing.Point(1370, 4331);
             this.CharacterHead.Name = "CharacterHead";
             this.CharacterHead.Size = new System.Drawing.Size(68, 37);
             this.CharacterHead.TabIndex = 143;
@@ -2379,7 +3027,7 @@
             this.CharacterSprint.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterSprint.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterSprint.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterSprint.Location = new System.Drawing.Point(1672, 1785);
+            this.CharacterSprint.Location = new System.Drawing.Point(1832, 4139);
             this.CharacterSprint.Name = "CharacterSprint";
             this.CharacterSprint.Size = new System.Drawing.Size(176, 37);
             this.CharacterSprint.TabIndex = 142;
@@ -2389,7 +3037,7 @@
             this.CharacterCharge.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterCharge.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterCharge.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterCharge.Location = new System.Drawing.Point(1451, 1785);
+            this.CharacterCharge.Location = new System.Drawing.Point(1611, 4139);
             this.CharacterCharge.Name = "CharacterCharge";
             this.CharacterCharge.Size = new System.Drawing.Size(156, 37);
             this.CharacterCharge.TabIndex = 141;
@@ -2399,7 +3047,7 @@
             this.CharacterMovementRetreat.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterMovementRetreat.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterMovementRetreat.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterMovementRetreat.Location = new System.Drawing.Point(1288, 1785);
+            this.CharacterMovementRetreat.Location = new System.Drawing.Point(1448, 4139);
             this.CharacterMovementRetreat.Name = "CharacterMovementRetreat";
             this.CharacterMovementRetreat.Size = new System.Drawing.Size(84, 37);
             this.CharacterMovementRetreat.TabIndex = 140;
@@ -2409,7 +3057,7 @@
             this.CharacterTotalXP.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterTotalXP.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterTotalXP.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterTotalXP.Location = new System.Drawing.Point(1451, 1665);
+            this.CharacterTotalXP.Location = new System.Drawing.Point(1611, 4019);
             this.CharacterTotalXP.Name = "CharacterTotalXP";
             this.CharacterTotalXP.Size = new System.Drawing.Size(347, 37);
             this.CharacterTotalXP.TabIndex = 139;
@@ -2419,7 +3067,7 @@
             this.CharacterCurrentXP.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterCurrentXP.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterCurrentXP.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterCurrentXP.Location = new System.Drawing.Point(1242, 1665);
+            this.CharacterCurrentXP.Location = new System.Drawing.Point(1402, 4019);
             this.CharacterCurrentXP.Name = "CharacterCurrentXP";
             this.CharacterCurrentXP.Size = new System.Drawing.Size(130, 37);
             this.CharacterCurrentXP.TabIndex = 138;
@@ -2429,7 +3077,7 @@
             this.CampaignYear.BackColor = System.Drawing.SystemColors.Window;
             this.CampaignYear.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CampaignYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CampaignYear.Location = new System.Drawing.Point(1642, 1545);
+            this.CampaignYear.Location = new System.Drawing.Point(1802, 3899);
             this.CampaignYear.Name = "CampaignYear";
             this.CampaignYear.Size = new System.Drawing.Size(206, 37);
             this.CampaignYear.TabIndex = 137;
@@ -2439,7 +3087,7 @@
             this.GameMaster.BackColor = System.Drawing.SystemColors.Window;
             this.GameMaster.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.GameMaster.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GameMaster.Location = new System.Drawing.Point(1622, 1497);
+            this.GameMaster.Location = new System.Drawing.Point(1782, 3851);
             this.GameMaster.Name = "GameMaster";
             this.GameMaster.Size = new System.Drawing.Size(226, 37);
             this.GameMaster.TabIndex = 136;
@@ -2449,7 +3097,7 @@
             this.CampaignName.BackColor = System.Drawing.SystemColors.Window;
             this.CampaignName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CampaignName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CampaignName.Location = new System.Drawing.Point(1269, 1545);
+            this.CampaignName.Location = new System.Drawing.Point(1429, 3899);
             this.CampaignName.Name = "CampaignName";
             this.CampaignName.Size = new System.Drawing.Size(232, 37);
             this.CampaignName.TabIndex = 135;
@@ -2459,7 +3107,7 @@
             this.PlayerName.BackColor = System.Drawing.SystemColors.Window;
             this.PlayerName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.PlayerName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PlayerName.Location = new System.Drawing.Point(1216, 1497);
+            this.PlayerName.Location = new System.Drawing.Point(1376, 3851);
             this.PlayerName.Name = "PlayerName";
             this.PlayerName.Size = new System.Drawing.Size(285, 37);
             this.PlayerName.TabIndex = 134;
@@ -2469,7 +3117,7 @@
             this.AdvancedArmorPZ6.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorPZ6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorPZ6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorPZ6.Location = new System.Drawing.Point(1044, 3173);
+            this.AdvancedArmorPZ6.Location = new System.Drawing.Point(1204, 5527);
             this.AdvancedArmorPZ6.Name = "AdvancedArmorPZ6";
             this.AdvancedArmorPZ6.Size = new System.Drawing.Size(62, 37);
             this.AdvancedArmorPZ6.TabIndex = 133;
@@ -2479,7 +3127,7 @@
             this.AdvancedArmorLocation6.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorLocation6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorLocation6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorLocation6.Location = new System.Drawing.Point(709, 3173);
+            this.AdvancedArmorLocation6.Location = new System.Drawing.Point(869, 5527);
             this.AdvancedArmorLocation6.Name = "AdvancedArmorLocation6";
             this.AdvancedArmorLocation6.Size = new System.Drawing.Size(329, 37);
             this.AdvancedArmorLocation6.TabIndex = 132;
@@ -2489,7 +3137,7 @@
             this.AdvancedArmorWeight6.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorWeight6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorWeight6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorWeight6.Location = new System.Drawing.Point(635, 3173);
+            this.AdvancedArmorWeight6.Location = new System.Drawing.Point(795, 5527);
             this.AdvancedArmorWeight6.Name = "AdvancedArmorWeight6";
             this.AdvancedArmorWeight6.Size = new System.Drawing.Size(68, 37);
             this.AdvancedArmorWeight6.TabIndex = 131;
@@ -2499,7 +3147,7 @@
             this.AdvancedArmorType6.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorType6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorType6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorType6.Location = new System.Drawing.Point(428, 3173);
+            this.AdvancedArmorType6.Location = new System.Drawing.Point(588, 5527);
             this.AdvancedArmorType6.Name = "AdvancedArmorType6";
             this.AdvancedArmorType6.Size = new System.Drawing.Size(200, 37);
             this.AdvancedArmorType6.TabIndex = 130;
@@ -2509,7 +3157,7 @@
             this.AdvancedArmorPZ5.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorPZ5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorPZ5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorPZ5.Location = new System.Drawing.Point(1044, 3126);
+            this.AdvancedArmorPZ5.Location = new System.Drawing.Point(1204, 5480);
             this.AdvancedArmorPZ5.Name = "AdvancedArmorPZ5";
             this.AdvancedArmorPZ5.Size = new System.Drawing.Size(62, 37);
             this.AdvancedArmorPZ5.TabIndex = 129;
@@ -2519,7 +3167,7 @@
             this.AdvancedArmorLocation5.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorLocation5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorLocation5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorLocation5.Location = new System.Drawing.Point(709, 3126);
+            this.AdvancedArmorLocation5.Location = new System.Drawing.Point(869, 5480);
             this.AdvancedArmorLocation5.Name = "AdvancedArmorLocation5";
             this.AdvancedArmorLocation5.Size = new System.Drawing.Size(329, 37);
             this.AdvancedArmorLocation5.TabIndex = 128;
@@ -2529,7 +3177,7 @@
             this.AdvancedArmorWeight5.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorWeight5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorWeight5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorWeight5.Location = new System.Drawing.Point(635, 3126);
+            this.AdvancedArmorWeight5.Location = new System.Drawing.Point(795, 5480);
             this.AdvancedArmorWeight5.Name = "AdvancedArmorWeight5";
             this.AdvancedArmorWeight5.Size = new System.Drawing.Size(68, 37);
             this.AdvancedArmorWeight5.TabIndex = 127;
@@ -2539,7 +3187,7 @@
             this.AdvancedArmorType5.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorType5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorType5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorType5.Location = new System.Drawing.Point(428, 3126);
+            this.AdvancedArmorType5.Location = new System.Drawing.Point(588, 5480);
             this.AdvancedArmorType5.Name = "AdvancedArmorType5";
             this.AdvancedArmorType5.Size = new System.Drawing.Size(200, 37);
             this.AdvancedArmorType5.TabIndex = 126;
@@ -2549,7 +3197,7 @@
             this.AdvancedArmorPZ4.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorPZ4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorPZ4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorPZ4.Location = new System.Drawing.Point(1044, 3079);
+            this.AdvancedArmorPZ4.Location = new System.Drawing.Point(1204, 5433);
             this.AdvancedArmorPZ4.Name = "AdvancedArmorPZ4";
             this.AdvancedArmorPZ4.Size = new System.Drawing.Size(62, 37);
             this.AdvancedArmorPZ4.TabIndex = 125;
@@ -2559,7 +3207,7 @@
             this.AdvancedArmorLocation4.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorLocation4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorLocation4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorLocation4.Location = new System.Drawing.Point(709, 3079);
+            this.AdvancedArmorLocation4.Location = new System.Drawing.Point(869, 5433);
             this.AdvancedArmorLocation4.Name = "AdvancedArmorLocation4";
             this.AdvancedArmorLocation4.Size = new System.Drawing.Size(329, 37);
             this.AdvancedArmorLocation4.TabIndex = 124;
@@ -2569,7 +3217,7 @@
             this.AdvancedArmorWeight4.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorWeight4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorWeight4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorWeight4.Location = new System.Drawing.Point(635, 3079);
+            this.AdvancedArmorWeight4.Location = new System.Drawing.Point(795, 5433);
             this.AdvancedArmorWeight4.Name = "AdvancedArmorWeight4";
             this.AdvancedArmorWeight4.Size = new System.Drawing.Size(68, 37);
             this.AdvancedArmorWeight4.TabIndex = 123;
@@ -2579,7 +3227,7 @@
             this.AdvancedArmorType4.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorType4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorType4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorType4.Location = new System.Drawing.Point(428, 3079);
+            this.AdvancedArmorType4.Location = new System.Drawing.Point(588, 5433);
             this.AdvancedArmorType4.Name = "AdvancedArmorType4";
             this.AdvancedArmorType4.Size = new System.Drawing.Size(200, 37);
             this.AdvancedArmorType4.TabIndex = 122;
@@ -2589,7 +3237,7 @@
             this.AdvancedArmorPZ3.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorPZ3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorPZ3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorPZ3.Location = new System.Drawing.Point(1044, 3032);
+            this.AdvancedArmorPZ3.Location = new System.Drawing.Point(1204, 5386);
             this.AdvancedArmorPZ3.Name = "AdvancedArmorPZ3";
             this.AdvancedArmorPZ3.Size = new System.Drawing.Size(62, 37);
             this.AdvancedArmorPZ3.TabIndex = 121;
@@ -2599,7 +3247,7 @@
             this.AdvancedArmorLocation3.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorLocation3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorLocation3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorLocation3.Location = new System.Drawing.Point(709, 3032);
+            this.AdvancedArmorLocation3.Location = new System.Drawing.Point(869, 5386);
             this.AdvancedArmorLocation3.Name = "AdvancedArmorLocation3";
             this.AdvancedArmorLocation3.Size = new System.Drawing.Size(329, 37);
             this.AdvancedArmorLocation3.TabIndex = 120;
@@ -2609,7 +3257,7 @@
             this.AdvancedArmorWeight3.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorWeight3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorWeight3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorWeight3.Location = new System.Drawing.Point(635, 3032);
+            this.AdvancedArmorWeight3.Location = new System.Drawing.Point(795, 5386);
             this.AdvancedArmorWeight3.Name = "AdvancedArmorWeight3";
             this.AdvancedArmorWeight3.Size = new System.Drawing.Size(68, 37);
             this.AdvancedArmorWeight3.TabIndex = 119;
@@ -2619,7 +3267,7 @@
             this.AdvancedArmorType3.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorType3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorType3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorType3.Location = new System.Drawing.Point(428, 3032);
+            this.AdvancedArmorType3.Location = new System.Drawing.Point(588, 5386);
             this.AdvancedArmorType3.Name = "AdvancedArmorType3";
             this.AdvancedArmorType3.Size = new System.Drawing.Size(200, 37);
             this.AdvancedArmorType3.TabIndex = 118;
@@ -2629,7 +3277,7 @@
             this.AdvancedArmorPZ2.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorPZ2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorPZ2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorPZ2.Location = new System.Drawing.Point(1044, 2983);
+            this.AdvancedArmorPZ2.Location = new System.Drawing.Point(1204, 5337);
             this.AdvancedArmorPZ2.Name = "AdvancedArmorPZ2";
             this.AdvancedArmorPZ2.Size = new System.Drawing.Size(62, 37);
             this.AdvancedArmorPZ2.TabIndex = 117;
@@ -2639,7 +3287,7 @@
             this.AdvancedArmorLocation2.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorLocation2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorLocation2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorLocation2.Location = new System.Drawing.Point(709, 2983);
+            this.AdvancedArmorLocation2.Location = new System.Drawing.Point(869, 5337);
             this.AdvancedArmorLocation2.Name = "AdvancedArmorLocation2";
             this.AdvancedArmorLocation2.Size = new System.Drawing.Size(329, 37);
             this.AdvancedArmorLocation2.TabIndex = 116;
@@ -2649,7 +3297,7 @@
             this.AdvancedArmorWeight2.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorWeight2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorWeight2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorWeight2.Location = new System.Drawing.Point(635, 2983);
+            this.AdvancedArmorWeight2.Location = new System.Drawing.Point(795, 5337);
             this.AdvancedArmorWeight2.Name = "AdvancedArmorWeight2";
             this.AdvancedArmorWeight2.Size = new System.Drawing.Size(68, 37);
             this.AdvancedArmorWeight2.TabIndex = 115;
@@ -2659,7 +3307,7 @@
             this.AdvancedArmorType2.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorType2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorType2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorType2.Location = new System.Drawing.Point(428, 2983);
+            this.AdvancedArmorType2.Location = new System.Drawing.Point(588, 5337);
             this.AdvancedArmorType2.Name = "AdvancedArmorType2";
             this.AdvancedArmorType2.Size = new System.Drawing.Size(200, 37);
             this.AdvancedArmorType2.TabIndex = 114;
@@ -2669,7 +3317,7 @@
             this.AdvancedArmorPZ1.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorPZ1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorPZ1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorPZ1.Location = new System.Drawing.Point(1044, 2936);
+            this.AdvancedArmorPZ1.Location = new System.Drawing.Point(1204, 5290);
             this.AdvancedArmorPZ1.Name = "AdvancedArmorPZ1";
             this.AdvancedArmorPZ1.Size = new System.Drawing.Size(62, 37);
             this.AdvancedArmorPZ1.TabIndex = 113;
@@ -2679,7 +3327,7 @@
             this.AdvancedArmorLocation1.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorLocation1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorLocation1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorLocation1.Location = new System.Drawing.Point(709, 2936);
+            this.AdvancedArmorLocation1.Location = new System.Drawing.Point(869, 5290);
             this.AdvancedArmorLocation1.Name = "AdvancedArmorLocation1";
             this.AdvancedArmorLocation1.Size = new System.Drawing.Size(329, 37);
             this.AdvancedArmorLocation1.TabIndex = 112;
@@ -2689,7 +3337,7 @@
             this.AdvancedArmorWeight1.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorWeight1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorWeight1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorWeight1.Location = new System.Drawing.Point(635, 2936);
+            this.AdvancedArmorWeight1.Location = new System.Drawing.Point(795, 5290);
             this.AdvancedArmorWeight1.Name = "AdvancedArmorWeight1";
             this.AdvancedArmorWeight1.Size = new System.Drawing.Size(68, 37);
             this.AdvancedArmorWeight1.TabIndex = 111;
@@ -2699,7 +3347,7 @@
             this.AdvancedArmorType1.BackColor = System.Drawing.SystemColors.Window;
             this.AdvancedArmorType1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AdvancedArmorType1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorType1.Location = new System.Drawing.Point(428, 2936);
+            this.AdvancedArmorType1.Location = new System.Drawing.Point(588, 5290);
             this.AdvancedArmorType1.Name = "AdvancedArmorType1";
             this.AdvancedArmorType1.Size = new System.Drawing.Size(200, 37);
             this.AdvancedArmorType1.TabIndex = 110;
@@ -2709,7 +3357,7 @@
             this.SimpleArmorPZ.BackColor = System.Drawing.SystemColors.Window;
             this.SimpleArmorPZ.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.SimpleArmorPZ.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SimpleArmorPZ.Location = new System.Drawing.Point(874, 2815);
+            this.SimpleArmorPZ.Location = new System.Drawing.Point(1034, 5169);
             this.SimpleArmorPZ.Name = "SimpleArmorPZ";
             this.SimpleArmorPZ.Size = new System.Drawing.Size(227, 37);
             this.SimpleArmorPZ.TabIndex = 109;
@@ -2719,7 +3367,7 @@
             this.SimpleArmourType.BackColor = System.Drawing.SystemColors.Window;
             this.SimpleArmourType.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.SimpleArmourType.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SimpleArmourType.Location = new System.Drawing.Point(523, 2815);
+            this.SimpleArmourType.Location = new System.Drawing.Point(683, 5169);
             this.SimpleArmourType.Name = "SimpleArmourType";
             this.SimpleArmourType.Size = new System.Drawing.Size(235, 37);
             this.SimpleArmourType.TabIndex = 108;
@@ -2729,7 +3377,7 @@
             this.WeaponTraits6.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponTraits6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponTraits6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponTraits6.Location = new System.Drawing.Point(970, 2647);
+            this.WeaponTraits6.Location = new System.Drawing.Point(1130, 5001);
             this.WeaponTraits6.Name = "WeaponTraits6";
             this.WeaponTraits6.Size = new System.Drawing.Size(131, 37);
             this.WeaponTraits6.TabIndex = 107;
@@ -2739,7 +3387,7 @@
             this.WeaponReload6.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponReload6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponReload6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponReload6.Location = new System.Drawing.Point(898, 2647);
+            this.WeaponReload6.Location = new System.Drawing.Point(1058, 5001);
             this.WeaponReload6.Name = "WeaponReload6";
             this.WeaponReload6.Size = new System.Drawing.Size(66, 37);
             this.WeaponReload6.TabIndex = 106;
@@ -2749,7 +3397,7 @@
             this.WeaponRange6.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponRange6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponRange6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponRange6.Location = new System.Drawing.Point(826, 2647);
+            this.WeaponRange6.Location = new System.Drawing.Point(986, 5001);
             this.WeaponRange6.Name = "WeaponRange6";
             this.WeaponRange6.Size = new System.Drawing.Size(66, 37);
             this.WeaponRange6.TabIndex = 105;
@@ -2759,7 +3407,7 @@
             this.WeaponStrength6.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponStrength6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponStrength6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponStrength6.Location = new System.Drawing.Point(755, 2647);
+            this.WeaponStrength6.Location = new System.Drawing.Point(915, 5001);
             this.WeaponStrength6.Name = "WeaponStrength6";
             this.WeaponStrength6.Size = new System.Drawing.Size(66, 37);
             this.WeaponStrength6.TabIndex = 104;
@@ -2769,7 +3417,7 @@
             this.WeaponCategory6.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponCategory6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponCategory6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponCategory6.Location = new System.Drawing.Point(682, 2647);
+            this.WeaponCategory6.Location = new System.Drawing.Point(842, 5001);
             this.WeaponCategory6.Name = "WeaponCategory6";
             this.WeaponCategory6.Size = new System.Drawing.Size(66, 37);
             this.WeaponCategory6.TabIndex = 103;
@@ -2779,7 +3427,7 @@
             this.WeaponWeight6.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponWeight6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponWeight6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponWeight6.Location = new System.Drawing.Point(611, 2647);
+            this.WeaponWeight6.Location = new System.Drawing.Point(771, 5001);
             this.WeaponWeight6.Name = "WeaponWeight6";
             this.WeaponWeight6.Size = new System.Drawing.Size(66, 37);
             this.WeaponWeight6.TabIndex = 102;
@@ -2789,7 +3437,7 @@
             this.WeaponName6.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponName6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponName6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponName6.Location = new System.Drawing.Point(428, 2647);
+            this.WeaponName6.Location = new System.Drawing.Point(588, 5001);
             this.WeaponName6.Name = "WeaponName6";
             this.WeaponName6.Size = new System.Drawing.Size(176, 37);
             this.WeaponName6.TabIndex = 101;
@@ -2799,7 +3447,7 @@
             this.WeaponTraits5.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponTraits5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponTraits5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponTraits5.Location = new System.Drawing.Point(970, 2599);
+            this.WeaponTraits5.Location = new System.Drawing.Point(1130, 4953);
             this.WeaponTraits5.Name = "WeaponTraits5";
             this.WeaponTraits5.Size = new System.Drawing.Size(131, 37);
             this.WeaponTraits5.TabIndex = 100;
@@ -2809,7 +3457,7 @@
             this.WeaponReload5.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponReload5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponReload5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponReload5.Location = new System.Drawing.Point(898, 2599);
+            this.WeaponReload5.Location = new System.Drawing.Point(1058, 4953);
             this.WeaponReload5.Name = "WeaponReload5";
             this.WeaponReload5.Size = new System.Drawing.Size(66, 37);
             this.WeaponReload5.TabIndex = 99;
@@ -2819,7 +3467,7 @@
             this.WeaponRange5.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponRange5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponRange5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponRange5.Location = new System.Drawing.Point(826, 2599);
+            this.WeaponRange5.Location = new System.Drawing.Point(986, 4953);
             this.WeaponRange5.Name = "WeaponRange5";
             this.WeaponRange5.Size = new System.Drawing.Size(66, 37);
             this.WeaponRange5.TabIndex = 98;
@@ -2829,7 +3477,7 @@
             this.WeaponStrength5.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponStrength5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponStrength5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponStrength5.Location = new System.Drawing.Point(755, 2599);
+            this.WeaponStrength5.Location = new System.Drawing.Point(915, 4953);
             this.WeaponStrength5.Name = "WeaponStrength5";
             this.WeaponStrength5.Size = new System.Drawing.Size(66, 37);
             this.WeaponStrength5.TabIndex = 97;
@@ -2839,7 +3487,7 @@
             this.WeaponCategory5.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponCategory5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponCategory5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponCategory5.Location = new System.Drawing.Point(682, 2599);
+            this.WeaponCategory5.Location = new System.Drawing.Point(842, 4953);
             this.WeaponCategory5.Name = "WeaponCategory5";
             this.WeaponCategory5.Size = new System.Drawing.Size(66, 37);
             this.WeaponCategory5.TabIndex = 96;
@@ -2849,7 +3497,7 @@
             this.WeaponWeight5.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponWeight5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponWeight5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponWeight5.Location = new System.Drawing.Point(611, 2599);
+            this.WeaponWeight5.Location = new System.Drawing.Point(771, 4953);
             this.WeaponWeight5.Name = "WeaponWeight5";
             this.WeaponWeight5.Size = new System.Drawing.Size(66, 37);
             this.WeaponWeight5.TabIndex = 95;
@@ -2859,7 +3507,7 @@
             this.WeaponName5.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponName5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponName5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponName5.Location = new System.Drawing.Point(428, 2599);
+            this.WeaponName5.Location = new System.Drawing.Point(588, 4953);
             this.WeaponName5.Name = "WeaponName5";
             this.WeaponName5.Size = new System.Drawing.Size(176, 37);
             this.WeaponName5.TabIndex = 94;
@@ -2869,7 +3517,7 @@
             this.WeaponTraits4.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponTraits4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponTraits4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponTraits4.Location = new System.Drawing.Point(970, 2551);
+            this.WeaponTraits4.Location = new System.Drawing.Point(1130, 4905);
             this.WeaponTraits4.Name = "WeaponTraits4";
             this.WeaponTraits4.Size = new System.Drawing.Size(131, 37);
             this.WeaponTraits4.TabIndex = 93;
@@ -2879,7 +3527,7 @@
             this.WeaponReload4.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponReload4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponReload4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponReload4.Location = new System.Drawing.Point(898, 2551);
+            this.WeaponReload4.Location = new System.Drawing.Point(1058, 4905);
             this.WeaponReload4.Name = "WeaponReload4";
             this.WeaponReload4.Size = new System.Drawing.Size(66, 37);
             this.WeaponReload4.TabIndex = 92;
@@ -2889,7 +3537,7 @@
             this.WeaponRange4.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponRange4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponRange4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponRange4.Location = new System.Drawing.Point(826, 2551);
+            this.WeaponRange4.Location = new System.Drawing.Point(986, 4905);
             this.WeaponRange4.Name = "WeaponRange4";
             this.WeaponRange4.Size = new System.Drawing.Size(66, 37);
             this.WeaponRange4.TabIndex = 91;
@@ -2899,7 +3547,7 @@
             this.WeaponStrength4.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponStrength4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponStrength4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponStrength4.Location = new System.Drawing.Point(755, 2551);
+            this.WeaponStrength4.Location = new System.Drawing.Point(915, 4905);
             this.WeaponStrength4.Name = "WeaponStrength4";
             this.WeaponStrength4.Size = new System.Drawing.Size(66, 37);
             this.WeaponStrength4.TabIndex = 90;
@@ -2909,7 +3557,7 @@
             this.WeaponCategory4.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponCategory4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponCategory4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponCategory4.Location = new System.Drawing.Point(682, 2551);
+            this.WeaponCategory4.Location = new System.Drawing.Point(842, 4905);
             this.WeaponCategory4.Name = "WeaponCategory4";
             this.WeaponCategory4.Size = new System.Drawing.Size(66, 37);
             this.WeaponCategory4.TabIndex = 89;
@@ -2919,7 +3567,7 @@
             this.WeaponWeight4.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponWeight4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponWeight4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponWeight4.Location = new System.Drawing.Point(611, 2551);
+            this.WeaponWeight4.Location = new System.Drawing.Point(771, 4905);
             this.WeaponWeight4.Name = "WeaponWeight4";
             this.WeaponWeight4.Size = new System.Drawing.Size(66, 37);
             this.WeaponWeight4.TabIndex = 88;
@@ -2929,7 +3577,7 @@
             this.WeaponName4.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponName4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponName4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponName4.Location = new System.Drawing.Point(428, 2551);
+            this.WeaponName4.Location = new System.Drawing.Point(588, 4905);
             this.WeaponName4.Name = "WeaponName4";
             this.WeaponName4.Size = new System.Drawing.Size(176, 37);
             this.WeaponName4.TabIndex = 87;
@@ -2939,7 +3587,7 @@
             this.WeaponTraits3.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponTraits3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponTraits3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponTraits3.Location = new System.Drawing.Point(970, 2503);
+            this.WeaponTraits3.Location = new System.Drawing.Point(1130, 4857);
             this.WeaponTraits3.Name = "WeaponTraits3";
             this.WeaponTraits3.Size = new System.Drawing.Size(131, 37);
             this.WeaponTraits3.TabIndex = 86;
@@ -2949,7 +3597,7 @@
             this.WeaponReload3.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponReload3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponReload3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponReload3.Location = new System.Drawing.Point(898, 2503);
+            this.WeaponReload3.Location = new System.Drawing.Point(1058, 4857);
             this.WeaponReload3.Name = "WeaponReload3";
             this.WeaponReload3.Size = new System.Drawing.Size(66, 37);
             this.WeaponReload3.TabIndex = 85;
@@ -2959,7 +3607,7 @@
             this.WeaponRange3.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponRange3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponRange3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponRange3.Location = new System.Drawing.Point(826, 2503);
+            this.WeaponRange3.Location = new System.Drawing.Point(986, 4857);
             this.WeaponRange3.Name = "WeaponRange3";
             this.WeaponRange3.Size = new System.Drawing.Size(66, 37);
             this.WeaponRange3.TabIndex = 84;
@@ -2969,7 +3617,7 @@
             this.WeaponStrength3.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponStrength3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponStrength3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponStrength3.Location = new System.Drawing.Point(755, 2503);
+            this.WeaponStrength3.Location = new System.Drawing.Point(915, 4857);
             this.WeaponStrength3.Name = "WeaponStrength3";
             this.WeaponStrength3.Size = new System.Drawing.Size(66, 37);
             this.WeaponStrength3.TabIndex = 83;
@@ -2979,7 +3627,7 @@
             this.WeaponCategory3.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponCategory3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponCategory3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponCategory3.Location = new System.Drawing.Point(682, 2503);
+            this.WeaponCategory3.Location = new System.Drawing.Point(842, 4857);
             this.WeaponCategory3.Name = "WeaponCategory3";
             this.WeaponCategory3.Size = new System.Drawing.Size(66, 37);
             this.WeaponCategory3.TabIndex = 82;
@@ -2989,7 +3637,7 @@
             this.WeaponWeight3.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponWeight3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponWeight3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponWeight3.Location = new System.Drawing.Point(611, 2503);
+            this.WeaponWeight3.Location = new System.Drawing.Point(771, 4857);
             this.WeaponWeight3.Name = "WeaponWeight3";
             this.WeaponWeight3.Size = new System.Drawing.Size(66, 37);
             this.WeaponWeight3.TabIndex = 81;
@@ -2999,7 +3647,7 @@
             this.WeaponName3.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponName3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponName3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponName3.Location = new System.Drawing.Point(428, 2503);
+            this.WeaponName3.Location = new System.Drawing.Point(588, 4857);
             this.WeaponName3.Name = "WeaponName3";
             this.WeaponName3.Size = new System.Drawing.Size(176, 37);
             this.WeaponName3.TabIndex = 80;
@@ -3009,7 +3657,7 @@
             this.WeaponTraits2.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponTraits2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponTraits2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponTraits2.Location = new System.Drawing.Point(970, 2455);
+            this.WeaponTraits2.Location = new System.Drawing.Point(1130, 4809);
             this.WeaponTraits2.Name = "WeaponTraits2";
             this.WeaponTraits2.Size = new System.Drawing.Size(131, 37);
             this.WeaponTraits2.TabIndex = 79;
@@ -3019,7 +3667,7 @@
             this.WeaponReload2.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponReload2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponReload2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponReload2.Location = new System.Drawing.Point(898, 2455);
+            this.WeaponReload2.Location = new System.Drawing.Point(1058, 4809);
             this.WeaponReload2.Name = "WeaponReload2";
             this.WeaponReload2.Size = new System.Drawing.Size(66, 37);
             this.WeaponReload2.TabIndex = 78;
@@ -3029,7 +3677,7 @@
             this.WeaponRange2.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponRange2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponRange2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponRange2.Location = new System.Drawing.Point(826, 2455);
+            this.WeaponRange2.Location = new System.Drawing.Point(986, 4809);
             this.WeaponRange2.Name = "WeaponRange2";
             this.WeaponRange2.Size = new System.Drawing.Size(66, 37);
             this.WeaponRange2.TabIndex = 77;
@@ -3039,7 +3687,7 @@
             this.WeaponStrength2.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponStrength2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponStrength2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponStrength2.Location = new System.Drawing.Point(755, 2455);
+            this.WeaponStrength2.Location = new System.Drawing.Point(915, 4809);
             this.WeaponStrength2.Name = "WeaponStrength2";
             this.WeaponStrength2.Size = new System.Drawing.Size(66, 37);
             this.WeaponStrength2.TabIndex = 76;
@@ -3049,7 +3697,7 @@
             this.WeaponCategory2.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponCategory2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponCategory2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponCategory2.Location = new System.Drawing.Point(682, 2455);
+            this.WeaponCategory2.Location = new System.Drawing.Point(842, 4809);
             this.WeaponCategory2.Name = "WeaponCategory2";
             this.WeaponCategory2.Size = new System.Drawing.Size(66, 37);
             this.WeaponCategory2.TabIndex = 75;
@@ -3059,7 +3707,7 @@
             this.WeaponWeight2.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponWeight2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponWeight2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponWeight2.Location = new System.Drawing.Point(611, 2455);
+            this.WeaponWeight2.Location = new System.Drawing.Point(771, 4809);
             this.WeaponWeight2.Name = "WeaponWeight2";
             this.WeaponWeight2.Size = new System.Drawing.Size(66, 37);
             this.WeaponWeight2.TabIndex = 74;
@@ -3069,7 +3717,7 @@
             this.WeaponName2.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponName2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponName2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponName2.Location = new System.Drawing.Point(428, 2455);
+            this.WeaponName2.Location = new System.Drawing.Point(588, 4809);
             this.WeaponName2.Name = "WeaponName2";
             this.WeaponName2.Size = new System.Drawing.Size(176, 37);
             this.WeaponName2.TabIndex = 73;
@@ -3079,7 +3727,7 @@
             this.WeaponTraits1.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponTraits1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponTraits1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponTraits1.Location = new System.Drawing.Point(970, 2407);
+            this.WeaponTraits1.Location = new System.Drawing.Point(1130, 4761);
             this.WeaponTraits1.Name = "WeaponTraits1";
             this.WeaponTraits1.Size = new System.Drawing.Size(131, 37);
             this.WeaponTraits1.TabIndex = 72;
@@ -3089,7 +3737,7 @@
             this.WeaponReload1.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponReload1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponReload1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponReload1.Location = new System.Drawing.Point(898, 2407);
+            this.WeaponReload1.Location = new System.Drawing.Point(1058, 4761);
             this.WeaponReload1.Name = "WeaponReload1";
             this.WeaponReload1.Size = new System.Drawing.Size(66, 37);
             this.WeaponReload1.TabIndex = 71;
@@ -3099,7 +3747,7 @@
             this.WeaponRange1.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponRange1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponRange1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponRange1.Location = new System.Drawing.Point(826, 2407);
+            this.WeaponRange1.Location = new System.Drawing.Point(986, 4761);
             this.WeaponRange1.Name = "WeaponRange1";
             this.WeaponRange1.Size = new System.Drawing.Size(66, 37);
             this.WeaponRange1.TabIndex = 70;
@@ -3109,7 +3757,7 @@
             this.WeaponStrength1.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponStrength1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponStrength1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponStrength1.Location = new System.Drawing.Point(755, 2407);
+            this.WeaponStrength1.Location = new System.Drawing.Point(915, 4761);
             this.WeaponStrength1.Name = "WeaponStrength1";
             this.WeaponStrength1.Size = new System.Drawing.Size(66, 37);
             this.WeaponStrength1.TabIndex = 69;
@@ -3119,7 +3767,7 @@
             this.WeaponCategory1.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponCategory1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponCategory1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponCategory1.Location = new System.Drawing.Point(682, 2407);
+            this.WeaponCategory1.Location = new System.Drawing.Point(842, 4761);
             this.WeaponCategory1.Name = "WeaponCategory1";
             this.WeaponCategory1.Size = new System.Drawing.Size(66, 37);
             this.WeaponCategory1.TabIndex = 68;
@@ -3129,7 +3777,7 @@
             this.WeaponWeight1.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponWeight1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponWeight1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponWeight1.Location = new System.Drawing.Point(611, 2407);
+            this.WeaponWeight1.Location = new System.Drawing.Point(771, 4761);
             this.WeaponWeight1.Name = "WeaponWeight1";
             this.WeaponWeight1.Size = new System.Drawing.Size(66, 37);
             this.WeaponWeight1.TabIndex = 67;
@@ -3139,7 +3787,7 @@
             this.WeaponName1.BackColor = System.Drawing.SystemColors.Window;
             this.WeaponName1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WeaponName1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponName1.Location = new System.Drawing.Point(428, 2407);
+            this.WeaponName1.Location = new System.Drawing.Point(588, 4761);
             this.WeaponName1.Name = "WeaponName1";
             this.WeaponName1.Size = new System.Drawing.Size(176, 37);
             this.WeaponName1.TabIndex = 66;
@@ -3149,7 +3797,7 @@
             this.CharacterFeatures.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterFeatures.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterFeatures.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterFeatures.Location = new System.Drawing.Point(583, 1785);
+            this.CharacterFeatures.Location = new System.Drawing.Point(743, 4139);
             this.CharacterFeatures.Name = "CharacterFeatures";
             this.CharacterFeatures.Size = new System.Drawing.Size(524, 37);
             this.CharacterFeatures.TabIndex = 17;
@@ -3159,7 +3807,7 @@
             this.CharacterBirthplace.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterBirthplace.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterBirthplace.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterBirthplace.Location = new System.Drawing.Point(583, 1736);
+            this.CharacterBirthplace.Location = new System.Drawing.Point(743, 4090);
             this.CharacterBirthplace.Name = "CharacterBirthplace";
             this.CharacterBirthplace.Size = new System.Drawing.Size(524, 37);
             this.CharacterBirthplace.TabIndex = 16;
@@ -3169,7 +3817,7 @@
             this.CharacterStartSign.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterStartSign.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterStartSign.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartSign.Location = new System.Drawing.Point(564, 1689);
+            this.CharacterStartSign.Location = new System.Drawing.Point(724, 4043);
             this.CharacterStartSign.Name = "CharacterStartSign";
             this.CharacterStartSign.Size = new System.Drawing.Size(196, 37);
             this.CharacterStartSign.TabIndex = 15;
@@ -3179,7 +3827,7 @@
             this.CharacterHairColor.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterHairColor.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterHairColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterHairColor.Location = new System.Drawing.Point(552, 1641);
+            this.CharacterHairColor.Location = new System.Drawing.Point(712, 3995);
             this.CharacterHairColor.Name = "CharacterHairColor";
             this.CharacterHairColor.Size = new System.Drawing.Size(208, 37);
             this.CharacterHairColor.TabIndex = 14;
@@ -3189,7 +3837,7 @@
             this.CharacterEyeColour.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterEyeColour.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterEyeColour.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterEyeColour.Location = new System.Drawing.Point(529, 1592);
+            this.CharacterEyeColour.Location = new System.Drawing.Point(689, 3946);
             this.CharacterEyeColour.Name = "CharacterEyeColour";
             this.CharacterEyeColour.Size = new System.Drawing.Size(231, 37);
             this.CharacterEyeColour.TabIndex = 13;
@@ -3199,7 +3847,7 @@
             this.CharacterSiblings.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterSiblings.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterSiblings.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterSiblings.Location = new System.Drawing.Point(896, 1689);
+            this.CharacterSiblings.Location = new System.Drawing.Point(1056, 4043);
             this.CharacterSiblings.Name = "CharacterSiblings";
             this.CharacterSiblings.Size = new System.Drawing.Size(211, 37);
             this.CharacterSiblings.TabIndex = 12;
@@ -3209,7 +3857,7 @@
             this.CharacterHeight.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterHeight.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterHeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterHeight.Location = new System.Drawing.Point(855, 1641);
+            this.CharacterHeight.Location = new System.Drawing.Point(1015, 3995);
             this.CharacterHeight.Name = "CharacterHeight";
             this.CharacterHeight.Size = new System.Drawing.Size(252, 37);
             this.CharacterHeight.TabIndex = 11;
@@ -3219,7 +3867,7 @@
             this.CharacterWeight.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterWeight.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterWeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterWeight.Location = new System.Drawing.Point(840, 1592);
+            this.CharacterWeight.Location = new System.Drawing.Point(1000, 3946);
             this.CharacterWeight.Name = "CharacterWeight";
             this.CharacterWeight.Size = new System.Drawing.Size(267, 37);
             this.CharacterWeight.TabIndex = 10;
@@ -3229,7 +3877,7 @@
             this.CharacterSex.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterSex.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterSex.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterSex.Location = new System.Drawing.Point(828, 1545);
+            this.CharacterSex.Location = new System.Drawing.Point(988, 3899);
             this.CharacterSex.Name = "CharacterSex";
             this.CharacterSex.Size = new System.Drawing.Size(279, 37);
             this.CharacterSex.TabIndex = 9;
@@ -3239,7 +3887,7 @@
             this.CharacterAge.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterAge.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterAge.Location = new System.Drawing.Point(481, 1545);
+            this.CharacterAge.Location = new System.Drawing.Point(641, 3899);
             this.CharacterAge.Name = "CharacterAge";
             this.CharacterAge.Size = new System.Drawing.Size(279, 37);
             this.CharacterAge.TabIndex = 8;
@@ -3249,7 +3897,7 @@
             this.CharacterPreviousRole.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterPreviousRole.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterPreviousRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterPreviousRole.Location = new System.Drawing.Point(601, 1424);
+            this.CharacterPreviousRole.Location = new System.Drawing.Point(761, 3778);
             this.CharacterPreviousRole.Name = "CharacterPreviousRole";
             this.CharacterPreviousRole.Size = new System.Drawing.Size(506, 37);
             this.CharacterPreviousRole.TabIndex = 7;
@@ -3259,7 +3907,7 @@
             this.CharacterCurrentRole.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterCurrentRole.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterCurrentRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterCurrentRole.Location = new System.Drawing.Point(574, 1377);
+            this.CharacterCurrentRole.Location = new System.Drawing.Point(734, 3731);
             this.CharacterCurrentRole.Name = "CharacterCurrentRole";
             this.CharacterCurrentRole.Size = new System.Drawing.Size(533, 37);
             this.CharacterCurrentRole.TabIndex = 6;
@@ -3269,7 +3917,7 @@
             this.CharacterRace.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterRace.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterRace.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterRace.Location = new System.Drawing.Point(484, 1329);
+            this.CharacterRace.Location = new System.Drawing.Point(644, 3683);
             this.CharacterRace.Name = "CharacterRace";
             this.CharacterRace.Size = new System.Drawing.Size(585, 37);
             this.CharacterRace.TabIndex = 5;
@@ -3279,18 +3927,19 @@
             this.CharacterName.BackColor = System.Drawing.SystemColors.Window;
             this.CharacterName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterName.Location = new System.Drawing.Point(484, 1280);
+            this.CharacterName.Location = new System.Drawing.Point(644, 3634);
             this.CharacterName.Name = "CharacterName";
             this.CharacterName.Size = new System.Drawing.Size(623, 37);
             this.CharacterName.TabIndex = 4;
             // 
             // NextPage
             // 
-            this.NextPage.Location = new System.Drawing.Point(2026, 1180);
+            this.NextPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NextPage.Location = new System.Drawing.Point(2186, 3534);
             this.NextPage.Name = "NextPage";
             this.NextPage.Size = new System.Drawing.Size(32, 32);
             this.NextPage.TabIndex = 3;
-            this.NextPage.Text = ">";
+            this.NextPage.Text = "↴";
             this.NextPage.UseVisualStyleBackColor = true;
             this.NextPage.Click += new System.EventHandler(this.NextPage_Click);
             // 
@@ -3300,673 +3949,25 @@
             this.LeftFlowPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.LeftFlowPanel.Location = new System.Drawing.Point(0, 0);
             this.LeftFlowPanel.Name = "LeftFlowPanel";
-            this.LeftFlowPanel.Size = new System.Drawing.Size(200, 3352);
+            this.LeftFlowPanel.Size = new System.Drawing.Size(200, 5706);
             this.LeftFlowPanel.TabIndex = 2;
             // 
             // FirstPictureBox
             // 
             this.FirstPictureBox.ContextMenuStrip = this.PageMenuStrip;
             this.FirstPictureBox.ImageLocation = "D:\\vs\\repos\\WFRPManager\\WFRPManager\\resources\\w0.png";
-            this.FirstPictureBox.Location = new System.Drawing.Point(385, 1177);
+            this.FirstPictureBox.Location = new System.Drawing.Point(545, 3531);
             this.FirstPictureBox.Name = "FirstPictureBox";
             this.FirstPictureBox.Size = new System.Drawing.Size(1675, 2175);
             this.FirstPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.FirstPictureBox.TabIndex = 0;
             this.FirstPictureBox.TabStop = false;
             // 
-            // textBox51
-            // 
-            this.textBox51.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox51.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox51.Location = new System.Drawing.Point(1331, 2057);
-            this.textBox51.Name = "textBox51";
-            this.textBox51.Size = new System.Drawing.Size(241, 37);
-            this.textBox51.TabIndex = 318;
-            // 
-            // textBox52
-            // 
-            this.textBox52.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox52.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox52.Location = new System.Drawing.Point(1331, 2007);
-            this.textBox52.Name = "textBox52";
-            this.textBox52.Size = new System.Drawing.Size(241, 37);
-            this.textBox52.TabIndex = 317;
-            // 
-            // textBox53
-            // 
-            this.textBox53.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox53.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox53.Location = new System.Drawing.Point(1331, 1957);
-            this.textBox53.Name = "textBox53";
-            this.textBox53.Size = new System.Drawing.Size(241, 37);
-            this.textBox53.TabIndex = 316;
-            // 
-            // textBox54
-            // 
-            this.textBox54.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox54.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox54.Location = new System.Drawing.Point(1331, 1907);
-            this.textBox54.Name = "textBox54";
-            this.textBox54.Size = new System.Drawing.Size(241, 37);
-            this.textBox54.TabIndex = 315;
-            // 
-            // textBox55
-            // 
-            this.textBox55.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox55.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox55.Location = new System.Drawing.Point(1331, 1857);
-            this.textBox55.Name = "textBox55";
-            this.textBox55.Size = new System.Drawing.Size(241, 37);
-            this.textBox55.TabIndex = 314;
-            // 
-            // textBox56
-            // 
-            this.textBox56.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox56.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox56.Location = new System.Drawing.Point(1331, 1807);
-            this.textBox56.Name = "textBox56";
-            this.textBox56.Size = new System.Drawing.Size(241, 37);
-            this.textBox56.TabIndex = 313;
-            // 
-            // textBox57
-            // 
-            this.textBox57.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox57.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox57.Location = new System.Drawing.Point(1331, 1757);
-            this.textBox57.Name = "textBox57";
-            this.textBox57.Size = new System.Drawing.Size(241, 37);
-            this.textBox57.TabIndex = 312;
-            // 
-            // textBox58
-            // 
-            this.textBox58.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox58.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox58.Location = new System.Drawing.Point(1331, 1707);
-            this.textBox58.Name = "textBox58";
-            this.textBox58.Size = new System.Drawing.Size(241, 37);
-            this.textBox58.TabIndex = 311;
-            // 
-            // textBox59
-            // 
-            this.textBox59.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox59.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox59.Location = new System.Drawing.Point(1331, 1657);
-            this.textBox59.Name = "textBox59";
-            this.textBox59.Size = new System.Drawing.Size(241, 37);
-            this.textBox59.TabIndex = 310;
-            // 
-            // textBox60
-            // 
-            this.textBox60.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox60.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox60.Location = new System.Drawing.Point(1331, 1607);
-            this.textBox60.Name = "textBox60";
-            this.textBox60.Size = new System.Drawing.Size(241, 37);
-            this.textBox60.TabIndex = 309;
-            // 
-            // textBox61
-            // 
-            this.textBox61.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox61.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox61.Location = new System.Drawing.Point(1331, 1557);
-            this.textBox61.Name = "textBox61";
-            this.textBox61.Size = new System.Drawing.Size(241, 37);
-            this.textBox61.TabIndex = 308;
-            // 
-            // textBox62
-            // 
-            this.textBox62.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox62.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox62.Location = new System.Drawing.Point(1331, 1507);
-            this.textBox62.Name = "textBox62";
-            this.textBox62.Size = new System.Drawing.Size(241, 37);
-            this.textBox62.TabIndex = 307;
-            // 
-            // textBox63
-            // 
-            this.textBox63.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox63.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox63.Location = new System.Drawing.Point(1331, 1457);
-            this.textBox63.Name = "textBox63";
-            this.textBox63.Size = new System.Drawing.Size(241, 37);
-            this.textBox63.TabIndex = 306;
-            // 
-            // textBox64
-            // 
-            this.textBox64.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox64.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox64.Location = new System.Drawing.Point(1331, 1407);
-            this.textBox64.Name = "textBox64";
-            this.textBox64.Size = new System.Drawing.Size(241, 37);
-            this.textBox64.TabIndex = 305;
-            // 
-            // textBox65
-            // 
-            this.textBox65.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox65.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox65.Location = new System.Drawing.Point(1331, 1357);
-            this.textBox65.Name = "textBox65";
-            this.textBox65.Size = new System.Drawing.Size(241, 37);
-            this.textBox65.TabIndex = 304;
-            // 
-            // textBox66
-            // 
-            this.textBox66.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox66.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox66.Location = new System.Drawing.Point(1644, 2057);
-            this.textBox66.Name = "textBox66";
-            this.textBox66.Size = new System.Drawing.Size(309, 37);
-            this.textBox66.TabIndex = 333;
-            // 
-            // textBox67
-            // 
-            this.textBox67.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox67.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox67.Location = new System.Drawing.Point(1644, 2007);
-            this.textBox67.Name = "textBox67";
-            this.textBox67.Size = new System.Drawing.Size(309, 37);
-            this.textBox67.TabIndex = 332;
-            // 
-            // textBox68
-            // 
-            this.textBox68.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox68.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox68.Location = new System.Drawing.Point(1644, 1957);
-            this.textBox68.Name = "textBox68";
-            this.textBox68.Size = new System.Drawing.Size(309, 37);
-            this.textBox68.TabIndex = 331;
-            // 
-            // textBox69
-            // 
-            this.textBox69.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox69.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox69.Location = new System.Drawing.Point(1644, 1907);
-            this.textBox69.Name = "textBox69";
-            this.textBox69.Size = new System.Drawing.Size(309, 37);
-            this.textBox69.TabIndex = 330;
-            // 
-            // textBox70
-            // 
-            this.textBox70.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox70.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox70.Location = new System.Drawing.Point(1644, 1857);
-            this.textBox70.Name = "textBox70";
-            this.textBox70.Size = new System.Drawing.Size(309, 37);
-            this.textBox70.TabIndex = 329;
-            // 
-            // textBox71
-            // 
-            this.textBox71.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox71.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox71.Location = new System.Drawing.Point(1644, 1807);
-            this.textBox71.Name = "textBox71";
-            this.textBox71.Size = new System.Drawing.Size(309, 37);
-            this.textBox71.TabIndex = 328;
-            // 
-            // textBox72
-            // 
-            this.textBox72.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox72.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox72.Location = new System.Drawing.Point(1644, 1757);
-            this.textBox72.Name = "textBox72";
-            this.textBox72.Size = new System.Drawing.Size(309, 37);
-            this.textBox72.TabIndex = 327;
-            // 
-            // textBox73
-            // 
-            this.textBox73.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox73.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox73.Location = new System.Drawing.Point(1644, 1707);
-            this.textBox73.Name = "textBox73";
-            this.textBox73.Size = new System.Drawing.Size(309, 37);
-            this.textBox73.TabIndex = 326;
-            // 
-            // textBox74
-            // 
-            this.textBox74.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox74.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox74.Location = new System.Drawing.Point(1644, 1657);
-            this.textBox74.Name = "textBox74";
-            this.textBox74.Size = new System.Drawing.Size(309, 37);
-            this.textBox74.TabIndex = 325;
-            // 
-            // textBox75
-            // 
-            this.textBox75.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox75.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox75.Location = new System.Drawing.Point(1644, 1607);
-            this.textBox75.Name = "textBox75";
-            this.textBox75.Size = new System.Drawing.Size(309, 37);
-            this.textBox75.TabIndex = 324;
-            // 
-            // textBox76
-            // 
-            this.textBox76.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox76.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox76.Location = new System.Drawing.Point(1644, 1557);
-            this.textBox76.Name = "textBox76";
-            this.textBox76.Size = new System.Drawing.Size(309, 37);
-            this.textBox76.TabIndex = 323;
-            // 
-            // textBox77
-            // 
-            this.textBox77.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox77.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox77.Location = new System.Drawing.Point(1644, 1507);
-            this.textBox77.Name = "textBox77";
-            this.textBox77.Size = new System.Drawing.Size(309, 37);
-            this.textBox77.TabIndex = 322;
-            // 
-            // textBox78
-            // 
-            this.textBox78.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox78.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox78.Location = new System.Drawing.Point(1644, 1457);
-            this.textBox78.Name = "textBox78";
-            this.textBox78.Size = new System.Drawing.Size(309, 37);
-            this.textBox78.TabIndex = 321;
-            // 
-            // textBox79
-            // 
-            this.textBox79.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox79.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox79.Location = new System.Drawing.Point(1644, 1407);
-            this.textBox79.Name = "textBox79";
-            this.textBox79.Size = new System.Drawing.Size(309, 37);
-            this.textBox79.TabIndex = 320;
-            // 
-            // textBox80
-            // 
-            this.textBox80.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox80.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox80.Location = new System.Drawing.Point(1644, 1357);
-            this.textBox80.Name = "textBox80";
-            this.textBox80.Size = new System.Drawing.Size(309, 37);
-            this.textBox80.TabIndex = 319;
-            // 
-            // textBox82
-            // 
-            this.textBox82.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox82.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox82.Location = new System.Drawing.Point(1686, 2934);
-            this.textBox82.Name = "textBox82";
-            this.textBox82.Size = new System.Drawing.Size(262, 37);
-            this.textBox82.TabIndex = 347;
-            // 
-            // textBox83
-            // 
-            this.textBox83.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox83.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox83.Location = new System.Drawing.Point(1686, 2884);
-            this.textBox83.Name = "textBox83";
-            this.textBox83.Size = new System.Drawing.Size(262, 37);
-            this.textBox83.TabIndex = 346;
-            // 
-            // textBox84
-            // 
-            this.textBox84.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox84.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox84.Location = new System.Drawing.Point(1686, 2834);
-            this.textBox84.Name = "textBox84";
-            this.textBox84.Size = new System.Drawing.Size(262, 37);
-            this.textBox84.TabIndex = 345;
-            // 
-            // textBox85
-            // 
-            this.textBox85.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox85.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox85.Location = new System.Drawing.Point(1686, 2784);
-            this.textBox85.Name = "textBox85";
-            this.textBox85.Size = new System.Drawing.Size(262, 37);
-            this.textBox85.TabIndex = 344;
-            // 
-            // textBox86
-            // 
-            this.textBox86.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox86.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox86.Location = new System.Drawing.Point(1686, 2734);
-            this.textBox86.Name = "textBox86";
-            this.textBox86.Size = new System.Drawing.Size(262, 37);
-            this.textBox86.TabIndex = 343;
-            // 
-            // textBox87
-            // 
-            this.textBox87.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox87.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox87.Location = new System.Drawing.Point(1686, 2684);
-            this.textBox87.Name = "textBox87";
-            this.textBox87.Size = new System.Drawing.Size(262, 37);
-            this.textBox87.TabIndex = 342;
-            // 
-            // textBox88
-            // 
-            this.textBox88.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox88.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox88.Location = new System.Drawing.Point(1686, 2634);
-            this.textBox88.Name = "textBox88";
-            this.textBox88.Size = new System.Drawing.Size(262, 37);
-            this.textBox88.TabIndex = 341;
-            // 
-            // textBox89
-            // 
-            this.textBox89.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox89.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox89.Location = new System.Drawing.Point(1686, 2584);
-            this.textBox89.Name = "textBox89";
-            this.textBox89.Size = new System.Drawing.Size(262, 37);
-            this.textBox89.TabIndex = 340;
-            // 
-            // textBox90
-            // 
-            this.textBox90.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox90.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox90.Location = new System.Drawing.Point(1686, 2534);
-            this.textBox90.Name = "textBox90";
-            this.textBox90.Size = new System.Drawing.Size(262, 37);
-            this.textBox90.TabIndex = 339;
-            // 
-            // textBox91
-            // 
-            this.textBox91.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox91.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox91.Location = new System.Drawing.Point(1686, 2484);
-            this.textBox91.Name = "textBox91";
-            this.textBox91.Size = new System.Drawing.Size(262, 37);
-            this.textBox91.TabIndex = 338;
-            // 
-            // textBox92
-            // 
-            this.textBox92.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox92.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox92.Location = new System.Drawing.Point(1686, 2434);
-            this.textBox92.Name = "textBox92";
-            this.textBox92.Size = new System.Drawing.Size(262, 37);
-            this.textBox92.TabIndex = 337;
-            // 
-            // textBox93
-            // 
-            this.textBox93.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox93.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox93.Location = new System.Drawing.Point(1686, 2384);
-            this.textBox93.Name = "textBox93";
-            this.textBox93.Size = new System.Drawing.Size(262, 37);
-            this.textBox93.TabIndex = 336;
-            // 
-            // textBox94
-            // 
-            this.textBox94.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox94.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox94.Location = new System.Drawing.Point(1686, 2334);
-            this.textBox94.Name = "textBox94";
-            this.textBox94.Size = new System.Drawing.Size(262, 37);
-            this.textBox94.TabIndex = 335;
-            // 
-            // textBox95
-            // 
-            this.textBox95.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox95.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox95.Location = new System.Drawing.Point(1686, 2284);
-            this.textBox95.Name = "textBox95";
-            this.textBox95.Size = new System.Drawing.Size(262, 37);
-            this.textBox95.TabIndex = 334;
-            // 
-            // textBox81
-            // 
-            this.textBox81.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox81.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox81.Location = new System.Drawing.Point(1553, 2934);
-            this.textBox81.Name = "textBox81";
-            this.textBox81.Size = new System.Drawing.Size(60, 37);
-            this.textBox81.TabIndex = 361;
-            // 
-            // textBox96
-            // 
-            this.textBox96.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox96.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox96.Location = new System.Drawing.Point(1553, 2884);
-            this.textBox96.Name = "textBox96";
-            this.textBox96.Size = new System.Drawing.Size(60, 37);
-            this.textBox96.TabIndex = 360;
-            // 
-            // textBox97
-            // 
-            this.textBox97.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox97.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox97.Location = new System.Drawing.Point(1553, 2834);
-            this.textBox97.Name = "textBox97";
-            this.textBox97.Size = new System.Drawing.Size(60, 37);
-            this.textBox97.TabIndex = 359;
-            // 
-            // textBox98
-            // 
-            this.textBox98.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox98.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox98.Location = new System.Drawing.Point(1553, 2784);
-            this.textBox98.Name = "textBox98";
-            this.textBox98.Size = new System.Drawing.Size(60, 37);
-            this.textBox98.TabIndex = 358;
-            // 
-            // textBox99
-            // 
-            this.textBox99.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox99.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox99.Location = new System.Drawing.Point(1553, 2734);
-            this.textBox99.Name = "textBox99";
-            this.textBox99.Size = new System.Drawing.Size(60, 37);
-            this.textBox99.TabIndex = 357;
-            // 
-            // textBox100
-            // 
-            this.textBox100.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox100.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox100.Location = new System.Drawing.Point(1553, 2684);
-            this.textBox100.Name = "textBox100";
-            this.textBox100.Size = new System.Drawing.Size(60, 37);
-            this.textBox100.TabIndex = 356;
-            // 
-            // textBox101
-            // 
-            this.textBox101.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox101.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox101.Location = new System.Drawing.Point(1553, 2634);
-            this.textBox101.Name = "textBox101";
-            this.textBox101.Size = new System.Drawing.Size(60, 37);
-            this.textBox101.TabIndex = 355;
-            // 
-            // textBox102
-            // 
-            this.textBox102.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox102.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox102.Location = new System.Drawing.Point(1553, 2584);
-            this.textBox102.Name = "textBox102";
-            this.textBox102.Size = new System.Drawing.Size(60, 37);
-            this.textBox102.TabIndex = 354;
-            // 
-            // textBox103
-            // 
-            this.textBox103.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox103.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox103.Location = new System.Drawing.Point(1553, 2534);
-            this.textBox103.Name = "textBox103";
-            this.textBox103.Size = new System.Drawing.Size(60, 37);
-            this.textBox103.TabIndex = 353;
-            // 
-            // textBox104
-            // 
-            this.textBox104.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox104.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox104.Location = new System.Drawing.Point(1553, 2484);
-            this.textBox104.Name = "textBox104";
-            this.textBox104.Size = new System.Drawing.Size(60, 37);
-            this.textBox104.TabIndex = 352;
-            // 
-            // textBox105
-            // 
-            this.textBox105.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox105.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox105.Location = new System.Drawing.Point(1553, 2434);
-            this.textBox105.Name = "textBox105";
-            this.textBox105.Size = new System.Drawing.Size(60, 37);
-            this.textBox105.TabIndex = 351;
-            // 
-            // textBox106
-            // 
-            this.textBox106.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox106.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox106.Location = new System.Drawing.Point(1553, 2384);
-            this.textBox106.Name = "textBox106";
-            this.textBox106.Size = new System.Drawing.Size(60, 37);
-            this.textBox106.TabIndex = 350;
-            // 
-            // textBox107
-            // 
-            this.textBox107.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox107.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox107.Location = new System.Drawing.Point(1553, 2334);
-            this.textBox107.Name = "textBox107";
-            this.textBox107.Size = new System.Drawing.Size(60, 37);
-            this.textBox107.TabIndex = 349;
-            // 
-            // textBox108
-            // 
-            this.textBox108.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox108.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox108.Location = new System.Drawing.Point(1553, 2284);
-            this.textBox108.Name = "textBox108";
-            this.textBox108.Size = new System.Drawing.Size(60, 37);
-            this.textBox108.TabIndex = 348;
-            // 
-            // textBox109
-            // 
-            this.textBox109.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox109.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox109.Location = new System.Drawing.Point(1328, 2934);
-            this.textBox109.Name = "textBox109";
-            this.textBox109.Size = new System.Drawing.Size(160, 37);
-            this.textBox109.TabIndex = 375;
-            // 
-            // textBox110
-            // 
-            this.textBox110.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox110.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox110.Location = new System.Drawing.Point(1328, 2884);
-            this.textBox110.Name = "textBox110";
-            this.textBox110.Size = new System.Drawing.Size(160, 37);
-            this.textBox110.TabIndex = 374;
-            // 
-            // textBox111
-            // 
-            this.textBox111.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox111.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox111.Location = new System.Drawing.Point(1328, 2834);
-            this.textBox111.Name = "textBox111";
-            this.textBox111.Size = new System.Drawing.Size(160, 37);
-            this.textBox111.TabIndex = 373;
-            // 
-            // textBox112
-            // 
-            this.textBox112.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox112.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox112.Location = new System.Drawing.Point(1328, 2784);
-            this.textBox112.Name = "textBox112";
-            this.textBox112.Size = new System.Drawing.Size(160, 37);
-            this.textBox112.TabIndex = 372;
-            // 
-            // textBox113
-            // 
-            this.textBox113.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox113.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox113.Location = new System.Drawing.Point(1328, 2734);
-            this.textBox113.Name = "textBox113";
-            this.textBox113.Size = new System.Drawing.Size(160, 37);
-            this.textBox113.TabIndex = 371;
-            // 
-            // textBox114
-            // 
-            this.textBox114.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox114.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox114.Location = new System.Drawing.Point(1328, 2684);
-            this.textBox114.Name = "textBox114";
-            this.textBox114.Size = new System.Drawing.Size(160, 37);
-            this.textBox114.TabIndex = 370;
-            // 
-            // textBox115
-            // 
-            this.textBox115.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox115.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox115.Location = new System.Drawing.Point(1328, 2634);
-            this.textBox115.Name = "textBox115";
-            this.textBox115.Size = new System.Drawing.Size(160, 37);
-            this.textBox115.TabIndex = 369;
-            // 
-            // textBox116
-            // 
-            this.textBox116.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox116.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox116.Location = new System.Drawing.Point(1328, 2584);
-            this.textBox116.Name = "textBox116";
-            this.textBox116.Size = new System.Drawing.Size(160, 37);
-            this.textBox116.TabIndex = 368;
-            // 
-            // textBox117
-            // 
-            this.textBox117.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox117.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox117.Location = new System.Drawing.Point(1328, 2534);
-            this.textBox117.Name = "textBox117";
-            this.textBox117.Size = new System.Drawing.Size(160, 37);
-            this.textBox117.TabIndex = 367;
-            // 
-            // textBox118
-            // 
-            this.textBox118.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox118.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox118.Location = new System.Drawing.Point(1328, 2484);
-            this.textBox118.Name = "textBox118";
-            this.textBox118.Size = new System.Drawing.Size(160, 37);
-            this.textBox118.TabIndex = 366;
-            // 
-            // textBox119
-            // 
-            this.textBox119.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox119.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox119.Location = new System.Drawing.Point(1328, 2434);
-            this.textBox119.Name = "textBox119";
-            this.textBox119.Size = new System.Drawing.Size(160, 37);
-            this.textBox119.TabIndex = 365;
-            // 
-            // textBox120
-            // 
-            this.textBox120.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox120.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox120.Location = new System.Drawing.Point(1328, 2384);
-            this.textBox120.Name = "textBox120";
-            this.textBox120.Size = new System.Drawing.Size(160, 37);
-            this.textBox120.TabIndex = 364;
-            // 
-            // textBox121
-            // 
-            this.textBox121.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox121.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox121.Location = new System.Drawing.Point(1328, 2334);
-            this.textBox121.Name = "textBox121";
-            this.textBox121.Size = new System.Drawing.Size(160, 37);
-            this.textBox121.TabIndex = 363;
-            // 
-            // textBox122
-            // 
-            this.textBox122.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox122.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox122.Location = new System.Drawing.Point(1328, 2284);
-            this.textBox122.Name = "textBox122";
-            this.textBox122.Size = new System.Drawing.Size(160, 37);
-            this.textBox122.TabIndex = 362;
-            // 
             // CharacterMoneyP
             // 
             this.CharacterMoneyP.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterMoneyP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterMoneyP.Location = new System.Drawing.Point(1435, 3184);
+            this.CharacterMoneyP.Location = new System.Drawing.Point(1416, 2007);
             this.CharacterMoneyP.Name = "CharacterMoneyP";
             this.CharacterMoneyP.Size = new System.Drawing.Size(541, 43);
             this.CharacterMoneyP.TabIndex = 378;
@@ -3975,7 +3976,7 @@
             // 
             this.CharacterMoneyS.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterMoneyS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterMoneyS.Location = new System.Drawing.Point(1435, 3139);
+            this.CharacterMoneyS.Location = new System.Drawing.Point(1416, 1962);
             this.CharacterMoneyS.Name = "CharacterMoneyS";
             this.CharacterMoneyS.Size = new System.Drawing.Size(541, 43);
             this.CharacterMoneyS.TabIndex = 377;
@@ -3984,7 +3985,7 @@
             // 
             this.CharacterMoneyZK.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CharacterMoneyZK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterMoneyZK.Location = new System.Drawing.Point(1435, 3091);
+            this.CharacterMoneyZK.Location = new System.Drawing.Point(1416, 1914);
             this.CharacterMoneyZK.Name = "CharacterMoneyZK";
             this.CharacterMoneyZK.Size = new System.Drawing.Size(541, 43);
             this.CharacterMoneyZK.TabIndex = 376;
@@ -3993,7 +3994,7 @@
             // 
             this.CharacterActualPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterActualPP.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualPP.Location = new System.Drawing.Point(1041, 2235);
+            this.CharacterActualPP.Location = new System.Drawing.Point(1201, 4589);
             this.CharacterActualPP.Name = "CharacterActualPP";
             this.CharacterActualPP.Size = new System.Drawing.Size(71, 47);
             this.CharacterActualPP.TabIndex = 65;
@@ -4002,7 +4003,7 @@
             // 
             this.CharacterActualPO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterActualPO.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualPO.Location = new System.Drawing.Point(969, 2235);
+            this.CharacterActualPO.Location = new System.Drawing.Point(1129, 4589);
             this.CharacterActualPO.Name = "CharacterActualPO";
             this.CharacterActualPO.Size = new System.Drawing.Size(71, 47);
             this.CharacterActualPO.TabIndex = 64;
@@ -4011,7 +4012,7 @@
             // 
             this.CharacterActualMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterActualMag.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualMag.Location = new System.Drawing.Point(897, 2235);
+            this.CharacterActualMag.Location = new System.Drawing.Point(1057, 4589);
             this.CharacterActualMag.Name = "CharacterActualMag";
             this.CharacterActualMag.Size = new System.Drawing.Size(71, 47);
             this.CharacterActualMag.TabIndex = 63;
@@ -4020,7 +4021,7 @@
             // 
             this.CharacterActualSz.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterActualSz.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualSz.Location = new System.Drawing.Point(825, 2235);
+            this.CharacterActualSz.Location = new System.Drawing.Point(985, 4589);
             this.CharacterActualSz.Name = "CharacterActualSz";
             this.CharacterActualSz.Size = new System.Drawing.Size(71, 47);
             this.CharacterActualSz.TabIndex = 62;
@@ -4029,7 +4030,7 @@
             // 
             this.CharacterActualWt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterActualWt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualWt.Location = new System.Drawing.Point(753, 2235);
+            this.CharacterActualWt.Location = new System.Drawing.Point(913, 4589);
             this.CharacterActualWt.Name = "CharacterActualWt";
             this.CharacterActualWt.Size = new System.Drawing.Size(71, 47);
             this.CharacterActualWt.TabIndex = 61;
@@ -4038,7 +4039,7 @@
             // 
             this.CharacterActualS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterActualS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualS.Location = new System.Drawing.Point(681, 2235);
+            this.CharacterActualS.Location = new System.Drawing.Point(841, 4589);
             this.CharacterActualS.Name = "CharacterActualS";
             this.CharacterActualS.Size = new System.Drawing.Size(71, 47);
             this.CharacterActualS.TabIndex = 60;
@@ -4047,7 +4048,7 @@
             // 
             this.CharacterActualZyw.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterActualZyw.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualZyw.Location = new System.Drawing.Point(609, 2235);
+            this.CharacterActualZyw.Location = new System.Drawing.Point(769, 4589);
             this.CharacterActualZyw.Name = "CharacterActualZyw";
             this.CharacterActualZyw.Size = new System.Drawing.Size(71, 47);
             this.CharacterActualZyw.TabIndex = 59;
@@ -4056,7 +4057,7 @@
             // 
             this.CharacterActualA.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterActualA.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualA.Location = new System.Drawing.Point(537, 2235);
+            this.CharacterActualA.Location = new System.Drawing.Point(697, 4589);
             this.CharacterActualA.Name = "CharacterActualA";
             this.CharacterActualA.Size = new System.Drawing.Size(71, 47);
             this.CharacterActualA.TabIndex = 58;
@@ -4065,7 +4066,7 @@
             // 
             this.CharacterGrowthPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterGrowthPP.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthPP.Location = new System.Drawing.Point(1041, 2187);
+            this.CharacterGrowthPP.Location = new System.Drawing.Point(1201, 4541);
             this.CharacterGrowthPP.Name = "CharacterGrowthPP";
             this.CharacterGrowthPP.Size = new System.Drawing.Size(71, 47);
             this.CharacterGrowthPP.TabIndex = 57;
@@ -4074,7 +4075,7 @@
             // 
             this.CharacterGrowthPO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterGrowthPO.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthPO.Location = new System.Drawing.Point(969, 2187);
+            this.CharacterGrowthPO.Location = new System.Drawing.Point(1129, 4541);
             this.CharacterGrowthPO.Name = "CharacterGrowthPO";
             this.CharacterGrowthPO.Size = new System.Drawing.Size(71, 47);
             this.CharacterGrowthPO.TabIndex = 56;
@@ -4083,7 +4084,7 @@
             // 
             this.CharacterGrowthMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterGrowthMag.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthMag.Location = new System.Drawing.Point(897, 2187);
+            this.CharacterGrowthMag.Location = new System.Drawing.Point(1057, 4541);
             this.CharacterGrowthMag.Name = "CharacterGrowthMag";
             this.CharacterGrowthMag.Size = new System.Drawing.Size(71, 47);
             this.CharacterGrowthMag.TabIndex = 55;
@@ -4092,7 +4093,7 @@
             // 
             this.CharacterGrowthSz.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterGrowthSz.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthSz.Location = new System.Drawing.Point(825, 2187);
+            this.CharacterGrowthSz.Location = new System.Drawing.Point(985, 4541);
             this.CharacterGrowthSz.Name = "CharacterGrowthSz";
             this.CharacterGrowthSz.Size = new System.Drawing.Size(71, 47);
             this.CharacterGrowthSz.TabIndex = 54;
@@ -4101,7 +4102,7 @@
             // 
             this.CharacterGrowthWt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterGrowthWt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthWt.Location = new System.Drawing.Point(753, 2187);
+            this.CharacterGrowthWt.Location = new System.Drawing.Point(913, 4541);
             this.CharacterGrowthWt.Name = "CharacterGrowthWt";
             this.CharacterGrowthWt.Size = new System.Drawing.Size(71, 47);
             this.CharacterGrowthWt.TabIndex = 53;
@@ -4110,7 +4111,7 @@
             // 
             this.CharacterGrowthS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterGrowthS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthS.Location = new System.Drawing.Point(681, 2187);
+            this.CharacterGrowthS.Location = new System.Drawing.Point(841, 4541);
             this.CharacterGrowthS.Name = "CharacterGrowthS";
             this.CharacterGrowthS.Size = new System.Drawing.Size(71, 47);
             this.CharacterGrowthS.TabIndex = 52;
@@ -4119,7 +4120,7 @@
             // 
             this.CharacterGrowthZyw.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterGrowthZyw.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthZyw.Location = new System.Drawing.Point(609, 2187);
+            this.CharacterGrowthZyw.Location = new System.Drawing.Point(769, 4541);
             this.CharacterGrowthZyw.Name = "CharacterGrowthZyw";
             this.CharacterGrowthZyw.Size = new System.Drawing.Size(71, 47);
             this.CharacterGrowthZyw.TabIndex = 51;
@@ -4128,7 +4129,7 @@
             // 
             this.CharacterGrowthA.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterGrowthA.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthA.Location = new System.Drawing.Point(537, 2187);
+            this.CharacterGrowthA.Location = new System.Drawing.Point(697, 4541);
             this.CharacterGrowthA.Name = "CharacterGrowthA";
             this.CharacterGrowthA.Size = new System.Drawing.Size(71, 47);
             this.CharacterGrowthA.TabIndex = 50;
@@ -4136,7 +4137,7 @@
             // CharacterStartingPP
             // 
             this.CharacterStartingPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingPP.Location = new System.Drawing.Point(1041, 2139);
+            this.CharacterStartingPP.Location = new System.Drawing.Point(1201, 4493);
             this.CharacterStartingPP.Name = "CharacterStartingPP";
             this.CharacterStartingPP.Size = new System.Drawing.Size(71, 47);
             this.CharacterStartingPP.TabIndex = 49;
@@ -4144,7 +4145,7 @@
             // CharacterStartingPO
             // 
             this.CharacterStartingPO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingPO.Location = new System.Drawing.Point(969, 2139);
+            this.CharacterStartingPO.Location = new System.Drawing.Point(1129, 4493);
             this.CharacterStartingPO.Name = "CharacterStartingPO";
             this.CharacterStartingPO.Size = new System.Drawing.Size(71, 47);
             this.CharacterStartingPO.TabIndex = 48;
@@ -4152,7 +4153,7 @@
             // CharacterStartingMag
             // 
             this.CharacterStartingMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingMag.Location = new System.Drawing.Point(897, 2139);
+            this.CharacterStartingMag.Location = new System.Drawing.Point(1057, 4493);
             this.CharacterStartingMag.Name = "CharacterStartingMag";
             this.CharacterStartingMag.Size = new System.Drawing.Size(71, 47);
             this.CharacterStartingMag.TabIndex = 47;
@@ -4160,7 +4161,7 @@
             // CharacterStartingSz
             // 
             this.CharacterStartingSz.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingSz.Location = new System.Drawing.Point(825, 2139);
+            this.CharacterStartingSz.Location = new System.Drawing.Point(985, 4493);
             this.CharacterStartingSz.Name = "CharacterStartingSz";
             this.CharacterStartingSz.Size = new System.Drawing.Size(71, 47);
             this.CharacterStartingSz.TabIndex = 46;
@@ -4168,7 +4169,7 @@
             // CharacterStartingWt
             // 
             this.CharacterStartingWt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingWt.Location = new System.Drawing.Point(753, 2139);
+            this.CharacterStartingWt.Location = new System.Drawing.Point(913, 4493);
             this.CharacterStartingWt.Name = "CharacterStartingWt";
             this.CharacterStartingWt.Size = new System.Drawing.Size(71, 47);
             this.CharacterStartingWt.TabIndex = 45;
@@ -4176,7 +4177,7 @@
             // CharacterStartingS
             // 
             this.CharacterStartingS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingS.Location = new System.Drawing.Point(681, 2139);
+            this.CharacterStartingS.Location = new System.Drawing.Point(841, 4493);
             this.CharacterStartingS.Name = "CharacterStartingS";
             this.CharacterStartingS.Size = new System.Drawing.Size(71, 47);
             this.CharacterStartingS.TabIndex = 44;
@@ -4184,7 +4185,7 @@
             // CharacterStartingZyw
             // 
             this.CharacterStartingZyw.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingZyw.Location = new System.Drawing.Point(609, 2139);
+            this.CharacterStartingZyw.Location = new System.Drawing.Point(769, 4493);
             this.CharacterStartingZyw.Name = "CharacterStartingZyw";
             this.CharacterStartingZyw.Size = new System.Drawing.Size(71, 47);
             this.CharacterStartingZyw.TabIndex = 43;
@@ -4192,7 +4193,7 @@
             // CharacterStartingA
             // 
             this.CharacterStartingA.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingA.Location = new System.Drawing.Point(537, 2139);
+            this.CharacterStartingA.Location = new System.Drawing.Point(697, 4493);
             this.CharacterStartingA.Name = "CharacterStartingA";
             this.CharacterStartingA.Size = new System.Drawing.Size(71, 47);
             this.CharacterStartingA.TabIndex = 42;
@@ -4201,7 +4202,7 @@
             // 
             this.CharacterActualOgd.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterActualOgd.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualOgd.Location = new System.Drawing.Point(1041, 2043);
+            this.CharacterActualOgd.Location = new System.Drawing.Point(1201, 4397);
             this.CharacterActualOgd.Name = "CharacterActualOgd";
             this.CharacterActualOgd.Size = new System.Drawing.Size(71, 47);
             this.CharacterActualOgd.TabIndex = 41;
@@ -4210,7 +4211,7 @@
             // 
             this.CharacterActualSW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterActualSW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualSW.Location = new System.Drawing.Point(969, 2043);
+            this.CharacterActualSW.Location = new System.Drawing.Point(1129, 4397);
             this.CharacterActualSW.Name = "CharacterActualSW";
             this.CharacterActualSW.Size = new System.Drawing.Size(71, 47);
             this.CharacterActualSW.TabIndex = 40;
@@ -4219,7 +4220,7 @@
             // 
             this.CharacterActualInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterActualInt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualInt.Location = new System.Drawing.Point(897, 2043);
+            this.CharacterActualInt.Location = new System.Drawing.Point(1057, 4397);
             this.CharacterActualInt.Name = "CharacterActualInt";
             this.CharacterActualInt.Size = new System.Drawing.Size(71, 47);
             this.CharacterActualInt.TabIndex = 39;
@@ -4228,7 +4229,7 @@
             // 
             this.CharacterActualZr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterActualZr.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualZr.Location = new System.Drawing.Point(825, 2043);
+            this.CharacterActualZr.Location = new System.Drawing.Point(985, 4397);
             this.CharacterActualZr.Name = "CharacterActualZr";
             this.CharacterActualZr.Size = new System.Drawing.Size(71, 47);
             this.CharacterActualZr.TabIndex = 38;
@@ -4237,7 +4238,7 @@
             // 
             this.CharacterActualOdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterActualOdp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualOdp.Location = new System.Drawing.Point(753, 2043);
+            this.CharacterActualOdp.Location = new System.Drawing.Point(913, 4397);
             this.CharacterActualOdp.Name = "CharacterActualOdp";
             this.CharacterActualOdp.Size = new System.Drawing.Size(71, 47);
             this.CharacterActualOdp.TabIndex = 37;
@@ -4246,7 +4247,7 @@
             // 
             this.CharacterActualK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterActualK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualK.Location = new System.Drawing.Point(681, 2043);
+            this.CharacterActualK.Location = new System.Drawing.Point(841, 4397);
             this.CharacterActualK.Name = "CharacterActualK";
             this.CharacterActualK.Size = new System.Drawing.Size(71, 47);
             this.CharacterActualK.TabIndex = 36;
@@ -4255,7 +4256,7 @@
             // 
             this.CharacterActualUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterActualUS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualUS.Location = new System.Drawing.Point(609, 2043);
+            this.CharacterActualUS.Location = new System.Drawing.Point(769, 4397);
             this.CharacterActualUS.Name = "CharacterActualUS";
             this.CharacterActualUS.Size = new System.Drawing.Size(71, 47);
             this.CharacterActualUS.TabIndex = 35;
@@ -4264,7 +4265,7 @@
             // 
             this.CharacterActualWW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterActualWW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualWW.Location = new System.Drawing.Point(537, 2043);
+            this.CharacterActualWW.Location = new System.Drawing.Point(697, 4397);
             this.CharacterActualWW.Name = "CharacterActualWW";
             this.CharacterActualWW.Size = new System.Drawing.Size(71, 47);
             this.CharacterActualWW.TabIndex = 34;
@@ -4273,7 +4274,7 @@
             // 
             this.CharacterGrowthOgd.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterGrowthOgd.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthOgd.Location = new System.Drawing.Point(1041, 1995);
+            this.CharacterGrowthOgd.Location = new System.Drawing.Point(1201, 4349);
             this.CharacterGrowthOgd.Name = "CharacterGrowthOgd";
             this.CharacterGrowthOgd.Size = new System.Drawing.Size(71, 47);
             this.CharacterGrowthOgd.TabIndex = 33;
@@ -4282,7 +4283,7 @@
             // 
             this.CharacterGrowthSW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterGrowthSW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthSW.Location = new System.Drawing.Point(969, 1995);
+            this.CharacterGrowthSW.Location = new System.Drawing.Point(1129, 4349);
             this.CharacterGrowthSW.Name = "CharacterGrowthSW";
             this.CharacterGrowthSW.Size = new System.Drawing.Size(71, 47);
             this.CharacterGrowthSW.TabIndex = 32;
@@ -4291,7 +4292,7 @@
             // 
             this.CharacterGrowthInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterGrowthInt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthInt.Location = new System.Drawing.Point(897, 1995);
+            this.CharacterGrowthInt.Location = new System.Drawing.Point(1057, 4349);
             this.CharacterGrowthInt.Name = "CharacterGrowthInt";
             this.CharacterGrowthInt.Size = new System.Drawing.Size(71, 47);
             this.CharacterGrowthInt.TabIndex = 31;
@@ -4300,7 +4301,7 @@
             // 
             this.CharacterGrowthZr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterGrowthZr.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthZr.Location = new System.Drawing.Point(825, 1995);
+            this.CharacterGrowthZr.Location = new System.Drawing.Point(985, 4349);
             this.CharacterGrowthZr.Name = "CharacterGrowthZr";
             this.CharacterGrowthZr.Size = new System.Drawing.Size(71, 47);
             this.CharacterGrowthZr.TabIndex = 30;
@@ -4309,7 +4310,7 @@
             // 
             this.CharacterGrowthOdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterGrowthOdp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthOdp.Location = new System.Drawing.Point(753, 1995);
+            this.CharacterGrowthOdp.Location = new System.Drawing.Point(913, 4349);
             this.CharacterGrowthOdp.Name = "CharacterGrowthOdp";
             this.CharacterGrowthOdp.Size = new System.Drawing.Size(71, 47);
             this.CharacterGrowthOdp.TabIndex = 29;
@@ -4318,7 +4319,7 @@
             // 
             this.CharacterGrowthK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterGrowthK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthK.Location = new System.Drawing.Point(681, 1995);
+            this.CharacterGrowthK.Location = new System.Drawing.Point(841, 4349);
             this.CharacterGrowthK.Name = "CharacterGrowthK";
             this.CharacterGrowthK.Size = new System.Drawing.Size(71, 47);
             this.CharacterGrowthK.TabIndex = 28;
@@ -4327,7 +4328,7 @@
             // 
             this.CharacterGrowthUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterGrowthUS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthUS.Location = new System.Drawing.Point(609, 1995);
+            this.CharacterGrowthUS.Location = new System.Drawing.Point(769, 4349);
             this.CharacterGrowthUS.Name = "CharacterGrowthUS";
             this.CharacterGrowthUS.Size = new System.Drawing.Size(71, 47);
             this.CharacterGrowthUS.TabIndex = 27;
@@ -4336,7 +4337,7 @@
             // 
             this.CharacterGrowthWW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CharacterGrowthWW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthWW.Location = new System.Drawing.Point(537, 1995);
+            this.CharacterGrowthWW.Location = new System.Drawing.Point(697, 4349);
             this.CharacterGrowthWW.Name = "CharacterGrowthWW";
             this.CharacterGrowthWW.Size = new System.Drawing.Size(71, 47);
             this.CharacterGrowthWW.TabIndex = 26;
@@ -4344,7 +4345,7 @@
             // CharacterStartingOgd
             // 
             this.CharacterStartingOgd.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingOgd.Location = new System.Drawing.Point(1041, 1947);
+            this.CharacterStartingOgd.Location = new System.Drawing.Point(1201, 4301);
             this.CharacterStartingOgd.Name = "CharacterStartingOgd";
             this.CharacterStartingOgd.Size = new System.Drawing.Size(71, 47);
             this.CharacterStartingOgd.TabIndex = 25;
@@ -4352,7 +4353,7 @@
             // CharacterStartingSW
             // 
             this.CharacterStartingSW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingSW.Location = new System.Drawing.Point(969, 1947);
+            this.CharacterStartingSW.Location = new System.Drawing.Point(1129, 4301);
             this.CharacterStartingSW.Name = "CharacterStartingSW";
             this.CharacterStartingSW.Size = new System.Drawing.Size(71, 47);
             this.CharacterStartingSW.TabIndex = 24;
@@ -4360,7 +4361,7 @@
             // CharacterStartingInt
             // 
             this.CharacterStartingInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingInt.Location = new System.Drawing.Point(897, 1947);
+            this.CharacterStartingInt.Location = new System.Drawing.Point(1057, 4301);
             this.CharacterStartingInt.Name = "CharacterStartingInt";
             this.CharacterStartingInt.Size = new System.Drawing.Size(71, 47);
             this.CharacterStartingInt.TabIndex = 23;
@@ -4368,7 +4369,7 @@
             // CharacterStartingZr
             // 
             this.CharacterStartingZr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingZr.Location = new System.Drawing.Point(825, 1947);
+            this.CharacterStartingZr.Location = new System.Drawing.Point(985, 4301);
             this.CharacterStartingZr.Name = "CharacterStartingZr";
             this.CharacterStartingZr.Size = new System.Drawing.Size(71, 47);
             this.CharacterStartingZr.TabIndex = 22;
@@ -4376,7 +4377,7 @@
             // CharacterStartingOdp
             // 
             this.CharacterStartingOdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingOdp.Location = new System.Drawing.Point(753, 1947);
+            this.CharacterStartingOdp.Location = new System.Drawing.Point(913, 4301);
             this.CharacterStartingOdp.Name = "CharacterStartingOdp";
             this.CharacterStartingOdp.Size = new System.Drawing.Size(71, 47);
             this.CharacterStartingOdp.TabIndex = 21;
@@ -4384,7 +4385,7 @@
             // CharacterStartingK
             // 
             this.CharacterStartingK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingK.Location = new System.Drawing.Point(681, 1947);
+            this.CharacterStartingK.Location = new System.Drawing.Point(841, 4301);
             this.CharacterStartingK.Name = "CharacterStartingK";
             this.CharacterStartingK.Size = new System.Drawing.Size(71, 47);
             this.CharacterStartingK.TabIndex = 20;
@@ -4392,7 +4393,7 @@
             // CharacterStartingUS
             // 
             this.CharacterStartingUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingUS.Location = new System.Drawing.Point(609, 1947);
+            this.CharacterStartingUS.Location = new System.Drawing.Point(769, 4301);
             this.CharacterStartingUS.Name = "CharacterStartingUS";
             this.CharacterStartingUS.Size = new System.Drawing.Size(71, 47);
             this.CharacterStartingUS.TabIndex = 19;
@@ -4400,7 +4401,7 @@
             // CharacterStartingWW
             // 
             this.CharacterStartingWW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingWW.Location = new System.Drawing.Point(537, 1947);
+            this.CharacterStartingWW.Location = new System.Drawing.Point(697, 4301);
             this.CharacterStartingWW.Name = "CharacterStartingWW";
             this.CharacterStartingWW.Size = new System.Drawing.Size(71, 47);
             this.CharacterStartingWW.TabIndex = 18;
@@ -4410,7 +4411,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.ClientSize = new System.Drawing.Size(1693, 1061);
+            this.ClientSize = new System.Drawing.Size(1738, 822);
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.BottomStatusStrip);
             this.Controls.Add(this.TopMenuStrip);
@@ -4648,12 +4649,12 @@
         private System.Windows.Forms.CheckBox CharacterSkill1_3;
         private System.Windows.Forms.CheckBox CharacterSkill1_2;
         private System.Windows.Forms.CheckBox CharacterSkill1_1;
-        private System.Windows.Forms.CheckBox checkBox61;
-        private System.Windows.Forms.CheckBox checkBox62;
-        private System.Windows.Forms.CheckBox checkBox63;
-        private System.Windows.Forms.CheckBox checkBox70;
-        private System.Windows.Forms.CheckBox checkBox71;
-        private System.Windows.Forms.CheckBox checkBox72;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill2_3;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill2_2;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill2_1;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill1_3;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill1_2;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill1_1;
         private System.Windows.Forms.CheckBox CharacterSkill20_3;
         private System.Windows.Forms.CheckBox CharacterSkill20_2;
         private System.Windows.Forms.CheckBox CharacterSkill20_1;
@@ -4707,45 +4708,44 @@
         private System.Windows.Forms.CheckBox CharacterSkill3_3;
         private System.Windows.Forms.CheckBox CharacterSkill3_2;
         private System.Windows.Forms.CheckBox CharacterSkill3_1;
-        private System.Windows.Forms.CheckBox checkBox100;
-        private System.Windows.Forms.CheckBox checkBox101;
-        private System.Windows.Forms.CheckBox checkBox102;
-        private System.Windows.Forms.CheckBox checkBox103;
-        private System.Windows.Forms.CheckBox checkBox104;
-        private System.Windows.Forms.CheckBox checkBox105;
-        private System.Windows.Forms.CheckBox checkBox85;
-        private System.Windows.Forms.CheckBox checkBox86;
-        private System.Windows.Forms.CheckBox checkBox87;
-        private System.Windows.Forms.CheckBox checkBox88;
-        private System.Windows.Forms.CheckBox checkBox89;
-        private System.Windows.Forms.CheckBox checkBox90;
-        private System.Windows.Forms.CheckBox checkBox91;
-        private System.Windows.Forms.CheckBox checkBox92;
-        private System.Windows.Forms.CheckBox checkBox93;
-        private System.Windows.Forms.CheckBox checkBox94;
-        private System.Windows.Forms.CheckBox checkBox95;
-        private System.Windows.Forms.CheckBox checkBox96;
-        private System.Windows.Forms.CheckBox checkBox97;
-        private System.Windows.Forms.CheckBox checkBox98;
-        private System.Windows.Forms.CheckBox checkBox99;
-        private System.Windows.Forms.CheckBox checkBox73;
-        private System.Windows.Forms.CheckBox checkBox74;
-        private System.Windows.Forms.CheckBox checkBox75;
-        private System.Windows.Forms.CheckBox checkBox76;
-        private System.Windows.Forms.CheckBox checkBox77;
-        private System.Windows.Forms.CheckBox checkBox78;
-        private System.Windows.Forms.CheckBox checkBox79;
-        private System.Windows.Forms.CheckBox checkBox80;
-        private System.Windows.Forms.CheckBox checkBox81;
-        private System.Windows.Forms.CheckBox checkBox82;
-        private System.Windows.Forms.CheckBox checkBox83;
-        private System.Windows.Forms.CheckBox checkBox84;
-        private System.Windows.Forms.CheckBox checkBox64;
-        private System.Windows.Forms.CheckBox checkBox65;
-        private System.Windows.Forms.CheckBox checkBox66;
-        private System.Windows.Forms.CheckBox checkBox67;
-        private System.Windows.Forms.CheckBox checkBox68;
-        private System.Windows.Forms.CheckBox checkBox69;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill15_3;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill15_2;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill15_1;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill14_3;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill14_2;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill14_1;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill13_2;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill13_1;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill12_3;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill12_2;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill12_1;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill11_3;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill11_2;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill11_1;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill10_3;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill10_2;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill10_1;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill9_3;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill9_2;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill9_1;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill8_3;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill8_2;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill8_1;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill7_3;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill7_2;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill7_1;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill6_3;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill6_2;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill6_1;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill5_3;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill5_2;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill5_1;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill4_3;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill4_2;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill4_1;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill3_3;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill3_2;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill3_1;
         private System.Windows.Forms.TextBox CharacterConnectedSkill1;
         private System.Windows.Forms.TextBox CharacterConnectedSkill20;
         private System.Windows.Forms.TextBox CharacterConnectedSkill19;
@@ -4766,112 +4766,113 @@
         private System.Windows.Forms.TextBox CharacterConnectedSkill4;
         private System.Windows.Forms.TextBox CharacterConnectedSkill3;
         private System.Windows.Forms.TextBox CharacterConnectedSkill2;
-        private System.Windows.Forms.TextBox textBox36;
-        private System.Windows.Forms.TextBox textBox37;
-        private System.Windows.Forms.TextBox textBox38;
-        private System.Windows.Forms.TextBox textBox39;
-        private System.Windows.Forms.TextBox textBox40;
-        private System.Windows.Forms.TextBox textBox41;
-        private System.Windows.Forms.TextBox textBox42;
-        private System.Windows.Forms.TextBox textBox43;
-        private System.Windows.Forms.TextBox textBox44;
-        private System.Windows.Forms.TextBox textBox45;
-        private System.Windows.Forms.TextBox textBox46;
-        private System.Windows.Forms.TextBox textBox47;
-        private System.Windows.Forms.TextBox textBox48;
-        private System.Windows.Forms.TextBox textBox49;
-        private System.Windows.Forms.TextBox textBox50;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox66;
-        private System.Windows.Forms.TextBox textBox67;
-        private System.Windows.Forms.TextBox textBox68;
-        private System.Windows.Forms.TextBox textBox69;
-        private System.Windows.Forms.TextBox textBox70;
-        private System.Windows.Forms.TextBox textBox71;
-        private System.Windows.Forms.TextBox textBox72;
-        private System.Windows.Forms.TextBox textBox73;
-        private System.Windows.Forms.TextBox textBox74;
-        private System.Windows.Forms.TextBox textBox75;
-        private System.Windows.Forms.TextBox textBox76;
-        private System.Windows.Forms.TextBox textBox77;
-        private System.Windows.Forms.TextBox textBox78;
-        private System.Windows.Forms.TextBox textBox79;
-        private System.Windows.Forms.TextBox textBox80;
-        private System.Windows.Forms.TextBox textBox51;
-        private System.Windows.Forms.TextBox textBox52;
-        private System.Windows.Forms.TextBox textBox53;
-        private System.Windows.Forms.TextBox textBox54;
-        private System.Windows.Forms.TextBox textBox55;
-        private System.Windows.Forms.TextBox textBox56;
-        private System.Windows.Forms.TextBox textBox57;
-        private System.Windows.Forms.TextBox textBox58;
-        private System.Windows.Forms.TextBox textBox59;
-        private System.Windows.Forms.TextBox textBox60;
-        private System.Windows.Forms.TextBox textBox61;
-        private System.Windows.Forms.TextBox textBox62;
-        private System.Windows.Forms.TextBox textBox63;
-        private System.Windows.Forms.TextBox textBox64;
-        private System.Windows.Forms.TextBox textBox65;
-        private System.Windows.Forms.TextBox textBox109;
-        private System.Windows.Forms.TextBox textBox110;
-        private System.Windows.Forms.TextBox textBox111;
-        private System.Windows.Forms.TextBox textBox112;
-        private System.Windows.Forms.TextBox textBox113;
-        private System.Windows.Forms.TextBox textBox114;
-        private System.Windows.Forms.TextBox textBox115;
-        private System.Windows.Forms.TextBox textBox116;
-        private System.Windows.Forms.TextBox textBox117;
-        private System.Windows.Forms.TextBox textBox118;
-        private System.Windows.Forms.TextBox textBox119;
-        private System.Windows.Forms.TextBox textBox120;
-        private System.Windows.Forms.TextBox textBox121;
-        private System.Windows.Forms.TextBox textBox122;
-        private System.Windows.Forms.TextBox textBox81;
-        private System.Windows.Forms.TextBox textBox96;
-        private System.Windows.Forms.TextBox textBox97;
-        private System.Windows.Forms.TextBox textBox98;
-        private System.Windows.Forms.TextBox textBox99;
-        private System.Windows.Forms.TextBox textBox100;
-        private System.Windows.Forms.TextBox textBox101;
-        private System.Windows.Forms.TextBox textBox102;
-        private System.Windows.Forms.TextBox textBox103;
-        private System.Windows.Forms.TextBox textBox104;
-        private System.Windows.Forms.TextBox textBox105;
-        private System.Windows.Forms.TextBox textBox106;
-        private System.Windows.Forms.TextBox textBox107;
-        private System.Windows.Forms.TextBox textBox108;
-        private System.Windows.Forms.TextBox textBox82;
-        private System.Windows.Forms.TextBox textBox83;
-        private System.Windows.Forms.TextBox textBox84;
-        private System.Windows.Forms.TextBox textBox85;
-        private System.Windows.Forms.TextBox textBox86;
-        private System.Windows.Forms.TextBox textBox87;
-        private System.Windows.Forms.TextBox textBox88;
-        private System.Windows.Forms.TextBox textBox89;
-        private System.Windows.Forms.TextBox textBox90;
-        private System.Windows.Forms.TextBox textBox91;
-        private System.Windows.Forms.TextBox textBox92;
-        private System.Windows.Forms.TextBox textBox93;
-        private System.Windows.Forms.TextBox textBox94;
-        private System.Windows.Forms.TextBox textBox95;
+        private System.Windows.Forms.TextBox CharacterAdvancedSkill15;
+        private System.Windows.Forms.TextBox CharacterAdvancedSkill14;
+        private System.Windows.Forms.TextBox CharacterAdvancedSkill13;
+        private System.Windows.Forms.TextBox CharacterAdvancedSkill12;
+        private System.Windows.Forms.TextBox CharacterAdvancedSkill11;
+        private System.Windows.Forms.TextBox CharacterAdvancedSkill10;
+        private System.Windows.Forms.TextBox CharacterAdvancedSkill9;
+        private System.Windows.Forms.TextBox CharacterAdvancedSkill8;
+        private System.Windows.Forms.TextBox CharacterAdvancedSkill7;
+        private System.Windows.Forms.TextBox CharacterAdvancedSkill6;
+        private System.Windows.Forms.TextBox CharacterAdvancedSkill5;
+        private System.Windows.Forms.TextBox CharacterAdvancedSkill4;
+        private System.Windows.Forms.TextBox CharacterAdvancedSkill3;
+        private System.Windows.Forms.TextBox CharacterAdvancedSkill2;
+        private System.Windows.Forms.TextBox CharacterAdvancedSkill1;
+        private System.Windows.Forms.TextBox CharacterConnectedAdvancedSkill15;
+        private System.Windows.Forms.TextBox CharacterConnectedAdvancedSkill14;
+        private System.Windows.Forms.TextBox CharacterConnectedAdvancedSkill13;
+        private System.Windows.Forms.TextBox CharacterConnectedAdvancedSkill12;
+        private System.Windows.Forms.TextBox CharacterConnectedAdvancedSkill11;
+        private System.Windows.Forms.TextBox CharacterConnectedAdvancedSkill10;
+        private System.Windows.Forms.TextBox CharacterConnectedAdvancedSkill9;
+        private System.Windows.Forms.TextBox CharacterConnectedAdvancedSkill8;
+        private System.Windows.Forms.TextBox CharacterConnectedAdvancedSkill7;
+        private System.Windows.Forms.TextBox CharacterConnectedAdvancedSkill6;
+        private System.Windows.Forms.TextBox CharacterConnectedAdvancedSkill5;
+        private System.Windows.Forms.TextBox CharacterConnectedAdvancedSkill4;
+        private System.Windows.Forms.TextBox CharacterConnectedAdvancedSkill3;
+        private System.Windows.Forms.TextBox CharacterConnectedAdvancedSkill2;
+        private System.Windows.Forms.TextBox CharacterConnectedAdvancedSkill1;
+        private System.Windows.Forms.TextBox CharacterAbilityDescription15;
+        private System.Windows.Forms.TextBox CharacterAbilityDescription14;
+        private System.Windows.Forms.TextBox CharacterAbilityDescription13;
+        private System.Windows.Forms.TextBox CharacterAbilityDescription12;
+        private System.Windows.Forms.TextBox CharacterAbilityDescription11;
+        private System.Windows.Forms.TextBox CharacterAbilityDescription10;
+        private System.Windows.Forms.TextBox CharacterAbilityDescription9;
+        private System.Windows.Forms.TextBox CharacterAbilityDescription8;
+        private System.Windows.Forms.TextBox CharacterAbilityDescription7;
+        private System.Windows.Forms.TextBox CharacterAbilityDescription6;
+        private System.Windows.Forms.TextBox CharacterAbilityDescription5;
+        private System.Windows.Forms.TextBox CharacterAbilityDescription4;
+        private System.Windows.Forms.TextBox CharacterAbilityDescription3;
+        private System.Windows.Forms.TextBox CharacterAbilityDescription2;
+        private System.Windows.Forms.TextBox CharacterAbilityDescription1;
+        private System.Windows.Forms.TextBox CharacterAbility15;
+        private System.Windows.Forms.TextBox CharacterAbility14;
+        private System.Windows.Forms.TextBox CharacterAbility13;
+        private System.Windows.Forms.TextBox CharacterAbility12;
+        private System.Windows.Forms.TextBox CharacterAbility11;
+        private System.Windows.Forms.TextBox CharacterAbility10;
+        private System.Windows.Forms.TextBox CharacterAbility9;
+        private System.Windows.Forms.TextBox CharacterAbility8;
+        private System.Windows.Forms.TextBox CharacterAbility7;
+        private System.Windows.Forms.TextBox CharacterAbility6;
+        private System.Windows.Forms.TextBox CharacterAbility5;
+        private System.Windows.Forms.TextBox CharacterAbility4;
+        private System.Windows.Forms.TextBox CharacterAbility3;
+        private System.Windows.Forms.TextBox CharacterAbility2;
+        private System.Windows.Forms.TextBox CharacterItem14;
+        private System.Windows.Forms.TextBox CharacterItem13;
+        private System.Windows.Forms.TextBox CharacterItem12;
+        private System.Windows.Forms.TextBox CharacterItem11;
+        private System.Windows.Forms.TextBox CharacterItem10;
+        private System.Windows.Forms.TextBox CharacterItem9;
+        private System.Windows.Forms.TextBox CharacterItem8;
+        private System.Windows.Forms.TextBox CharacterItem7;
+        private System.Windows.Forms.TextBox CharacterItem6;
+        private System.Windows.Forms.TextBox CharacterItem5;
+        private System.Windows.Forms.TextBox CharacterItem4;
+        private System.Windows.Forms.TextBox CharacterItem3;
+        private System.Windows.Forms.TextBox CharacterItem2;
+        private System.Windows.Forms.TextBox CharacterItem1;
+        private System.Windows.Forms.TextBox CharacterItemWeight14;
+        private System.Windows.Forms.TextBox CharacterItemWeight13;
+        private System.Windows.Forms.TextBox CharacterItemWeight12;
+        private System.Windows.Forms.TextBox CharacterItemWeight11;
+        private System.Windows.Forms.TextBox CharacterItemWeight10;
+        private System.Windows.Forms.TextBox CharacterItemWeight9;
+        private System.Windows.Forms.TextBox CharacterItemWeight8;
+        private System.Windows.Forms.TextBox CharacterItemWeight7;
+        private System.Windows.Forms.TextBox CharacterItemWeight6;
+        private System.Windows.Forms.TextBox CharacterItemWeight5;
+        private System.Windows.Forms.TextBox CharacterItemWeight4;
+        private System.Windows.Forms.TextBox CharacterItemWeight3;
+        private System.Windows.Forms.TextBox CharacterItemWeight2;
+        private System.Windows.Forms.TextBox CharacterItemDescription14;
+        private System.Windows.Forms.TextBox CharacterItemDescription13;
+        private System.Windows.Forms.TextBox CharacterItemDescription12;
+        private System.Windows.Forms.TextBox CharacterItemDescription11;
+        private System.Windows.Forms.TextBox CharacterItemDescription10;
+        private System.Windows.Forms.TextBox CharacterItemDescription9;
+        private System.Windows.Forms.TextBox CharacterItemDescription8;
+        private System.Windows.Forms.TextBox CharacterItemDescription7;
+        private System.Windows.Forms.TextBox CharacterItemDescription6;
+        private System.Windows.Forms.TextBox CharacterItemDescription5;
+        private System.Windows.Forms.TextBox CharacterItemDescription4;
+        private System.Windows.Forms.TextBox CharacterItemDescription3;
+        private System.Windows.Forms.TextBox CharacterItemDescription2;
+        private System.Windows.Forms.TextBox CharacterItemDescription1;
         private NumericUpDownNoScroll CharacterMoneyZK;
         private NumericUpDownNoScroll CharacterMoneyP;
         private NumericUpDownNoScroll CharacterMoneyS;
         private System.Windows.Forms.CheckBox CharacterSkill17_1;
+        private System.Windows.Forms.CheckBox CharacterAdvancedSkill13_3;
+        private System.Windows.Forms.TextBox CharacterAbility1;
+        private System.Windows.Forms.TextBox CharacterItemWeight1;
     }
 }
 
