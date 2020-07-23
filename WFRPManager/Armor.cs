@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WFRPManager
 {
-    class Armor
+    public class Armor
     {
         private string Type { get; set; }
         private string Weight { get; set; }
