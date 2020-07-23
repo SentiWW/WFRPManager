@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+#if DEBUG
+using System.Windows.Forms;
+#endif
 
 namespace WFRPManager
 {
@@ -22,6 +25,18 @@ namespace WFRPManager
         public string Weight { get; set; }
         public string Height { get; set; }
         public string Siblings { get; set; }
+        public string Head { get; set; }
+        public string Body { get; set; }
+        public string LeftArm { get; set; }
+        public string RightArm { get; set; }
+        public string LeftLeg { get; set; }
+        public string RightLeg { get; set; }
+        public string CurrentXP { get; set; }
+        public string TotalXP { get; set; }
+        public string MovementRetreat { get; set; }
+        public string Charge { get; set; }
+        public string Sprint { get; set; }
+
         public List<Trait> Traits = new List<Trait>()
         {
             new Trait(TRAITNAME.WW),
@@ -50,6 +65,25 @@ namespace WFRPManager
             new Weapon(),
             new Weapon()
         };
-        public List<Armor> Armors = new List<Armor>();
+        public SimpleArmor SArmor = new SimpleArmor();
+        public List<AdvancedArmor> Armors = new List<AdvancedArmor>()
+        {
+            new AdvancedArmor(),
+            new AdvancedArmor(),
+            new AdvancedArmor(),
+            new AdvancedArmor(),
+            new AdvancedArmor(),
+            new AdvancedArmor()
+        };
+
+#if DEBUG
+        public void Debug()
+        {
+            MessageBox.Show($"Name: {Name}\nRace: {Race}\nCurrentRole: {CurrentRole}\nPreviousRole: {PreviousRole}\nAge: {Age}\nEyeColor: {EyeColor}\n" +
+                $"HairColor: {HairColor}\nStarSign: {StarSign}\nBirthplace: {Birthplace}\nFeatures: {Features}\nSex: {Sex}\nWeight: {Weight}\nHeight: {Height}\n" +
+                $"Siblings: {Siblings}\nHead: {Head}\nBody: {Body}\nLeftArm: {LeftArm}\nRightArm: {RightArm}\nLeftLeg: {LeftLeg}\nRightLeg: {RightLeg}\n" +
+                $"CurrentXP: {CurrentXP}\nTotalXP: {TotalXP}\nMovementRetreat: {MovementRetreat}\nCharge: {Charge}\nSprint: {Sprint}\n\n");
+        }
+#endif
     }
 }

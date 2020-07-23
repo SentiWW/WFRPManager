@@ -6,19 +6,29 @@ using System.Threading.Tasks;
 
 namespace WFRPManager
 {
-    public enum ARMOR { SIMPLE, ADVANCED };
-    public class Armor
+    public class SimpleArmor
     {
-        public ARMOR Complexity { get; set; }
         public string Type { get; set; }
+        public string PZ { get; set; }
+        
+        public SimpleArmor()
+        {
+            this.Type = "";
+            this.PZ = "";
+        }
+        public SimpleArmor(string Type) : this() => this.Type = Type;
+        public SimpleArmor(string Type, string PZ) : this(Type) => this.PZ = PZ;
+
+    }
+    public class AdvancedArmor : SimpleArmor
+    {
         public string Weight { get; set; }
         public string Location { get; set; }
-        public string PZ { get; set; }
 
-        public Armor()
-        {
-
-        }
-
+        public AdvancedArmor() : base() { }
+        public AdvancedArmor(string Type) : base(Type) { }
+        public AdvancedArmor(string Type, string PZ) : base(Type, PZ) { }
+        public AdvancedArmor(string Type, string PZ, string Location) : base(Type, PZ) => this.Location = Location;
+        public AdvancedArmor(string Type, string PZ, string Location, string Weight) : this(Type, PZ, Location) => this.Weight = Weight;
     }
 }

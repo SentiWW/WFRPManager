@@ -23,6 +23,7 @@ namespace WFRPManager
         private ConcurrentBag<CheckBox> SecondPageCheckBoxs = new ConcurrentBag<CheckBox>();
         private List<NumericUpDownNoScroll> SecondPageNumericUpDownTemp = new List<NumericUpDownNoScroll>();
         private ConcurrentBag<NumericUpDownNoScroll> SecondPageNumericUpDown = new ConcurrentBag<NumericUpDownNoScroll>();
+        private Character CurrentCharacter = new Character();
 
         public MainWindow()
         {
@@ -66,7 +67,7 @@ namespace WFRPManager
                 CharacterCurrentRole,
                 CharacterPreviousRole,
                 CharacterAge,
-                CharacterEyeColour,
+                CharacterEyeColor,
                 CharacterHairColor,
                 CharacterStartSign,
                 CharacterBirthplace,
@@ -569,5 +570,137 @@ namespace WFRPManager
         private void NextPage_Click(object sender, EventArgs e) => _ = SwitchPage();
 
         private void TurnPageMenuStripOption_Click(object sender, EventArgs e) => _ = SwitchPage();
+
+        //
+        //  Getting data out of the form
+        //
+        private void CharacterName_TextChanged(object sender, EventArgs e) => CurrentCharacter.Name = CharacterName.Text;
+
+        private void CharacterRace_TextChanged(object sender, EventArgs e) => CurrentCharacter.Race = CharacterRace.Text;
+
+        private void CharacterCurrentRole_TextChanged(object sender, EventArgs e) => CurrentCharacter.CurrentRole = CharacterCurrentRole.Text;
+
+        private void CharacterPreviousRole_TextChanged(object sender, EventArgs e) => CurrentCharacter.PreviousRole = CharacterPreviousRole.Text;
+
+        private void CharacterAge_TextChanged(object sender, EventArgs e) => CurrentCharacter.Age = CharacterAge.Text;
+
+        private void CharacterEyeColour_TextChanged(object sender, EventArgs e) => CurrentCharacter.EyeColor = CharacterEyeColor.Text;
+
+        private void CharacterHairColor_TextChanged(object sender, EventArgs e) => CurrentCharacter.HairColor = CharacterHairColor.Text;
+
+        private void CharacterStartSign_TextChanged(object sender, EventArgs e) => CurrentCharacter.StarSign = CharacterStartSign.Text;
+
+        private void CharacterBirthplace_TextChanged(object sender, EventArgs e) => CurrentCharacter.Birthplace = CharacterBirthplace.Text;
+
+        private void CharacterFeatures_TextChanged(object sender, EventArgs e) => CurrentCharacter.Features = CharacterFeatures.Text;
+
+        private void CharacterSex_TextChanged(object sender, EventArgs e) => CurrentCharacter.Sex = CharacterSex.Text;
+
+        private void CharacterWeight_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weight = CharacterWeight.Text;
+
+        private void CharacterHeight_TextChanged(object sender, EventArgs e) => CurrentCharacter.Height = CharacterHeight.Text;
+
+        private void CharacterSiblings_TextChanged(object sender, EventArgs e) => CurrentCharacter.Siblings = CharacterSiblings.Text;
+
+        private void CharacterStartingWW_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[0].Starting = (int)CharacterStartingWW.Value;
+
+        private void CharacterGrowthWW_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[0].Growth = (int)CharacterGrowthWW.Value;
+
+        private void CharacterActualWW_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[0].Actual = (int)CharacterActualWW.Value;
+
+        private void CharacterStartingUS_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[1].Starting = (int)CharacterStartingUS.Value;
+
+        private void CharacterGrowthUS_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[1].Growth = (int)CharacterGrowthUS.Value;
+
+        private void CharacterActualUS_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[1].Actual = (int)CharacterActualUS.Value;
+
+        private void CharacterStartingK_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[2].Starting = (int)CharacterStartingK.Value;
+
+        private void CharacterGrowthK_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[2].Growth = (int)CharacterGrowthK.Value;
+
+        private void CharacterActualK_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[2].Actual = (int)CharacterActualK.Value;
+
+        private void CharacterStartingOdp_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[3].Starting = (int)CharacterStartingOdp.Value;
+
+        private void CharacterGrowthOdp_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[3].Growth = (int)CharacterGrowthOdp.Value;
+
+        private void CharacterActualOdp_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[3].Actual = (int)CharacterActualOdp.Value;
+
+        private void CharacterStartingZr_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[4].Starting = (int)CharacterStartingZr.Value;
+
+        private void CharacterGrowthZr_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[4].Growth = (int)CharacterGrowthZr.Value;
+
+        private void CharacterActualZr_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[4].Actual = (int)CharacterActualZr.Value;
+
+        private void CharacterStartingInt_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[5].Starting = (int)CharacterStartingInt.Value;
+
+        private void CharacterGrowthInt_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[5].Growth = (int)CharacterGrowthInt.Value;
+
+        private void CharacterActualInt_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[5].Actual = (int)CharacterActualInt.Value;
+
+        private void CharacterStartingSW_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[6].Starting = (int)CharacterStartingSW.Value;
+
+        private void CharacterGrowthSW_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[6].Growth = (int)CharacterGrowthSW.Value;
+
+        private void CharacterActualSW_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[6].Actual = (int)CharacterActualSW.Value;
+
+        private void CharacterStartingOgd_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[7].Starting = (int)CharacterStartingOgd.Value;
+
+        private void CharacterGrowthOgd_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[7].Growth = (int)CharacterGrowthOgd.Value;
+
+        private void CharacterActualOgd_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[7].Actual = (int)CharacterActualOgd.Value;
+
+        private void CharacterStartingA_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[8].Starting = (int)CharacterStartingA.Value;
+
+        private void CharacterGrowthA_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[8].Growth = (int)CharacterGrowthA.Value;
+
+        private void CharacterActualA_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[8].Actual = (int)CharacterActualA.Value;
+
+        private void CharacterStartingZyw_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[9].Starting = (int)CharacterStartingZyw.Value;
+
+        private void CharacterGrowthZyw_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[9].Growth = (int)CharacterGrowthZyw.Value;
+
+        private void CharacterActualZyw_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[9].Actual = (int)CharacterActualZyw.Value;
+
+        private void CharacterStartingS_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[10].Starting = (int)CharacterStartingS.Value;
+
+        private void CharacterGrowthS_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[10].Growth = (int)CharacterGrowthS.Value;
+
+        private void CharacterActualS_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[10].Actual = (int)CharacterActualS.Value;
+
+        private void CharacterStartingWt_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[11].Starting = (int)CharacterStartingWt.Value;
+
+        private void CharacterGrowthWt_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[11].Growth = (int)CharacterGrowthWt.Value;
+
+        private void CharacterActualWt_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[11].Actual = (int)CharacterActualWt.Value;
+
+        private void CharacterStartingSz_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[12].Starting = (int)CharacterStartingSz.Value;
+
+        private void CharacterGrowthSz_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[12].Growth = (int)CharacterGrowthSz.Value;
+
+        private void CharacterActualSz_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[12].Actual = (int)CharacterActualSz.Value;
+
+        private void CharacterStartingMag_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[13].Starting = (int)CharacterStartingMag.Value;
+
+        private void CharacterGrowthMag_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[13].Growth = (int)CharacterGrowthMag.Value;
+
+        private void CharacterActualMag_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[13].Actual = (int)CharacterActualMag.Value;
+
+        private void CharacterStartingPO_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[14].Starting = (int)CharacterStartingPO.Value;
+
+        private void CharacterGrowthPO_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[14].Growth = (int)CharacterGrowthPO.Value;
+
+        private void CharacterActualPO_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[14].Actual = (int)CharacterActualPO.Value;
+
+        private void CharacterStartingPP_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[15].Starting = (int)CharacterStartingPP.Value;
+
+        private void CharacterGrowthPP_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[15].Growth = (int)CharacterGrowthPP.Value;
+
+        private void CharacterActualPP_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[15].Actual = (int)CharacterActualPP.Value;
+
+        private void PlaceholderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurrentCharacter.Debug();
+        }
     }
 }
