@@ -6,12 +6,19 @@ using System.Threading.Tasks;
 
 namespace WFRPManager
 {
+    public enum ARMOR { SIMPLE, ADVANCED };
     public class Armor
     {
-        private string Type { get; set; }
-        private string Weight { get; set; }
-        private string Location { get; set; }
-        private string PZ { get; set; }
+        public ARMOR Complexity { get; set; }
+        public string Type { get; set; }
+        public string Weight { get; set; }
+        public string Location { get; set; }
+        public string PZ { get; set; }
+
+        public Armor()
+        {
+
+        }
 
     }
 }
