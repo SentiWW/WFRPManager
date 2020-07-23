@@ -51,6 +51,7 @@ namespace WFRPManager
                 CharacterCharge,
                 CharacterSprint,
                 CharacterHead,
+                CharacterBody,
                 CharacterRightArm,
                 CharacterRightLeg,
                 CharacterLeftArm,
