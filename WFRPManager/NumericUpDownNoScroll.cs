@@ -9,9 +9,6 @@ namespace WFRPManager
 {
     public class NumericUpDownNoScroll : NumericUpDown
     {
-        protected override void OnMouseWheel(MouseEventArgs e)
-        {
-            
-        }
+        protected override void OnMouseWheel(MouseEventArgs e) { }
     }
 }

@@ -29,11 +29,11 @@ namespace WFRPManager
         public MainWindow()
         {
             InitializeComponent();
-            _ = FillElementsToBag();
+            _ = FillElementsToLinkedList();
             _ = EnableSecondPage(false);
             var formData = new FormData();
         }
-        private async Task FillElementsToBag()
+        private async Task FillElementsToLinkedList()
         {
             _ = FillElementsLists();
             foreach (var element in FirstPageTextBoxsTemp)
@@ -497,13 +497,13 @@ namespace WFRPManager
         {
             if (enable)
             {
-                await Task.Run(() => picture.Enabled = true);
-                await Task.Run(() => picture.Visible = true);
+                picture.Enabled = true;
+                picture.Visible = true;
             }
             else
             {
-                await Task.Run(() => picture.Enabled = false);
-                await Task.Run(() => picture.Visible = false);
+                picture.Enabled = false;
+                picture.Visible = false;
             }
         }
 

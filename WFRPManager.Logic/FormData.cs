@@ -15,7 +15,7 @@ namespace WFRPManager.Logic
 
         private async Task BuildFormDataStructure()
         {
-            
+            throw new NotImplementedException();
         }
     }
 }
