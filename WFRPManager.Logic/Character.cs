@@ -1,13 +1,15 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.Data;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-#if DEBUG
-using System.Windows.Forms;
-#endif
 
-namespace WFRPManager
+
+namespace WFRPManager.Logic
 {
     public class Character
     {
@@ -79,10 +81,14 @@ namespace WFRPManager
 #if DEBUG
         public void Debug()
         {
-            MessageBox.Show($"Name: {Name}\nRace: {Race}\nCurrentRole: {CurrentRole}\nPreviousRole: {PreviousRole}\nAge: {Age}\nEyeColor: {EyeColor}\n" +
+            using(StreamWriter sw = new StreamWriter($"{Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)}\\debug_log.txt"))
+            {
+                sw.WriteLine($"Name: {Name}\nRace: {Race}\nCurrentRole: {CurrentRole}\nPreviousRole: {PreviousRole}\nAge: {Age}\nEyeColor: {EyeColor}\n" +
                 $"HairColor: {HairColor}\nStarSign: {StarSign}\nBirthplace: {Birthplace}\nFeatures: {Features}\nSex: {Sex}\nWeight: {Weight}\nHeight: {Height}\n" +
                 $"Siblings: {Siblings}\nHead: {Head}\nBody: {Body}\nLeftArm: {LeftArm}\nRightArm: {RightArm}\nLeftLeg: {LeftLeg}\nRightLeg: {RightLeg}\n" +
                 $"CurrentXP: {CurrentXP}\nTotalXP: {TotalXP}\nMovementRetreat: {MovementRetreat}\nCharge: {Charge}\nSprint: {Sprint}\n\n");
+                sw.Close();
+            }
         }
 #endif
     }

@@ -8,21 +8,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WFRPManager.Logic;
 
 namespace WFRPManager
 {
     public partial class MainWindow : Form
     {
         private List<TextBox> FirstPageTextBoxsTemp = new List<TextBox>();
-        private ConcurrentBag<TextBox> FirstPageTextBoxs = new ConcurrentBag<TextBox>();
+        private LinkedList<TextBox> FirstPageTextBoxs = new LinkedList<TextBox>();
         private List<NumericUpDownNoScroll> FirstPageNumericUpDownTemp = new List<NumericUpDownNoScroll>();
-        private ConcurrentBag<NumericUpDownNoScroll> FirstPageNumericUpDown = new ConcurrentBag<NumericUpDownNoScroll>();
+        private LinkedList<NumericUpDownNoScroll> FirstPageNumericUpDown = new LinkedList<NumericUpDownNoScroll>();
         private List<TextBox> SecondPageTextBoxsTemp = new List<TextBox>();
-        private ConcurrentBag<TextBox> SecondPageTextBoxs = new ConcurrentBag<TextBox>();
+        private LinkedList<TextBox> SecondPageTextBoxs = new LinkedList<TextBox>();
         private List<CheckBox> SecondPageCheckBoxsTemp = new List<CheckBox>();
-        private ConcurrentBag<CheckBox> SecondPageCheckBoxs = new ConcurrentBag<CheckBox>();
+        private LinkedList<CheckBox> SecondPageCheckBoxs = new LinkedList<CheckBox>();
         private List<NumericUpDownNoScroll> SecondPageNumericUpDownTemp = new List<NumericUpDownNoScroll>();
-        private ConcurrentBag<NumericUpDownNoScroll> SecondPageNumericUpDown = new ConcurrentBag<NumericUpDownNoScroll>();
+        private LinkedList<NumericUpDownNoScroll> SecondPageNumericUpDown = new LinkedList<NumericUpDownNoScroll>();
         private Character CurrentCharacter = new Character();
 
         public MainWindow()
@@ -36,23 +37,23 @@ namespace WFRPManager
         {
             _ = FillElementsLists();
             foreach (var element in FirstPageTextBoxsTemp)
-                FirstPageTextBoxs.Add(element);
+                FirstPageTextBoxs.AddLast(element);
             FirstPageTextBoxsTemp.Clear();
             await Task.Delay(0);
             foreach (var element in FirstPageNumericUpDownTemp)
-                FirstPageNumericUpDown.Add(element);
+                FirstPageNumericUpDown.AddLast(element);
             FirstPageNumericUpDownTemp.Clear();
             await Task.Delay(0);
             foreach (var element in SecondPageTextBoxsTemp)
-                SecondPageTextBoxs.Add(element);
+                SecondPageTextBoxs.AddLast(element);
             SecondPageTextBoxsTemp.Clear();
             await Task.Delay(0);
             foreach (var element in SecondPageCheckBoxsTemp)
-                SecondPageCheckBoxs.Add(element);
+                SecondPageCheckBoxs.AddLast(element);
             SecondPageCheckBoxsTemp.Clear();
             await Task.Delay(0);
             foreach (var element in SecondPageNumericUpDownTemp)
-                SecondPageNumericUpDown.Add(element);
+                SecondPageNumericUpDown.AddLast(element);
             SecondPageNumericUpDownTemp.Clear();
         }
         private async Task FillElementsLists()
@@ -572,7 +573,7 @@ namespace WFRPManager
         private void TurnPageMenuStripOption_Click(object sender, EventArgs e) => _ = SwitchPage();
 
         //
-        //  Getting data out of the form
+        //  Update data localy on input
         //
         private void CharacterName_TextChanged(object sender, EventArgs e) => CurrentCharacter.Name = CharacterName.Text;
 
@@ -698,9 +699,6 @@ namespace WFRPManager
 
         private void CharacterActualPP_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[15].Actual = (int)CharacterActualPP.Value;
 
-        private void PlaceholderToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            CurrentCharacter.Debug();
-        }
+        private void PlaceholderToolStripMenuItem_Click(object sender, EventArgs e) => CurrentCharacter.Debug();
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WFRPManager
+namespace WFRPManager.Logic
 {
     public class Weapon
     {

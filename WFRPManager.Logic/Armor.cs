@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WFRPManager
+namespace WFRPManager.Logic
 {
     public class SimpleArmor
     {
         public string Type { get; set; }
         public string PZ { get; set; }
-        
+
         public SimpleArmor()
         {
             this.Type = "";

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WFRPManager;
 
-namespace WFRPManager
+namespace WFRPManager.Logic
 {
     class Serialization
     {
