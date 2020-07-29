@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             this.TopMenuStrip = new System.Windows.Forms.MenuStrip();
             this.placeholderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.BottomStatusStrip = new System.Windows.Forms.StatusStrip();
@@ -476,8 +477,6 @@
             // 
             // TopMenuStrip
             // 
-            this.TopMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.placeholderToolStripMenuItem});
             this.TopMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.TopMenuStrip.Name = "TopMenuStrip";
             this.TopMenuStrip.Size = new System.Drawing.Size(1546, 24);
@@ -493,8 +492,6 @@
             // 
             // BottomStatusStrip
             // 
-            this.BottomStatusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1});
             this.BottomStatusStrip.Location = new System.Drawing.Point(0, 712);
             this.BottomStatusStrip.Name = "BottomStatusStrip";
             this.BottomStatusStrip.Size = new System.Drawing.Size(1546, 22);
@@ -1314,6 +1311,7 @@
             this.WeaponTraits6.Name = "WeaponTraits6";
             this.WeaponTraits6.Size = new System.Drawing.Size(131, 37);
             this.WeaponTraits6.TabIndex = 107;
+            this.WeaponTraits6.TextChanged += new System.EventHandler(this.WeaponTraits6_TextChanged);
             // 
             // WeaponReload6
             // 
@@ -1324,6 +1322,7 @@
             this.WeaponReload6.Name = "WeaponReload6";
             this.WeaponReload6.Size = new System.Drawing.Size(66, 37);
             this.WeaponReload6.TabIndex = 106;
+            this.WeaponReload6.TextChanged += new System.EventHandler(this.WeaponReload6_TextChanged);
             // 
             // WeaponRange6
             // 
@@ -1334,6 +1333,7 @@
             this.WeaponRange6.Name = "WeaponRange6";
             this.WeaponRange6.Size = new System.Drawing.Size(66, 37);
             this.WeaponRange6.TabIndex = 105;
+            this.WeaponRange6.TextChanged += new System.EventHandler(this.WeaponRange6_TextChanged);
             // 
             // WeaponStrength6
             // 
@@ -1344,6 +1344,7 @@
             this.WeaponStrength6.Name = "WeaponStrength6";
             this.WeaponStrength6.Size = new System.Drawing.Size(66, 37);
             this.WeaponStrength6.TabIndex = 104;
+            this.WeaponStrength6.TextChanged += new System.EventHandler(this.WeaponStrength6_TextChanged);
             // 
             // WeaponCategory6
             // 
@@ -1354,6 +1355,7 @@
             this.WeaponCategory6.Name = "WeaponCategory6";
             this.WeaponCategory6.Size = new System.Drawing.Size(66, 37);
             this.WeaponCategory6.TabIndex = 103;
+            this.WeaponCategory6.TextChanged += new System.EventHandler(this.WeaponCategory6_TextChanged);
             // 
             // WeaponWeight6
             // 
@@ -1364,6 +1366,7 @@
             this.WeaponWeight6.Name = "WeaponWeight6";
             this.WeaponWeight6.Size = new System.Drawing.Size(66, 37);
             this.WeaponWeight6.TabIndex = 102;
+            this.WeaponWeight6.TextChanged += new System.EventHandler(this.WeaponWeight6_TextChanged);
             // 
             // WeaponName6
             // 
@@ -1374,6 +1377,7 @@
             this.WeaponName6.Name = "WeaponName6";
             this.WeaponName6.Size = new System.Drawing.Size(176, 37);
             this.WeaponName6.TabIndex = 101;
+            this.WeaponName6.TextChanged += new System.EventHandler(this.WeaponName6_TextChanged);
             // 
             // WeaponTraits5
             // 
@@ -1384,6 +1388,7 @@
             this.WeaponTraits5.Name = "WeaponTraits5";
             this.WeaponTraits5.Size = new System.Drawing.Size(131, 37);
             this.WeaponTraits5.TabIndex = 100;
+            this.WeaponTraits5.TextChanged += new System.EventHandler(this.WeaponTraits5_TextChanged);
             // 
             // WeaponReload5
             // 
@@ -1394,6 +1399,7 @@
             this.WeaponReload5.Name = "WeaponReload5";
             this.WeaponReload5.Size = new System.Drawing.Size(66, 37);
             this.WeaponReload5.TabIndex = 99;
+            this.WeaponReload5.TextChanged += new System.EventHandler(this.WeaponReload5_TextChanged);
             // 
             // WeaponRange5
             // 
@@ -1404,6 +1410,7 @@
             this.WeaponRange5.Name = "WeaponRange5";
             this.WeaponRange5.Size = new System.Drawing.Size(66, 37);
             this.WeaponRange5.TabIndex = 98;
+            this.WeaponRange5.TextChanged += new System.EventHandler(this.WeaponRange5_TextChanged);
             // 
             // WeaponStrength5
             // 
@@ -1414,6 +1421,7 @@
             this.WeaponStrength5.Name = "WeaponStrength5";
             this.WeaponStrength5.Size = new System.Drawing.Size(66, 37);
             this.WeaponStrength5.TabIndex = 97;
+            this.WeaponStrength5.TextChanged += new System.EventHandler(this.WeaponStrength5_TextChanged);
             // 
             // WeaponCategory5
             // 
@@ -1424,6 +1432,7 @@
             this.WeaponCategory5.Name = "WeaponCategory5";
             this.WeaponCategory5.Size = new System.Drawing.Size(66, 37);
             this.WeaponCategory5.TabIndex = 96;
+            this.WeaponCategory5.TextChanged += new System.EventHandler(this.WeaponCategory5_TextChanged);
             // 
             // WeaponWeight5
             // 
@@ -1434,6 +1443,7 @@
             this.WeaponWeight5.Name = "WeaponWeight5";
             this.WeaponWeight5.Size = new System.Drawing.Size(66, 37);
             this.WeaponWeight5.TabIndex = 95;
+            this.WeaponWeight5.TextChanged += new System.EventHandler(this.WeaponWeight5_TextChanged);
             // 
             // WeaponName5
             // 
@@ -1444,6 +1454,7 @@
             this.WeaponName5.Name = "WeaponName5";
             this.WeaponName5.Size = new System.Drawing.Size(176, 37);
             this.WeaponName5.TabIndex = 94;
+            this.WeaponName5.TextChanged += new System.EventHandler(this.WeaponName5_TextChanged);
             // 
             // WeaponTraits4
             // 
@@ -1454,6 +1465,7 @@
             this.WeaponTraits4.Name = "WeaponTraits4";
             this.WeaponTraits4.Size = new System.Drawing.Size(131, 37);
             this.WeaponTraits4.TabIndex = 93;
+            this.WeaponTraits4.TextChanged += new System.EventHandler(this.WeaponTraits4_TextChanged);
             // 
             // WeaponReload4
             // 
@@ -1464,6 +1476,7 @@
             this.WeaponReload4.Name = "WeaponReload4";
             this.WeaponReload4.Size = new System.Drawing.Size(66, 37);
             this.WeaponReload4.TabIndex = 92;
+            this.WeaponReload4.TextChanged += new System.EventHandler(this.WeaponReload4_TextChanged);
             // 
             // WeaponRange4
             // 
@@ -1474,6 +1487,7 @@
             this.WeaponRange4.Name = "WeaponRange4";
             this.WeaponRange4.Size = new System.Drawing.Size(66, 37);
             this.WeaponRange4.TabIndex = 91;
+            this.WeaponRange4.TextChanged += new System.EventHandler(this.WeaponRange4_TextChanged);
             // 
             // WeaponStrength4
             // 
@@ -1484,6 +1498,7 @@
             this.WeaponStrength4.Name = "WeaponStrength4";
             this.WeaponStrength4.Size = new System.Drawing.Size(66, 37);
             this.WeaponStrength4.TabIndex = 90;
+            this.WeaponStrength4.TextChanged += new System.EventHandler(this.WeaponStrength4_TextChanged);
             // 
             // WeaponCategory4
             // 
@@ -1494,6 +1509,7 @@
             this.WeaponCategory4.Name = "WeaponCategory4";
             this.WeaponCategory4.Size = new System.Drawing.Size(66, 37);
             this.WeaponCategory4.TabIndex = 89;
+            this.WeaponCategory4.TextChanged += new System.EventHandler(this.WeaponCategory4_TextChanged);
             // 
             // WeaponWeight4
             // 
@@ -1504,6 +1520,7 @@
             this.WeaponWeight4.Name = "WeaponWeight4";
             this.WeaponWeight4.Size = new System.Drawing.Size(66, 37);
             this.WeaponWeight4.TabIndex = 88;
+            this.WeaponWeight4.TextChanged += new System.EventHandler(this.WeaponWeight4_TextChanged);
             // 
             // WeaponName4
             // 
@@ -1514,6 +1531,7 @@
             this.WeaponName4.Name = "WeaponName4";
             this.WeaponName4.Size = new System.Drawing.Size(176, 37);
             this.WeaponName4.TabIndex = 87;
+            this.WeaponName4.TextChanged += new System.EventHandler(this.WeaponName4_TextChanged);
             // 
             // WeaponTraits3
             // 
@@ -1524,6 +1542,7 @@
             this.WeaponTraits3.Name = "WeaponTraits3";
             this.WeaponTraits3.Size = new System.Drawing.Size(131, 37);
             this.WeaponTraits3.TabIndex = 86;
+            this.WeaponTraits3.TextChanged += new System.EventHandler(this.WeaponTraits3_TextChanged);
             // 
             // WeaponReload3
             // 
@@ -1534,6 +1553,7 @@
             this.WeaponReload3.Name = "WeaponReload3";
             this.WeaponReload3.Size = new System.Drawing.Size(66, 37);
             this.WeaponReload3.TabIndex = 85;
+            this.WeaponReload3.TextChanged += new System.EventHandler(this.WeaponReload3_TextChanged);
             // 
             // WeaponRange3
             // 
@@ -1544,6 +1564,7 @@
             this.WeaponRange3.Name = "WeaponRange3";
             this.WeaponRange3.Size = new System.Drawing.Size(66, 37);
             this.WeaponRange3.TabIndex = 84;
+            this.WeaponRange3.TextChanged += new System.EventHandler(this.WeaponRange3_TextChanged);
             // 
             // WeaponStrength3
             // 
@@ -1554,6 +1575,7 @@
             this.WeaponStrength3.Name = "WeaponStrength3";
             this.WeaponStrength3.Size = new System.Drawing.Size(66, 37);
             this.WeaponStrength3.TabIndex = 83;
+            this.WeaponStrength3.TextChanged += new System.EventHandler(this.WeaponStrength3_TextChanged);
             // 
             // WeaponCategory3
             // 
@@ -1564,6 +1586,7 @@
             this.WeaponCategory3.Name = "WeaponCategory3";
             this.WeaponCategory3.Size = new System.Drawing.Size(66, 37);
             this.WeaponCategory3.TabIndex = 82;
+            this.WeaponCategory3.TextChanged += new System.EventHandler(this.WeaponCategory3_TextChanged);
             // 
             // WeaponWeight3
             // 
@@ -1574,6 +1597,7 @@
             this.WeaponWeight3.Name = "WeaponWeight3";
             this.WeaponWeight3.Size = new System.Drawing.Size(66, 37);
             this.WeaponWeight3.TabIndex = 81;
+            this.WeaponWeight3.TextChanged += new System.EventHandler(this.WeaponWeight3_TextChanged);
             // 
             // WeaponName3
             // 
@@ -1584,6 +1608,7 @@
             this.WeaponName3.Name = "WeaponName3";
             this.WeaponName3.Size = new System.Drawing.Size(176, 37);
             this.WeaponName3.TabIndex = 80;
+            this.WeaponName3.TextChanged += new System.EventHandler(this.WeaponName3_TextChanged);
             // 
             // WeaponTraits2
             // 
@@ -1594,6 +1619,7 @@
             this.WeaponTraits2.Name = "WeaponTraits2";
             this.WeaponTraits2.Size = new System.Drawing.Size(131, 37);
             this.WeaponTraits2.TabIndex = 79;
+            this.WeaponTraits2.TextChanged += new System.EventHandler(this.WeaponTraits2_TextChanged);
             // 
             // WeaponReload2
             // 
@@ -1604,6 +1630,7 @@
             this.WeaponReload2.Name = "WeaponReload2";
             this.WeaponReload2.Size = new System.Drawing.Size(66, 37);
             this.WeaponReload2.TabIndex = 78;
+            this.WeaponReload2.TextChanged += new System.EventHandler(this.WeaponReload2_TextChanged);
             // 
             // WeaponRange2
             // 
@@ -1614,6 +1641,7 @@
             this.WeaponRange2.Name = "WeaponRange2";
             this.WeaponRange2.Size = new System.Drawing.Size(66, 37);
             this.WeaponRange2.TabIndex = 77;
+            this.WeaponRange2.TextChanged += new System.EventHandler(this.WeaponRange2_TextChanged);
             // 
             // WeaponStrength2
             // 
@@ -1624,6 +1652,7 @@
             this.WeaponStrength2.Name = "WeaponStrength2";
             this.WeaponStrength2.Size = new System.Drawing.Size(66, 37);
             this.WeaponStrength2.TabIndex = 76;
+            this.WeaponStrength2.TextChanged += new System.EventHandler(this.WeaponStrength2_TextChanged);
             // 
             // WeaponCategory2
             // 
@@ -1634,6 +1663,7 @@
             this.WeaponCategory2.Name = "WeaponCategory2";
             this.WeaponCategory2.Size = new System.Drawing.Size(66, 37);
             this.WeaponCategory2.TabIndex = 75;
+            this.WeaponCategory2.TextChanged += new System.EventHandler(this.WeaponCategory2_TextChanged);
             // 
             // WeaponWeight2
             // 
@@ -1644,6 +1674,7 @@
             this.WeaponWeight2.Name = "WeaponWeight2";
             this.WeaponWeight2.Size = new System.Drawing.Size(66, 37);
             this.WeaponWeight2.TabIndex = 74;
+            this.WeaponWeight2.TextChanged += new System.EventHandler(this.WeaponWeight2_TextChanged);
             // 
             // WeaponName2
             // 
@@ -1654,6 +1685,7 @@
             this.WeaponName2.Name = "WeaponName2";
             this.WeaponName2.Size = new System.Drawing.Size(176, 37);
             this.WeaponName2.TabIndex = 73;
+            this.WeaponName2.TextChanged += new System.EventHandler(this.WeaponName2_TextChanged);
             // 
             // WeaponTraits1
             // 
@@ -1664,6 +1696,7 @@
             this.WeaponTraits1.Name = "WeaponTraits1";
             this.WeaponTraits1.Size = new System.Drawing.Size(131, 37);
             this.WeaponTraits1.TabIndex = 72;
+            this.WeaponTraits1.TextChanged += new System.EventHandler(this.WeaponTraits1_TextChanged);
             // 
             // WeaponReload1
             // 
@@ -1674,6 +1707,7 @@
             this.WeaponReload1.Name = "WeaponReload1";
             this.WeaponReload1.Size = new System.Drawing.Size(66, 37);
             this.WeaponReload1.TabIndex = 71;
+            this.WeaponReload1.TextChanged += new System.EventHandler(this.WeaponReload1_TextChanged);
             // 
             // WeaponRange1
             // 
@@ -1684,6 +1718,7 @@
             this.WeaponRange1.Name = "WeaponRange1";
             this.WeaponRange1.Size = new System.Drawing.Size(66, 37);
             this.WeaponRange1.TabIndex = 70;
+            this.WeaponRange1.TextChanged += new System.EventHandler(this.WeaponRange1_TextChanged);
             // 
             // WeaponStrength1
             // 
@@ -1694,6 +1729,7 @@
             this.WeaponStrength1.Name = "WeaponStrength1";
             this.WeaponStrength1.Size = new System.Drawing.Size(66, 37);
             this.WeaponStrength1.TabIndex = 69;
+            this.WeaponStrength1.TextChanged += new System.EventHandler(this.WeaponStrength1_TextChanged);
             // 
             // WeaponCategory1
             // 
@@ -1704,6 +1740,7 @@
             this.WeaponCategory1.Name = "WeaponCategory1";
             this.WeaponCategory1.Size = new System.Drawing.Size(66, 37);
             this.WeaponCategory1.TabIndex = 68;
+            this.WeaponCategory1.TextChanged += new System.EventHandler(this.WeaponCategory1_TextChanged);
             // 
             // WeaponWeight1
             // 
@@ -1714,6 +1751,7 @@
             this.WeaponWeight1.Name = "WeaponWeight1";
             this.WeaponWeight1.Size = new System.Drawing.Size(66, 37);
             this.WeaponWeight1.TabIndex = 67;
+            this.WeaponWeight1.TextChanged += new System.EventHandler(this.WeaponWeight1_TextChanged);
             // 
             // WeaponName1
             // 
@@ -1724,6 +1762,7 @@
             this.WeaponName1.Name = "WeaponName1";
             this.WeaponName1.Size = new System.Drawing.Size(176, 37);
             this.WeaponName1.TabIndex = 66;
+            this.WeaponName1.TextChanged += new System.EventHandler(this.WeaponName1_TextChanged);
             // 
             // CharacterActualPP
             // 
@@ -2357,7 +2396,7 @@
             // FirstPictureBox
             // 
             this.FirstPictureBox.ContextMenuStrip = this.PageMenuStrip;
-            this.FirstPictureBox.Image = Properties.Resources.w0;
+            this.FirstPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("FirstPictureBox.Image")));
             this.FirstPictureBox.Location = new System.Drawing.Point(200, 906);
             this.FirstPictureBox.Name = "FirstPictureBox";
             this.FirstPictureBox.Size = new System.Drawing.Size(1675, 2175);
@@ -4461,7 +4500,7 @@
             // SecondPictureBox
             // 
             this.SecondPictureBox.ContextMenuStrip = this.PageMenuStrip;
-            this.SecondPictureBox.Image = Properties.Resources.w1;
+            this.SecondPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("SecondPictureBox.Image")));
             this.SecondPictureBox.Location = new System.Drawing.Point(200, 906);
             this.SecondPictureBox.Name = "SecondPictureBox";
             this.SecondPictureBox.Size = new System.Drawing.Size(1672, 2175);

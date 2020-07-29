@@ -33,6 +33,7 @@ namespace WFRPManager
             _ = EnableSecondPage(false);
             var formData = new FormData();
         }
+
         private async Task FillElementsToLinkedList()
         {
             _ = FillElementsLists();
@@ -40,22 +41,27 @@ namespace WFRPManager
                 FirstPageTextBoxs.AddLast(element);
             FirstPageTextBoxsTemp.Clear();
             await Task.Delay(0);
+
             foreach (var element in FirstPageNumericUpDownTemp)
                 FirstPageNumericUpDown.AddLast(element);
             FirstPageNumericUpDownTemp.Clear();
             await Task.Delay(0);
+
             foreach (var element in SecondPageTextBoxsTemp)
                 SecondPageTextBoxs.AddLast(element);
             SecondPageTextBoxsTemp.Clear();
             await Task.Delay(0);
+
             foreach (var element in SecondPageCheckBoxsTemp)
                 SecondPageCheckBoxs.AddLast(element);
             SecondPageCheckBoxsTemp.Clear();
             await Task.Delay(0);
+
             foreach (var element in SecondPageNumericUpDownTemp)
                 SecondPageNumericUpDown.AddLast(element);
             SecondPageNumericUpDownTemp.Clear();
         }
+
         private async Task FillElementsLists()
         {
             FirstPageTextBoxsTemp.AddRange(new List<TextBox>()
@@ -519,7 +525,7 @@ namespace WFRPManager
             {
                 element.Visible = enable;
                 element.Enabled = enable;
-                
+
             }
             await Task.Delay(0);
             if (enable)
@@ -530,24 +536,27 @@ namespace WFRPManager
 
         private async Task EnableSecondPage(bool enable)
         {
-            foreach(var element in SecondPageTextBoxs)
+            foreach (var element in SecondPageTextBoxs)
             {
                 element.Visible = enable;
                 element.Enabled = enable;
             }
             await Task.Delay(0);
+
             foreach (var element in SecondPageCheckBoxs)
             {
                 element.Visible = enable;
                 element.Enabled = enable;
             }
             await Task.Delay(0);
+
             foreach (var element in SecondPageNumericUpDown)
             {
                 element.Visible = enable;
                 element.Enabled = enable;
             }
             await Task.Delay(0);
+
             if (enable)
                 await EnablePictureBox(true, SecondPictureBox);
             else
@@ -575,6 +584,9 @@ namespace WFRPManager
         //
         //  Update data localy on input
         //
+        #region data
+        private void PlaceholderToolStripMenuItem_Click(object sender, EventArgs e) => CurrentCharacter.Debug();
+
         private void CharacterName_TextChanged(object sender, EventArgs e) => CurrentCharacter.Name = CharacterName.Text;
 
         private void CharacterRace_TextChanged(object sender, EventArgs e) => CurrentCharacter.Race = CharacterRace.Text;
@@ -699,6 +711,90 @@ namespace WFRPManager
 
         private void CharacterActualPP_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[15].Actual = (int)CharacterActualPP.Value;
 
-        private void PlaceholderToolStripMenuItem_Click(object sender, EventArgs e) => CurrentCharacter.Debug();
+        private void WeaponName1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[0].Name = WeaponName1.Text;
+
+        private void WeaponWeight1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[0].Weight = WeaponWeight1.Text;
+
+        private void WeaponCategory1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[0].Category = WeaponCategory1.Text;
+
+        private void WeaponStrength1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[0].Strength = WeaponStrength1.Text;
+
+        private void WeaponRange1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[0].Range = WeaponRange1.Text;
+
+        private void WeaponReload1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[0].Reload = WeaponReload1.Text;
+
+        private void WeaponTraits1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[0].Traits = WeaponTraits1.Text;
+
+        private void WeaponName2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[1].Name = WeaponName2.Text;
+
+        private void WeaponWeight2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[1].Weight = WeaponWeight2.Text;
+
+        private void WeaponCategory2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[1].Category = WeaponCategory2.Text;
+
+        private void WeaponStrength2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[1].Strength = WeaponStrength2.Text;
+
+        private void WeaponRange2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[1].Range = WeaponRange2.Text;
+
+        private void WeaponReload2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[1].Reload = WeaponReload2.Text;
+
+        private void WeaponTraits2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[1].Traits = WeaponTraits2.Text;
+
+        private void WeaponName3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[2].Name = WeaponName3.Text;
+
+        private void WeaponWeight3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[2].Weight = WeaponWeight3.Text;
+
+        private void WeaponCategory3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[2].Category = WeaponCategory3.Text;
+
+        private void WeaponStrength3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[2].Strength = WeaponStrength3.Text;
+
+        private void WeaponRange3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[2].Range = WeaponRange3.Text;
+
+        private void WeaponReload3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[2].Reload = WeaponReload3.Text;
+
+        private void WeaponTraits3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[2].Traits = WeaponTraits3.Text;
+
+        private void WeaponName4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[3].Name = WeaponName4.Text;
+
+        private void WeaponWeight4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[3].Weight = WeaponWeight4.Text;
+
+        private void WeaponCategory4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[3].Category = WeaponCategory4.Text;
+
+        private void WeaponStrength4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[3].Strength = WeaponStrength4.Text;
+
+        private void WeaponRange4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[3].Range = WeaponRange4.Text;
+
+        private void WeaponReload4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[3].Reload = WeaponReload4.Text;
+
+        private void WeaponTraits4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[3].Traits = WeaponTraits4.Text;
+
+        private void WeaponName5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[4].Name = WeaponName5.Text;
+
+        private void WeaponWeight5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[4].Weight = WeaponWeight5.Text;
+
+        private void WeaponCategory5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[4].Category = WeaponCategory5.Text;
+
+        private void WeaponStrength5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[4].Strength = WeaponStrength5.Text;
+
+        private void WeaponRange5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[4].Range = WeaponRange5.Text;
+
+        private void WeaponReload5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[4].Reload = WeaponReload5.Text;
+
+        private void WeaponTraits5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[4].Traits = WeaponTraits5.Text;
+
+        private void WeaponName6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[5].Name = WeaponName6.Text;
+
+        private void WeaponWeight6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[5].Weight = WeaponWeight6.Text;
+
+        private void WeaponCategory6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[5].Category = WeaponCategory6.Text;
+        
+        private void WeaponStrength6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[5].Strength = WeaponStrength6.Text;
+
+        private void WeaponRange6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[5].Range = WeaponRange6.Text;
+
+        private void WeaponReload6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[5].Reload = WeaponReload6.Text;
+
+        private void WeaponTraits6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[5].Traits = WeaponTraits6.Text;
+
+        #endregion
     }
 }
