@@ -2357,7 +2357,7 @@
             // FirstPictureBox
             // 
             this.FirstPictureBox.ContextMenuStrip = this.PageMenuStrip;
-            this.FirstPictureBox.ImageLocation = "D:\\vs\\repos\\WFRPManager\\WFRPManager\\resources\\w0.png";
+            this.FirstPictureBox.Image = Properties.Resources.w0;
             this.FirstPictureBox.Location = new System.Drawing.Point(200, 906);
             this.FirstPictureBox.Name = "FirstPictureBox";
             this.FirstPictureBox.Size = new System.Drawing.Size(1675, 2175);
@@ -4461,7 +4461,7 @@
             // SecondPictureBox
             // 
             this.SecondPictureBox.ContextMenuStrip = this.PageMenuStrip;
-            this.SecondPictureBox.ImageLocation = "D:\\vs\\repos\\WFRPManager\\WFRPManager\\resources\\w1.png";
+            this.SecondPictureBox.Image = Properties.Resources.w1;
             this.SecondPictureBox.Location = new System.Drawing.Point(200, 906);
             this.SecondPictureBox.Name = "SecondPictureBox";
             this.SecondPictureBox.Size = new System.Drawing.Size(1672, 2175);
