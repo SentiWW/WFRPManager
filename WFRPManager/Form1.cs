@@ -8,52 +8,60 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WFRPManager.Logic;
 
 namespace WFRPManager
 {
     public partial class MainWindow : Form
     {
         private List<TextBox> FirstPageTextBoxsTemp = new List<TextBox>();
-        private ConcurrentBag<TextBox> FirstPageTextBoxs = new ConcurrentBag<TextBox>();
+        private LinkedList<TextBox> FirstPageTextBoxs = new LinkedList<TextBox>();
         private List<NumericUpDownNoScroll> FirstPageNumericUpDownTemp = new List<NumericUpDownNoScroll>();
-        private ConcurrentBag<NumericUpDownNoScroll> FirstPageNumericUpDown = new ConcurrentBag<NumericUpDownNoScroll>();
+        private LinkedList<NumericUpDownNoScroll> FirstPageNumericUpDown = new LinkedList<NumericUpDownNoScroll>();
         private List<TextBox> SecondPageTextBoxsTemp = new List<TextBox>();
-        private ConcurrentBag<TextBox> SecondPageTextBoxs = new ConcurrentBag<TextBox>();
+        private LinkedList<TextBox> SecondPageTextBoxs = new LinkedList<TextBox>();
         private List<CheckBox> SecondPageCheckBoxsTemp = new List<CheckBox>();
-        private ConcurrentBag<CheckBox> SecondPageCheckBoxs = new ConcurrentBag<CheckBox>();
+        private LinkedList<CheckBox> SecondPageCheckBoxs = new LinkedList<CheckBox>();
         private List<NumericUpDownNoScroll> SecondPageNumericUpDownTemp = new List<NumericUpDownNoScroll>();
-        private ConcurrentBag<NumericUpDownNoScroll> SecondPageNumericUpDown = new ConcurrentBag<NumericUpDownNoScroll>();
+        private LinkedList<NumericUpDownNoScroll> SecondPageNumericUpDown = new LinkedList<NumericUpDownNoScroll>();
+        private Player CurrentPlayer = new Player();
+        private Character CurrentCharacter = new Character();
 
         public MainWindow()
         {
             InitializeComponent();
-            _ = FillElementsToBag();
+            _ = FillElementsToLinkedList();
             _ = EnableSecondPage(false);
-            var formData = new FormData();
         }
-        private async Task FillElementsToBag()
+
+        private async Task FillElementsToLinkedList()
         {
             _ = FillElementsLists();
             foreach (var element in FirstPageTextBoxsTemp)
-                FirstPageTextBoxs.Add(element);
+                FirstPageTextBoxs.AddLast(element);
             FirstPageTextBoxsTemp.Clear();
             await Task.Delay(0);
+
             foreach (var element in FirstPageNumericUpDownTemp)
-                FirstPageNumericUpDown.Add(element);
+                FirstPageNumericUpDown.AddLast(element);
             FirstPageNumericUpDownTemp.Clear();
             await Task.Delay(0);
+
             foreach (var element in SecondPageTextBoxsTemp)
-                SecondPageTextBoxs.Add(element);
+                SecondPageTextBoxs.AddLast(element);
             SecondPageTextBoxsTemp.Clear();
             await Task.Delay(0);
+
             foreach (var element in SecondPageCheckBoxsTemp)
-                SecondPageCheckBoxs.Add(element);
+                SecondPageCheckBoxs.AddLast(element);
             SecondPageCheckBoxsTemp.Clear();
             await Task.Delay(0);
+
             foreach (var element in SecondPageNumericUpDownTemp)
-                SecondPageNumericUpDown.Add(element);
+                SecondPageNumericUpDown.AddLast(element);
             SecondPageNumericUpDownTemp.Clear();
         }
+
         private async Task FillElementsLists()
         {
             FirstPageTextBoxsTemp.AddRange(new List<TextBox>()
@@ -66,7 +74,7 @@ namespace WFRPManager
                 CharacterCurrentRole,
                 CharacterPreviousRole,
                 CharacterAge,
-                CharacterEyeColour,
+                CharacterEyeColor,
                 CharacterHairColor,
                 CharacterStartSign,
                 CharacterBirthplace,
@@ -141,7 +149,7 @@ namespace WFRPManager
                 //
                 //  Armour
                 //
-                SimpleArmourType,
+                SimpleArmorType,
                 SimpleArmorPZ,
                 AdvancedArmorType1,
                 AdvancedArmorType2,
@@ -495,13 +503,13 @@ namespace WFRPManager
         {
             if (enable)
             {
-                await Task.Run(() => picture.Enabled = true);
-                await Task.Run(() => picture.Visible = true);
+                picture.Enabled = true;
+                picture.Visible = true;
             }
             else
             {
-                await Task.Run(() => picture.Enabled = false);
-                await Task.Run(() => picture.Visible = false);
+                picture.Enabled = false;
+                picture.Visible = false;
             }
         }
 
@@ -517,7 +525,7 @@ namespace WFRPManager
             {
                 element.Visible = enable;
                 element.Enabled = enable;
-                
+
             }
             await Task.Delay(0);
             if (enable)
@@ -528,24 +536,27 @@ namespace WFRPManager
 
         private async Task EnableSecondPage(bool enable)
         {
-            foreach(var element in SecondPageTextBoxs)
+            foreach (var element in SecondPageTextBoxs)
             {
                 element.Visible = enable;
                 element.Enabled = enable;
             }
             await Task.Delay(0);
+
             foreach (var element in SecondPageCheckBoxs)
             {
                 element.Visible = enable;
                 element.Enabled = enable;
             }
             await Task.Delay(0);
+
             foreach (var element in SecondPageNumericUpDown)
             {
                 element.Visible = enable;
                 element.Enabled = enable;
             }
             await Task.Delay(0);
+
             if (enable)
                 await EnablePictureBox(true, SecondPictureBox);
             else
@@ -569,5 +580,307 @@ namespace WFRPManager
         private void NextPage_Click(object sender, EventArgs e) => _ = SwitchPage();
 
         private void TurnPageMenuStripOption_Click(object sender, EventArgs e) => _ = SwitchPage();
+
+        //
+        //  Update data localy on input
+        //
+        #region data
+        private void PlaceholderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Dane testowe zapisane w pliku.");
+            CurrentCharacter.Debug();
+        }
+
+        private void CharacterName_TextChanged(object sender, EventArgs e) => CurrentCharacter.Name = CharacterName.Text;
+
+        private void CharacterRace_TextChanged(object sender, EventArgs e) => CurrentCharacter.Race = CharacterRace.Text;
+
+        private void CharacterCurrentRole_TextChanged(object sender, EventArgs e) => CurrentCharacter.CurrentRole = CharacterCurrentRole.Text;
+
+        private void CharacterPreviousRole_TextChanged(object sender, EventArgs e) => CurrentCharacter.PreviousRole = CharacterPreviousRole.Text;
+
+        private void CharacterAge_TextChanged(object sender, EventArgs e) => CurrentCharacter.Age = CharacterAge.Text;
+
+        private void CharacterEyeColour_TextChanged(object sender, EventArgs e) => CurrentCharacter.EyeColor = CharacterEyeColor.Text;
+
+        private void CharacterHairColor_TextChanged(object sender, EventArgs e) => CurrentCharacter.HairColor = CharacterHairColor.Text;
+
+        private void CharacterStartSign_TextChanged(object sender, EventArgs e) => CurrentCharacter.StarSign = CharacterStartSign.Text;
+
+        private void CharacterBirthplace_TextChanged(object sender, EventArgs e) => CurrentCharacter.Birthplace = CharacterBirthplace.Text;
+
+        private void CharacterFeatures_TextChanged(object sender, EventArgs e) => CurrentCharacter.Features = CharacterFeatures.Text;
+
+        private void CharacterSex_TextChanged(object sender, EventArgs e) => CurrentCharacter.Sex = CharacterSex.Text;
+
+        private void CharacterWeight_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weight = CharacterWeight.Text;
+
+        private void CharacterHeight_TextChanged(object sender, EventArgs e) => CurrentCharacter.Height = CharacterHeight.Text;
+
+        private void CharacterSiblings_TextChanged(object sender, EventArgs e) => CurrentCharacter.Siblings = CharacterSiblings.Text;
+
+        private void CharacterStartingWW_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[0].Starting = (int)CharacterStartingWW.Value;
+
+        private void CharacterGrowthWW_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[0].Growth = (int)CharacterGrowthWW.Value;
+
+        private void CharacterActualWW_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[0].Actual = (int)CharacterActualWW.Value;
+
+        private void CharacterStartingUS_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[1].Starting = (int)CharacterStartingUS.Value;
+
+        private void CharacterGrowthUS_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[1].Growth = (int)CharacterGrowthUS.Value;
+
+        private void CharacterActualUS_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[1].Actual = (int)CharacterActualUS.Value;
+
+        private void CharacterStartingK_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[2].Starting = (int)CharacterStartingK.Value;
+
+        private void CharacterGrowthK_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[2].Growth = (int)CharacterGrowthK.Value;
+
+        private void CharacterActualK_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[2].Actual = (int)CharacterActualK.Value;
+
+        private void CharacterStartingOdp_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[3].Starting = (int)CharacterStartingOdp.Value;
+
+        private void CharacterGrowthOdp_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[3].Growth = (int)CharacterGrowthOdp.Value;
+
+        private void CharacterActualOdp_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[3].Actual = (int)CharacterActualOdp.Value;
+
+        private void CharacterStartingZr_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[4].Starting = (int)CharacterStartingZr.Value;
+
+        private void CharacterGrowthZr_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[4].Growth = (int)CharacterGrowthZr.Value;
+
+        private void CharacterActualZr_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[4].Actual = (int)CharacterActualZr.Value;
+
+        private void CharacterStartingInt_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[5].Starting = (int)CharacterStartingInt.Value;
+
+        private void CharacterGrowthInt_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[5].Growth = (int)CharacterGrowthInt.Value;
+
+        private void CharacterActualInt_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[5].Actual = (int)CharacterActualInt.Value;
+
+        private void CharacterStartingSW_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[6].Starting = (int)CharacterStartingSW.Value;
+
+        private void CharacterGrowthSW_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[6].Growth = (int)CharacterGrowthSW.Value;
+
+        private void CharacterActualSW_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[6].Actual = (int)CharacterActualSW.Value;
+
+        private void CharacterStartingOgd_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[7].Starting = (int)CharacterStartingOgd.Value;
+
+        private void CharacterGrowthOgd_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[7].Growth = (int)CharacterGrowthOgd.Value;
+
+        private void CharacterActualOgd_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[7].Actual = (int)CharacterActualOgd.Value;
+
+        private void CharacterStartingA_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[8].Starting = (int)CharacterStartingA.Value;
+
+        private void CharacterGrowthA_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[8].Growth = (int)CharacterGrowthA.Value;
+
+        private void CharacterActualA_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[8].Actual = (int)CharacterActualA.Value;
+
+        private void CharacterStartingZyw_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[9].Starting = (int)CharacterStartingZyw.Value;
+
+        private void CharacterGrowthZyw_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[9].Growth = (int)CharacterGrowthZyw.Value;
+
+        private void CharacterActualZyw_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[9].Actual = (int)CharacterActualZyw.Value;
+
+        private void CharacterStartingS_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[10].Starting = (int)CharacterStartingS.Value;
+
+        private void CharacterGrowthS_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[10].Growth = (int)CharacterGrowthS.Value;
+
+        private void CharacterActualS_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[10].Actual = (int)CharacterActualS.Value;
+
+        private void CharacterStartingWt_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[11].Starting = (int)CharacterStartingWt.Value;
+
+        private void CharacterGrowthWt_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[11].Growth = (int)CharacterGrowthWt.Value;
+
+        private void CharacterActualWt_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[11].Actual = (int)CharacterActualWt.Value;
+
+        private void CharacterStartingSz_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[12].Starting = (int)CharacterStartingSz.Value;
+
+        private void CharacterGrowthSz_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[12].Growth = (int)CharacterGrowthSz.Value;
+
+        private void CharacterActualSz_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[12].Actual = (int)CharacterActualSz.Value;
+
+        private void CharacterStartingMag_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[13].Starting = (int)CharacterStartingMag.Value;
+
+        private void CharacterGrowthMag_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[13].Growth = (int)CharacterGrowthMag.Value;
+
+        private void CharacterActualMag_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[13].Actual = (int)CharacterActualMag.Value;
+
+        private void CharacterStartingPO_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[14].Starting = (int)CharacterStartingPO.Value;
+
+        private void CharacterGrowthPO_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[14].Growth = (int)CharacterGrowthPO.Value;
+
+        private void CharacterActualPO_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[14].Actual = (int)CharacterActualPO.Value;
+
+        private void CharacterStartingPP_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[15].Starting = (int)CharacterStartingPP.Value;
+
+        private void CharacterGrowthPP_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[15].Growth = (int)CharacterGrowthPP.Value;
+
+        private void CharacterActualPP_ValueChanged(object sender, EventArgs e) => CurrentCharacter.Traits[15].Actual = (int)CharacterActualPP.Value;
+
+        private void WeaponName1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[0].Name = WeaponName1.Text;
+
+        private void WeaponWeight1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[0].Weight = WeaponWeight1.Text;
+
+        private void WeaponCategory1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[0].Category = WeaponCategory1.Text;
+
+        private void WeaponStrength1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[0].Strength = WeaponStrength1.Text;
+
+        private void WeaponRange1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[0].Range = WeaponRange1.Text;
+
+        private void WeaponReload1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[0].Reload = WeaponReload1.Text;
+
+        private void WeaponTraits1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[0].Traits = WeaponTraits1.Text;
+
+        private void WeaponName2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[1].Name = WeaponName2.Text;
+
+        private void WeaponWeight2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[1].Weight = WeaponWeight2.Text;
+
+        private void WeaponCategory2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[1].Category = WeaponCategory2.Text;
+
+        private void WeaponStrength2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[1].Strength = WeaponStrength2.Text;
+
+        private void WeaponRange2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[1].Range = WeaponRange2.Text;
+
+        private void WeaponReload2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[1].Reload = WeaponReload2.Text;
+
+        private void WeaponTraits2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[1].Traits = WeaponTraits2.Text;
+
+        private void WeaponName3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[2].Name = WeaponName3.Text;
+
+        private void WeaponWeight3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[2].Weight = WeaponWeight3.Text;
+
+        private void WeaponCategory3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[2].Category = WeaponCategory3.Text;
+
+        private void WeaponStrength3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[2].Strength = WeaponStrength3.Text;
+
+        private void WeaponRange3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[2].Range = WeaponRange3.Text;
+
+        private void WeaponReload3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[2].Reload = WeaponReload3.Text;
+
+        private void WeaponTraits3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[2].Traits = WeaponTraits3.Text;
+
+        private void WeaponName4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[3].Name = WeaponName4.Text;
+
+        private void WeaponWeight4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[3].Weight = WeaponWeight4.Text;
+
+        private void WeaponCategory4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[3].Category = WeaponCategory4.Text;
+
+        private void WeaponStrength4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[3].Strength = WeaponStrength4.Text;
+
+        private void WeaponRange4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[3].Range = WeaponRange4.Text;
+
+        private void WeaponReload4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[3].Reload = WeaponReload4.Text;
+
+        private void WeaponTraits4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[3].Traits = WeaponTraits4.Text;
+
+        private void WeaponName5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[4].Name = WeaponName5.Text;
+
+        private void WeaponWeight5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[4].Weight = WeaponWeight5.Text;
+
+        private void WeaponCategory5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[4].Category = WeaponCategory5.Text;
+
+        private void WeaponStrength5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[4].Strength = WeaponStrength5.Text;
+
+        private void WeaponRange5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[4].Range = WeaponRange5.Text;
+
+        private void WeaponReload5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[4].Reload = WeaponReload5.Text;
+
+        private void WeaponTraits5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[4].Traits = WeaponTraits5.Text;
+
+        private void WeaponName6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[5].Name = WeaponName6.Text;
+
+        private void WeaponWeight6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[5].Weight = WeaponWeight6.Text;
+
+        private void WeaponCategory6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[5].Category = WeaponCategory6.Text;
+        
+        private void WeaponStrength6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[5].Strength = WeaponStrength6.Text;
+
+        private void WeaponRange6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[5].Range = WeaponRange6.Text;
+
+        private void WeaponReload6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[5].Reload = WeaponReload6.Text;
+
+        private void WeaponTraits6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[5].Traits = WeaponTraits6.Text;
+
+        private void PlayerName_TextChanged(object sender, EventArgs e) => CurrentPlayer.Name = PlayerName.Text;
+
+        private void GameMaster_TextChanged(object sender, EventArgs e) => CurrentPlayer.GameMaster = GameMaster.Text;
+
+        private void CampaignName_TextChanged(object sender, EventArgs e) => CurrentPlayer.Campaign = CampaignName.Text;
+
+        private void CampaignYear_TextChanged(object sender, EventArgs e) => CurrentPlayer.CampaignYear = CampaignYear.Text;
+
+        #endregion
+
+        private void CharacterCurrentXP_TextChanged(object sender, EventArgs e) => CurrentCharacter.CurrentXP = CharacterCurrentXP.Text;
+
+        private void CharacterTotalXP_TextChanged(object sender, EventArgs e) => CurrentCharacter.TotalXP = CharacterTotalXP.Text;
+
+        private void CharacterMovementRetreat_TextChanged(object sender, EventArgs e) => CurrentCharacter.MovementRetreat = CharacterMovementRetreat.Text;
+
+        private void CharacterCharge_TextChanged(object sender, EventArgs e) => CurrentCharacter.Charge = CharacterCharge.Text;
+
+        private void CharacterSprint_TextChanged(object sender, EventArgs e) => CurrentCharacter.Sprint = CharacterSprint.Text;
+
+        private void CharacterHead_TextChanged(object sender, EventArgs e) => CurrentCharacter.Head = CharacterHead.Text;
+
+        private void CharacterBody_TextChanged(object sender, EventArgs e) => CurrentCharacter.Body = CharacterBody.Text;
+
+        private void CharacterRightArm_TextChanged(object sender, EventArgs e) => CurrentCharacter.RightArm = CharacterRightArm.Text;
+
+        private void CharacterLeftArm_TextChanged(object sender, EventArgs e) => CurrentCharacter.LeftArm = CharacterLeftArm.Text;
+
+        private void CharacterRightLeg_TextChanged(object sender, EventArgs e) => CurrentCharacter.RightLeg = CharacterRightLeg.Text;
+
+        private void CharacterLeftLeg_TextChanged(object sender, EventArgs e) => CurrentCharacter.LeftLeg = CharacterLeftLeg.Text;
+
+        private void SimpleArmourType_TextChanged(object sender, EventArgs e) => CurrentCharacter.SArmor.Type = SimpleArmorType.Text;
+
+        private void SimpleArmorPZ_TextChanged(object sender, EventArgs e) => CurrentCharacter.SArmor.PZ = SimpleArmorPZ.Text;
+
+        private void AdvancedArmorType1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[0].Type = AdvancedArmorType1.Text;
+
+        private void AdvancedArmorWeight1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[0].Weight = AdvancedArmorWeight1.Text;
+
+        private void AdvancedArmorLocation1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[0].Location = AdvancedArmorLocation1.Text;
+
+        private void AdvancedArmorPZ1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[0].PZ = AdvancedArmorPZ1.Text;
+
+        private void AdvancedArmorType2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[1].Type = AdvancedArmorType2.Text;
+
+        private void AdvancedArmorWeight2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[1].Weight = AdvancedArmorWeight2.Text;
+
+        private void AdvancedArmorLocation2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[1].Location = AdvancedArmorLocation2.Text;
+
+        private void AdvancedArmorPZ2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[1].PZ = AdvancedArmorPZ2.Text;
+
+        private void AdvancedArmorType3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[2].Type = AdvancedArmorType3.Text;
+
+        private void AdvancedArmorWeight3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[2].Weight = AdvancedArmorWeight3.Text;
+
+        private void AdvancedArmorLocation3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[2].Location = AdvancedArmorLocation3.Text;
+
+        private void AdvancedArmorPZ3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[2].PZ = AdvancedArmorPZ3.Text;
+
+        private void AdvancedArmorType4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[3].Type = AdvancedArmorType4.Text;
+
+        private void AdvancedArmorWeight4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[3].Weight = AdvancedArmorWeight4.Text;
+
+        private void AdvancedArmorLocation4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[3].Location = AdvancedArmorLocation4.Text;
+
+        private void AdvancedArmorPZ4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[3].PZ = AdvancedArmorPZ4.Text;
+
+        private void AdvancedArmorType5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[4].Type = AdvancedArmorType5.Text;
+
+        private void AdvancedArmorWeight5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[4].Weight = AdvancedArmorWeight5.Text;
+
+        private void AdvancedArmorLocation5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[4].Location = AdvancedArmorLocation5.Text;
+
+        private void AdvancedArmorPZ5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[4].PZ = AdvancedArmorPZ5.Text;
+
+        private void AdvancedArmorType6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[5].Type = AdvancedArmorType6.Text;
+
+        private void AdvancedArmorWeight6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[5].Weight = AdvancedArmorWeight6.Text;
+
+        private void AdvancedArmorLocation6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[5].PZ = AdvancedArmorPZ6.Text;
+
+        private void AdvancedArmorPZ6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[5].PZ = AdvancedArmorPZ6.Text;
     }
 }

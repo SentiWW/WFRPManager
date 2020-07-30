@@ -29,11 +29,165 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             this.TopMenuStrip = new System.Windows.Forms.MenuStrip();
             this.placeholderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.BottomStatusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.MainPanel = new System.Windows.Forms.Panel();
+            this.CharacterBody = new System.Windows.Forms.TextBox();
+            this.CharacterLeftLeg = new System.Windows.Forms.TextBox();
+            this.CharacterLeftArm = new System.Windows.Forms.TextBox();
+            this.CharacterRightLeg = new System.Windows.Forms.TextBox();
+            this.CharacterRightArm = new System.Windows.Forms.TextBox();
+            this.CharacterHead = new System.Windows.Forms.TextBox();
+            this.CharacterSprint = new System.Windows.Forms.TextBox();
+            this.CharacterCharge = new System.Windows.Forms.TextBox();
+            this.CharacterMovementRetreat = new System.Windows.Forms.TextBox();
+            this.CharacterTotalXP = new System.Windows.Forms.TextBox();
+            this.CharacterCurrentXP = new System.Windows.Forms.TextBox();
+            this.CampaignYear = new System.Windows.Forms.TextBox();
+            this.GameMaster = new System.Windows.Forms.TextBox();
+            this.CampaignName = new System.Windows.Forms.TextBox();
+            this.PlayerName = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorPZ6 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorLocation6 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorWeight6 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorType6 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorPZ5 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorLocation5 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorWeight5 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorType5 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorPZ4 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorLocation4 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorWeight4 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorType4 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorPZ3 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorLocation3 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorWeight3 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorType3 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorPZ2 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorLocation2 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorWeight2 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorType2 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorPZ1 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorLocation1 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorWeight1 = new System.Windows.Forms.TextBox();
+            this.AdvancedArmorType1 = new System.Windows.Forms.TextBox();
+            this.SimpleArmorPZ = new System.Windows.Forms.TextBox();
+            this.SimpleArmorType = new System.Windows.Forms.TextBox();
+            this.WeaponTraits6 = new System.Windows.Forms.TextBox();
+            this.WeaponReload6 = new System.Windows.Forms.TextBox();
+            this.WeaponRange6 = new System.Windows.Forms.TextBox();
+            this.WeaponStrength6 = new System.Windows.Forms.TextBox();
+            this.WeaponCategory6 = new System.Windows.Forms.TextBox();
+            this.WeaponWeight6 = new System.Windows.Forms.TextBox();
+            this.WeaponName6 = new System.Windows.Forms.TextBox();
+            this.WeaponTraits5 = new System.Windows.Forms.TextBox();
+            this.WeaponReload5 = new System.Windows.Forms.TextBox();
+            this.WeaponRange5 = new System.Windows.Forms.TextBox();
+            this.WeaponStrength5 = new System.Windows.Forms.TextBox();
+            this.WeaponCategory5 = new System.Windows.Forms.TextBox();
+            this.WeaponWeight5 = new System.Windows.Forms.TextBox();
+            this.WeaponName5 = new System.Windows.Forms.TextBox();
+            this.WeaponTraits4 = new System.Windows.Forms.TextBox();
+            this.WeaponReload4 = new System.Windows.Forms.TextBox();
+            this.WeaponRange4 = new System.Windows.Forms.TextBox();
+            this.WeaponStrength4 = new System.Windows.Forms.TextBox();
+            this.WeaponCategory4 = new System.Windows.Forms.TextBox();
+            this.WeaponWeight4 = new System.Windows.Forms.TextBox();
+            this.WeaponName4 = new System.Windows.Forms.TextBox();
+            this.WeaponTraits3 = new System.Windows.Forms.TextBox();
+            this.WeaponReload3 = new System.Windows.Forms.TextBox();
+            this.WeaponRange3 = new System.Windows.Forms.TextBox();
+            this.WeaponStrength3 = new System.Windows.Forms.TextBox();
+            this.WeaponCategory3 = new System.Windows.Forms.TextBox();
+            this.WeaponWeight3 = new System.Windows.Forms.TextBox();
+            this.WeaponName3 = new System.Windows.Forms.TextBox();
+            this.WeaponTraits2 = new System.Windows.Forms.TextBox();
+            this.WeaponReload2 = new System.Windows.Forms.TextBox();
+            this.WeaponRange2 = new System.Windows.Forms.TextBox();
+            this.WeaponStrength2 = new System.Windows.Forms.TextBox();
+            this.WeaponCategory2 = new System.Windows.Forms.TextBox();
+            this.WeaponWeight2 = new System.Windows.Forms.TextBox();
+            this.WeaponName2 = new System.Windows.Forms.TextBox();
+            this.WeaponTraits1 = new System.Windows.Forms.TextBox();
+            this.WeaponReload1 = new System.Windows.Forms.TextBox();
+            this.WeaponRange1 = new System.Windows.Forms.TextBox();
+            this.WeaponStrength1 = new System.Windows.Forms.TextBox();
+            this.WeaponCategory1 = new System.Windows.Forms.TextBox();
+            this.WeaponWeight1 = new System.Windows.Forms.TextBox();
+            this.WeaponName1 = new System.Windows.Forms.TextBox();
+            this.CharacterActualPP = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualPO = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualMag = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualSz = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualWt = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualS = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualZyw = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualA = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthPP = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthPO = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthMag = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthSz = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthWt = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthS = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthZyw = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthA = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingPP = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingPO = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingMag = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingSz = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingWt = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingS = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingZyw = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingA = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualOgd = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualSW = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualInt = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualZr = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualOdp = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualK = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualUS = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualWW = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthOgd = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthSW = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthInt = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthZr = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthOdp = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthK = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthUS = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthWW = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingOgd = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingSW = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingInt = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingZr = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingOdp = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingK = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingUS = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingWW = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterFeatures = new System.Windows.Forms.TextBox();
+            this.CharacterBirthplace = new System.Windows.Forms.TextBox();
+            this.CharacterStartSign = new System.Windows.Forms.TextBox();
+            this.CharacterHairColor = new System.Windows.Forms.TextBox();
+            this.CharacterEyeColor = new System.Windows.Forms.TextBox();
+            this.CharacterSiblings = new System.Windows.Forms.TextBox();
+            this.CharacterHeight = new System.Windows.Forms.TextBox();
+            this.CharacterWeight = new System.Windows.Forms.TextBox();
+            this.CharacterSex = new System.Windows.Forms.TextBox();
+            this.CharacterAge = new System.Windows.Forms.TextBox();
+            this.CharacterPreviousRole = new System.Windows.Forms.TextBox();
+            this.CharacterCurrentRole = new System.Windows.Forms.TextBox();
+            this.CharacterRace = new System.Windows.Forms.TextBox();
+            this.CharacterName = new System.Windows.Forms.TextBox();
+            this.NextPage = new System.Windows.Forms.Button();
+            this.FirstPictureBox = new System.Windows.Forms.PictureBox();
+            this.PageMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.TurnPageMenuStripOption = new System.Windows.Forms.ToolStripMenuItem();
+            this.LeftFlowPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.CharacterMoneyP = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterMoneyS = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterMoneyZK = new WFRPManager.NumericUpDownNoScroll();
             this.CharacterItem14 = new System.Windows.Forms.TextBox();
             this.CharacterItem13 = new System.Windows.Forms.TextBox();
             this.CharacterItem12 = new System.Windows.Forms.TextBox();
@@ -262,168 +416,9 @@
             this.CharacterSkill1_2 = new System.Windows.Forms.CheckBox();
             this.CharacterSkill1_1 = new System.Windows.Forms.CheckBox();
             this.SecondPictureBox = new System.Windows.Forms.PictureBox();
-            this.PageMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.TurnPageMenuStripOption = new System.Windows.Forms.ToolStripMenuItem();
-            this.CharacterBody = new System.Windows.Forms.TextBox();
-            this.CharacterLeftLeg = new System.Windows.Forms.TextBox();
-            this.CharacterLeftArm = new System.Windows.Forms.TextBox();
-            this.CharacterRightLeg = new System.Windows.Forms.TextBox();
-            this.CharacterRightArm = new System.Windows.Forms.TextBox();
-            this.CharacterHead = new System.Windows.Forms.TextBox();
-            this.CharacterSprint = new System.Windows.Forms.TextBox();
-            this.CharacterCharge = new System.Windows.Forms.TextBox();
-            this.CharacterMovementRetreat = new System.Windows.Forms.TextBox();
-            this.CharacterTotalXP = new System.Windows.Forms.TextBox();
-            this.CharacterCurrentXP = new System.Windows.Forms.TextBox();
-            this.CampaignYear = new System.Windows.Forms.TextBox();
-            this.GameMaster = new System.Windows.Forms.TextBox();
-            this.CampaignName = new System.Windows.Forms.TextBox();
-            this.PlayerName = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorPZ6 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorLocation6 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorWeight6 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorType6 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorPZ5 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorLocation5 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorWeight5 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorType5 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorPZ4 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorLocation4 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorWeight4 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorType4 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorPZ3 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorLocation3 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorWeight3 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorType3 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorPZ2 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorLocation2 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorWeight2 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorType2 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorPZ1 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorLocation1 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorWeight1 = new System.Windows.Forms.TextBox();
-            this.AdvancedArmorType1 = new System.Windows.Forms.TextBox();
-            this.SimpleArmorPZ = new System.Windows.Forms.TextBox();
-            this.SimpleArmourType = new System.Windows.Forms.TextBox();
-            this.WeaponTraits6 = new System.Windows.Forms.TextBox();
-            this.WeaponReload6 = new System.Windows.Forms.TextBox();
-            this.WeaponRange6 = new System.Windows.Forms.TextBox();
-            this.WeaponStrength6 = new System.Windows.Forms.TextBox();
-            this.WeaponCategory6 = new System.Windows.Forms.TextBox();
-            this.WeaponWeight6 = new System.Windows.Forms.TextBox();
-            this.WeaponName6 = new System.Windows.Forms.TextBox();
-            this.WeaponTraits5 = new System.Windows.Forms.TextBox();
-            this.WeaponReload5 = new System.Windows.Forms.TextBox();
-            this.WeaponRange5 = new System.Windows.Forms.TextBox();
-            this.WeaponStrength5 = new System.Windows.Forms.TextBox();
-            this.WeaponCategory5 = new System.Windows.Forms.TextBox();
-            this.WeaponWeight5 = new System.Windows.Forms.TextBox();
-            this.WeaponName5 = new System.Windows.Forms.TextBox();
-            this.WeaponTraits4 = new System.Windows.Forms.TextBox();
-            this.WeaponReload4 = new System.Windows.Forms.TextBox();
-            this.WeaponRange4 = new System.Windows.Forms.TextBox();
-            this.WeaponStrength4 = new System.Windows.Forms.TextBox();
-            this.WeaponCategory4 = new System.Windows.Forms.TextBox();
-            this.WeaponWeight4 = new System.Windows.Forms.TextBox();
-            this.WeaponName4 = new System.Windows.Forms.TextBox();
-            this.WeaponTraits3 = new System.Windows.Forms.TextBox();
-            this.WeaponReload3 = new System.Windows.Forms.TextBox();
-            this.WeaponRange3 = new System.Windows.Forms.TextBox();
-            this.WeaponStrength3 = new System.Windows.Forms.TextBox();
-            this.WeaponCategory3 = new System.Windows.Forms.TextBox();
-            this.WeaponWeight3 = new System.Windows.Forms.TextBox();
-            this.WeaponName3 = new System.Windows.Forms.TextBox();
-            this.WeaponTraits2 = new System.Windows.Forms.TextBox();
-            this.WeaponReload2 = new System.Windows.Forms.TextBox();
-            this.WeaponRange2 = new System.Windows.Forms.TextBox();
-            this.WeaponStrength2 = new System.Windows.Forms.TextBox();
-            this.WeaponCategory2 = new System.Windows.Forms.TextBox();
-            this.WeaponWeight2 = new System.Windows.Forms.TextBox();
-            this.WeaponName2 = new System.Windows.Forms.TextBox();
-            this.WeaponTraits1 = new System.Windows.Forms.TextBox();
-            this.WeaponReload1 = new System.Windows.Forms.TextBox();
-            this.WeaponRange1 = new System.Windows.Forms.TextBox();
-            this.WeaponStrength1 = new System.Windows.Forms.TextBox();
-            this.WeaponCategory1 = new System.Windows.Forms.TextBox();
-            this.WeaponWeight1 = new System.Windows.Forms.TextBox();
-            this.WeaponName1 = new System.Windows.Forms.TextBox();
-            this.CharacterFeatures = new System.Windows.Forms.TextBox();
-            this.CharacterBirthplace = new System.Windows.Forms.TextBox();
-            this.CharacterStartSign = new System.Windows.Forms.TextBox();
-            this.CharacterHairColor = new System.Windows.Forms.TextBox();
-            this.CharacterEyeColour = new System.Windows.Forms.TextBox();
-            this.CharacterSiblings = new System.Windows.Forms.TextBox();
-            this.CharacterHeight = new System.Windows.Forms.TextBox();
-            this.CharacterWeight = new System.Windows.Forms.TextBox();
-            this.CharacterSex = new System.Windows.Forms.TextBox();
-            this.CharacterAge = new System.Windows.Forms.TextBox();
-            this.CharacterPreviousRole = new System.Windows.Forms.TextBox();
-            this.CharacterCurrentRole = new System.Windows.Forms.TextBox();
-            this.CharacterRace = new System.Windows.Forms.TextBox();
-            this.CharacterName = new System.Windows.Forms.TextBox();
-            this.NextPage = new System.Windows.Forms.Button();
-            this.LeftFlowPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.FirstPictureBox = new System.Windows.Forms.PictureBox();
-            this.CharacterMoneyP = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterMoneyS = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterMoneyZK = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualPP = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualPO = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualMag = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualSz = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualWt = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualS = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualZyw = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualA = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthPP = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthPO = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthMag = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthSz = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthWt = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthS = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthZyw = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthA = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingPP = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingPO = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingMag = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingSz = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingWt = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingS = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingZyw = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingA = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualOgd = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualSW = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualInt = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualZr = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualOdp = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualK = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualUS = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualWW = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthOgd = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthSW = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthInt = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthZr = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthOdp = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthK = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthUS = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthWW = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingOgd = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingSW = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingInt = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingZr = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingOdp = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingK = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingUS = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingWW = new WFRPManager.NumericUpDownNoScroll();
             this.TopMenuStrip.SuspendLayout();
             this.BottomStatusStrip.SuspendLayout();
             this.MainPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SecondPictureBox)).BeginInit();
-            this.PageMenuStrip.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.FirstPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyP)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyS)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyZK)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualPP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualPO)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualMag)).BeginInit();
@@ -472,6 +467,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingK)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingUS)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingWW)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FirstPictureBox)).BeginInit();
+            this.PageMenuStrip.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyZK)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SecondPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // TopMenuStrip
@@ -480,23 +481,26 @@
             this.placeholderToolStripMenuItem});
             this.TopMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.TopMenuStrip.Name = "TopMenuStrip";
-            this.TopMenuStrip.Size = new System.Drawing.Size(1738, 24);
+            this.TopMenuStrip.Size = new System.Drawing.Size(1546, 24);
             this.TopMenuStrip.TabIndex = 0;
             this.TopMenuStrip.Text = "TopMenuStrip";
             // 
             // placeholderToolStripMenuItem
             // 
+            this.placeholderToolStripMenuItem.Checked = true;
+            this.placeholderToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.placeholderToolStripMenuItem.Name = "placeholderToolStripMenuItem";
-            this.placeholderToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
-            this.placeholderToolStripMenuItem.Text = "Placeholder";
+            this.placeholderToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.placeholderToolStripMenuItem.Text = "Debug";
+            this.placeholderToolStripMenuItem.Click += new System.EventHandler(this.PlaceholderToolStripMenuItem_Click);
             // 
             // BottomStatusStrip
             // 
             this.BottomStatusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.BottomStatusStrip.Location = new System.Drawing.Point(0, 800);
+            this.BottomStatusStrip.Location = new System.Drawing.Point(0, 712);
             this.BottomStatusStrip.Name = "BottomStatusStrip";
-            this.BottomStatusStrip.Size = new System.Drawing.Size(1738, 22);
+            this.BottomStatusStrip.Size = new System.Drawing.Size(1546, 22);
             this.BottomStatusStrip.TabIndex = 1;
             this.BottomStatusStrip.Text = "BottomStatusStrip";
             // 
@@ -549,7 +553,7 @@
             this.MainPanel.Controls.Add(this.AdvancedArmorWeight1);
             this.MainPanel.Controls.Add(this.AdvancedArmorType1);
             this.MainPanel.Controls.Add(this.SimpleArmorPZ);
-            this.MainPanel.Controls.Add(this.SimpleArmourType);
+            this.MainPanel.Controls.Add(this.SimpleArmorType);
             this.MainPanel.Controls.Add(this.WeaponTraits6);
             this.MainPanel.Controls.Add(this.WeaponReload6);
             this.MainPanel.Controls.Add(this.WeaponRange6);
@@ -644,7 +648,7 @@
             this.MainPanel.Controls.Add(this.CharacterBirthplace);
             this.MainPanel.Controls.Add(this.CharacterStartSign);
             this.MainPanel.Controls.Add(this.CharacterHairColor);
-            this.MainPanel.Controls.Add(this.CharacterEyeColour);
+            this.MainPanel.Controls.Add(this.CharacterEyeColor);
             this.MainPanel.Controls.Add(this.CharacterSiblings);
             this.MainPanel.Controls.Add(this.CharacterHeight);
             this.MainPanel.Controls.Add(this.CharacterWeight);
@@ -891,8 +895,1611 @@
             this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainPanel.Location = new System.Drawing.Point(0, 24);
             this.MainPanel.Name = "MainPanel";
-            this.MainPanel.Size = new System.Drawing.Size(1738, 776);
+            this.MainPanel.Size = new System.Drawing.Size(1546, 688);
             this.MainPanel.TabIndex = 2;
+            // 
+            // CharacterBody
+            // 
+            this.CharacterBody.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterBody.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterBody.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterBody.Location = new System.Drawing.Point(1553, 800);
+            this.CharacterBody.Name = "CharacterBody";
+            this.CharacterBody.Size = new System.Drawing.Size(68, 37);
+            this.CharacterBody.TabIndex = 148;
+            this.CharacterBody.TextChanged += new System.EventHandler(this.CharacterBody_TextChanged);
+            // 
+            // CharacterLeftLeg
+            // 
+            this.CharacterLeftLeg.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterLeftLeg.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterLeftLeg.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterLeftLeg.Location = new System.Drawing.Point(1553, 1495);
+            this.CharacterLeftLeg.Name = "CharacterLeftLeg";
+            this.CharacterLeftLeg.Size = new System.Drawing.Size(68, 37);
+            this.CharacterLeftLeg.TabIndex = 147;
+            this.CharacterLeftLeg.TextChanged += new System.EventHandler(this.CharacterLeftLeg_TextChanged);
+            // 
+            // CharacterLeftArm
+            // 
+            this.CharacterLeftArm.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterLeftArm.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterLeftArm.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterLeftArm.Location = new System.Drawing.Point(1553, 1135);
+            this.CharacterLeftArm.Name = "CharacterLeftArm";
+            this.CharacterLeftArm.Size = new System.Drawing.Size(68, 37);
+            this.CharacterLeftArm.TabIndex = 146;
+            this.CharacterLeftArm.TextChanged += new System.EventHandler(this.CharacterLeftArm_TextChanged);
+            // 
+            // CharacterRightLeg
+            // 
+            this.CharacterRightLeg.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterRightLeg.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterRightLeg.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterRightLeg.Location = new System.Drawing.Point(1025, 1495);
+            this.CharacterRightLeg.Name = "CharacterRightLeg";
+            this.CharacterRightLeg.Size = new System.Drawing.Size(68, 37);
+            this.CharacterRightLeg.TabIndex = 145;
+            this.CharacterRightLeg.TextChanged += new System.EventHandler(this.CharacterRightLeg_TextChanged);
+            // 
+            // CharacterRightArm
+            // 
+            this.CharacterRightArm.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterRightArm.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterRightArm.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterRightArm.Location = new System.Drawing.Point(1025, 1135);
+            this.CharacterRightArm.Name = "CharacterRightArm";
+            this.CharacterRightArm.Size = new System.Drawing.Size(68, 37);
+            this.CharacterRightArm.TabIndex = 144;
+            this.CharacterRightArm.TextChanged += new System.EventHandler(this.CharacterRightArm_TextChanged);
+            // 
+            // CharacterHead
+            // 
+            this.CharacterHead.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterHead.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterHead.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterHead.Location = new System.Drawing.Point(1025, 800);
+            this.CharacterHead.Name = "CharacterHead";
+            this.CharacterHead.Size = new System.Drawing.Size(68, 37);
+            this.CharacterHead.TabIndex = 143;
+            this.CharacterHead.TextChanged += new System.EventHandler(this.CharacterHead_TextChanged);
+            // 
+            // CharacterSprint
+            // 
+            this.CharacterSprint.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterSprint.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterSprint.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterSprint.Location = new System.Drawing.Point(1487, 608);
+            this.CharacterSprint.Name = "CharacterSprint";
+            this.CharacterSprint.Size = new System.Drawing.Size(176, 37);
+            this.CharacterSprint.TabIndex = 142;
+            this.CharacterSprint.TextChanged += new System.EventHandler(this.CharacterSprint_TextChanged);
+            // 
+            // CharacterCharge
+            // 
+            this.CharacterCharge.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterCharge.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterCharge.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterCharge.Location = new System.Drawing.Point(1266, 608);
+            this.CharacterCharge.Name = "CharacterCharge";
+            this.CharacterCharge.Size = new System.Drawing.Size(156, 37);
+            this.CharacterCharge.TabIndex = 141;
+            this.CharacterCharge.TextChanged += new System.EventHandler(this.CharacterCharge_TextChanged);
+            // 
+            // CharacterMovementRetreat
+            // 
+            this.CharacterMovementRetreat.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterMovementRetreat.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterMovementRetreat.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterMovementRetreat.Location = new System.Drawing.Point(1103, 608);
+            this.CharacterMovementRetreat.Name = "CharacterMovementRetreat";
+            this.CharacterMovementRetreat.Size = new System.Drawing.Size(84, 37);
+            this.CharacterMovementRetreat.TabIndex = 140;
+            this.CharacterMovementRetreat.TextChanged += new System.EventHandler(this.CharacterMovementRetreat_TextChanged);
+            // 
+            // CharacterTotalXP
+            // 
+            this.CharacterTotalXP.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterTotalXP.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterTotalXP.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterTotalXP.Location = new System.Drawing.Point(1266, 488);
+            this.CharacterTotalXP.Name = "CharacterTotalXP";
+            this.CharacterTotalXP.Size = new System.Drawing.Size(347, 37);
+            this.CharacterTotalXP.TabIndex = 139;
+            this.CharacterTotalXP.TextChanged += new System.EventHandler(this.CharacterTotalXP_TextChanged);
+            // 
+            // CharacterCurrentXP
+            // 
+            this.CharacterCurrentXP.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterCurrentXP.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterCurrentXP.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterCurrentXP.Location = new System.Drawing.Point(1057, 488);
+            this.CharacterCurrentXP.Name = "CharacterCurrentXP";
+            this.CharacterCurrentXP.Size = new System.Drawing.Size(130, 37);
+            this.CharacterCurrentXP.TabIndex = 138;
+            this.CharacterCurrentXP.TextChanged += new System.EventHandler(this.CharacterCurrentXP_TextChanged);
+            // 
+            // CampaignYear
+            // 
+            this.CampaignYear.BackColor = System.Drawing.SystemColors.Window;
+            this.CampaignYear.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CampaignYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CampaignYear.Location = new System.Drawing.Point(1457, 368);
+            this.CampaignYear.Name = "CampaignYear";
+            this.CampaignYear.Size = new System.Drawing.Size(206, 37);
+            this.CampaignYear.TabIndex = 137;
+            this.CampaignYear.TextChanged += new System.EventHandler(this.CampaignYear_TextChanged);
+            // 
+            // GameMaster
+            // 
+            this.GameMaster.BackColor = System.Drawing.SystemColors.Window;
+            this.GameMaster.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.GameMaster.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GameMaster.Location = new System.Drawing.Point(1437, 320);
+            this.GameMaster.Name = "GameMaster";
+            this.GameMaster.Size = new System.Drawing.Size(226, 37);
+            this.GameMaster.TabIndex = 136;
+            this.GameMaster.TextChanged += new System.EventHandler(this.GameMaster_TextChanged);
+            // 
+            // CampaignName
+            // 
+            this.CampaignName.BackColor = System.Drawing.SystemColors.Window;
+            this.CampaignName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CampaignName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CampaignName.Location = new System.Drawing.Point(1084, 368);
+            this.CampaignName.Name = "CampaignName";
+            this.CampaignName.Size = new System.Drawing.Size(232, 37);
+            this.CampaignName.TabIndex = 135;
+            this.CampaignName.TextChanged += new System.EventHandler(this.CampaignName_TextChanged);
+            // 
+            // PlayerName
+            // 
+            this.PlayerName.BackColor = System.Drawing.SystemColors.Window;
+            this.PlayerName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.PlayerName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PlayerName.Location = new System.Drawing.Point(1031, 320);
+            this.PlayerName.Name = "PlayerName";
+            this.PlayerName.Size = new System.Drawing.Size(285, 37);
+            this.PlayerName.TabIndex = 134;
+            this.PlayerName.TextChanged += new System.EventHandler(this.PlayerName_TextChanged);
+            // 
+            // AdvancedArmorPZ6
+            // 
+            this.AdvancedArmorPZ6.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorPZ6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorPZ6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorPZ6.Location = new System.Drawing.Point(859, 1996);
+            this.AdvancedArmorPZ6.Name = "AdvancedArmorPZ6";
+            this.AdvancedArmorPZ6.Size = new System.Drawing.Size(62, 37);
+            this.AdvancedArmorPZ6.TabIndex = 133;
+            this.AdvancedArmorPZ6.TextChanged += new System.EventHandler(this.AdvancedArmorPZ6_TextChanged);
+            // 
+            // AdvancedArmorLocation6
+            // 
+            this.AdvancedArmorLocation6.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorLocation6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorLocation6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorLocation6.Location = new System.Drawing.Point(524, 1996);
+            this.AdvancedArmorLocation6.Name = "AdvancedArmorLocation6";
+            this.AdvancedArmorLocation6.Size = new System.Drawing.Size(329, 37);
+            this.AdvancedArmorLocation6.TabIndex = 132;
+            this.AdvancedArmorLocation6.TextChanged += new System.EventHandler(this.AdvancedArmorLocation6_TextChanged);
+            // 
+            // AdvancedArmorWeight6
+            // 
+            this.AdvancedArmorWeight6.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorWeight6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorWeight6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorWeight6.Location = new System.Drawing.Point(450, 1996);
+            this.AdvancedArmorWeight6.Name = "AdvancedArmorWeight6";
+            this.AdvancedArmorWeight6.Size = new System.Drawing.Size(68, 37);
+            this.AdvancedArmorWeight6.TabIndex = 131;
+            this.AdvancedArmorWeight6.TextChanged += new System.EventHandler(this.AdvancedArmorWeight6_TextChanged);
+            // 
+            // AdvancedArmorType6
+            // 
+            this.AdvancedArmorType6.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorType6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorType6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorType6.Location = new System.Drawing.Point(243, 1996);
+            this.AdvancedArmorType6.Name = "AdvancedArmorType6";
+            this.AdvancedArmorType6.Size = new System.Drawing.Size(200, 37);
+            this.AdvancedArmorType6.TabIndex = 130;
+            this.AdvancedArmorType6.TextChanged += new System.EventHandler(this.AdvancedArmorType6_TextChanged);
+            // 
+            // AdvancedArmorPZ5
+            // 
+            this.AdvancedArmorPZ5.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorPZ5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorPZ5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorPZ5.Location = new System.Drawing.Point(859, 1949);
+            this.AdvancedArmorPZ5.Name = "AdvancedArmorPZ5";
+            this.AdvancedArmorPZ5.Size = new System.Drawing.Size(62, 37);
+            this.AdvancedArmorPZ5.TabIndex = 129;
+            this.AdvancedArmorPZ5.TextChanged += new System.EventHandler(this.AdvancedArmorPZ5_TextChanged);
+            // 
+            // AdvancedArmorLocation5
+            // 
+            this.AdvancedArmorLocation5.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorLocation5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorLocation5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorLocation5.Location = new System.Drawing.Point(524, 1949);
+            this.AdvancedArmorLocation5.Name = "AdvancedArmorLocation5";
+            this.AdvancedArmorLocation5.Size = new System.Drawing.Size(329, 37);
+            this.AdvancedArmorLocation5.TabIndex = 128;
+            this.AdvancedArmorLocation5.TextChanged += new System.EventHandler(this.AdvancedArmorLocation5_TextChanged);
+            // 
+            // AdvancedArmorWeight5
+            // 
+            this.AdvancedArmorWeight5.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorWeight5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorWeight5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorWeight5.Location = new System.Drawing.Point(450, 1949);
+            this.AdvancedArmorWeight5.Name = "AdvancedArmorWeight5";
+            this.AdvancedArmorWeight5.Size = new System.Drawing.Size(68, 37);
+            this.AdvancedArmorWeight5.TabIndex = 127;
+            this.AdvancedArmorWeight5.TextChanged += new System.EventHandler(this.AdvancedArmorWeight5_TextChanged);
+            // 
+            // AdvancedArmorType5
+            // 
+            this.AdvancedArmorType5.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorType5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorType5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorType5.Location = new System.Drawing.Point(243, 1949);
+            this.AdvancedArmorType5.Name = "AdvancedArmorType5";
+            this.AdvancedArmorType5.Size = new System.Drawing.Size(200, 37);
+            this.AdvancedArmorType5.TabIndex = 126;
+            this.AdvancedArmorType5.TextChanged += new System.EventHandler(this.AdvancedArmorType5_TextChanged);
+            // 
+            // AdvancedArmorPZ4
+            // 
+            this.AdvancedArmorPZ4.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorPZ4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorPZ4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorPZ4.Location = new System.Drawing.Point(859, 1902);
+            this.AdvancedArmorPZ4.Name = "AdvancedArmorPZ4";
+            this.AdvancedArmorPZ4.Size = new System.Drawing.Size(62, 37);
+            this.AdvancedArmorPZ4.TabIndex = 125;
+            this.AdvancedArmorPZ4.TextChanged += new System.EventHandler(this.AdvancedArmorPZ4_TextChanged);
+            // 
+            // AdvancedArmorLocation4
+            // 
+            this.AdvancedArmorLocation4.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorLocation4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorLocation4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorLocation4.Location = new System.Drawing.Point(524, 1902);
+            this.AdvancedArmorLocation4.Name = "AdvancedArmorLocation4";
+            this.AdvancedArmorLocation4.Size = new System.Drawing.Size(329, 37);
+            this.AdvancedArmorLocation4.TabIndex = 124;
+            this.AdvancedArmorLocation4.TextChanged += new System.EventHandler(this.AdvancedArmorLocation4_TextChanged);
+            // 
+            // AdvancedArmorWeight4
+            // 
+            this.AdvancedArmorWeight4.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorWeight4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorWeight4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorWeight4.Location = new System.Drawing.Point(450, 1902);
+            this.AdvancedArmorWeight4.Name = "AdvancedArmorWeight4";
+            this.AdvancedArmorWeight4.Size = new System.Drawing.Size(68, 37);
+            this.AdvancedArmorWeight4.TabIndex = 123;
+            this.AdvancedArmorWeight4.TextChanged += new System.EventHandler(this.AdvancedArmorWeight4_TextChanged);
+            // 
+            // AdvancedArmorType4
+            // 
+            this.AdvancedArmorType4.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorType4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorType4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorType4.Location = new System.Drawing.Point(243, 1902);
+            this.AdvancedArmorType4.Name = "AdvancedArmorType4";
+            this.AdvancedArmorType4.Size = new System.Drawing.Size(200, 37);
+            this.AdvancedArmorType4.TabIndex = 122;
+            this.AdvancedArmorType4.TextChanged += new System.EventHandler(this.AdvancedArmorType4_TextChanged);
+            // 
+            // AdvancedArmorPZ3
+            // 
+            this.AdvancedArmorPZ3.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorPZ3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorPZ3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorPZ3.Location = new System.Drawing.Point(859, 1855);
+            this.AdvancedArmorPZ3.Name = "AdvancedArmorPZ3";
+            this.AdvancedArmorPZ3.Size = new System.Drawing.Size(62, 37);
+            this.AdvancedArmorPZ3.TabIndex = 121;
+            this.AdvancedArmorPZ3.TextChanged += new System.EventHandler(this.AdvancedArmorPZ3_TextChanged);
+            // 
+            // AdvancedArmorLocation3
+            // 
+            this.AdvancedArmorLocation3.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorLocation3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorLocation3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorLocation3.Location = new System.Drawing.Point(524, 1855);
+            this.AdvancedArmorLocation3.Name = "AdvancedArmorLocation3";
+            this.AdvancedArmorLocation3.Size = new System.Drawing.Size(329, 37);
+            this.AdvancedArmorLocation3.TabIndex = 120;
+            this.AdvancedArmorLocation3.TextChanged += new System.EventHandler(this.AdvancedArmorLocation3_TextChanged);
+            // 
+            // AdvancedArmorWeight3
+            // 
+            this.AdvancedArmorWeight3.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorWeight3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorWeight3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorWeight3.Location = new System.Drawing.Point(450, 1855);
+            this.AdvancedArmorWeight3.Name = "AdvancedArmorWeight3";
+            this.AdvancedArmorWeight3.Size = new System.Drawing.Size(68, 37);
+            this.AdvancedArmorWeight3.TabIndex = 119;
+            this.AdvancedArmorWeight3.TextChanged += new System.EventHandler(this.AdvancedArmorWeight3_TextChanged);
+            // 
+            // AdvancedArmorType3
+            // 
+            this.AdvancedArmorType3.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorType3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorType3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorType3.Location = new System.Drawing.Point(243, 1855);
+            this.AdvancedArmorType3.Name = "AdvancedArmorType3";
+            this.AdvancedArmorType3.Size = new System.Drawing.Size(200, 37);
+            this.AdvancedArmorType3.TabIndex = 118;
+            this.AdvancedArmorType3.TextChanged += new System.EventHandler(this.AdvancedArmorType3_TextChanged);
+            // 
+            // AdvancedArmorPZ2
+            // 
+            this.AdvancedArmorPZ2.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorPZ2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorPZ2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorPZ2.Location = new System.Drawing.Point(859, 1806);
+            this.AdvancedArmorPZ2.Name = "AdvancedArmorPZ2";
+            this.AdvancedArmorPZ2.Size = new System.Drawing.Size(62, 37);
+            this.AdvancedArmorPZ2.TabIndex = 117;
+            this.AdvancedArmorPZ2.TextChanged += new System.EventHandler(this.AdvancedArmorPZ2_TextChanged);
+            // 
+            // AdvancedArmorLocation2
+            // 
+            this.AdvancedArmorLocation2.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorLocation2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorLocation2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorLocation2.Location = new System.Drawing.Point(524, 1806);
+            this.AdvancedArmorLocation2.Name = "AdvancedArmorLocation2";
+            this.AdvancedArmorLocation2.Size = new System.Drawing.Size(329, 37);
+            this.AdvancedArmorLocation2.TabIndex = 116;
+            this.AdvancedArmorLocation2.TextChanged += new System.EventHandler(this.AdvancedArmorLocation2_TextChanged);
+            // 
+            // AdvancedArmorWeight2
+            // 
+            this.AdvancedArmorWeight2.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorWeight2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorWeight2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorWeight2.Location = new System.Drawing.Point(450, 1806);
+            this.AdvancedArmorWeight2.Name = "AdvancedArmorWeight2";
+            this.AdvancedArmorWeight2.Size = new System.Drawing.Size(68, 37);
+            this.AdvancedArmorWeight2.TabIndex = 115;
+            this.AdvancedArmorWeight2.TextChanged += new System.EventHandler(this.AdvancedArmorWeight2_TextChanged);
+            // 
+            // AdvancedArmorType2
+            // 
+            this.AdvancedArmorType2.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorType2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorType2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorType2.Location = new System.Drawing.Point(243, 1806);
+            this.AdvancedArmorType2.Name = "AdvancedArmorType2";
+            this.AdvancedArmorType2.Size = new System.Drawing.Size(200, 37);
+            this.AdvancedArmorType2.TabIndex = 114;
+            this.AdvancedArmorType2.TextChanged += new System.EventHandler(this.AdvancedArmorType2_TextChanged);
+            // 
+            // AdvancedArmorPZ1
+            // 
+            this.AdvancedArmorPZ1.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorPZ1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorPZ1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorPZ1.Location = new System.Drawing.Point(859, 1759);
+            this.AdvancedArmorPZ1.Name = "AdvancedArmorPZ1";
+            this.AdvancedArmorPZ1.Size = new System.Drawing.Size(62, 37);
+            this.AdvancedArmorPZ1.TabIndex = 113;
+            this.AdvancedArmorPZ1.TextChanged += new System.EventHandler(this.AdvancedArmorPZ1_TextChanged);
+            // 
+            // AdvancedArmorLocation1
+            // 
+            this.AdvancedArmorLocation1.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorLocation1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorLocation1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorLocation1.Location = new System.Drawing.Point(524, 1759);
+            this.AdvancedArmorLocation1.Name = "AdvancedArmorLocation1";
+            this.AdvancedArmorLocation1.Size = new System.Drawing.Size(329, 37);
+            this.AdvancedArmorLocation1.TabIndex = 112;
+            this.AdvancedArmorLocation1.TextChanged += new System.EventHandler(this.AdvancedArmorLocation1_TextChanged);
+            // 
+            // AdvancedArmorWeight1
+            // 
+            this.AdvancedArmorWeight1.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorWeight1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorWeight1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorWeight1.Location = new System.Drawing.Point(450, 1759);
+            this.AdvancedArmorWeight1.Name = "AdvancedArmorWeight1";
+            this.AdvancedArmorWeight1.Size = new System.Drawing.Size(68, 37);
+            this.AdvancedArmorWeight1.TabIndex = 111;
+            this.AdvancedArmorWeight1.TextChanged += new System.EventHandler(this.AdvancedArmorWeight1_TextChanged);
+            // 
+            // AdvancedArmorType1
+            // 
+            this.AdvancedArmorType1.BackColor = System.Drawing.SystemColors.Window;
+            this.AdvancedArmorType1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AdvancedArmorType1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdvancedArmorType1.Location = new System.Drawing.Point(243, 1759);
+            this.AdvancedArmorType1.Name = "AdvancedArmorType1";
+            this.AdvancedArmorType1.Size = new System.Drawing.Size(200, 37);
+            this.AdvancedArmorType1.TabIndex = 110;
+            this.AdvancedArmorType1.TextChanged += new System.EventHandler(this.AdvancedArmorType1_TextChanged);
+            // 
+            // SimpleArmorPZ
+            // 
+            this.SimpleArmorPZ.BackColor = System.Drawing.SystemColors.Window;
+            this.SimpleArmorPZ.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.SimpleArmorPZ.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SimpleArmorPZ.Location = new System.Drawing.Point(689, 1638);
+            this.SimpleArmorPZ.Name = "SimpleArmorPZ";
+            this.SimpleArmorPZ.Size = new System.Drawing.Size(227, 37);
+            this.SimpleArmorPZ.TabIndex = 109;
+            this.SimpleArmorPZ.TextChanged += new System.EventHandler(this.SimpleArmorPZ_TextChanged);
+            // 
+            // SimpleArmorType
+            // 
+            this.SimpleArmorType.BackColor = System.Drawing.SystemColors.Window;
+            this.SimpleArmorType.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.SimpleArmorType.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SimpleArmorType.Location = new System.Drawing.Point(338, 1638);
+            this.SimpleArmorType.Name = "SimpleArmorType";
+            this.SimpleArmorType.Size = new System.Drawing.Size(235, 37);
+            this.SimpleArmorType.TabIndex = 108;
+            this.SimpleArmorType.TextChanged += new System.EventHandler(this.SimpleArmourType_TextChanged);
+            // 
+            // WeaponTraits6
+            // 
+            this.WeaponTraits6.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponTraits6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponTraits6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponTraits6.Location = new System.Drawing.Point(785, 1470);
+            this.WeaponTraits6.Name = "WeaponTraits6";
+            this.WeaponTraits6.Size = new System.Drawing.Size(131, 37);
+            this.WeaponTraits6.TabIndex = 107;
+            this.WeaponTraits6.TextChanged += new System.EventHandler(this.WeaponTraits6_TextChanged);
+            // 
+            // WeaponReload6
+            // 
+            this.WeaponReload6.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponReload6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponReload6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponReload6.Location = new System.Drawing.Point(713, 1470);
+            this.WeaponReload6.Name = "WeaponReload6";
+            this.WeaponReload6.Size = new System.Drawing.Size(66, 37);
+            this.WeaponReload6.TabIndex = 106;
+            this.WeaponReload6.TextChanged += new System.EventHandler(this.WeaponReload6_TextChanged);
+            // 
+            // WeaponRange6
+            // 
+            this.WeaponRange6.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponRange6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponRange6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponRange6.Location = new System.Drawing.Point(641, 1470);
+            this.WeaponRange6.Name = "WeaponRange6";
+            this.WeaponRange6.Size = new System.Drawing.Size(66, 37);
+            this.WeaponRange6.TabIndex = 105;
+            this.WeaponRange6.TextChanged += new System.EventHandler(this.WeaponRange6_TextChanged);
+            // 
+            // WeaponStrength6
+            // 
+            this.WeaponStrength6.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponStrength6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponStrength6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponStrength6.Location = new System.Drawing.Point(570, 1470);
+            this.WeaponStrength6.Name = "WeaponStrength6";
+            this.WeaponStrength6.Size = new System.Drawing.Size(66, 37);
+            this.WeaponStrength6.TabIndex = 104;
+            this.WeaponStrength6.TextChanged += new System.EventHandler(this.WeaponStrength6_TextChanged);
+            // 
+            // WeaponCategory6
+            // 
+            this.WeaponCategory6.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponCategory6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponCategory6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponCategory6.Location = new System.Drawing.Point(497, 1470);
+            this.WeaponCategory6.Name = "WeaponCategory6";
+            this.WeaponCategory6.Size = new System.Drawing.Size(66, 37);
+            this.WeaponCategory6.TabIndex = 103;
+            this.WeaponCategory6.TextChanged += new System.EventHandler(this.WeaponCategory6_TextChanged);
+            // 
+            // WeaponWeight6
+            // 
+            this.WeaponWeight6.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponWeight6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponWeight6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponWeight6.Location = new System.Drawing.Point(426, 1470);
+            this.WeaponWeight6.Name = "WeaponWeight6";
+            this.WeaponWeight6.Size = new System.Drawing.Size(66, 37);
+            this.WeaponWeight6.TabIndex = 102;
+            this.WeaponWeight6.TextChanged += new System.EventHandler(this.WeaponWeight6_TextChanged);
+            // 
+            // WeaponName6
+            // 
+            this.WeaponName6.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponName6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponName6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponName6.Location = new System.Drawing.Point(243, 1470);
+            this.WeaponName6.Name = "WeaponName6";
+            this.WeaponName6.Size = new System.Drawing.Size(176, 37);
+            this.WeaponName6.TabIndex = 101;
+            this.WeaponName6.TextChanged += new System.EventHandler(this.WeaponName6_TextChanged);
+            // 
+            // WeaponTraits5
+            // 
+            this.WeaponTraits5.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponTraits5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponTraits5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponTraits5.Location = new System.Drawing.Point(785, 1422);
+            this.WeaponTraits5.Name = "WeaponTraits5";
+            this.WeaponTraits5.Size = new System.Drawing.Size(131, 37);
+            this.WeaponTraits5.TabIndex = 100;
+            this.WeaponTraits5.TextChanged += new System.EventHandler(this.WeaponTraits5_TextChanged);
+            // 
+            // WeaponReload5
+            // 
+            this.WeaponReload5.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponReload5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponReload5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponReload5.Location = new System.Drawing.Point(713, 1422);
+            this.WeaponReload5.Name = "WeaponReload5";
+            this.WeaponReload5.Size = new System.Drawing.Size(66, 37);
+            this.WeaponReload5.TabIndex = 99;
+            this.WeaponReload5.TextChanged += new System.EventHandler(this.WeaponReload5_TextChanged);
+            // 
+            // WeaponRange5
+            // 
+            this.WeaponRange5.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponRange5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponRange5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponRange5.Location = new System.Drawing.Point(641, 1422);
+            this.WeaponRange5.Name = "WeaponRange5";
+            this.WeaponRange5.Size = new System.Drawing.Size(66, 37);
+            this.WeaponRange5.TabIndex = 98;
+            this.WeaponRange5.TextChanged += new System.EventHandler(this.WeaponRange5_TextChanged);
+            // 
+            // WeaponStrength5
+            // 
+            this.WeaponStrength5.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponStrength5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponStrength5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponStrength5.Location = new System.Drawing.Point(570, 1422);
+            this.WeaponStrength5.Name = "WeaponStrength5";
+            this.WeaponStrength5.Size = new System.Drawing.Size(66, 37);
+            this.WeaponStrength5.TabIndex = 97;
+            this.WeaponStrength5.TextChanged += new System.EventHandler(this.WeaponStrength5_TextChanged);
+            // 
+            // WeaponCategory5
+            // 
+            this.WeaponCategory5.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponCategory5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponCategory5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponCategory5.Location = new System.Drawing.Point(497, 1422);
+            this.WeaponCategory5.Name = "WeaponCategory5";
+            this.WeaponCategory5.Size = new System.Drawing.Size(66, 37);
+            this.WeaponCategory5.TabIndex = 96;
+            this.WeaponCategory5.TextChanged += new System.EventHandler(this.WeaponCategory5_TextChanged);
+            // 
+            // WeaponWeight5
+            // 
+            this.WeaponWeight5.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponWeight5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponWeight5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponWeight5.Location = new System.Drawing.Point(426, 1422);
+            this.WeaponWeight5.Name = "WeaponWeight5";
+            this.WeaponWeight5.Size = new System.Drawing.Size(66, 37);
+            this.WeaponWeight5.TabIndex = 95;
+            this.WeaponWeight5.TextChanged += new System.EventHandler(this.WeaponWeight5_TextChanged);
+            // 
+            // WeaponName5
+            // 
+            this.WeaponName5.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponName5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponName5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponName5.Location = new System.Drawing.Point(243, 1422);
+            this.WeaponName5.Name = "WeaponName5";
+            this.WeaponName5.Size = new System.Drawing.Size(176, 37);
+            this.WeaponName5.TabIndex = 94;
+            this.WeaponName5.TextChanged += new System.EventHandler(this.WeaponName5_TextChanged);
+            // 
+            // WeaponTraits4
+            // 
+            this.WeaponTraits4.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponTraits4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponTraits4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponTraits4.Location = new System.Drawing.Point(785, 1374);
+            this.WeaponTraits4.Name = "WeaponTraits4";
+            this.WeaponTraits4.Size = new System.Drawing.Size(131, 37);
+            this.WeaponTraits4.TabIndex = 93;
+            this.WeaponTraits4.TextChanged += new System.EventHandler(this.WeaponTraits4_TextChanged);
+            // 
+            // WeaponReload4
+            // 
+            this.WeaponReload4.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponReload4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponReload4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponReload4.Location = new System.Drawing.Point(713, 1374);
+            this.WeaponReload4.Name = "WeaponReload4";
+            this.WeaponReload4.Size = new System.Drawing.Size(66, 37);
+            this.WeaponReload4.TabIndex = 92;
+            this.WeaponReload4.TextChanged += new System.EventHandler(this.WeaponReload4_TextChanged);
+            // 
+            // WeaponRange4
+            // 
+            this.WeaponRange4.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponRange4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponRange4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponRange4.Location = new System.Drawing.Point(641, 1374);
+            this.WeaponRange4.Name = "WeaponRange4";
+            this.WeaponRange4.Size = new System.Drawing.Size(66, 37);
+            this.WeaponRange4.TabIndex = 91;
+            this.WeaponRange4.TextChanged += new System.EventHandler(this.WeaponRange4_TextChanged);
+            // 
+            // WeaponStrength4
+            // 
+            this.WeaponStrength4.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponStrength4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponStrength4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponStrength4.Location = new System.Drawing.Point(570, 1374);
+            this.WeaponStrength4.Name = "WeaponStrength4";
+            this.WeaponStrength4.Size = new System.Drawing.Size(66, 37);
+            this.WeaponStrength4.TabIndex = 90;
+            this.WeaponStrength4.TextChanged += new System.EventHandler(this.WeaponStrength4_TextChanged);
+            // 
+            // WeaponCategory4
+            // 
+            this.WeaponCategory4.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponCategory4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponCategory4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponCategory4.Location = new System.Drawing.Point(497, 1374);
+            this.WeaponCategory4.Name = "WeaponCategory4";
+            this.WeaponCategory4.Size = new System.Drawing.Size(66, 37);
+            this.WeaponCategory4.TabIndex = 89;
+            this.WeaponCategory4.TextChanged += new System.EventHandler(this.WeaponCategory4_TextChanged);
+            // 
+            // WeaponWeight4
+            // 
+            this.WeaponWeight4.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponWeight4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponWeight4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponWeight4.Location = new System.Drawing.Point(426, 1374);
+            this.WeaponWeight4.Name = "WeaponWeight4";
+            this.WeaponWeight4.Size = new System.Drawing.Size(66, 37);
+            this.WeaponWeight4.TabIndex = 88;
+            this.WeaponWeight4.TextChanged += new System.EventHandler(this.WeaponWeight4_TextChanged);
+            // 
+            // WeaponName4
+            // 
+            this.WeaponName4.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponName4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponName4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponName4.Location = new System.Drawing.Point(243, 1374);
+            this.WeaponName4.Name = "WeaponName4";
+            this.WeaponName4.Size = new System.Drawing.Size(176, 37);
+            this.WeaponName4.TabIndex = 87;
+            this.WeaponName4.TextChanged += new System.EventHandler(this.WeaponName4_TextChanged);
+            // 
+            // WeaponTraits3
+            // 
+            this.WeaponTraits3.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponTraits3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponTraits3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponTraits3.Location = new System.Drawing.Point(785, 1326);
+            this.WeaponTraits3.Name = "WeaponTraits3";
+            this.WeaponTraits3.Size = new System.Drawing.Size(131, 37);
+            this.WeaponTraits3.TabIndex = 86;
+            this.WeaponTraits3.TextChanged += new System.EventHandler(this.WeaponTraits3_TextChanged);
+            // 
+            // WeaponReload3
+            // 
+            this.WeaponReload3.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponReload3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponReload3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponReload3.Location = new System.Drawing.Point(713, 1326);
+            this.WeaponReload3.Name = "WeaponReload3";
+            this.WeaponReload3.Size = new System.Drawing.Size(66, 37);
+            this.WeaponReload3.TabIndex = 85;
+            this.WeaponReload3.TextChanged += new System.EventHandler(this.WeaponReload3_TextChanged);
+            // 
+            // WeaponRange3
+            // 
+            this.WeaponRange3.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponRange3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponRange3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponRange3.Location = new System.Drawing.Point(641, 1326);
+            this.WeaponRange3.Name = "WeaponRange3";
+            this.WeaponRange3.Size = new System.Drawing.Size(66, 37);
+            this.WeaponRange3.TabIndex = 84;
+            this.WeaponRange3.TextChanged += new System.EventHandler(this.WeaponRange3_TextChanged);
+            // 
+            // WeaponStrength3
+            // 
+            this.WeaponStrength3.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponStrength3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponStrength3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponStrength3.Location = new System.Drawing.Point(570, 1326);
+            this.WeaponStrength3.Name = "WeaponStrength3";
+            this.WeaponStrength3.Size = new System.Drawing.Size(66, 37);
+            this.WeaponStrength3.TabIndex = 83;
+            this.WeaponStrength3.TextChanged += new System.EventHandler(this.WeaponStrength3_TextChanged);
+            // 
+            // WeaponCategory3
+            // 
+            this.WeaponCategory3.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponCategory3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponCategory3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponCategory3.Location = new System.Drawing.Point(497, 1326);
+            this.WeaponCategory3.Name = "WeaponCategory3";
+            this.WeaponCategory3.Size = new System.Drawing.Size(66, 37);
+            this.WeaponCategory3.TabIndex = 82;
+            this.WeaponCategory3.TextChanged += new System.EventHandler(this.WeaponCategory3_TextChanged);
+            // 
+            // WeaponWeight3
+            // 
+            this.WeaponWeight3.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponWeight3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponWeight3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponWeight3.Location = new System.Drawing.Point(426, 1326);
+            this.WeaponWeight3.Name = "WeaponWeight3";
+            this.WeaponWeight3.Size = new System.Drawing.Size(66, 37);
+            this.WeaponWeight3.TabIndex = 81;
+            this.WeaponWeight3.TextChanged += new System.EventHandler(this.WeaponWeight3_TextChanged);
+            // 
+            // WeaponName3
+            // 
+            this.WeaponName3.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponName3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponName3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponName3.Location = new System.Drawing.Point(243, 1326);
+            this.WeaponName3.Name = "WeaponName3";
+            this.WeaponName3.Size = new System.Drawing.Size(176, 37);
+            this.WeaponName3.TabIndex = 80;
+            this.WeaponName3.TextChanged += new System.EventHandler(this.WeaponName3_TextChanged);
+            // 
+            // WeaponTraits2
+            // 
+            this.WeaponTraits2.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponTraits2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponTraits2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponTraits2.Location = new System.Drawing.Point(785, 1278);
+            this.WeaponTraits2.Name = "WeaponTraits2";
+            this.WeaponTraits2.Size = new System.Drawing.Size(131, 37);
+            this.WeaponTraits2.TabIndex = 79;
+            this.WeaponTraits2.TextChanged += new System.EventHandler(this.WeaponTraits2_TextChanged);
+            // 
+            // WeaponReload2
+            // 
+            this.WeaponReload2.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponReload2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponReload2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponReload2.Location = new System.Drawing.Point(713, 1278);
+            this.WeaponReload2.Name = "WeaponReload2";
+            this.WeaponReload2.Size = new System.Drawing.Size(66, 37);
+            this.WeaponReload2.TabIndex = 78;
+            this.WeaponReload2.TextChanged += new System.EventHandler(this.WeaponReload2_TextChanged);
+            // 
+            // WeaponRange2
+            // 
+            this.WeaponRange2.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponRange2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponRange2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponRange2.Location = new System.Drawing.Point(641, 1278);
+            this.WeaponRange2.Name = "WeaponRange2";
+            this.WeaponRange2.Size = new System.Drawing.Size(66, 37);
+            this.WeaponRange2.TabIndex = 77;
+            this.WeaponRange2.TextChanged += new System.EventHandler(this.WeaponRange2_TextChanged);
+            // 
+            // WeaponStrength2
+            // 
+            this.WeaponStrength2.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponStrength2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponStrength2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponStrength2.Location = new System.Drawing.Point(570, 1278);
+            this.WeaponStrength2.Name = "WeaponStrength2";
+            this.WeaponStrength2.Size = new System.Drawing.Size(66, 37);
+            this.WeaponStrength2.TabIndex = 76;
+            this.WeaponStrength2.TextChanged += new System.EventHandler(this.WeaponStrength2_TextChanged);
+            // 
+            // WeaponCategory2
+            // 
+            this.WeaponCategory2.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponCategory2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponCategory2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponCategory2.Location = new System.Drawing.Point(497, 1278);
+            this.WeaponCategory2.Name = "WeaponCategory2";
+            this.WeaponCategory2.Size = new System.Drawing.Size(66, 37);
+            this.WeaponCategory2.TabIndex = 75;
+            this.WeaponCategory2.TextChanged += new System.EventHandler(this.WeaponCategory2_TextChanged);
+            // 
+            // WeaponWeight2
+            // 
+            this.WeaponWeight2.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponWeight2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponWeight2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponWeight2.Location = new System.Drawing.Point(426, 1278);
+            this.WeaponWeight2.Name = "WeaponWeight2";
+            this.WeaponWeight2.Size = new System.Drawing.Size(66, 37);
+            this.WeaponWeight2.TabIndex = 74;
+            this.WeaponWeight2.TextChanged += new System.EventHandler(this.WeaponWeight2_TextChanged);
+            // 
+            // WeaponName2
+            // 
+            this.WeaponName2.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponName2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponName2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponName2.Location = new System.Drawing.Point(243, 1278);
+            this.WeaponName2.Name = "WeaponName2";
+            this.WeaponName2.Size = new System.Drawing.Size(176, 37);
+            this.WeaponName2.TabIndex = 73;
+            this.WeaponName2.TextChanged += new System.EventHandler(this.WeaponName2_TextChanged);
+            // 
+            // WeaponTraits1
+            // 
+            this.WeaponTraits1.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponTraits1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponTraits1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponTraits1.Location = new System.Drawing.Point(785, 1230);
+            this.WeaponTraits1.Name = "WeaponTraits1";
+            this.WeaponTraits1.Size = new System.Drawing.Size(131, 37);
+            this.WeaponTraits1.TabIndex = 72;
+            this.WeaponTraits1.TextChanged += new System.EventHandler(this.WeaponTraits1_TextChanged);
+            // 
+            // WeaponReload1
+            // 
+            this.WeaponReload1.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponReload1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponReload1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponReload1.Location = new System.Drawing.Point(713, 1230);
+            this.WeaponReload1.Name = "WeaponReload1";
+            this.WeaponReload1.Size = new System.Drawing.Size(66, 37);
+            this.WeaponReload1.TabIndex = 71;
+            this.WeaponReload1.TextChanged += new System.EventHandler(this.WeaponReload1_TextChanged);
+            // 
+            // WeaponRange1
+            // 
+            this.WeaponRange1.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponRange1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponRange1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponRange1.Location = new System.Drawing.Point(641, 1230);
+            this.WeaponRange1.Name = "WeaponRange1";
+            this.WeaponRange1.Size = new System.Drawing.Size(66, 37);
+            this.WeaponRange1.TabIndex = 70;
+            this.WeaponRange1.TextChanged += new System.EventHandler(this.WeaponRange1_TextChanged);
+            // 
+            // WeaponStrength1
+            // 
+            this.WeaponStrength1.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponStrength1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponStrength1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponStrength1.Location = new System.Drawing.Point(570, 1230);
+            this.WeaponStrength1.Name = "WeaponStrength1";
+            this.WeaponStrength1.Size = new System.Drawing.Size(66, 37);
+            this.WeaponStrength1.TabIndex = 69;
+            this.WeaponStrength1.TextChanged += new System.EventHandler(this.WeaponStrength1_TextChanged);
+            // 
+            // WeaponCategory1
+            // 
+            this.WeaponCategory1.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponCategory1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponCategory1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponCategory1.Location = new System.Drawing.Point(497, 1230);
+            this.WeaponCategory1.Name = "WeaponCategory1";
+            this.WeaponCategory1.Size = new System.Drawing.Size(66, 37);
+            this.WeaponCategory1.TabIndex = 68;
+            this.WeaponCategory1.TextChanged += new System.EventHandler(this.WeaponCategory1_TextChanged);
+            // 
+            // WeaponWeight1
+            // 
+            this.WeaponWeight1.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponWeight1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponWeight1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponWeight1.Location = new System.Drawing.Point(426, 1230);
+            this.WeaponWeight1.Name = "WeaponWeight1";
+            this.WeaponWeight1.Size = new System.Drawing.Size(66, 37);
+            this.WeaponWeight1.TabIndex = 67;
+            this.WeaponWeight1.TextChanged += new System.EventHandler(this.WeaponWeight1_TextChanged);
+            // 
+            // WeaponName1
+            // 
+            this.WeaponName1.BackColor = System.Drawing.SystemColors.Window;
+            this.WeaponName1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WeaponName1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeaponName1.Location = new System.Drawing.Point(243, 1230);
+            this.WeaponName1.Name = "WeaponName1";
+            this.WeaponName1.Size = new System.Drawing.Size(176, 37);
+            this.WeaponName1.TabIndex = 66;
+            this.WeaponName1.TextChanged += new System.EventHandler(this.WeaponName1_TextChanged);
+            // 
+            // CharacterActualPP
+            // 
+            this.CharacterActualPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualPP.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualPP.Location = new System.Drawing.Point(856, 1058);
+            this.CharacterActualPP.Name = "CharacterActualPP";
+            this.CharacterActualPP.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualPP.TabIndex = 65;
+            this.CharacterActualPP.ValueChanged += new System.EventHandler(this.CharacterActualPP_ValueChanged);
+            // 
+            // CharacterActualPO
+            // 
+            this.CharacterActualPO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualPO.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualPO.Location = new System.Drawing.Point(784, 1058);
+            this.CharacterActualPO.Name = "CharacterActualPO";
+            this.CharacterActualPO.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualPO.TabIndex = 64;
+            this.CharacterActualPO.ValueChanged += new System.EventHandler(this.CharacterActualPO_ValueChanged);
+            // 
+            // CharacterActualMag
+            // 
+            this.CharacterActualMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualMag.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualMag.Location = new System.Drawing.Point(712, 1058);
+            this.CharacterActualMag.Name = "CharacterActualMag";
+            this.CharacterActualMag.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualMag.TabIndex = 63;
+            this.CharacterActualMag.ValueChanged += new System.EventHandler(this.CharacterActualMag_ValueChanged);
+            // 
+            // CharacterActualSz
+            // 
+            this.CharacterActualSz.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualSz.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualSz.Location = new System.Drawing.Point(640, 1058);
+            this.CharacterActualSz.Name = "CharacterActualSz";
+            this.CharacterActualSz.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualSz.TabIndex = 62;
+            this.CharacterActualSz.ValueChanged += new System.EventHandler(this.CharacterActualSz_ValueChanged);
+            // 
+            // CharacterActualWt
+            // 
+            this.CharacterActualWt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualWt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualWt.Location = new System.Drawing.Point(568, 1058);
+            this.CharacterActualWt.Name = "CharacterActualWt";
+            this.CharacterActualWt.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualWt.TabIndex = 61;
+            this.CharacterActualWt.ValueChanged += new System.EventHandler(this.CharacterActualWt_ValueChanged);
+            // 
+            // CharacterActualS
+            // 
+            this.CharacterActualS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualS.Location = new System.Drawing.Point(496, 1058);
+            this.CharacterActualS.Name = "CharacterActualS";
+            this.CharacterActualS.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualS.TabIndex = 60;
+            this.CharacterActualS.ValueChanged += new System.EventHandler(this.CharacterActualS_ValueChanged);
+            // 
+            // CharacterActualZyw
+            // 
+            this.CharacterActualZyw.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualZyw.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualZyw.Location = new System.Drawing.Point(424, 1058);
+            this.CharacterActualZyw.Name = "CharacterActualZyw";
+            this.CharacterActualZyw.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualZyw.TabIndex = 59;
+            this.CharacterActualZyw.ValueChanged += new System.EventHandler(this.CharacterActualZyw_ValueChanged);
+            // 
+            // CharacterActualA
+            // 
+            this.CharacterActualA.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualA.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualA.Location = new System.Drawing.Point(352, 1058);
+            this.CharacterActualA.Name = "CharacterActualA";
+            this.CharacterActualA.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualA.TabIndex = 58;
+            this.CharacterActualA.ValueChanged += new System.EventHandler(this.CharacterActualA_ValueChanged);
+            // 
+            // CharacterGrowthPP
+            // 
+            this.CharacterGrowthPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthPP.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthPP.Location = new System.Drawing.Point(856, 1010);
+            this.CharacterGrowthPP.Name = "CharacterGrowthPP";
+            this.CharacterGrowthPP.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthPP.TabIndex = 57;
+            this.CharacterGrowthPP.ValueChanged += new System.EventHandler(this.CharacterGrowthPP_ValueChanged);
+            // 
+            // CharacterGrowthPO
+            // 
+            this.CharacterGrowthPO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthPO.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthPO.Location = new System.Drawing.Point(784, 1010);
+            this.CharacterGrowthPO.Name = "CharacterGrowthPO";
+            this.CharacterGrowthPO.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthPO.TabIndex = 56;
+            this.CharacterGrowthPO.ValueChanged += new System.EventHandler(this.CharacterGrowthPO_ValueChanged);
+            // 
+            // CharacterGrowthMag
+            // 
+            this.CharacterGrowthMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthMag.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthMag.Location = new System.Drawing.Point(712, 1010);
+            this.CharacterGrowthMag.Name = "CharacterGrowthMag";
+            this.CharacterGrowthMag.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthMag.TabIndex = 55;
+            this.CharacterGrowthMag.ValueChanged += new System.EventHandler(this.CharacterGrowthMag_ValueChanged);
+            // 
+            // CharacterGrowthSz
+            // 
+            this.CharacterGrowthSz.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthSz.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthSz.Location = new System.Drawing.Point(640, 1010);
+            this.CharacterGrowthSz.Name = "CharacterGrowthSz";
+            this.CharacterGrowthSz.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthSz.TabIndex = 54;
+            this.CharacterGrowthSz.ValueChanged += new System.EventHandler(this.CharacterGrowthSz_ValueChanged);
+            // 
+            // CharacterGrowthWt
+            // 
+            this.CharacterGrowthWt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthWt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthWt.Location = new System.Drawing.Point(568, 1010);
+            this.CharacterGrowthWt.Name = "CharacterGrowthWt";
+            this.CharacterGrowthWt.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthWt.TabIndex = 53;
+            this.CharacterGrowthWt.ValueChanged += new System.EventHandler(this.CharacterGrowthWt_ValueChanged);
+            // 
+            // CharacterGrowthS
+            // 
+            this.CharacterGrowthS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthS.Location = new System.Drawing.Point(496, 1010);
+            this.CharacterGrowthS.Name = "CharacterGrowthS";
+            this.CharacterGrowthS.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthS.TabIndex = 52;
+            this.CharacterGrowthS.ValueChanged += new System.EventHandler(this.CharacterGrowthS_ValueChanged);
+            // 
+            // CharacterGrowthZyw
+            // 
+            this.CharacterGrowthZyw.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthZyw.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthZyw.Location = new System.Drawing.Point(424, 1010);
+            this.CharacterGrowthZyw.Name = "CharacterGrowthZyw";
+            this.CharacterGrowthZyw.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthZyw.TabIndex = 51;
+            this.CharacterGrowthZyw.ValueChanged += new System.EventHandler(this.CharacterGrowthZyw_ValueChanged);
+            // 
+            // CharacterGrowthA
+            // 
+            this.CharacterGrowthA.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthA.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthA.Location = new System.Drawing.Point(352, 1010);
+            this.CharacterGrowthA.Name = "CharacterGrowthA";
+            this.CharacterGrowthA.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthA.TabIndex = 50;
+            this.CharacterGrowthA.ValueChanged += new System.EventHandler(this.CharacterGrowthA_ValueChanged);
+            // 
+            // CharacterStartingPP
+            // 
+            this.CharacterStartingPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingPP.Location = new System.Drawing.Point(856, 962);
+            this.CharacterStartingPP.Name = "CharacterStartingPP";
+            this.CharacterStartingPP.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingPP.TabIndex = 49;
+            this.CharacterStartingPP.ValueChanged += new System.EventHandler(this.CharacterStartingPP_ValueChanged);
+            // 
+            // CharacterStartingPO
+            // 
+            this.CharacterStartingPO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingPO.Location = new System.Drawing.Point(784, 962);
+            this.CharacterStartingPO.Name = "CharacterStartingPO";
+            this.CharacterStartingPO.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingPO.TabIndex = 48;
+            this.CharacterStartingPO.ValueChanged += new System.EventHandler(this.CharacterStartingPO_ValueChanged);
+            // 
+            // CharacterStartingMag
+            // 
+            this.CharacterStartingMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingMag.Location = new System.Drawing.Point(712, 962);
+            this.CharacterStartingMag.Name = "CharacterStartingMag";
+            this.CharacterStartingMag.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingMag.TabIndex = 47;
+            this.CharacterStartingMag.ValueChanged += new System.EventHandler(this.CharacterStartingMag_ValueChanged);
+            // 
+            // CharacterStartingSz
+            // 
+            this.CharacterStartingSz.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingSz.Location = new System.Drawing.Point(640, 962);
+            this.CharacterStartingSz.Name = "CharacterStartingSz";
+            this.CharacterStartingSz.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingSz.TabIndex = 46;
+            this.CharacterStartingSz.ValueChanged += new System.EventHandler(this.CharacterStartingSz_ValueChanged);
+            // 
+            // CharacterStartingWt
+            // 
+            this.CharacterStartingWt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingWt.Location = new System.Drawing.Point(568, 962);
+            this.CharacterStartingWt.Name = "CharacterStartingWt";
+            this.CharacterStartingWt.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingWt.TabIndex = 45;
+            this.CharacterStartingWt.ValueChanged += new System.EventHandler(this.CharacterStartingWt_ValueChanged);
+            // 
+            // CharacterStartingS
+            // 
+            this.CharacterStartingS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingS.Location = new System.Drawing.Point(496, 962);
+            this.CharacterStartingS.Name = "CharacterStartingS";
+            this.CharacterStartingS.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingS.TabIndex = 44;
+            this.CharacterStartingS.ValueChanged += new System.EventHandler(this.CharacterStartingS_ValueChanged);
+            // 
+            // CharacterStartingZyw
+            // 
+            this.CharacterStartingZyw.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingZyw.Location = new System.Drawing.Point(424, 962);
+            this.CharacterStartingZyw.Name = "CharacterStartingZyw";
+            this.CharacterStartingZyw.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingZyw.TabIndex = 43;
+            this.CharacterStartingZyw.ValueChanged += new System.EventHandler(this.CharacterStartingZyw_ValueChanged);
+            // 
+            // CharacterStartingA
+            // 
+            this.CharacterStartingA.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingA.Location = new System.Drawing.Point(352, 962);
+            this.CharacterStartingA.Name = "CharacterStartingA";
+            this.CharacterStartingA.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingA.TabIndex = 42;
+            this.CharacterStartingA.ValueChanged += new System.EventHandler(this.CharacterStartingA_ValueChanged);
+            // 
+            // CharacterActualOgd
+            // 
+            this.CharacterActualOgd.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualOgd.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualOgd.Location = new System.Drawing.Point(856, 866);
+            this.CharacterActualOgd.Name = "CharacterActualOgd";
+            this.CharacterActualOgd.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualOgd.TabIndex = 41;
+            this.CharacterActualOgd.ValueChanged += new System.EventHandler(this.CharacterActualOgd_ValueChanged);
+            // 
+            // CharacterActualSW
+            // 
+            this.CharacterActualSW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualSW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualSW.Location = new System.Drawing.Point(784, 866);
+            this.CharacterActualSW.Name = "CharacterActualSW";
+            this.CharacterActualSW.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualSW.TabIndex = 40;
+            this.CharacterActualSW.ValueChanged += new System.EventHandler(this.CharacterActualSW_ValueChanged);
+            // 
+            // CharacterActualInt
+            // 
+            this.CharacterActualInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualInt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualInt.Location = new System.Drawing.Point(712, 866);
+            this.CharacterActualInt.Name = "CharacterActualInt";
+            this.CharacterActualInt.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualInt.TabIndex = 39;
+            this.CharacterActualInt.ValueChanged += new System.EventHandler(this.CharacterActualInt_ValueChanged);
+            // 
+            // CharacterActualZr
+            // 
+            this.CharacterActualZr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualZr.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualZr.Location = new System.Drawing.Point(640, 866);
+            this.CharacterActualZr.Name = "CharacterActualZr";
+            this.CharacterActualZr.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualZr.TabIndex = 38;
+            this.CharacterActualZr.ValueChanged += new System.EventHandler(this.CharacterActualZr_ValueChanged);
+            // 
+            // CharacterActualOdp
+            // 
+            this.CharacterActualOdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualOdp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualOdp.Location = new System.Drawing.Point(568, 866);
+            this.CharacterActualOdp.Name = "CharacterActualOdp";
+            this.CharacterActualOdp.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualOdp.TabIndex = 37;
+            this.CharacterActualOdp.ValueChanged += new System.EventHandler(this.CharacterActualOdp_ValueChanged);
+            // 
+            // CharacterActualK
+            // 
+            this.CharacterActualK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualK.Location = new System.Drawing.Point(496, 866);
+            this.CharacterActualK.Name = "CharacterActualK";
+            this.CharacterActualK.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualK.TabIndex = 36;
+            this.CharacterActualK.ValueChanged += new System.EventHandler(this.CharacterActualK_ValueChanged);
+            // 
+            // CharacterActualUS
+            // 
+            this.CharacterActualUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualUS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualUS.Location = new System.Drawing.Point(424, 866);
+            this.CharacterActualUS.Name = "CharacterActualUS";
+            this.CharacterActualUS.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualUS.TabIndex = 35;
+            this.CharacterActualUS.ValueChanged += new System.EventHandler(this.CharacterActualUS_ValueChanged);
+            // 
+            // CharacterActualWW
+            // 
+            this.CharacterActualWW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualWW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualWW.Location = new System.Drawing.Point(352, 866);
+            this.CharacterActualWW.Name = "CharacterActualWW";
+            this.CharacterActualWW.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualWW.TabIndex = 34;
+            this.CharacterActualWW.ValueChanged += new System.EventHandler(this.CharacterActualWW_ValueChanged);
+            // 
+            // CharacterGrowthOgd
+            // 
+            this.CharacterGrowthOgd.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthOgd.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthOgd.Location = new System.Drawing.Point(856, 818);
+            this.CharacterGrowthOgd.Name = "CharacterGrowthOgd";
+            this.CharacterGrowthOgd.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthOgd.TabIndex = 33;
+            this.CharacterGrowthOgd.ValueChanged += new System.EventHandler(this.CharacterGrowthOgd_ValueChanged);
+            // 
+            // CharacterGrowthSW
+            // 
+            this.CharacterGrowthSW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthSW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthSW.Location = new System.Drawing.Point(784, 818);
+            this.CharacterGrowthSW.Name = "CharacterGrowthSW";
+            this.CharacterGrowthSW.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthSW.TabIndex = 32;
+            this.CharacterGrowthSW.ValueChanged += new System.EventHandler(this.CharacterGrowthSW_ValueChanged);
+            // 
+            // CharacterGrowthInt
+            // 
+            this.CharacterGrowthInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthInt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthInt.Location = new System.Drawing.Point(712, 818);
+            this.CharacterGrowthInt.Name = "CharacterGrowthInt";
+            this.CharacterGrowthInt.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthInt.TabIndex = 31;
+            this.CharacterGrowthInt.ValueChanged += new System.EventHandler(this.CharacterGrowthInt_ValueChanged);
+            // 
+            // CharacterGrowthZr
+            // 
+            this.CharacterGrowthZr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthZr.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthZr.Location = new System.Drawing.Point(640, 818);
+            this.CharacterGrowthZr.Name = "CharacterGrowthZr";
+            this.CharacterGrowthZr.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthZr.TabIndex = 30;
+            this.CharacterGrowthZr.ValueChanged += new System.EventHandler(this.CharacterGrowthZr_ValueChanged);
+            // 
+            // CharacterGrowthOdp
+            // 
+            this.CharacterGrowthOdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthOdp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthOdp.Location = new System.Drawing.Point(568, 818);
+            this.CharacterGrowthOdp.Name = "CharacterGrowthOdp";
+            this.CharacterGrowthOdp.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthOdp.TabIndex = 29;
+            this.CharacterGrowthOdp.ValueChanged += new System.EventHandler(this.CharacterGrowthOdp_ValueChanged);
+            // 
+            // CharacterGrowthK
+            // 
+            this.CharacterGrowthK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthK.Location = new System.Drawing.Point(496, 818);
+            this.CharacterGrowthK.Name = "CharacterGrowthK";
+            this.CharacterGrowthK.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthK.TabIndex = 28;
+            this.CharacterGrowthK.ValueChanged += new System.EventHandler(this.CharacterGrowthK_ValueChanged);
+            // 
+            // CharacterGrowthUS
+            // 
+            this.CharacterGrowthUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthUS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthUS.Location = new System.Drawing.Point(424, 818);
+            this.CharacterGrowthUS.Name = "CharacterGrowthUS";
+            this.CharacterGrowthUS.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthUS.TabIndex = 27;
+            this.CharacterGrowthUS.ValueChanged += new System.EventHandler(this.CharacterGrowthUS_ValueChanged);
+            // 
+            // CharacterGrowthWW
+            // 
+            this.CharacterGrowthWW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthWW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthWW.Location = new System.Drawing.Point(352, 818);
+            this.CharacterGrowthWW.Name = "CharacterGrowthWW";
+            this.CharacterGrowthWW.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthWW.TabIndex = 26;
+            this.CharacterGrowthWW.ValueChanged += new System.EventHandler(this.CharacterGrowthWW_ValueChanged);
+            // 
+            // CharacterStartingOgd
+            // 
+            this.CharacterStartingOgd.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingOgd.Location = new System.Drawing.Point(856, 770);
+            this.CharacterStartingOgd.Name = "CharacterStartingOgd";
+            this.CharacterStartingOgd.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingOgd.TabIndex = 25;
+            this.CharacterStartingOgd.ValueChanged += new System.EventHandler(this.CharacterStartingOgd_ValueChanged);
+            // 
+            // CharacterStartingSW
+            // 
+            this.CharacterStartingSW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingSW.Location = new System.Drawing.Point(784, 770);
+            this.CharacterStartingSW.Name = "CharacterStartingSW";
+            this.CharacterStartingSW.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingSW.TabIndex = 24;
+            this.CharacterStartingSW.ValueChanged += new System.EventHandler(this.CharacterStartingSW_ValueChanged);
+            // 
+            // CharacterStartingInt
+            // 
+            this.CharacterStartingInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingInt.Location = new System.Drawing.Point(712, 770);
+            this.CharacterStartingInt.Name = "CharacterStartingInt";
+            this.CharacterStartingInt.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingInt.TabIndex = 23;
+            this.CharacterStartingInt.ValueChanged += new System.EventHandler(this.CharacterStartingInt_ValueChanged);
+            // 
+            // CharacterStartingZr
+            // 
+            this.CharacterStartingZr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingZr.Location = new System.Drawing.Point(640, 770);
+            this.CharacterStartingZr.Name = "CharacterStartingZr";
+            this.CharacterStartingZr.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingZr.TabIndex = 22;
+            this.CharacterStartingZr.ValueChanged += new System.EventHandler(this.CharacterStartingZr_ValueChanged);
+            // 
+            // CharacterStartingOdp
+            // 
+            this.CharacterStartingOdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingOdp.Location = new System.Drawing.Point(568, 770);
+            this.CharacterStartingOdp.Name = "CharacterStartingOdp";
+            this.CharacterStartingOdp.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingOdp.TabIndex = 21;
+            this.CharacterStartingOdp.ValueChanged += new System.EventHandler(this.CharacterStartingOdp_ValueChanged);
+            // 
+            // CharacterStartingK
+            // 
+            this.CharacterStartingK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingK.Location = new System.Drawing.Point(496, 770);
+            this.CharacterStartingK.Name = "CharacterStartingK";
+            this.CharacterStartingK.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingK.TabIndex = 20;
+            this.CharacterStartingK.ValueChanged += new System.EventHandler(this.CharacterStartingK_ValueChanged);
+            // 
+            // CharacterStartingUS
+            // 
+            this.CharacterStartingUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingUS.Location = new System.Drawing.Point(424, 770);
+            this.CharacterStartingUS.Name = "CharacterStartingUS";
+            this.CharacterStartingUS.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingUS.TabIndex = 19;
+            this.CharacterStartingUS.ValueChanged += new System.EventHandler(this.CharacterStartingUS_ValueChanged);
+            // 
+            // CharacterStartingWW
+            // 
+            this.CharacterStartingWW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingWW.Location = new System.Drawing.Point(352, 770);
+            this.CharacterStartingWW.Name = "CharacterStartingWW";
+            this.CharacterStartingWW.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingWW.TabIndex = 18;
+            this.CharacterStartingWW.ValueChanged += new System.EventHandler(this.CharacterStartingWW_ValueChanged);
+            // 
+            // CharacterFeatures
+            // 
+            this.CharacterFeatures.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterFeatures.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterFeatures.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterFeatures.Location = new System.Drawing.Point(398, 608);
+            this.CharacterFeatures.Name = "CharacterFeatures";
+            this.CharacterFeatures.Size = new System.Drawing.Size(524, 37);
+            this.CharacterFeatures.TabIndex = 17;
+            this.CharacterFeatures.TextChanged += new System.EventHandler(this.CharacterFeatures_TextChanged);
+            // 
+            // CharacterBirthplace
+            // 
+            this.CharacterBirthplace.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterBirthplace.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterBirthplace.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterBirthplace.Location = new System.Drawing.Point(398, 559);
+            this.CharacterBirthplace.Name = "CharacterBirthplace";
+            this.CharacterBirthplace.Size = new System.Drawing.Size(524, 37);
+            this.CharacterBirthplace.TabIndex = 16;
+            this.CharacterBirthplace.TextChanged += new System.EventHandler(this.CharacterBirthplace_TextChanged);
+            // 
+            // CharacterStartSign
+            // 
+            this.CharacterStartSign.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterStartSign.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterStartSign.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartSign.Location = new System.Drawing.Point(379, 512);
+            this.CharacterStartSign.Name = "CharacterStartSign";
+            this.CharacterStartSign.Size = new System.Drawing.Size(196, 37);
+            this.CharacterStartSign.TabIndex = 15;
+            this.CharacterStartSign.TextChanged += new System.EventHandler(this.CharacterStartSign_TextChanged);
+            // 
+            // CharacterHairColor
+            // 
+            this.CharacterHairColor.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterHairColor.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterHairColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterHairColor.Location = new System.Drawing.Point(367, 464);
+            this.CharacterHairColor.Name = "CharacterHairColor";
+            this.CharacterHairColor.Size = new System.Drawing.Size(208, 37);
+            this.CharacterHairColor.TabIndex = 14;
+            this.CharacterHairColor.TextChanged += new System.EventHandler(this.CharacterHairColor_TextChanged);
+            // 
+            // CharacterEyeColor
+            // 
+            this.CharacterEyeColor.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterEyeColor.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterEyeColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterEyeColor.Location = new System.Drawing.Point(344, 415);
+            this.CharacterEyeColor.Name = "CharacterEyeColor";
+            this.CharacterEyeColor.Size = new System.Drawing.Size(231, 37);
+            this.CharacterEyeColor.TabIndex = 13;
+            this.CharacterEyeColor.TextChanged += new System.EventHandler(this.CharacterEyeColour_TextChanged);
+            // 
+            // CharacterSiblings
+            // 
+            this.CharacterSiblings.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterSiblings.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterSiblings.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterSiblings.Location = new System.Drawing.Point(711, 512);
+            this.CharacterSiblings.Name = "CharacterSiblings";
+            this.CharacterSiblings.Size = new System.Drawing.Size(211, 37);
+            this.CharacterSiblings.TabIndex = 12;
+            this.CharacterSiblings.TextChanged += new System.EventHandler(this.CharacterSiblings_TextChanged);
+            // 
+            // CharacterHeight
+            // 
+            this.CharacterHeight.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterHeight.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterHeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterHeight.Location = new System.Drawing.Point(670, 464);
+            this.CharacterHeight.Name = "CharacterHeight";
+            this.CharacterHeight.Size = new System.Drawing.Size(252, 37);
+            this.CharacterHeight.TabIndex = 11;
+            this.CharacterHeight.TextChanged += new System.EventHandler(this.CharacterHeight_TextChanged);
+            // 
+            // CharacterWeight
+            // 
+            this.CharacterWeight.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterWeight.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterWeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterWeight.Location = new System.Drawing.Point(655, 415);
+            this.CharacterWeight.Name = "CharacterWeight";
+            this.CharacterWeight.Size = new System.Drawing.Size(267, 37);
+            this.CharacterWeight.TabIndex = 10;
+            this.CharacterWeight.TextChanged += new System.EventHandler(this.CharacterWeight_TextChanged);
+            // 
+            // CharacterSex
+            // 
+            this.CharacterSex.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterSex.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterSex.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterSex.Location = new System.Drawing.Point(643, 368);
+            this.CharacterSex.Name = "CharacterSex";
+            this.CharacterSex.Size = new System.Drawing.Size(279, 37);
+            this.CharacterSex.TabIndex = 9;
+            this.CharacterSex.TextChanged += new System.EventHandler(this.CharacterSex_TextChanged);
+            // 
+            // CharacterAge
+            // 
+            this.CharacterAge.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterAge.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterAge.Location = new System.Drawing.Point(296, 368);
+            this.CharacterAge.Name = "CharacterAge";
+            this.CharacterAge.Size = new System.Drawing.Size(279, 37);
+            this.CharacterAge.TabIndex = 8;
+            this.CharacterAge.TextChanged += new System.EventHandler(this.CharacterAge_TextChanged);
+            // 
+            // CharacterPreviousRole
+            // 
+            this.CharacterPreviousRole.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterPreviousRole.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterPreviousRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterPreviousRole.Location = new System.Drawing.Point(416, 247);
+            this.CharacterPreviousRole.Name = "CharacterPreviousRole";
+            this.CharacterPreviousRole.Size = new System.Drawing.Size(506, 37);
+            this.CharacterPreviousRole.TabIndex = 7;
+            this.CharacterPreviousRole.TextChanged += new System.EventHandler(this.CharacterPreviousRole_TextChanged);
+            // 
+            // CharacterCurrentRole
+            // 
+            this.CharacterCurrentRole.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterCurrentRole.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterCurrentRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterCurrentRole.Location = new System.Drawing.Point(389, 200);
+            this.CharacterCurrentRole.Name = "CharacterCurrentRole";
+            this.CharacterCurrentRole.Size = new System.Drawing.Size(533, 37);
+            this.CharacterCurrentRole.TabIndex = 6;
+            this.CharacterCurrentRole.TextChanged += new System.EventHandler(this.CharacterCurrentRole_TextChanged);
+            // 
+            // CharacterRace
+            // 
+            this.CharacterRace.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterRace.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterRace.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterRace.Location = new System.Drawing.Point(299, 152);
+            this.CharacterRace.Name = "CharacterRace";
+            this.CharacterRace.Size = new System.Drawing.Size(585, 37);
+            this.CharacterRace.TabIndex = 5;
+            this.CharacterRace.TextChanged += new System.EventHandler(this.CharacterRace_TextChanged);
+            // 
+            // CharacterName
+            // 
+            this.CharacterName.BackColor = System.Drawing.SystemColors.Window;
+            this.CharacterName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterName.Location = new System.Drawing.Point(299, 103);
+            this.CharacterName.Name = "CharacterName";
+            this.CharacterName.Size = new System.Drawing.Size(623, 37);
+            this.CharacterName.TabIndex = 4;
+            this.CharacterName.TextChanged += new System.EventHandler(this.CharacterName_TextChanged);
+            // 
+            // NextPage
+            // 
+            this.NextPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NextPage.Location = new System.Drawing.Point(1829, 13);
+            this.NextPage.Name = "NextPage";
+            this.NextPage.Size = new System.Drawing.Size(32, 32);
+            this.NextPage.TabIndex = 3;
+            this.NextPage.Text = "↴";
+            this.NextPage.UseVisualStyleBackColor = true;
+            this.NextPage.Click += new System.EventHandler(this.NextPage_Click);
+            // 
+            // FirstPictureBox
+            // 
+            this.FirstPictureBox.ContextMenuStrip = this.PageMenuStrip;
+            this.FirstPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("FirstPictureBox.Image")));
+            this.FirstPictureBox.Location = new System.Drawing.Point(200, 0);
+            this.FirstPictureBox.Name = "FirstPictureBox";
+            this.FirstPictureBox.Size = new System.Drawing.Size(1675, 2175);
+            this.FirstPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.FirstPictureBox.TabIndex = 0;
+            this.FirstPictureBox.TabStop = false;
+            // 
+            // PageMenuStrip
+            // 
+            this.PageMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.TurnPageMenuStripOption});
+            this.PageMenuStrip.Name = "PageMenuStrip";
+            this.PageMenuStrip.Size = new System.Drawing.Size(144, 26);
+            // 
+            // TurnPageMenuStripOption
+            // 
+            this.TurnPageMenuStripOption.Name = "TurnPageMenuStripOption";
+            this.TurnPageMenuStripOption.Size = new System.Drawing.Size(143, 22);
+            this.TurnPageMenuStripOption.Text = "Obróć stronę";
+            this.TurnPageMenuStripOption.Click += new System.EventHandler(this.TurnPageMenuStripOption_Click);
+            // 
+            // LeftFlowPanel
+            // 
+            this.LeftFlowPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LeftFlowPanel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.LeftFlowPanel.Location = new System.Drawing.Point(0, 0);
+            this.LeftFlowPanel.Name = "LeftFlowPanel";
+            this.LeftFlowPanel.Size = new System.Drawing.Size(200, 2175);
+            this.LeftFlowPanel.TabIndex = 2;
+            // 
+            // CharacterMoneyP
+            // 
+            this.CharacterMoneyP.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterMoneyP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterMoneyP.Location = new System.Drawing.Point(1250, 2007);
+            this.CharacterMoneyP.Name = "CharacterMoneyP";
+            this.CharacterMoneyP.Size = new System.Drawing.Size(541, 43);
+            this.CharacterMoneyP.TabIndex = 378;
+            // 
+            // CharacterMoneyS
+            // 
+            this.CharacterMoneyS.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterMoneyS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterMoneyS.Location = new System.Drawing.Point(1250, 1962);
+            this.CharacterMoneyS.Name = "CharacterMoneyS";
+            this.CharacterMoneyS.Size = new System.Drawing.Size(541, 43);
+            this.CharacterMoneyS.TabIndex = 377;
+            // 
+            // CharacterMoneyZK
+            // 
+            this.CharacterMoneyZK.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterMoneyZK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterMoneyZK.Location = new System.Drawing.Point(1250, 1914);
+            this.CharacterMoneyZK.Name = "CharacterMoneyZK";
+            this.CharacterMoneyZK.Size = new System.Drawing.Size(541, 43);
+            this.CharacterMoneyZK.TabIndex = 376;
             // 
             // CharacterItem14
             // 
@@ -2940,7 +4547,7 @@
             // SecondPictureBox
             // 
             this.SecondPictureBox.ContextMenuStrip = this.PageMenuStrip;
-            this.SecondPictureBox.ImageLocation = "D:\\vs\\repos\\WFRPManager\\WFRPManager\\resources\\w1.png";
+            this.SecondPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("SecondPictureBox.Image")));
             this.SecondPictureBox.Location = new System.Drawing.Point(200, 0);
             this.SecondPictureBox.Name = "SecondPictureBox";
             this.SecondPictureBox.Size = new System.Drawing.Size(1672, 2175);
@@ -2948,1470 +4555,12 @@
             this.SecondPictureBox.TabIndex = 1;
             this.SecondPictureBox.TabStop = false;
             // 
-            // PageMenuStrip
-            // 
-            this.PageMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.TurnPageMenuStripOption});
-            this.PageMenuStrip.Name = "PageMenuStrip";
-            this.PageMenuStrip.Size = new System.Drawing.Size(144, 26);
-            // 
-            // TurnPageMenuStripOption
-            // 
-            this.TurnPageMenuStripOption.Name = "TurnPageMenuStripOption";
-            this.TurnPageMenuStripOption.Size = new System.Drawing.Size(143, 22);
-            this.TurnPageMenuStripOption.Text = "Obróć stronę";
-            this.TurnPageMenuStripOption.Click += new System.EventHandler(this.TurnPageMenuStripOption_Click);
-            // 
-            // CharacterBody
-            // 
-            this.CharacterBody.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterBody.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterBody.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterBody.Location = new System.Drawing.Point(1553, 800);
-            this.CharacterBody.Name = "CharacterBody";
-            this.CharacterBody.Size = new System.Drawing.Size(68, 37);
-            this.CharacterBody.TabIndex = 148;
-            // 
-            // CharacterLeftLeg
-            // 
-            this.CharacterLeftLeg.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterLeftLeg.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterLeftLeg.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterLeftLeg.Location = new System.Drawing.Point(1553, 1495);
-            this.CharacterLeftLeg.Name = "CharacterLeftLeg";
-            this.CharacterLeftLeg.Size = new System.Drawing.Size(68, 37);
-            this.CharacterLeftLeg.TabIndex = 147;
-            // 
-            // CharacterLeftArm
-            // 
-            this.CharacterLeftArm.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterLeftArm.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterLeftArm.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterLeftArm.Location = new System.Drawing.Point(1553, 1135);
-            this.CharacterLeftArm.Name = "CharacterLeftArm";
-            this.CharacterLeftArm.Size = new System.Drawing.Size(68, 37);
-            this.CharacterLeftArm.TabIndex = 146;
-            // 
-            // CharacterRightLeg
-            // 
-            this.CharacterRightLeg.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterRightLeg.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterRightLeg.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterRightLeg.Location = new System.Drawing.Point(1025, 1495);
-            this.CharacterRightLeg.Name = "CharacterRightLeg";
-            this.CharacterRightLeg.Size = new System.Drawing.Size(68, 37);
-            this.CharacterRightLeg.TabIndex = 145;
-            // 
-            // CharacterRightArm
-            // 
-            this.CharacterRightArm.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterRightArm.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterRightArm.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterRightArm.Location = new System.Drawing.Point(1025, 1135);
-            this.CharacterRightArm.Name = "CharacterRightArm";
-            this.CharacterRightArm.Size = new System.Drawing.Size(68, 37);
-            this.CharacterRightArm.TabIndex = 144;
-            // 
-            // CharacterHead
-            // 
-            this.CharacterHead.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterHead.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterHead.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterHead.Location = new System.Drawing.Point(1025, 800);
-            this.CharacterHead.Name = "CharacterHead";
-            this.CharacterHead.Size = new System.Drawing.Size(68, 37);
-            this.CharacterHead.TabIndex = 143;
-            // 
-            // CharacterSprint
-            // 
-            this.CharacterSprint.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterSprint.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterSprint.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterSprint.Location = new System.Drawing.Point(1487, 608);
-            this.CharacterSprint.Name = "CharacterSprint";
-            this.CharacterSprint.Size = new System.Drawing.Size(176, 37);
-            this.CharacterSprint.TabIndex = 142;
-            // 
-            // CharacterCharge
-            // 
-            this.CharacterCharge.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterCharge.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterCharge.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterCharge.Location = new System.Drawing.Point(1266, 608);
-            this.CharacterCharge.Name = "CharacterCharge";
-            this.CharacterCharge.Size = new System.Drawing.Size(156, 37);
-            this.CharacterCharge.TabIndex = 141;
-            // 
-            // CharacterMovementRetreat
-            // 
-            this.CharacterMovementRetreat.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterMovementRetreat.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterMovementRetreat.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterMovementRetreat.Location = new System.Drawing.Point(1103, 608);
-            this.CharacterMovementRetreat.Name = "CharacterMovementRetreat";
-            this.CharacterMovementRetreat.Size = new System.Drawing.Size(84, 37);
-            this.CharacterMovementRetreat.TabIndex = 140;
-            // 
-            // CharacterTotalXP
-            // 
-            this.CharacterTotalXP.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterTotalXP.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterTotalXP.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterTotalXP.Location = new System.Drawing.Point(1266, 488);
-            this.CharacterTotalXP.Name = "CharacterTotalXP";
-            this.CharacterTotalXP.Size = new System.Drawing.Size(347, 37);
-            this.CharacterTotalXP.TabIndex = 139;
-            // 
-            // CharacterCurrentXP
-            // 
-            this.CharacterCurrentXP.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterCurrentXP.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterCurrentXP.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterCurrentXP.Location = new System.Drawing.Point(1057, 488);
-            this.CharacterCurrentXP.Name = "CharacterCurrentXP";
-            this.CharacterCurrentXP.Size = new System.Drawing.Size(130, 37);
-            this.CharacterCurrentXP.TabIndex = 138;
-            // 
-            // CampaignYear
-            // 
-            this.CampaignYear.BackColor = System.Drawing.SystemColors.Window;
-            this.CampaignYear.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CampaignYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CampaignYear.Location = new System.Drawing.Point(1457, 368);
-            this.CampaignYear.Name = "CampaignYear";
-            this.CampaignYear.Size = new System.Drawing.Size(206, 37);
-            this.CampaignYear.TabIndex = 137;
-            // 
-            // GameMaster
-            // 
-            this.GameMaster.BackColor = System.Drawing.SystemColors.Window;
-            this.GameMaster.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.GameMaster.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GameMaster.Location = new System.Drawing.Point(1437, 320);
-            this.GameMaster.Name = "GameMaster";
-            this.GameMaster.Size = new System.Drawing.Size(226, 37);
-            this.GameMaster.TabIndex = 136;
-            // 
-            // CampaignName
-            // 
-            this.CampaignName.BackColor = System.Drawing.SystemColors.Window;
-            this.CampaignName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CampaignName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CampaignName.Location = new System.Drawing.Point(1084, 368);
-            this.CampaignName.Name = "CampaignName";
-            this.CampaignName.Size = new System.Drawing.Size(232, 37);
-            this.CampaignName.TabIndex = 135;
-            // 
-            // PlayerName
-            // 
-            this.PlayerName.BackColor = System.Drawing.SystemColors.Window;
-            this.PlayerName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.PlayerName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PlayerName.Location = new System.Drawing.Point(1031, 320);
-            this.PlayerName.Name = "PlayerName";
-            this.PlayerName.Size = new System.Drawing.Size(285, 37);
-            this.PlayerName.TabIndex = 134;
-            // 
-            // AdvancedArmorPZ6
-            // 
-            this.AdvancedArmorPZ6.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorPZ6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorPZ6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorPZ6.Location = new System.Drawing.Point(859, 1996);
-            this.AdvancedArmorPZ6.Name = "AdvancedArmorPZ6";
-            this.AdvancedArmorPZ6.Size = new System.Drawing.Size(62, 37);
-            this.AdvancedArmorPZ6.TabIndex = 133;
-            // 
-            // AdvancedArmorLocation6
-            // 
-            this.AdvancedArmorLocation6.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorLocation6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorLocation6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorLocation6.Location = new System.Drawing.Point(524, 1996);
-            this.AdvancedArmorLocation6.Name = "AdvancedArmorLocation6";
-            this.AdvancedArmorLocation6.Size = new System.Drawing.Size(329, 37);
-            this.AdvancedArmorLocation6.TabIndex = 132;
-            // 
-            // AdvancedArmorWeight6
-            // 
-            this.AdvancedArmorWeight6.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorWeight6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorWeight6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorWeight6.Location = new System.Drawing.Point(450, 1996);
-            this.AdvancedArmorWeight6.Name = "AdvancedArmorWeight6";
-            this.AdvancedArmorWeight6.Size = new System.Drawing.Size(68, 37);
-            this.AdvancedArmorWeight6.TabIndex = 131;
-            // 
-            // AdvancedArmorType6
-            // 
-            this.AdvancedArmorType6.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorType6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorType6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorType6.Location = new System.Drawing.Point(243, 1996);
-            this.AdvancedArmorType6.Name = "AdvancedArmorType6";
-            this.AdvancedArmorType6.Size = new System.Drawing.Size(200, 37);
-            this.AdvancedArmorType6.TabIndex = 130;
-            // 
-            // AdvancedArmorPZ5
-            // 
-            this.AdvancedArmorPZ5.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorPZ5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorPZ5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorPZ5.Location = new System.Drawing.Point(859, 1949);
-            this.AdvancedArmorPZ5.Name = "AdvancedArmorPZ5";
-            this.AdvancedArmorPZ5.Size = new System.Drawing.Size(62, 37);
-            this.AdvancedArmorPZ5.TabIndex = 129;
-            // 
-            // AdvancedArmorLocation5
-            // 
-            this.AdvancedArmorLocation5.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorLocation5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorLocation5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorLocation5.Location = new System.Drawing.Point(524, 1949);
-            this.AdvancedArmorLocation5.Name = "AdvancedArmorLocation5";
-            this.AdvancedArmorLocation5.Size = new System.Drawing.Size(329, 37);
-            this.AdvancedArmorLocation5.TabIndex = 128;
-            // 
-            // AdvancedArmorWeight5
-            // 
-            this.AdvancedArmorWeight5.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorWeight5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorWeight5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorWeight5.Location = new System.Drawing.Point(450, 1949);
-            this.AdvancedArmorWeight5.Name = "AdvancedArmorWeight5";
-            this.AdvancedArmorWeight5.Size = new System.Drawing.Size(68, 37);
-            this.AdvancedArmorWeight5.TabIndex = 127;
-            // 
-            // AdvancedArmorType5
-            // 
-            this.AdvancedArmorType5.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorType5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorType5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorType5.Location = new System.Drawing.Point(243, 1949);
-            this.AdvancedArmorType5.Name = "AdvancedArmorType5";
-            this.AdvancedArmorType5.Size = new System.Drawing.Size(200, 37);
-            this.AdvancedArmorType5.TabIndex = 126;
-            // 
-            // AdvancedArmorPZ4
-            // 
-            this.AdvancedArmorPZ4.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorPZ4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorPZ4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorPZ4.Location = new System.Drawing.Point(859, 1902);
-            this.AdvancedArmorPZ4.Name = "AdvancedArmorPZ4";
-            this.AdvancedArmorPZ4.Size = new System.Drawing.Size(62, 37);
-            this.AdvancedArmorPZ4.TabIndex = 125;
-            // 
-            // AdvancedArmorLocation4
-            // 
-            this.AdvancedArmorLocation4.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorLocation4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorLocation4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorLocation4.Location = new System.Drawing.Point(524, 1902);
-            this.AdvancedArmorLocation4.Name = "AdvancedArmorLocation4";
-            this.AdvancedArmorLocation4.Size = new System.Drawing.Size(329, 37);
-            this.AdvancedArmorLocation4.TabIndex = 124;
-            // 
-            // AdvancedArmorWeight4
-            // 
-            this.AdvancedArmorWeight4.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorWeight4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorWeight4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorWeight4.Location = new System.Drawing.Point(450, 1902);
-            this.AdvancedArmorWeight4.Name = "AdvancedArmorWeight4";
-            this.AdvancedArmorWeight4.Size = new System.Drawing.Size(68, 37);
-            this.AdvancedArmorWeight4.TabIndex = 123;
-            // 
-            // AdvancedArmorType4
-            // 
-            this.AdvancedArmorType4.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorType4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorType4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorType4.Location = new System.Drawing.Point(243, 1902);
-            this.AdvancedArmorType4.Name = "AdvancedArmorType4";
-            this.AdvancedArmorType4.Size = new System.Drawing.Size(200, 37);
-            this.AdvancedArmorType4.TabIndex = 122;
-            // 
-            // AdvancedArmorPZ3
-            // 
-            this.AdvancedArmorPZ3.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorPZ3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorPZ3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorPZ3.Location = new System.Drawing.Point(859, 1855);
-            this.AdvancedArmorPZ3.Name = "AdvancedArmorPZ3";
-            this.AdvancedArmorPZ3.Size = new System.Drawing.Size(62, 37);
-            this.AdvancedArmorPZ3.TabIndex = 121;
-            // 
-            // AdvancedArmorLocation3
-            // 
-            this.AdvancedArmorLocation3.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorLocation3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorLocation3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorLocation3.Location = new System.Drawing.Point(524, 1855);
-            this.AdvancedArmorLocation3.Name = "AdvancedArmorLocation3";
-            this.AdvancedArmorLocation3.Size = new System.Drawing.Size(329, 37);
-            this.AdvancedArmorLocation3.TabIndex = 120;
-            // 
-            // AdvancedArmorWeight3
-            // 
-            this.AdvancedArmorWeight3.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorWeight3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorWeight3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorWeight3.Location = new System.Drawing.Point(450, 1855);
-            this.AdvancedArmorWeight3.Name = "AdvancedArmorWeight3";
-            this.AdvancedArmorWeight3.Size = new System.Drawing.Size(68, 37);
-            this.AdvancedArmorWeight3.TabIndex = 119;
-            // 
-            // AdvancedArmorType3
-            // 
-            this.AdvancedArmorType3.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorType3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorType3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorType3.Location = new System.Drawing.Point(243, 1855);
-            this.AdvancedArmorType3.Name = "AdvancedArmorType3";
-            this.AdvancedArmorType3.Size = new System.Drawing.Size(200, 37);
-            this.AdvancedArmorType3.TabIndex = 118;
-            // 
-            // AdvancedArmorPZ2
-            // 
-            this.AdvancedArmorPZ2.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorPZ2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorPZ2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorPZ2.Location = new System.Drawing.Point(859, 1806);
-            this.AdvancedArmorPZ2.Name = "AdvancedArmorPZ2";
-            this.AdvancedArmorPZ2.Size = new System.Drawing.Size(62, 37);
-            this.AdvancedArmorPZ2.TabIndex = 117;
-            // 
-            // AdvancedArmorLocation2
-            // 
-            this.AdvancedArmorLocation2.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorLocation2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorLocation2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorLocation2.Location = new System.Drawing.Point(524, 1806);
-            this.AdvancedArmorLocation2.Name = "AdvancedArmorLocation2";
-            this.AdvancedArmorLocation2.Size = new System.Drawing.Size(329, 37);
-            this.AdvancedArmorLocation2.TabIndex = 116;
-            // 
-            // AdvancedArmorWeight2
-            // 
-            this.AdvancedArmorWeight2.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorWeight2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorWeight2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorWeight2.Location = new System.Drawing.Point(450, 1806);
-            this.AdvancedArmorWeight2.Name = "AdvancedArmorWeight2";
-            this.AdvancedArmorWeight2.Size = new System.Drawing.Size(68, 37);
-            this.AdvancedArmorWeight2.TabIndex = 115;
-            // 
-            // AdvancedArmorType2
-            // 
-            this.AdvancedArmorType2.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorType2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorType2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorType2.Location = new System.Drawing.Point(243, 1806);
-            this.AdvancedArmorType2.Name = "AdvancedArmorType2";
-            this.AdvancedArmorType2.Size = new System.Drawing.Size(200, 37);
-            this.AdvancedArmorType2.TabIndex = 114;
-            // 
-            // AdvancedArmorPZ1
-            // 
-            this.AdvancedArmorPZ1.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorPZ1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorPZ1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorPZ1.Location = new System.Drawing.Point(859, 1759);
-            this.AdvancedArmorPZ1.Name = "AdvancedArmorPZ1";
-            this.AdvancedArmorPZ1.Size = new System.Drawing.Size(62, 37);
-            this.AdvancedArmorPZ1.TabIndex = 113;
-            // 
-            // AdvancedArmorLocation1
-            // 
-            this.AdvancedArmorLocation1.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorLocation1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorLocation1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorLocation1.Location = new System.Drawing.Point(524, 1759);
-            this.AdvancedArmorLocation1.Name = "AdvancedArmorLocation1";
-            this.AdvancedArmorLocation1.Size = new System.Drawing.Size(329, 37);
-            this.AdvancedArmorLocation1.TabIndex = 112;
-            // 
-            // AdvancedArmorWeight1
-            // 
-            this.AdvancedArmorWeight1.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorWeight1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorWeight1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorWeight1.Location = new System.Drawing.Point(450, 1759);
-            this.AdvancedArmorWeight1.Name = "AdvancedArmorWeight1";
-            this.AdvancedArmorWeight1.Size = new System.Drawing.Size(68, 37);
-            this.AdvancedArmorWeight1.TabIndex = 111;
-            // 
-            // AdvancedArmorType1
-            // 
-            this.AdvancedArmorType1.BackColor = System.Drawing.SystemColors.Window;
-            this.AdvancedArmorType1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AdvancedArmorType1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdvancedArmorType1.Location = new System.Drawing.Point(243, 1759);
-            this.AdvancedArmorType1.Name = "AdvancedArmorType1";
-            this.AdvancedArmorType1.Size = new System.Drawing.Size(200, 37);
-            this.AdvancedArmorType1.TabIndex = 110;
-            // 
-            // SimpleArmorPZ
-            // 
-            this.SimpleArmorPZ.BackColor = System.Drawing.SystemColors.Window;
-            this.SimpleArmorPZ.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.SimpleArmorPZ.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SimpleArmorPZ.Location = new System.Drawing.Point(689, 1638);
-            this.SimpleArmorPZ.Name = "SimpleArmorPZ";
-            this.SimpleArmorPZ.Size = new System.Drawing.Size(227, 37);
-            this.SimpleArmorPZ.TabIndex = 109;
-            // 
-            // SimpleArmourType
-            // 
-            this.SimpleArmourType.BackColor = System.Drawing.SystemColors.Window;
-            this.SimpleArmourType.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.SimpleArmourType.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SimpleArmourType.Location = new System.Drawing.Point(338, 1638);
-            this.SimpleArmourType.Name = "SimpleArmourType";
-            this.SimpleArmourType.Size = new System.Drawing.Size(235, 37);
-            this.SimpleArmourType.TabIndex = 108;
-            // 
-            // WeaponTraits6
-            // 
-            this.WeaponTraits6.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponTraits6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponTraits6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponTraits6.Location = new System.Drawing.Point(785, 1470);
-            this.WeaponTraits6.Name = "WeaponTraits6";
-            this.WeaponTraits6.Size = new System.Drawing.Size(131, 37);
-            this.WeaponTraits6.TabIndex = 107;
-            // 
-            // WeaponReload6
-            // 
-            this.WeaponReload6.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponReload6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponReload6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponReload6.Location = new System.Drawing.Point(713, 1470);
-            this.WeaponReload6.Name = "WeaponReload6";
-            this.WeaponReload6.Size = new System.Drawing.Size(66, 37);
-            this.WeaponReload6.TabIndex = 106;
-            // 
-            // WeaponRange6
-            // 
-            this.WeaponRange6.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponRange6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponRange6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponRange6.Location = new System.Drawing.Point(641, 1470);
-            this.WeaponRange6.Name = "WeaponRange6";
-            this.WeaponRange6.Size = new System.Drawing.Size(66, 37);
-            this.WeaponRange6.TabIndex = 105;
-            // 
-            // WeaponStrength6
-            // 
-            this.WeaponStrength6.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponStrength6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponStrength6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponStrength6.Location = new System.Drawing.Point(570, 1470);
-            this.WeaponStrength6.Name = "WeaponStrength6";
-            this.WeaponStrength6.Size = new System.Drawing.Size(66, 37);
-            this.WeaponStrength6.TabIndex = 104;
-            // 
-            // WeaponCategory6
-            // 
-            this.WeaponCategory6.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponCategory6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponCategory6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponCategory6.Location = new System.Drawing.Point(497, 1470);
-            this.WeaponCategory6.Name = "WeaponCategory6";
-            this.WeaponCategory6.Size = new System.Drawing.Size(66, 37);
-            this.WeaponCategory6.TabIndex = 103;
-            // 
-            // WeaponWeight6
-            // 
-            this.WeaponWeight6.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponWeight6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponWeight6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponWeight6.Location = new System.Drawing.Point(426, 1470);
-            this.WeaponWeight6.Name = "WeaponWeight6";
-            this.WeaponWeight6.Size = new System.Drawing.Size(66, 37);
-            this.WeaponWeight6.TabIndex = 102;
-            // 
-            // WeaponName6
-            // 
-            this.WeaponName6.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponName6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponName6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponName6.Location = new System.Drawing.Point(243, 1470);
-            this.WeaponName6.Name = "WeaponName6";
-            this.WeaponName6.Size = new System.Drawing.Size(176, 37);
-            this.WeaponName6.TabIndex = 101;
-            // 
-            // WeaponTraits5
-            // 
-            this.WeaponTraits5.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponTraits5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponTraits5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponTraits5.Location = new System.Drawing.Point(785, 1422);
-            this.WeaponTraits5.Name = "WeaponTraits5";
-            this.WeaponTraits5.Size = new System.Drawing.Size(131, 37);
-            this.WeaponTraits5.TabIndex = 100;
-            // 
-            // WeaponReload5
-            // 
-            this.WeaponReload5.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponReload5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponReload5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponReload5.Location = new System.Drawing.Point(713, 1422);
-            this.WeaponReload5.Name = "WeaponReload5";
-            this.WeaponReload5.Size = new System.Drawing.Size(66, 37);
-            this.WeaponReload5.TabIndex = 99;
-            // 
-            // WeaponRange5
-            // 
-            this.WeaponRange5.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponRange5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponRange5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponRange5.Location = new System.Drawing.Point(641, 1422);
-            this.WeaponRange5.Name = "WeaponRange5";
-            this.WeaponRange5.Size = new System.Drawing.Size(66, 37);
-            this.WeaponRange5.TabIndex = 98;
-            // 
-            // WeaponStrength5
-            // 
-            this.WeaponStrength5.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponStrength5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponStrength5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponStrength5.Location = new System.Drawing.Point(570, 1422);
-            this.WeaponStrength5.Name = "WeaponStrength5";
-            this.WeaponStrength5.Size = new System.Drawing.Size(66, 37);
-            this.WeaponStrength5.TabIndex = 97;
-            // 
-            // WeaponCategory5
-            // 
-            this.WeaponCategory5.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponCategory5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponCategory5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponCategory5.Location = new System.Drawing.Point(497, 1422);
-            this.WeaponCategory5.Name = "WeaponCategory5";
-            this.WeaponCategory5.Size = new System.Drawing.Size(66, 37);
-            this.WeaponCategory5.TabIndex = 96;
-            // 
-            // WeaponWeight5
-            // 
-            this.WeaponWeight5.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponWeight5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponWeight5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponWeight5.Location = new System.Drawing.Point(426, 1422);
-            this.WeaponWeight5.Name = "WeaponWeight5";
-            this.WeaponWeight5.Size = new System.Drawing.Size(66, 37);
-            this.WeaponWeight5.TabIndex = 95;
-            // 
-            // WeaponName5
-            // 
-            this.WeaponName5.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponName5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponName5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponName5.Location = new System.Drawing.Point(243, 1422);
-            this.WeaponName5.Name = "WeaponName5";
-            this.WeaponName5.Size = new System.Drawing.Size(176, 37);
-            this.WeaponName5.TabIndex = 94;
-            // 
-            // WeaponTraits4
-            // 
-            this.WeaponTraits4.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponTraits4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponTraits4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponTraits4.Location = new System.Drawing.Point(785, 1374);
-            this.WeaponTraits4.Name = "WeaponTraits4";
-            this.WeaponTraits4.Size = new System.Drawing.Size(131, 37);
-            this.WeaponTraits4.TabIndex = 93;
-            // 
-            // WeaponReload4
-            // 
-            this.WeaponReload4.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponReload4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponReload4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponReload4.Location = new System.Drawing.Point(713, 1374);
-            this.WeaponReload4.Name = "WeaponReload4";
-            this.WeaponReload4.Size = new System.Drawing.Size(66, 37);
-            this.WeaponReload4.TabIndex = 92;
-            // 
-            // WeaponRange4
-            // 
-            this.WeaponRange4.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponRange4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponRange4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponRange4.Location = new System.Drawing.Point(641, 1374);
-            this.WeaponRange4.Name = "WeaponRange4";
-            this.WeaponRange4.Size = new System.Drawing.Size(66, 37);
-            this.WeaponRange4.TabIndex = 91;
-            // 
-            // WeaponStrength4
-            // 
-            this.WeaponStrength4.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponStrength4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponStrength4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponStrength4.Location = new System.Drawing.Point(570, 1374);
-            this.WeaponStrength4.Name = "WeaponStrength4";
-            this.WeaponStrength4.Size = new System.Drawing.Size(66, 37);
-            this.WeaponStrength4.TabIndex = 90;
-            // 
-            // WeaponCategory4
-            // 
-            this.WeaponCategory4.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponCategory4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponCategory4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponCategory4.Location = new System.Drawing.Point(497, 1374);
-            this.WeaponCategory4.Name = "WeaponCategory4";
-            this.WeaponCategory4.Size = new System.Drawing.Size(66, 37);
-            this.WeaponCategory4.TabIndex = 89;
-            // 
-            // WeaponWeight4
-            // 
-            this.WeaponWeight4.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponWeight4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponWeight4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponWeight4.Location = new System.Drawing.Point(426, 1374);
-            this.WeaponWeight4.Name = "WeaponWeight4";
-            this.WeaponWeight4.Size = new System.Drawing.Size(66, 37);
-            this.WeaponWeight4.TabIndex = 88;
-            // 
-            // WeaponName4
-            // 
-            this.WeaponName4.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponName4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponName4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponName4.Location = new System.Drawing.Point(243, 1374);
-            this.WeaponName4.Name = "WeaponName4";
-            this.WeaponName4.Size = new System.Drawing.Size(176, 37);
-            this.WeaponName4.TabIndex = 87;
-            // 
-            // WeaponTraits3
-            // 
-            this.WeaponTraits3.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponTraits3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponTraits3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponTraits3.Location = new System.Drawing.Point(785, 1326);
-            this.WeaponTraits3.Name = "WeaponTraits3";
-            this.WeaponTraits3.Size = new System.Drawing.Size(131, 37);
-            this.WeaponTraits3.TabIndex = 86;
-            // 
-            // WeaponReload3
-            // 
-            this.WeaponReload3.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponReload3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponReload3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponReload3.Location = new System.Drawing.Point(713, 1326);
-            this.WeaponReload3.Name = "WeaponReload3";
-            this.WeaponReload3.Size = new System.Drawing.Size(66, 37);
-            this.WeaponReload3.TabIndex = 85;
-            // 
-            // WeaponRange3
-            // 
-            this.WeaponRange3.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponRange3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponRange3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponRange3.Location = new System.Drawing.Point(641, 1326);
-            this.WeaponRange3.Name = "WeaponRange3";
-            this.WeaponRange3.Size = new System.Drawing.Size(66, 37);
-            this.WeaponRange3.TabIndex = 84;
-            // 
-            // WeaponStrength3
-            // 
-            this.WeaponStrength3.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponStrength3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponStrength3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponStrength3.Location = new System.Drawing.Point(570, 1326);
-            this.WeaponStrength3.Name = "WeaponStrength3";
-            this.WeaponStrength3.Size = new System.Drawing.Size(66, 37);
-            this.WeaponStrength3.TabIndex = 83;
-            // 
-            // WeaponCategory3
-            // 
-            this.WeaponCategory3.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponCategory3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponCategory3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponCategory3.Location = new System.Drawing.Point(497, 1326);
-            this.WeaponCategory3.Name = "WeaponCategory3";
-            this.WeaponCategory3.Size = new System.Drawing.Size(66, 37);
-            this.WeaponCategory3.TabIndex = 82;
-            // 
-            // WeaponWeight3
-            // 
-            this.WeaponWeight3.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponWeight3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponWeight3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponWeight3.Location = new System.Drawing.Point(426, 1326);
-            this.WeaponWeight3.Name = "WeaponWeight3";
-            this.WeaponWeight3.Size = new System.Drawing.Size(66, 37);
-            this.WeaponWeight3.TabIndex = 81;
-            // 
-            // WeaponName3
-            // 
-            this.WeaponName3.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponName3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponName3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponName3.Location = new System.Drawing.Point(243, 1326);
-            this.WeaponName3.Name = "WeaponName3";
-            this.WeaponName3.Size = new System.Drawing.Size(176, 37);
-            this.WeaponName3.TabIndex = 80;
-            // 
-            // WeaponTraits2
-            // 
-            this.WeaponTraits2.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponTraits2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponTraits2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponTraits2.Location = new System.Drawing.Point(785, 1278);
-            this.WeaponTraits2.Name = "WeaponTraits2";
-            this.WeaponTraits2.Size = new System.Drawing.Size(131, 37);
-            this.WeaponTraits2.TabIndex = 79;
-            // 
-            // WeaponReload2
-            // 
-            this.WeaponReload2.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponReload2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponReload2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponReload2.Location = new System.Drawing.Point(713, 1278);
-            this.WeaponReload2.Name = "WeaponReload2";
-            this.WeaponReload2.Size = new System.Drawing.Size(66, 37);
-            this.WeaponReload2.TabIndex = 78;
-            // 
-            // WeaponRange2
-            // 
-            this.WeaponRange2.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponRange2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponRange2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponRange2.Location = new System.Drawing.Point(641, 1278);
-            this.WeaponRange2.Name = "WeaponRange2";
-            this.WeaponRange2.Size = new System.Drawing.Size(66, 37);
-            this.WeaponRange2.TabIndex = 77;
-            // 
-            // WeaponStrength2
-            // 
-            this.WeaponStrength2.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponStrength2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponStrength2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponStrength2.Location = new System.Drawing.Point(570, 1278);
-            this.WeaponStrength2.Name = "WeaponStrength2";
-            this.WeaponStrength2.Size = new System.Drawing.Size(66, 37);
-            this.WeaponStrength2.TabIndex = 76;
-            // 
-            // WeaponCategory2
-            // 
-            this.WeaponCategory2.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponCategory2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponCategory2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponCategory2.Location = new System.Drawing.Point(497, 1278);
-            this.WeaponCategory2.Name = "WeaponCategory2";
-            this.WeaponCategory2.Size = new System.Drawing.Size(66, 37);
-            this.WeaponCategory2.TabIndex = 75;
-            // 
-            // WeaponWeight2
-            // 
-            this.WeaponWeight2.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponWeight2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponWeight2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponWeight2.Location = new System.Drawing.Point(426, 1278);
-            this.WeaponWeight2.Name = "WeaponWeight2";
-            this.WeaponWeight2.Size = new System.Drawing.Size(66, 37);
-            this.WeaponWeight2.TabIndex = 74;
-            // 
-            // WeaponName2
-            // 
-            this.WeaponName2.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponName2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponName2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponName2.Location = new System.Drawing.Point(243, 1278);
-            this.WeaponName2.Name = "WeaponName2";
-            this.WeaponName2.Size = new System.Drawing.Size(176, 37);
-            this.WeaponName2.TabIndex = 73;
-            // 
-            // WeaponTraits1
-            // 
-            this.WeaponTraits1.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponTraits1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponTraits1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponTraits1.Location = new System.Drawing.Point(785, 1230);
-            this.WeaponTraits1.Name = "WeaponTraits1";
-            this.WeaponTraits1.Size = new System.Drawing.Size(131, 37);
-            this.WeaponTraits1.TabIndex = 72;
-            // 
-            // WeaponReload1
-            // 
-            this.WeaponReload1.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponReload1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponReload1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponReload1.Location = new System.Drawing.Point(713, 1230);
-            this.WeaponReload1.Name = "WeaponReload1";
-            this.WeaponReload1.Size = new System.Drawing.Size(66, 37);
-            this.WeaponReload1.TabIndex = 71;
-            // 
-            // WeaponRange1
-            // 
-            this.WeaponRange1.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponRange1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponRange1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponRange1.Location = new System.Drawing.Point(641, 1230);
-            this.WeaponRange1.Name = "WeaponRange1";
-            this.WeaponRange1.Size = new System.Drawing.Size(66, 37);
-            this.WeaponRange1.TabIndex = 70;
-            // 
-            // WeaponStrength1
-            // 
-            this.WeaponStrength1.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponStrength1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponStrength1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponStrength1.Location = new System.Drawing.Point(570, 1230);
-            this.WeaponStrength1.Name = "WeaponStrength1";
-            this.WeaponStrength1.Size = new System.Drawing.Size(66, 37);
-            this.WeaponStrength1.TabIndex = 69;
-            // 
-            // WeaponCategory1
-            // 
-            this.WeaponCategory1.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponCategory1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponCategory1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponCategory1.Location = new System.Drawing.Point(497, 1230);
-            this.WeaponCategory1.Name = "WeaponCategory1";
-            this.WeaponCategory1.Size = new System.Drawing.Size(66, 37);
-            this.WeaponCategory1.TabIndex = 68;
-            // 
-            // WeaponWeight1
-            // 
-            this.WeaponWeight1.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponWeight1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponWeight1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponWeight1.Location = new System.Drawing.Point(426, 1230);
-            this.WeaponWeight1.Name = "WeaponWeight1";
-            this.WeaponWeight1.Size = new System.Drawing.Size(66, 37);
-            this.WeaponWeight1.TabIndex = 67;
-            // 
-            // WeaponName1
-            // 
-            this.WeaponName1.BackColor = System.Drawing.SystemColors.Window;
-            this.WeaponName1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WeaponName1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeaponName1.Location = new System.Drawing.Point(243, 1230);
-            this.WeaponName1.Name = "WeaponName1";
-            this.WeaponName1.Size = new System.Drawing.Size(176, 37);
-            this.WeaponName1.TabIndex = 66;
-            // 
-            // CharacterFeatures
-            // 
-            this.CharacterFeatures.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterFeatures.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterFeatures.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterFeatures.Location = new System.Drawing.Point(398, 608);
-            this.CharacterFeatures.Name = "CharacterFeatures";
-            this.CharacterFeatures.Size = new System.Drawing.Size(524, 37);
-            this.CharacterFeatures.TabIndex = 17;
-            // 
-            // CharacterBirthplace
-            // 
-            this.CharacterBirthplace.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterBirthplace.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterBirthplace.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterBirthplace.Location = new System.Drawing.Point(398, 559);
-            this.CharacterBirthplace.Name = "CharacterBirthplace";
-            this.CharacterBirthplace.Size = new System.Drawing.Size(524, 37);
-            this.CharacterBirthplace.TabIndex = 16;
-            // 
-            // CharacterStartSign
-            // 
-            this.CharacterStartSign.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterStartSign.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterStartSign.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartSign.Location = new System.Drawing.Point(379, 512);
-            this.CharacterStartSign.Name = "CharacterStartSign";
-            this.CharacterStartSign.Size = new System.Drawing.Size(196, 37);
-            this.CharacterStartSign.TabIndex = 15;
-            // 
-            // CharacterHairColor
-            // 
-            this.CharacterHairColor.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterHairColor.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterHairColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterHairColor.Location = new System.Drawing.Point(367, 464);
-            this.CharacterHairColor.Name = "CharacterHairColor";
-            this.CharacterHairColor.Size = new System.Drawing.Size(208, 37);
-            this.CharacterHairColor.TabIndex = 14;
-            // 
-            // CharacterEyeColour
-            // 
-            this.CharacterEyeColour.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterEyeColour.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterEyeColour.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterEyeColour.Location = new System.Drawing.Point(344, 415);
-            this.CharacterEyeColour.Name = "CharacterEyeColour";
-            this.CharacterEyeColour.Size = new System.Drawing.Size(231, 37);
-            this.CharacterEyeColour.TabIndex = 13;
-            // 
-            // CharacterSiblings
-            // 
-            this.CharacterSiblings.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterSiblings.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterSiblings.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterSiblings.Location = new System.Drawing.Point(711, 512);
-            this.CharacterSiblings.Name = "CharacterSiblings";
-            this.CharacterSiblings.Size = new System.Drawing.Size(211, 37);
-            this.CharacterSiblings.TabIndex = 12;
-            // 
-            // CharacterHeight
-            // 
-            this.CharacterHeight.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterHeight.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterHeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterHeight.Location = new System.Drawing.Point(670, 464);
-            this.CharacterHeight.Name = "CharacterHeight";
-            this.CharacterHeight.Size = new System.Drawing.Size(252, 37);
-            this.CharacterHeight.TabIndex = 11;
-            // 
-            // CharacterWeight
-            // 
-            this.CharacterWeight.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterWeight.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterWeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterWeight.Location = new System.Drawing.Point(655, 415);
-            this.CharacterWeight.Name = "CharacterWeight";
-            this.CharacterWeight.Size = new System.Drawing.Size(267, 37);
-            this.CharacterWeight.TabIndex = 10;
-            // 
-            // CharacterSex
-            // 
-            this.CharacterSex.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterSex.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterSex.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterSex.Location = new System.Drawing.Point(643, 368);
-            this.CharacterSex.Name = "CharacterSex";
-            this.CharacterSex.Size = new System.Drawing.Size(279, 37);
-            this.CharacterSex.TabIndex = 9;
-            // 
-            // CharacterAge
-            // 
-            this.CharacterAge.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterAge.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterAge.Location = new System.Drawing.Point(296, 368);
-            this.CharacterAge.Name = "CharacterAge";
-            this.CharacterAge.Size = new System.Drawing.Size(279, 37);
-            this.CharacterAge.TabIndex = 8;
-            // 
-            // CharacterPreviousRole
-            // 
-            this.CharacterPreviousRole.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterPreviousRole.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterPreviousRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterPreviousRole.Location = new System.Drawing.Point(416, 247);
-            this.CharacterPreviousRole.Name = "CharacterPreviousRole";
-            this.CharacterPreviousRole.Size = new System.Drawing.Size(506, 37);
-            this.CharacterPreviousRole.TabIndex = 7;
-            // 
-            // CharacterCurrentRole
-            // 
-            this.CharacterCurrentRole.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterCurrentRole.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterCurrentRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterCurrentRole.Location = new System.Drawing.Point(389, 200);
-            this.CharacterCurrentRole.Name = "CharacterCurrentRole";
-            this.CharacterCurrentRole.Size = new System.Drawing.Size(533, 37);
-            this.CharacterCurrentRole.TabIndex = 6;
-            // 
-            // CharacterRace
-            // 
-            this.CharacterRace.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterRace.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterRace.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterRace.Location = new System.Drawing.Point(299, 152);
-            this.CharacterRace.Name = "CharacterRace";
-            this.CharacterRace.Size = new System.Drawing.Size(585, 37);
-            this.CharacterRace.TabIndex = 5;
-            // 
-            // CharacterName
-            // 
-            this.CharacterName.BackColor = System.Drawing.SystemColors.Window;
-            this.CharacterName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterName.Location = new System.Drawing.Point(299, 103);
-            this.CharacterName.Name = "CharacterName";
-            this.CharacterName.Size = new System.Drawing.Size(623, 37);
-            this.CharacterName.TabIndex = 4;
-            // 
-            // NextPage
-            // 
-            this.NextPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NextPage.Location = new System.Drawing.Point(1829, 13);
-            this.NextPage.Name = "NextPage";
-            this.NextPage.Size = new System.Drawing.Size(32, 32);
-            this.NextPage.TabIndex = 3;
-            this.NextPage.Text = "↴";
-            this.NextPage.UseVisualStyleBackColor = true;
-            this.NextPage.Click += new System.EventHandler(this.NextPage_Click);
-            // 
-            // LeftFlowPanel
-            // 
-            this.LeftFlowPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LeftFlowPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.LeftFlowPanel.Location = new System.Drawing.Point(0, 0);
-            this.LeftFlowPanel.Name = "LeftFlowPanel";
-            this.LeftFlowPanel.Size = new System.Drawing.Size(200, 2175);
-            this.LeftFlowPanel.TabIndex = 2;
-            // 
-            // FirstPictureBox
-            // 
-            this.FirstPictureBox.ContextMenuStrip = this.PageMenuStrip;
-            this.FirstPictureBox.ImageLocation = "D:\\vs\\repos\\WFRPManager\\WFRPManager\\resources\\w0.png";
-            this.FirstPictureBox.Location = new System.Drawing.Point(200, 0);
-            this.FirstPictureBox.Name = "FirstPictureBox";
-            this.FirstPictureBox.Size = new System.Drawing.Size(1675, 2175);
-            this.FirstPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.FirstPictureBox.TabIndex = 0;
-            this.FirstPictureBox.TabStop = false;
-            // 
-            // CharacterMoneyP
-            // 
-            this.CharacterMoneyP.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterMoneyP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterMoneyP.Location = new System.Drawing.Point(1250, 2007);
-            this.CharacterMoneyP.Name = "CharacterMoneyP";
-            this.CharacterMoneyP.Size = new System.Drawing.Size(541, 43);
-            this.CharacterMoneyP.TabIndex = 378;
-            // 
-            // CharacterMoneyS
-            // 
-            this.CharacterMoneyS.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterMoneyS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterMoneyS.Location = new System.Drawing.Point(1250, 1962);
-            this.CharacterMoneyS.Name = "CharacterMoneyS";
-            this.CharacterMoneyS.Size = new System.Drawing.Size(541, 43);
-            this.CharacterMoneyS.TabIndex = 377;
-            // 
-            // CharacterMoneyZK
-            // 
-            this.CharacterMoneyZK.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterMoneyZK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterMoneyZK.Location = new System.Drawing.Point(1250, 1914);
-            this.CharacterMoneyZK.Name = "CharacterMoneyZK";
-            this.CharacterMoneyZK.Size = new System.Drawing.Size(541, 43);
-            this.CharacterMoneyZK.TabIndex = 376;
-            // 
-            // CharacterActualPP
-            // 
-            this.CharacterActualPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualPP.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualPP.Location = new System.Drawing.Point(856, 1058);
-            this.CharacterActualPP.Name = "CharacterActualPP";
-            this.CharacterActualPP.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualPP.TabIndex = 65;
-            // 
-            // CharacterActualPO
-            // 
-            this.CharacterActualPO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualPO.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualPO.Location = new System.Drawing.Point(784, 1058);
-            this.CharacterActualPO.Name = "CharacterActualPO";
-            this.CharacterActualPO.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualPO.TabIndex = 64;
-            // 
-            // CharacterActualMag
-            // 
-            this.CharacterActualMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualMag.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualMag.Location = new System.Drawing.Point(712, 1058);
-            this.CharacterActualMag.Name = "CharacterActualMag";
-            this.CharacterActualMag.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualMag.TabIndex = 63;
-            // 
-            // CharacterActualSz
-            // 
-            this.CharacterActualSz.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualSz.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualSz.Location = new System.Drawing.Point(640, 1058);
-            this.CharacterActualSz.Name = "CharacterActualSz";
-            this.CharacterActualSz.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualSz.TabIndex = 62;
-            // 
-            // CharacterActualWt
-            // 
-            this.CharacterActualWt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualWt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualWt.Location = new System.Drawing.Point(568, 1058);
-            this.CharacterActualWt.Name = "CharacterActualWt";
-            this.CharacterActualWt.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualWt.TabIndex = 61;
-            // 
-            // CharacterActualS
-            // 
-            this.CharacterActualS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualS.Location = new System.Drawing.Point(496, 1058);
-            this.CharacterActualS.Name = "CharacterActualS";
-            this.CharacterActualS.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualS.TabIndex = 60;
-            // 
-            // CharacterActualZyw
-            // 
-            this.CharacterActualZyw.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualZyw.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualZyw.Location = new System.Drawing.Point(424, 1058);
-            this.CharacterActualZyw.Name = "CharacterActualZyw";
-            this.CharacterActualZyw.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualZyw.TabIndex = 59;
-            // 
-            // CharacterActualA
-            // 
-            this.CharacterActualA.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualA.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualA.Location = new System.Drawing.Point(352, 1058);
-            this.CharacterActualA.Name = "CharacterActualA";
-            this.CharacterActualA.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualA.TabIndex = 58;
-            // 
-            // CharacterGrowthPP
-            // 
-            this.CharacterGrowthPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthPP.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthPP.Location = new System.Drawing.Point(856, 1010);
-            this.CharacterGrowthPP.Name = "CharacterGrowthPP";
-            this.CharacterGrowthPP.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthPP.TabIndex = 57;
-            // 
-            // CharacterGrowthPO
-            // 
-            this.CharacterGrowthPO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthPO.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthPO.Location = new System.Drawing.Point(784, 1010);
-            this.CharacterGrowthPO.Name = "CharacterGrowthPO";
-            this.CharacterGrowthPO.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthPO.TabIndex = 56;
-            // 
-            // CharacterGrowthMag
-            // 
-            this.CharacterGrowthMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthMag.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthMag.Location = new System.Drawing.Point(712, 1010);
-            this.CharacterGrowthMag.Name = "CharacterGrowthMag";
-            this.CharacterGrowthMag.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthMag.TabIndex = 55;
-            // 
-            // CharacterGrowthSz
-            // 
-            this.CharacterGrowthSz.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthSz.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthSz.Location = new System.Drawing.Point(640, 1010);
-            this.CharacterGrowthSz.Name = "CharacterGrowthSz";
-            this.CharacterGrowthSz.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthSz.TabIndex = 54;
-            // 
-            // CharacterGrowthWt
-            // 
-            this.CharacterGrowthWt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthWt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthWt.Location = new System.Drawing.Point(568, 1010);
-            this.CharacterGrowthWt.Name = "CharacterGrowthWt";
-            this.CharacterGrowthWt.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthWt.TabIndex = 53;
-            // 
-            // CharacterGrowthS
-            // 
-            this.CharacterGrowthS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthS.Location = new System.Drawing.Point(496, 1010);
-            this.CharacterGrowthS.Name = "CharacterGrowthS";
-            this.CharacterGrowthS.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthS.TabIndex = 52;
-            // 
-            // CharacterGrowthZyw
-            // 
-            this.CharacterGrowthZyw.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthZyw.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthZyw.Location = new System.Drawing.Point(424, 1010);
-            this.CharacterGrowthZyw.Name = "CharacterGrowthZyw";
-            this.CharacterGrowthZyw.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthZyw.TabIndex = 51;
-            // 
-            // CharacterGrowthA
-            // 
-            this.CharacterGrowthA.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthA.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthA.Location = new System.Drawing.Point(352, 1010);
-            this.CharacterGrowthA.Name = "CharacterGrowthA";
-            this.CharacterGrowthA.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthA.TabIndex = 50;
-            // 
-            // CharacterStartingPP
-            // 
-            this.CharacterStartingPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingPP.Location = new System.Drawing.Point(856, 962);
-            this.CharacterStartingPP.Name = "CharacterStartingPP";
-            this.CharacterStartingPP.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingPP.TabIndex = 49;
-            // 
-            // CharacterStartingPO
-            // 
-            this.CharacterStartingPO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingPO.Location = new System.Drawing.Point(784, 962);
-            this.CharacterStartingPO.Name = "CharacterStartingPO";
-            this.CharacterStartingPO.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingPO.TabIndex = 48;
-            // 
-            // CharacterStartingMag
-            // 
-            this.CharacterStartingMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingMag.Location = new System.Drawing.Point(712, 962);
-            this.CharacterStartingMag.Name = "CharacterStartingMag";
-            this.CharacterStartingMag.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingMag.TabIndex = 47;
-            // 
-            // CharacterStartingSz
-            // 
-            this.CharacterStartingSz.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingSz.Location = new System.Drawing.Point(640, 962);
-            this.CharacterStartingSz.Name = "CharacterStartingSz";
-            this.CharacterStartingSz.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingSz.TabIndex = 46;
-            // 
-            // CharacterStartingWt
-            // 
-            this.CharacterStartingWt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingWt.Location = new System.Drawing.Point(568, 962);
-            this.CharacterStartingWt.Name = "CharacterStartingWt";
-            this.CharacterStartingWt.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingWt.TabIndex = 45;
-            // 
-            // CharacterStartingS
-            // 
-            this.CharacterStartingS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingS.Location = new System.Drawing.Point(496, 962);
-            this.CharacterStartingS.Name = "CharacterStartingS";
-            this.CharacterStartingS.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingS.TabIndex = 44;
-            // 
-            // CharacterStartingZyw
-            // 
-            this.CharacterStartingZyw.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingZyw.Location = new System.Drawing.Point(424, 962);
-            this.CharacterStartingZyw.Name = "CharacterStartingZyw";
-            this.CharacterStartingZyw.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingZyw.TabIndex = 43;
-            // 
-            // CharacterStartingA
-            // 
-            this.CharacterStartingA.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingA.Location = new System.Drawing.Point(352, 962);
-            this.CharacterStartingA.Name = "CharacterStartingA";
-            this.CharacterStartingA.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingA.TabIndex = 42;
-            // 
-            // CharacterActualOgd
-            // 
-            this.CharacterActualOgd.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualOgd.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualOgd.Location = new System.Drawing.Point(856, 866);
-            this.CharacterActualOgd.Name = "CharacterActualOgd";
-            this.CharacterActualOgd.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualOgd.TabIndex = 41;
-            // 
-            // CharacterActualSW
-            // 
-            this.CharacterActualSW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualSW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualSW.Location = new System.Drawing.Point(784, 866);
-            this.CharacterActualSW.Name = "CharacterActualSW";
-            this.CharacterActualSW.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualSW.TabIndex = 40;
-            // 
-            // CharacterActualInt
-            // 
-            this.CharacterActualInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualInt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualInt.Location = new System.Drawing.Point(712, 866);
-            this.CharacterActualInt.Name = "CharacterActualInt";
-            this.CharacterActualInt.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualInt.TabIndex = 39;
-            // 
-            // CharacterActualZr
-            // 
-            this.CharacterActualZr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualZr.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualZr.Location = new System.Drawing.Point(640, 866);
-            this.CharacterActualZr.Name = "CharacterActualZr";
-            this.CharacterActualZr.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualZr.TabIndex = 38;
-            // 
-            // CharacterActualOdp
-            // 
-            this.CharacterActualOdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualOdp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualOdp.Location = new System.Drawing.Point(568, 866);
-            this.CharacterActualOdp.Name = "CharacterActualOdp";
-            this.CharacterActualOdp.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualOdp.TabIndex = 37;
-            // 
-            // CharacterActualK
-            // 
-            this.CharacterActualK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualK.Location = new System.Drawing.Point(496, 866);
-            this.CharacterActualK.Name = "CharacterActualK";
-            this.CharacterActualK.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualK.TabIndex = 36;
-            // 
-            // CharacterActualUS
-            // 
-            this.CharacterActualUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualUS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualUS.Location = new System.Drawing.Point(424, 866);
-            this.CharacterActualUS.Name = "CharacterActualUS";
-            this.CharacterActualUS.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualUS.TabIndex = 35;
-            // 
-            // CharacterActualWW
-            // 
-            this.CharacterActualWW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualWW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualWW.Location = new System.Drawing.Point(352, 866);
-            this.CharacterActualWW.Name = "CharacterActualWW";
-            this.CharacterActualWW.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualWW.TabIndex = 34;
-            // 
-            // CharacterGrowthOgd
-            // 
-            this.CharacterGrowthOgd.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthOgd.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthOgd.Location = new System.Drawing.Point(856, 818);
-            this.CharacterGrowthOgd.Name = "CharacterGrowthOgd";
-            this.CharacterGrowthOgd.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthOgd.TabIndex = 33;
-            // 
-            // CharacterGrowthSW
-            // 
-            this.CharacterGrowthSW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthSW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthSW.Location = new System.Drawing.Point(784, 818);
-            this.CharacterGrowthSW.Name = "CharacterGrowthSW";
-            this.CharacterGrowthSW.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthSW.TabIndex = 32;
-            // 
-            // CharacterGrowthInt
-            // 
-            this.CharacterGrowthInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthInt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthInt.Location = new System.Drawing.Point(712, 818);
-            this.CharacterGrowthInt.Name = "CharacterGrowthInt";
-            this.CharacterGrowthInt.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthInt.TabIndex = 31;
-            // 
-            // CharacterGrowthZr
-            // 
-            this.CharacterGrowthZr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthZr.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthZr.Location = new System.Drawing.Point(640, 818);
-            this.CharacterGrowthZr.Name = "CharacterGrowthZr";
-            this.CharacterGrowthZr.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthZr.TabIndex = 30;
-            // 
-            // CharacterGrowthOdp
-            // 
-            this.CharacterGrowthOdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthOdp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthOdp.Location = new System.Drawing.Point(568, 818);
-            this.CharacterGrowthOdp.Name = "CharacterGrowthOdp";
-            this.CharacterGrowthOdp.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthOdp.TabIndex = 29;
-            // 
-            // CharacterGrowthK
-            // 
-            this.CharacterGrowthK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthK.Location = new System.Drawing.Point(496, 818);
-            this.CharacterGrowthK.Name = "CharacterGrowthK";
-            this.CharacterGrowthK.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthK.TabIndex = 28;
-            // 
-            // CharacterGrowthUS
-            // 
-            this.CharacterGrowthUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthUS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthUS.Location = new System.Drawing.Point(424, 818);
-            this.CharacterGrowthUS.Name = "CharacterGrowthUS";
-            this.CharacterGrowthUS.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthUS.TabIndex = 27;
-            // 
-            // CharacterGrowthWW
-            // 
-            this.CharacterGrowthWW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthWW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthWW.Location = new System.Drawing.Point(352, 818);
-            this.CharacterGrowthWW.Name = "CharacterGrowthWW";
-            this.CharacterGrowthWW.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthWW.TabIndex = 26;
-            // 
-            // CharacterStartingOgd
-            // 
-            this.CharacterStartingOgd.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingOgd.Location = new System.Drawing.Point(856, 770);
-            this.CharacterStartingOgd.Name = "CharacterStartingOgd";
-            this.CharacterStartingOgd.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingOgd.TabIndex = 25;
-            // 
-            // CharacterStartingSW
-            // 
-            this.CharacterStartingSW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingSW.Location = new System.Drawing.Point(784, 770);
-            this.CharacterStartingSW.Name = "CharacterStartingSW";
-            this.CharacterStartingSW.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingSW.TabIndex = 24;
-            // 
-            // CharacterStartingInt
-            // 
-            this.CharacterStartingInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingInt.Location = new System.Drawing.Point(712, 770);
-            this.CharacterStartingInt.Name = "CharacterStartingInt";
-            this.CharacterStartingInt.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingInt.TabIndex = 23;
-            // 
-            // CharacterStartingZr
-            // 
-            this.CharacterStartingZr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingZr.Location = new System.Drawing.Point(640, 770);
-            this.CharacterStartingZr.Name = "CharacterStartingZr";
-            this.CharacterStartingZr.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingZr.TabIndex = 22;
-            // 
-            // CharacterStartingOdp
-            // 
-            this.CharacterStartingOdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingOdp.Location = new System.Drawing.Point(568, 770);
-            this.CharacterStartingOdp.Name = "CharacterStartingOdp";
-            this.CharacterStartingOdp.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingOdp.TabIndex = 21;
-            // 
-            // CharacterStartingK
-            // 
-            this.CharacterStartingK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingK.Location = new System.Drawing.Point(496, 770);
-            this.CharacterStartingK.Name = "CharacterStartingK";
-            this.CharacterStartingK.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingK.TabIndex = 20;
-            // 
-            // CharacterStartingUS
-            // 
-            this.CharacterStartingUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingUS.Location = new System.Drawing.Point(424, 770);
-            this.CharacterStartingUS.Name = "CharacterStartingUS";
-            this.CharacterStartingUS.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingUS.TabIndex = 19;
-            // 
-            // CharacterStartingWW
-            // 
-            this.CharacterStartingWW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingWW.Location = new System.Drawing.Point(352, 770);
-            this.CharacterStartingWW.Name = "CharacterStartingWW";
-            this.CharacterStartingWW.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingWW.TabIndex = 18;
-            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.ClientSize = new System.Drawing.Size(1738, 822);
+            this.ClientSize = new System.Drawing.Size(1546, 734);
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.BottomStatusStrip);
             this.Controls.Add(this.TopMenuStrip);
@@ -4426,12 +4575,6 @@
             this.BottomStatusStrip.PerformLayout();
             this.MainPanel.ResumeLayout(false);
             this.MainPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SecondPictureBox)).EndInit();
-            this.PageMenuStrip.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.FirstPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyP)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyS)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyZK)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualPP)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualPO)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualMag)).EndInit();
@@ -4480,6 +4623,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingK)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingUS)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingWW)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FirstPictureBox)).EndInit();
+            this.PageMenuStrip.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyZK)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SecondPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4503,7 +4652,7 @@
         private System.Windows.Forms.TextBox CharacterBirthplace;
         private System.Windows.Forms.TextBox CharacterStartSign;
         private System.Windows.Forms.TextBox CharacterHairColor;
-        private System.Windows.Forms.TextBox CharacterEyeColour;
+        private System.Windows.Forms.TextBox CharacterEyeColor;
         private System.Windows.Forms.TextBox CharacterSiblings;
         private System.Windows.Forms.TextBox CharacterHeight;
         private System.Windows.Forms.TextBox CharacterWeight;
@@ -4600,7 +4749,7 @@
         private System.Windows.Forms.TextBox WeaponWeight4;
         private System.Windows.Forms.TextBox WeaponName4;
         private System.Windows.Forms.TextBox SimpleArmorPZ;
-        private System.Windows.Forms.TextBox SimpleArmourType;
+        private System.Windows.Forms.TextBox SimpleArmorType;
         private System.Windows.Forms.TextBox AdvancedArmorPZ6;
         private System.Windows.Forms.TextBox AdvancedArmorLocation6;
         private System.Windows.Forms.TextBox AdvancedArmorWeight6;
