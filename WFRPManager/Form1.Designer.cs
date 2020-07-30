@@ -490,8 +490,8 @@
             this.placeholderToolStripMenuItem.Checked = true;
             this.placeholderToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.placeholderToolStripMenuItem.Name = "placeholderToolStripMenuItem";
-            this.placeholderToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
-            this.placeholderToolStripMenuItem.Text = "Placeholder";
+            this.placeholderToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.placeholderToolStripMenuItem.Text = "Debug";
             this.placeholderToolStripMenuItem.Click += new System.EventHandler(this.PlaceholderToolStripMenuItem_Click);
             // 
             // BottomStatusStrip
