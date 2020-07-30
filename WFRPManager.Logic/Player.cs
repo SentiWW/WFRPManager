@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace WFRPManager.Logic
 {
-    class Player
+    public class Player
     {
-        private string Name { get; set; }
-        private string Campaign { get; set; }
-        private string GameMaster { get; set; }
-        private string CampaignYear { get; set; }
+        public string Name { get; set; }
+        public string Campaign { get; set; }
+        public string GameMaster { get; set; }
+        public string CampaignYear { get; set; }
     }
 }

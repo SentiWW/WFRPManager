@@ -24,6 +24,7 @@ namespace WFRPManager
         private LinkedList<CheckBox> SecondPageCheckBoxs = new LinkedList<CheckBox>();
         private List<NumericUpDownNoScroll> SecondPageNumericUpDownTemp = new List<NumericUpDownNoScroll>();
         private LinkedList<NumericUpDownNoScroll> SecondPageNumericUpDown = new LinkedList<NumericUpDownNoScroll>();
+        private Player CurrentPlayer = new Player();
         private Character CurrentCharacter = new Character();
 
         public MainWindow()
@@ -799,91 +800,15 @@ namespace WFRPManager
 
         private void WeaponTraits6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[5].Traits = WeaponTraits6.Text;
 
+        private void PlayerName_TextChanged(object sender, EventArgs e) => CurrentPlayer.Name = PlayerName.Text;
+
+        private void GameMaster_TextChanged(object sender, EventArgs e) => CurrentPlayer.GameMaster = GameMaster.Text;
+
+        private void CampaignName_TextChanged(object sender, EventArgs e) => CurrentPlayer.Campaign = CampaignName.Text;
+
+        private void CampaignYear_TextChanged(object sender, EventArgs e) => CurrentPlayer.CampaignYear = CampaignYear.Text;
         #endregion
 
-        private void MainPanel_Paint(object sender, PaintEventArgs e)
-        {
 
-        }
-
-        private void PlayerName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CampaignName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void GameMaster_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CampaignYear_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CharacterCurrentXP_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CharacterTotalXP_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CharacterSprint_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CharacterCharge_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CharacterMovementRetreat_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CharacterHead_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CharacterBody_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CharacterRightArm_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CharacterLeftArm_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CharacterLeftLeg_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CharacterRightLeg_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void SimpleArmourType_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

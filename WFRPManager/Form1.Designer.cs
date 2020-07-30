@@ -897,7 +897,6 @@
             this.MainPanel.Name = "MainPanel";
             this.MainPanel.Size = new System.Drawing.Size(1546, 688);
             this.MainPanel.TabIndex = 2;
-            this.MainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.MainPanel_Paint);
             // 
             // CharacterBody
             // 
@@ -908,7 +907,6 @@
             this.CharacterBody.Name = "CharacterBody";
             this.CharacterBody.Size = new System.Drawing.Size(68, 37);
             this.CharacterBody.TabIndex = 148;
-            this.CharacterBody.TextChanged += new System.EventHandler(this.CharacterBody_TextChanged);
             // 
             // CharacterLeftLeg
             // 
@@ -919,7 +917,6 @@
             this.CharacterLeftLeg.Name = "CharacterLeftLeg";
             this.CharacterLeftLeg.Size = new System.Drawing.Size(68, 37);
             this.CharacterLeftLeg.TabIndex = 147;
-            this.CharacterLeftLeg.TextChanged += new System.EventHandler(this.CharacterLeftLeg_TextChanged);
             // 
             // CharacterLeftArm
             // 
@@ -930,7 +927,6 @@
             this.CharacterLeftArm.Name = "CharacterLeftArm";
             this.CharacterLeftArm.Size = new System.Drawing.Size(68, 37);
             this.CharacterLeftArm.TabIndex = 146;
-            this.CharacterLeftArm.TextChanged += new System.EventHandler(this.CharacterLeftArm_TextChanged);
             // 
             // CharacterRightLeg
             // 
@@ -941,7 +937,6 @@
             this.CharacterRightLeg.Name = "CharacterRightLeg";
             this.CharacterRightLeg.Size = new System.Drawing.Size(68, 37);
             this.CharacterRightLeg.TabIndex = 145;
-            this.CharacterRightLeg.TextChanged += new System.EventHandler(this.CharacterRightLeg_TextChanged);
             // 
             // CharacterRightArm
             // 
@@ -952,7 +947,6 @@
             this.CharacterRightArm.Name = "CharacterRightArm";
             this.CharacterRightArm.Size = new System.Drawing.Size(68, 37);
             this.CharacterRightArm.TabIndex = 144;
-            this.CharacterRightArm.TextChanged += new System.EventHandler(this.CharacterRightArm_TextChanged);
             // 
             // CharacterHead
             // 
@@ -963,7 +957,6 @@
             this.CharacterHead.Name = "CharacterHead";
             this.CharacterHead.Size = new System.Drawing.Size(68, 37);
             this.CharacterHead.TabIndex = 143;
-            this.CharacterHead.TextChanged += new System.EventHandler(this.CharacterHead_TextChanged);
             // 
             // CharacterSprint
             // 
@@ -974,7 +967,6 @@
             this.CharacterSprint.Name = "CharacterSprint";
             this.CharacterSprint.Size = new System.Drawing.Size(176, 37);
             this.CharacterSprint.TabIndex = 142;
-            this.CharacterSprint.TextChanged += new System.EventHandler(this.CharacterSprint_TextChanged);
             // 
             // CharacterCharge
             // 
@@ -985,7 +977,6 @@
             this.CharacterCharge.Name = "CharacterCharge";
             this.CharacterCharge.Size = new System.Drawing.Size(156, 37);
             this.CharacterCharge.TabIndex = 141;
-            this.CharacterCharge.TextChanged += new System.EventHandler(this.CharacterCharge_TextChanged);
             // 
             // CharacterMovementRetreat
             // 
@@ -996,7 +987,6 @@
             this.CharacterMovementRetreat.Name = "CharacterMovementRetreat";
             this.CharacterMovementRetreat.Size = new System.Drawing.Size(84, 37);
             this.CharacterMovementRetreat.TabIndex = 140;
-            this.CharacterMovementRetreat.TextChanged += new System.EventHandler(this.CharacterMovementRetreat_TextChanged);
             // 
             // CharacterTotalXP
             // 
@@ -1007,7 +997,6 @@
             this.CharacterTotalXP.Name = "CharacterTotalXP";
             this.CharacterTotalXP.Size = new System.Drawing.Size(347, 37);
             this.CharacterTotalXP.TabIndex = 139;
-            this.CharacterTotalXP.TextChanged += new System.EventHandler(this.CharacterTotalXP_TextChanged);
             // 
             // CharacterCurrentXP
             // 
@@ -1018,7 +1007,6 @@
             this.CharacterCurrentXP.Name = "CharacterCurrentXP";
             this.CharacterCurrentXP.Size = new System.Drawing.Size(130, 37);
             this.CharacterCurrentXP.TabIndex = 138;
-            this.CharacterCurrentXP.TextChanged += new System.EventHandler(this.CharacterCurrentXP_TextChanged);
             // 
             // CampaignYear
             // 
@@ -1323,7 +1311,6 @@
             this.SimpleArmourType.Name = "SimpleArmourType";
             this.SimpleArmourType.Size = new System.Drawing.Size(235, 37);
             this.SimpleArmourType.TabIndex = 108;
-            this.SimpleArmourType.TextChanged += new System.EventHandler(this.SimpleArmourType_TextChanged);
             // 
             // WeaponTraits6
             // 
