@@ -75,7 +75,7 @@
             this.AdvancedArmorWeight1 = new System.Windows.Forms.TextBox();
             this.AdvancedArmorType1 = new System.Windows.Forms.TextBox();
             this.SimpleArmorPZ = new System.Windows.Forms.TextBox();
-            this.SimpleArmourType = new System.Windows.Forms.TextBox();
+            this.SimpleArmorType = new System.Windows.Forms.TextBox();
             this.WeaponTraits6 = new System.Windows.Forms.TextBox();
             this.WeaponReload6 = new System.Windows.Forms.TextBox();
             this.WeaponRange6 = new System.Windows.Forms.TextBox();
@@ -553,7 +553,7 @@
             this.MainPanel.Controls.Add(this.AdvancedArmorWeight1);
             this.MainPanel.Controls.Add(this.AdvancedArmorType1);
             this.MainPanel.Controls.Add(this.SimpleArmorPZ);
-            this.MainPanel.Controls.Add(this.SimpleArmourType);
+            this.MainPanel.Controls.Add(this.SimpleArmorType);
             this.MainPanel.Controls.Add(this.WeaponTraits6);
             this.MainPanel.Controls.Add(this.WeaponReload6);
             this.MainPanel.Controls.Add(this.WeaponRange6);
@@ -907,6 +907,7 @@
             this.CharacterBody.Name = "CharacterBody";
             this.CharacterBody.Size = new System.Drawing.Size(68, 37);
             this.CharacterBody.TabIndex = 148;
+            this.CharacterBody.TextChanged += new System.EventHandler(this.CharacterBody_TextChanged);
             // 
             // CharacterLeftLeg
             // 
@@ -917,6 +918,7 @@
             this.CharacterLeftLeg.Name = "CharacterLeftLeg";
             this.CharacterLeftLeg.Size = new System.Drawing.Size(68, 37);
             this.CharacterLeftLeg.TabIndex = 147;
+            this.CharacterLeftLeg.TextChanged += new System.EventHandler(this.CharacterLeftLeg_TextChanged);
             // 
             // CharacterLeftArm
             // 
@@ -927,6 +929,7 @@
             this.CharacterLeftArm.Name = "CharacterLeftArm";
             this.CharacterLeftArm.Size = new System.Drawing.Size(68, 37);
             this.CharacterLeftArm.TabIndex = 146;
+            this.CharacterLeftArm.TextChanged += new System.EventHandler(this.CharacterLeftArm_TextChanged);
             // 
             // CharacterRightLeg
             // 
@@ -937,6 +940,7 @@
             this.CharacterRightLeg.Name = "CharacterRightLeg";
             this.CharacterRightLeg.Size = new System.Drawing.Size(68, 37);
             this.CharacterRightLeg.TabIndex = 145;
+            this.CharacterRightLeg.TextChanged += new System.EventHandler(this.CharacterRightLeg_TextChanged);
             // 
             // CharacterRightArm
             // 
@@ -947,6 +951,7 @@
             this.CharacterRightArm.Name = "CharacterRightArm";
             this.CharacterRightArm.Size = new System.Drawing.Size(68, 37);
             this.CharacterRightArm.TabIndex = 144;
+            this.CharacterRightArm.TextChanged += new System.EventHandler(this.CharacterRightArm_TextChanged);
             // 
             // CharacterHead
             // 
@@ -957,6 +962,7 @@
             this.CharacterHead.Name = "CharacterHead";
             this.CharacterHead.Size = new System.Drawing.Size(68, 37);
             this.CharacterHead.TabIndex = 143;
+            this.CharacterHead.TextChanged += new System.EventHandler(this.CharacterHead_TextChanged);
             // 
             // CharacterSprint
             // 
@@ -967,6 +973,7 @@
             this.CharacterSprint.Name = "CharacterSprint";
             this.CharacterSprint.Size = new System.Drawing.Size(176, 37);
             this.CharacterSprint.TabIndex = 142;
+            this.CharacterSprint.TextChanged += new System.EventHandler(this.CharacterSprint_TextChanged);
             // 
             // CharacterCharge
             // 
@@ -977,6 +984,7 @@
             this.CharacterCharge.Name = "CharacterCharge";
             this.CharacterCharge.Size = new System.Drawing.Size(156, 37);
             this.CharacterCharge.TabIndex = 141;
+            this.CharacterCharge.TextChanged += new System.EventHandler(this.CharacterCharge_TextChanged);
             // 
             // CharacterMovementRetreat
             // 
@@ -987,6 +995,7 @@
             this.CharacterMovementRetreat.Name = "CharacterMovementRetreat";
             this.CharacterMovementRetreat.Size = new System.Drawing.Size(84, 37);
             this.CharacterMovementRetreat.TabIndex = 140;
+            this.CharacterMovementRetreat.TextChanged += new System.EventHandler(this.CharacterMovementRetreat_TextChanged);
             // 
             // CharacterTotalXP
             // 
@@ -997,6 +1006,7 @@
             this.CharacterTotalXP.Name = "CharacterTotalXP";
             this.CharacterTotalXP.Size = new System.Drawing.Size(347, 37);
             this.CharacterTotalXP.TabIndex = 139;
+            this.CharacterTotalXP.TextChanged += new System.EventHandler(this.CharacterTotalXP_TextChanged);
             // 
             // CharacterCurrentXP
             // 
@@ -1007,6 +1017,7 @@
             this.CharacterCurrentXP.Name = "CharacterCurrentXP";
             this.CharacterCurrentXP.Size = new System.Drawing.Size(130, 37);
             this.CharacterCurrentXP.TabIndex = 138;
+            this.CharacterCurrentXP.TextChanged += new System.EventHandler(this.CharacterCurrentXP_TextChanged);
             // 
             // CampaignYear
             // 
@@ -1061,6 +1072,7 @@
             this.AdvancedArmorPZ6.Name = "AdvancedArmorPZ6";
             this.AdvancedArmorPZ6.Size = new System.Drawing.Size(62, 37);
             this.AdvancedArmorPZ6.TabIndex = 133;
+            this.AdvancedArmorPZ6.TextChanged += new System.EventHandler(this.AdvancedArmorPZ6_TextChanged);
             // 
             // AdvancedArmorLocation6
             // 
@@ -1071,6 +1083,7 @@
             this.AdvancedArmorLocation6.Name = "AdvancedArmorLocation6";
             this.AdvancedArmorLocation6.Size = new System.Drawing.Size(329, 37);
             this.AdvancedArmorLocation6.TabIndex = 132;
+            this.AdvancedArmorLocation6.TextChanged += new System.EventHandler(this.AdvancedArmorLocation6_TextChanged);
             // 
             // AdvancedArmorWeight6
             // 
@@ -1081,6 +1094,7 @@
             this.AdvancedArmorWeight6.Name = "AdvancedArmorWeight6";
             this.AdvancedArmorWeight6.Size = new System.Drawing.Size(68, 37);
             this.AdvancedArmorWeight6.TabIndex = 131;
+            this.AdvancedArmorWeight6.TextChanged += new System.EventHandler(this.AdvancedArmorWeight6_TextChanged);
             // 
             // AdvancedArmorType6
             // 
@@ -1091,6 +1105,7 @@
             this.AdvancedArmorType6.Name = "AdvancedArmorType6";
             this.AdvancedArmorType6.Size = new System.Drawing.Size(200, 37);
             this.AdvancedArmorType6.TabIndex = 130;
+            this.AdvancedArmorType6.TextChanged += new System.EventHandler(this.AdvancedArmorType6_TextChanged);
             // 
             // AdvancedArmorPZ5
             // 
@@ -1101,6 +1116,7 @@
             this.AdvancedArmorPZ5.Name = "AdvancedArmorPZ5";
             this.AdvancedArmorPZ5.Size = new System.Drawing.Size(62, 37);
             this.AdvancedArmorPZ5.TabIndex = 129;
+            this.AdvancedArmorPZ5.TextChanged += new System.EventHandler(this.AdvancedArmorPZ5_TextChanged);
             // 
             // AdvancedArmorLocation5
             // 
@@ -1111,6 +1127,7 @@
             this.AdvancedArmorLocation5.Name = "AdvancedArmorLocation5";
             this.AdvancedArmorLocation5.Size = new System.Drawing.Size(329, 37);
             this.AdvancedArmorLocation5.TabIndex = 128;
+            this.AdvancedArmorLocation5.TextChanged += new System.EventHandler(this.AdvancedArmorLocation5_TextChanged);
             // 
             // AdvancedArmorWeight5
             // 
@@ -1121,6 +1138,7 @@
             this.AdvancedArmorWeight5.Name = "AdvancedArmorWeight5";
             this.AdvancedArmorWeight5.Size = new System.Drawing.Size(68, 37);
             this.AdvancedArmorWeight5.TabIndex = 127;
+            this.AdvancedArmorWeight5.TextChanged += new System.EventHandler(this.AdvancedArmorWeight5_TextChanged);
             // 
             // AdvancedArmorType5
             // 
@@ -1131,6 +1149,7 @@
             this.AdvancedArmorType5.Name = "AdvancedArmorType5";
             this.AdvancedArmorType5.Size = new System.Drawing.Size(200, 37);
             this.AdvancedArmorType5.TabIndex = 126;
+            this.AdvancedArmorType5.TextChanged += new System.EventHandler(this.AdvancedArmorType5_TextChanged);
             // 
             // AdvancedArmorPZ4
             // 
@@ -1141,6 +1160,7 @@
             this.AdvancedArmorPZ4.Name = "AdvancedArmorPZ4";
             this.AdvancedArmorPZ4.Size = new System.Drawing.Size(62, 37);
             this.AdvancedArmorPZ4.TabIndex = 125;
+            this.AdvancedArmorPZ4.TextChanged += new System.EventHandler(this.AdvancedArmorPZ4_TextChanged);
             // 
             // AdvancedArmorLocation4
             // 
@@ -1151,6 +1171,7 @@
             this.AdvancedArmorLocation4.Name = "AdvancedArmorLocation4";
             this.AdvancedArmorLocation4.Size = new System.Drawing.Size(329, 37);
             this.AdvancedArmorLocation4.TabIndex = 124;
+            this.AdvancedArmorLocation4.TextChanged += new System.EventHandler(this.AdvancedArmorLocation4_TextChanged);
             // 
             // AdvancedArmorWeight4
             // 
@@ -1161,6 +1182,7 @@
             this.AdvancedArmorWeight4.Name = "AdvancedArmorWeight4";
             this.AdvancedArmorWeight4.Size = new System.Drawing.Size(68, 37);
             this.AdvancedArmorWeight4.TabIndex = 123;
+            this.AdvancedArmorWeight4.TextChanged += new System.EventHandler(this.AdvancedArmorWeight4_TextChanged);
             // 
             // AdvancedArmorType4
             // 
@@ -1171,6 +1193,7 @@
             this.AdvancedArmorType4.Name = "AdvancedArmorType4";
             this.AdvancedArmorType4.Size = new System.Drawing.Size(200, 37);
             this.AdvancedArmorType4.TabIndex = 122;
+            this.AdvancedArmorType4.TextChanged += new System.EventHandler(this.AdvancedArmorType4_TextChanged);
             // 
             // AdvancedArmorPZ3
             // 
@@ -1181,6 +1204,7 @@
             this.AdvancedArmorPZ3.Name = "AdvancedArmorPZ3";
             this.AdvancedArmorPZ3.Size = new System.Drawing.Size(62, 37);
             this.AdvancedArmorPZ3.TabIndex = 121;
+            this.AdvancedArmorPZ3.TextChanged += new System.EventHandler(this.AdvancedArmorPZ3_TextChanged);
             // 
             // AdvancedArmorLocation3
             // 
@@ -1191,6 +1215,7 @@
             this.AdvancedArmorLocation3.Name = "AdvancedArmorLocation3";
             this.AdvancedArmorLocation3.Size = new System.Drawing.Size(329, 37);
             this.AdvancedArmorLocation3.TabIndex = 120;
+            this.AdvancedArmorLocation3.TextChanged += new System.EventHandler(this.AdvancedArmorLocation3_TextChanged);
             // 
             // AdvancedArmorWeight3
             // 
@@ -1201,6 +1226,7 @@
             this.AdvancedArmorWeight3.Name = "AdvancedArmorWeight3";
             this.AdvancedArmorWeight3.Size = new System.Drawing.Size(68, 37);
             this.AdvancedArmorWeight3.TabIndex = 119;
+            this.AdvancedArmorWeight3.TextChanged += new System.EventHandler(this.AdvancedArmorWeight3_TextChanged);
             // 
             // AdvancedArmorType3
             // 
@@ -1211,6 +1237,7 @@
             this.AdvancedArmorType3.Name = "AdvancedArmorType3";
             this.AdvancedArmorType3.Size = new System.Drawing.Size(200, 37);
             this.AdvancedArmorType3.TabIndex = 118;
+            this.AdvancedArmorType3.TextChanged += new System.EventHandler(this.AdvancedArmorType3_TextChanged);
             // 
             // AdvancedArmorPZ2
             // 
@@ -1221,6 +1248,7 @@
             this.AdvancedArmorPZ2.Name = "AdvancedArmorPZ2";
             this.AdvancedArmorPZ2.Size = new System.Drawing.Size(62, 37);
             this.AdvancedArmorPZ2.TabIndex = 117;
+            this.AdvancedArmorPZ2.TextChanged += new System.EventHandler(this.AdvancedArmorPZ2_TextChanged);
             // 
             // AdvancedArmorLocation2
             // 
@@ -1231,6 +1259,7 @@
             this.AdvancedArmorLocation2.Name = "AdvancedArmorLocation2";
             this.AdvancedArmorLocation2.Size = new System.Drawing.Size(329, 37);
             this.AdvancedArmorLocation2.TabIndex = 116;
+            this.AdvancedArmorLocation2.TextChanged += new System.EventHandler(this.AdvancedArmorLocation2_TextChanged);
             // 
             // AdvancedArmorWeight2
             // 
@@ -1241,6 +1270,7 @@
             this.AdvancedArmorWeight2.Name = "AdvancedArmorWeight2";
             this.AdvancedArmorWeight2.Size = new System.Drawing.Size(68, 37);
             this.AdvancedArmorWeight2.TabIndex = 115;
+            this.AdvancedArmorWeight2.TextChanged += new System.EventHandler(this.AdvancedArmorWeight2_TextChanged);
             // 
             // AdvancedArmorType2
             // 
@@ -1251,6 +1281,7 @@
             this.AdvancedArmorType2.Name = "AdvancedArmorType2";
             this.AdvancedArmorType2.Size = new System.Drawing.Size(200, 37);
             this.AdvancedArmorType2.TabIndex = 114;
+            this.AdvancedArmorType2.TextChanged += new System.EventHandler(this.AdvancedArmorType2_TextChanged);
             // 
             // AdvancedArmorPZ1
             // 
@@ -1261,6 +1292,7 @@
             this.AdvancedArmorPZ1.Name = "AdvancedArmorPZ1";
             this.AdvancedArmorPZ1.Size = new System.Drawing.Size(62, 37);
             this.AdvancedArmorPZ1.TabIndex = 113;
+            this.AdvancedArmorPZ1.TextChanged += new System.EventHandler(this.AdvancedArmorPZ1_TextChanged);
             // 
             // AdvancedArmorLocation1
             // 
@@ -1271,6 +1303,7 @@
             this.AdvancedArmorLocation1.Name = "AdvancedArmorLocation1";
             this.AdvancedArmorLocation1.Size = new System.Drawing.Size(329, 37);
             this.AdvancedArmorLocation1.TabIndex = 112;
+            this.AdvancedArmorLocation1.TextChanged += new System.EventHandler(this.AdvancedArmorLocation1_TextChanged);
             // 
             // AdvancedArmorWeight1
             // 
@@ -1281,6 +1314,7 @@
             this.AdvancedArmorWeight1.Name = "AdvancedArmorWeight1";
             this.AdvancedArmorWeight1.Size = new System.Drawing.Size(68, 37);
             this.AdvancedArmorWeight1.TabIndex = 111;
+            this.AdvancedArmorWeight1.TextChanged += new System.EventHandler(this.AdvancedArmorWeight1_TextChanged);
             // 
             // AdvancedArmorType1
             // 
@@ -1291,6 +1325,7 @@
             this.AdvancedArmorType1.Name = "AdvancedArmorType1";
             this.AdvancedArmorType1.Size = new System.Drawing.Size(200, 37);
             this.AdvancedArmorType1.TabIndex = 110;
+            this.AdvancedArmorType1.TextChanged += new System.EventHandler(this.AdvancedArmorType1_TextChanged);
             // 
             // SimpleArmorPZ
             // 
@@ -1301,16 +1336,18 @@
             this.SimpleArmorPZ.Name = "SimpleArmorPZ";
             this.SimpleArmorPZ.Size = new System.Drawing.Size(227, 37);
             this.SimpleArmorPZ.TabIndex = 109;
+            this.SimpleArmorPZ.TextChanged += new System.EventHandler(this.SimpleArmorPZ_TextChanged);
             // 
-            // SimpleArmourType
+            // SimpleArmorType
             // 
-            this.SimpleArmourType.BackColor = System.Drawing.SystemColors.Window;
-            this.SimpleArmourType.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.SimpleArmourType.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SimpleArmourType.Location = new System.Drawing.Point(338, 1638);
-            this.SimpleArmourType.Name = "SimpleArmourType";
-            this.SimpleArmourType.Size = new System.Drawing.Size(235, 37);
-            this.SimpleArmourType.TabIndex = 108;
+            this.SimpleArmorType.BackColor = System.Drawing.SystemColors.Window;
+            this.SimpleArmorType.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.SimpleArmorType.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SimpleArmorType.Location = new System.Drawing.Point(338, 1638);
+            this.SimpleArmorType.Name = "SimpleArmorType";
+            this.SimpleArmorType.Size = new System.Drawing.Size(235, 37);
+            this.SimpleArmorType.TabIndex = 108;
+            this.SimpleArmorType.TextChanged += new System.EventHandler(this.SimpleArmourType_TextChanged);
             // 
             // WeaponTraits6
             // 
@@ -4712,7 +4749,7 @@
         private System.Windows.Forms.TextBox WeaponWeight4;
         private System.Windows.Forms.TextBox WeaponName4;
         private System.Windows.Forms.TextBox SimpleArmorPZ;
-        private System.Windows.Forms.TextBox SimpleArmourType;
+        private System.Windows.Forms.TextBox SimpleArmorType;
         private System.Windows.Forms.TextBox AdvancedArmorPZ6;
         private System.Windows.Forms.TextBox AdvancedArmorLocation6;
         private System.Windows.Forms.TextBox AdvancedArmorWeight6;

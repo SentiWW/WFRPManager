@@ -32,7 +32,6 @@ namespace WFRPManager
             InitializeComponent();
             _ = FillElementsToLinkedList();
             _ = EnableSecondPage(false);
-            var formData = new FormData();
         }
 
         private async Task FillElementsToLinkedList()
@@ -150,7 +149,7 @@ namespace WFRPManager
                 //
                 //  Armour
                 //
-                SimpleArmourType,
+                SimpleArmorType,
                 SimpleArmorPZ,
                 AdvancedArmorType1,
                 AdvancedArmorType2,
@@ -807,8 +806,81 @@ namespace WFRPManager
         private void CampaignName_TextChanged(object sender, EventArgs e) => CurrentPlayer.Campaign = CampaignName.Text;
 
         private void CampaignYear_TextChanged(object sender, EventArgs e) => CurrentPlayer.CampaignYear = CampaignYear.Text;
+
         #endregion
 
+        private void CharacterCurrentXP_TextChanged(object sender, EventArgs e) => CurrentCharacter.CurrentXP = CharacterCurrentXP.Text;
 
+        private void CharacterTotalXP_TextChanged(object sender, EventArgs e) => CurrentCharacter.TotalXP = CharacterTotalXP.Text;
+
+        private void CharacterMovementRetreat_TextChanged(object sender, EventArgs e) => CurrentCharacter.MovementRetreat = CharacterMovementRetreat.Text;
+
+        private void CharacterCharge_TextChanged(object sender, EventArgs e) => CurrentCharacter.Charge = CharacterCharge.Text;
+
+        private void CharacterSprint_TextChanged(object sender, EventArgs e) => CurrentCharacter.Sprint = CharacterSprint.Text;
+
+        private void CharacterHead_TextChanged(object sender, EventArgs e) => CurrentCharacter.Head = CharacterHead.Text;
+
+        private void CharacterBody_TextChanged(object sender, EventArgs e) => CurrentCharacter.Body = CharacterBody.Text;
+
+        private void CharacterRightArm_TextChanged(object sender, EventArgs e) => CurrentCharacter.RightArm = CharacterRightArm.Text;
+
+        private void CharacterLeftArm_TextChanged(object sender, EventArgs e) => CurrentCharacter.LeftArm = CharacterLeftArm.Text;
+
+        private void CharacterRightLeg_TextChanged(object sender, EventArgs e) => CurrentCharacter.RightLeg = CharacterRightLeg.Text;
+
+        private void CharacterLeftLeg_TextChanged(object sender, EventArgs e) => CurrentCharacter.LeftLeg = CharacterLeftLeg.Text;
+
+        private void SimpleArmourType_TextChanged(object sender, EventArgs e) => CurrentCharacter.SArmor.Type = SimpleArmorType.Text;
+
+        private void SimpleArmorPZ_TextChanged(object sender, EventArgs e) => CurrentCharacter.SArmor.PZ = SimpleArmorPZ.Text;
+
+        private void AdvancedArmorType1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[0].Type = AdvancedArmorType1.Text;
+
+        private void AdvancedArmorWeight1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[0].Weight = AdvancedArmorWeight1.Text;
+
+        private void AdvancedArmorLocation1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[0].Location = AdvancedArmorLocation1.Text;
+
+        private void AdvancedArmorPZ1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[0].PZ = AdvancedArmorPZ1.Text;
+
+        private void AdvancedArmorType2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[1].Type = AdvancedArmorType2.Text;
+
+        private void AdvancedArmorWeight2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[1].Weight = AdvancedArmorWeight2.Text;
+
+        private void AdvancedArmorLocation2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[1].Location = AdvancedArmorLocation2.Text;
+
+        private void AdvancedArmorPZ2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[1].PZ = AdvancedArmorPZ2.Text;
+
+        private void AdvancedArmorType3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[2].Type = AdvancedArmorType3.Text;
+
+        private void AdvancedArmorWeight3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[2].Weight = AdvancedArmorWeight3.Text;
+
+        private void AdvancedArmorLocation3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[2].Location = AdvancedArmorLocation3.Text;
+
+        private void AdvancedArmorPZ3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[2].PZ = AdvancedArmorPZ3.Text;
+
+        private void AdvancedArmorType4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[3].Type = AdvancedArmorType4.Text;
+
+        private void AdvancedArmorWeight4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[3].Weight = AdvancedArmorWeight4.Text;
+
+        private void AdvancedArmorLocation4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[3].Location = AdvancedArmorLocation4.Text;
+
+        private void AdvancedArmorPZ4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[3].PZ = AdvancedArmorPZ4.Text;
+
+        private void AdvancedArmorType5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[4].Type = AdvancedArmorType5.Text;
+
+        private void AdvancedArmorWeight5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[4].Weight = AdvancedArmorWeight5.Text;
+
+        private void AdvancedArmorLocation5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[4].Location = AdvancedArmorLocation5.Text;
+
+        private void AdvancedArmorPZ5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[4].PZ = AdvancedArmorPZ5.Text;
+
+        private void AdvancedArmorType6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[5].Type = AdvancedArmorType6.Text;
+
+        private void AdvancedArmorWeight6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[5].Weight = AdvancedArmorWeight6.Text;
+
+        private void AdvancedArmorLocation6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[5].PZ = AdvancedArmorPZ6.Text;
+
+        private void AdvancedArmorPZ6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[5].PZ = AdvancedArmorPZ6.Text;
     }
 }
