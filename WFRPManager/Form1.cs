@@ -585,7 +585,11 @@ namespace WFRPManager
         //  Update data localy on input
         //
         #region data
-        private void PlaceholderToolStripMenuItem_Click(object sender, EventArgs e) => CurrentCharacter.Debug();
+        private void PlaceholderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Dane testowe zapisane w pliku.");
+            CurrentCharacter.Debug();
+        }
 
         private void CharacterName_TextChanged(object sender, EventArgs e) => CurrentCharacter.Name = CharacterName.Text;
 
@@ -796,5 +800,90 @@ namespace WFRPManager
         private void WeaponTraits6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Weapons[5].Traits = WeaponTraits6.Text;
 
         #endregion
+
+        private void MainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void PlayerName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CampaignName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GameMaster_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CampaignYear_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CharacterCurrentXP_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CharacterTotalXP_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CharacterSprint_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CharacterCharge_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CharacterMovementRetreat_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CharacterHead_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CharacterBody_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CharacterRightArm_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CharacterLeftArm_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CharacterLeftLeg_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CharacterRightLeg_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SimpleArmourType_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
