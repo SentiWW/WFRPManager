@@ -1,43 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using WFRPManager;
+using WFRPManager.Data;
 
 namespace WFRPManager.Logic
 {
-    class Serialization
+    public class Serialization
     {
-        /*
-        private async Task PackData()
+        public static void ExportToJSON(Character character)
         {
-            throw new NotImplementedException();
+            var json = Newtonsoft.Json.JsonConvert.SerializeObject(character, Newtonsoft.Json.Formatting.Indented);
+            using (StreamWriter sw = new StreamWriter($"{Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)}\\debug.json"))
+            {
+                Task.Run(() => sw.Write(json));
+                sw.Close();
+            }
         }
-        public async Task ExportToJSON()
+        public static async Task ImportFromJSON()
         {
-            throw new NotImplementedException();
+
         }
-        public async Task ImportFromJSON()
-        {
-            throw new NotImplementedException();
-        }
-        public async Task ExportToXML()
-        {
-            throw new NotImplementedException();
-        }
-        public async Task ImportFromXML()
-        {
-            throw new NotImplementedException();
-        }
-        public async Task ExportToTXT()
-        {
-            throw new NotImplementedException();
-        }
-        public async Task ImportFromTXT()
-        {
-            throw new NotImplementedException();
-        }
-        */
     }
 }

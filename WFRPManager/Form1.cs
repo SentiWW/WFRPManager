@@ -585,7 +585,7 @@ namespace WFRPManager.UI
         //
         //  Update data localy on input
         //
-        #region data
+        #region firstpage
         private void PlaceholderToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Dane testowe zapisane w pliku.");
@@ -808,8 +808,6 @@ namespace WFRPManager.UI
 
         private void CampaignYear_TextChanged(object sender, EventArgs e) => CurrentPlayer.CampaignYear = CampaignYear.Text;
 
-        #endregion
-
         private void CharacterCurrentXP_TextChanged(object sender, EventArgs e) => CurrentCharacter.CurrentXP = CharacterCurrentXP.Text;
 
         private void CharacterTotalXP_TextChanged(object sender, EventArgs e) => CurrentCharacter.TotalXP = CharacterTotalXP.Text;
@@ -883,5 +881,7 @@ namespace WFRPManager.UI
         private void AdvancedArmorLocation6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[5].PZ = AdvancedArmorPZ6.Text;
 
         private void AdvancedArmorPZ6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[5].PZ = AdvancedArmorPZ6.Text;
+        #endregion
+        private void JSONDebugToolStripMenuItem_Click(object sender, EventArgs e) => Serialization.ExportToJSON(CurrentCharacter);
     }
 }

@@ -416,6 +416,7 @@
             this.CharacterSkill1_2 = new System.Windows.Forms.CheckBox();
             this.CharacterSkill1_1 = new System.Windows.Forms.CheckBox();
             this.SecondPictureBox = new System.Windows.Forms.PictureBox();
+            this.jSONDebugToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TopMenuStrip.SuspendLayout();
             this.BottomStatusStrip.SuspendLayout();
             this.MainPanel.SuspendLayout();
@@ -478,7 +479,8 @@
             // TopMenuStrip
             // 
             this.TopMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.placeholderToolStripMenuItem});
+            this.placeholderToolStripMenuItem,
+            this.jSONDebugToolStripMenuItem});
             this.TopMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.TopMenuStrip.Name = "TopMenuStrip";
             this.TopMenuStrip.Size = new System.Drawing.Size(1546, 24);
@@ -4555,6 +4557,13 @@
             this.SecondPictureBox.TabIndex = 1;
             this.SecondPictureBox.TabStop = false;
             // 
+            // jSONDebugToolStripMenuItem
+            // 
+            this.jSONDebugToolStripMenuItem.Name = "jSONDebugToolStripMenuItem";
+            this.jSONDebugToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
+            this.jSONDebugToolStripMenuItem.Text = "JSON Debug";
+            this.jSONDebugToolStripMenuItem.Click += new System.EventHandler(this.JSONDebugToolStripMenuItem_Click);
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5022,6 +5031,7 @@
         private System.Windows.Forms.CheckBox CharacterAdvancedSkill13_3;
         private System.Windows.Forms.TextBox CharacterAbility1;
         private System.Windows.Forms.TextBox CharacterItemWeight1;
+        private System.Windows.Forms.ToolStripMenuItem jSONDebugToolStripMenuItem;
     }
 }
 
