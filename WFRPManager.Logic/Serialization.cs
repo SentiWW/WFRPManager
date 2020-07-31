@@ -21,9 +21,9 @@ namespace WFRPManager.Logic
                 sw.Close();
             }
         }
-        public static async Task ImportFromJSON()
+        public static Character ImportFromJSON()
         {
-
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<Character>(File.ReadAllText($"{Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)}\\debug.json"));
         }
     }
 }

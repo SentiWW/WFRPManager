@@ -118,54 +118,6 @@
             this.WeaponCategory1 = new System.Windows.Forms.TextBox();
             this.WeaponWeight1 = new System.Windows.Forms.TextBox();
             this.WeaponName1 = new System.Windows.Forms.TextBox();
-            this.CharacterActualPP = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualPO = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualMag = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualSz = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualWt = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualS = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualZyw = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualA = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthPP = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthPO = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthMag = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthSz = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthWt = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthS = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthZyw = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthA = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingPP = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingPO = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingMag = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingSz = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingWt = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingS = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingZyw = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingA = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualOgd = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualSW = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualInt = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualZr = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualOdp = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualK = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualUS = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterActualWW = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthOgd = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthSW = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthInt = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthZr = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthOdp = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthK = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthUS = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterGrowthWW = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingOgd = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingSW = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingInt = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingZr = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingOdp = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingK = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingUS = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterStartingWW = new WFRPManager.NumericUpDownNoScroll();
             this.CharacterFeatures = new System.Windows.Forms.TextBox();
             this.CharacterBirthplace = new System.Windows.Forms.TextBox();
             this.CharacterStartSign = new System.Windows.Forms.TextBox();
@@ -185,9 +137,6 @@
             this.PageMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.TurnPageMenuStripOption = new System.Windows.Forms.ToolStripMenuItem();
             this.LeftFlowPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.CharacterMoneyP = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterMoneyS = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterMoneyZK = new WFRPManager.NumericUpDownNoScroll();
             this.CharacterItem14 = new System.Windows.Forms.TextBox();
             this.CharacterItem13 = new System.Windows.Forms.TextBox();
             this.CharacterItem12 = new System.Windows.Forms.TextBox();
@@ -417,9 +366,64 @@
             this.CharacterSkill1_1 = new System.Windows.Forms.CheckBox();
             this.SecondPictureBox = new System.Windows.Forms.PictureBox();
             this.jSONDebugToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.CharacterActualPP = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualPO = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualMag = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualSz = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualWt = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualS = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualZyw = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualA = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthPP = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthPO = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthMag = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthSz = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthWt = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthS = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthZyw = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthA = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingPP = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingPO = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingMag = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingSz = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingWt = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingS = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingZyw = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingA = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualOgd = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualSW = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualInt = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualZr = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualOdp = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualK = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualUS = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterActualWW = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthOgd = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthSW = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthInt = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthZr = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthOdp = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthK = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthUS = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterGrowthWW = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingOgd = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingSW = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingInt = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingZr = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingOdp = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingK = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingUS = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterStartingWW = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterMoneyP = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterMoneyS = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterMoneyZK = new WFRPManager.NumericUpDownNoScroll();
+            this.jSONImportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TopMenuStrip.SuspendLayout();
             this.BottomStatusStrip.SuspendLayout();
             this.MainPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.FirstPictureBox)).BeginInit();
+            this.PageMenuStrip.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SecondPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualPP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualPO)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualMag)).BeginInit();
@@ -468,19 +472,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingK)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingUS)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingWW)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FirstPictureBox)).BeginInit();
-            this.PageMenuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyS)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyZK)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SecondPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // TopMenuStrip
             // 
             this.TopMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.placeholderToolStripMenuItem,
-            this.jSONDebugToolStripMenuItem});
+            this.jSONDebugToolStripMenuItem,
+            this.jSONImportToolStripMenuItem});
             this.TopMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.TopMenuStrip.Name = "TopMenuStrip";
             this.TopMenuStrip.Size = new System.Drawing.Size(1546, 24);
@@ -1813,470 +1815,6 @@
             this.WeaponName1.TabIndex = 66;
             this.WeaponName1.TextChanged += new System.EventHandler(this.WeaponName1_TextChanged);
             // 
-            // CharacterActualPP
-            // 
-            this.CharacterActualPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualPP.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualPP.Location = new System.Drawing.Point(856, 1058);
-            this.CharacterActualPP.Name = "CharacterActualPP";
-            this.CharacterActualPP.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualPP.TabIndex = 65;
-            this.CharacterActualPP.ValueChanged += new System.EventHandler(this.CharacterActualPP_ValueChanged);
-            // 
-            // CharacterActualPO
-            // 
-            this.CharacterActualPO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualPO.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualPO.Location = new System.Drawing.Point(784, 1058);
-            this.CharacterActualPO.Name = "CharacterActualPO";
-            this.CharacterActualPO.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualPO.TabIndex = 64;
-            this.CharacterActualPO.ValueChanged += new System.EventHandler(this.CharacterActualPO_ValueChanged);
-            // 
-            // CharacterActualMag
-            // 
-            this.CharacterActualMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualMag.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualMag.Location = new System.Drawing.Point(712, 1058);
-            this.CharacterActualMag.Name = "CharacterActualMag";
-            this.CharacterActualMag.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualMag.TabIndex = 63;
-            this.CharacterActualMag.ValueChanged += new System.EventHandler(this.CharacterActualMag_ValueChanged);
-            // 
-            // CharacterActualSz
-            // 
-            this.CharacterActualSz.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualSz.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualSz.Location = new System.Drawing.Point(640, 1058);
-            this.CharacterActualSz.Name = "CharacterActualSz";
-            this.CharacterActualSz.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualSz.TabIndex = 62;
-            this.CharacterActualSz.ValueChanged += new System.EventHandler(this.CharacterActualSz_ValueChanged);
-            // 
-            // CharacterActualWt
-            // 
-            this.CharacterActualWt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualWt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualWt.Location = new System.Drawing.Point(568, 1058);
-            this.CharacterActualWt.Name = "CharacterActualWt";
-            this.CharacterActualWt.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualWt.TabIndex = 61;
-            this.CharacterActualWt.ValueChanged += new System.EventHandler(this.CharacterActualWt_ValueChanged);
-            // 
-            // CharacterActualS
-            // 
-            this.CharacterActualS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualS.Location = new System.Drawing.Point(496, 1058);
-            this.CharacterActualS.Name = "CharacterActualS";
-            this.CharacterActualS.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualS.TabIndex = 60;
-            this.CharacterActualS.ValueChanged += new System.EventHandler(this.CharacterActualS_ValueChanged);
-            // 
-            // CharacterActualZyw
-            // 
-            this.CharacterActualZyw.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualZyw.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualZyw.Location = new System.Drawing.Point(424, 1058);
-            this.CharacterActualZyw.Name = "CharacterActualZyw";
-            this.CharacterActualZyw.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualZyw.TabIndex = 59;
-            this.CharacterActualZyw.ValueChanged += new System.EventHandler(this.CharacterActualZyw_ValueChanged);
-            // 
-            // CharacterActualA
-            // 
-            this.CharacterActualA.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualA.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualA.Location = new System.Drawing.Point(352, 1058);
-            this.CharacterActualA.Name = "CharacterActualA";
-            this.CharacterActualA.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualA.TabIndex = 58;
-            this.CharacterActualA.ValueChanged += new System.EventHandler(this.CharacterActualA_ValueChanged);
-            // 
-            // CharacterGrowthPP
-            // 
-            this.CharacterGrowthPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthPP.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthPP.Location = new System.Drawing.Point(856, 1010);
-            this.CharacterGrowthPP.Name = "CharacterGrowthPP";
-            this.CharacterGrowthPP.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthPP.TabIndex = 57;
-            this.CharacterGrowthPP.ValueChanged += new System.EventHandler(this.CharacterGrowthPP_ValueChanged);
-            // 
-            // CharacterGrowthPO
-            // 
-            this.CharacterGrowthPO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthPO.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthPO.Location = new System.Drawing.Point(784, 1010);
-            this.CharacterGrowthPO.Name = "CharacterGrowthPO";
-            this.CharacterGrowthPO.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthPO.TabIndex = 56;
-            this.CharacterGrowthPO.ValueChanged += new System.EventHandler(this.CharacterGrowthPO_ValueChanged);
-            // 
-            // CharacterGrowthMag
-            // 
-            this.CharacterGrowthMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthMag.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthMag.Location = new System.Drawing.Point(712, 1010);
-            this.CharacterGrowthMag.Name = "CharacterGrowthMag";
-            this.CharacterGrowthMag.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthMag.TabIndex = 55;
-            this.CharacterGrowthMag.ValueChanged += new System.EventHandler(this.CharacterGrowthMag_ValueChanged);
-            // 
-            // CharacterGrowthSz
-            // 
-            this.CharacterGrowthSz.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthSz.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthSz.Location = new System.Drawing.Point(640, 1010);
-            this.CharacterGrowthSz.Name = "CharacterGrowthSz";
-            this.CharacterGrowthSz.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthSz.TabIndex = 54;
-            this.CharacterGrowthSz.ValueChanged += new System.EventHandler(this.CharacterGrowthSz_ValueChanged);
-            // 
-            // CharacterGrowthWt
-            // 
-            this.CharacterGrowthWt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthWt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthWt.Location = new System.Drawing.Point(568, 1010);
-            this.CharacterGrowthWt.Name = "CharacterGrowthWt";
-            this.CharacterGrowthWt.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthWt.TabIndex = 53;
-            this.CharacterGrowthWt.ValueChanged += new System.EventHandler(this.CharacterGrowthWt_ValueChanged);
-            // 
-            // CharacterGrowthS
-            // 
-            this.CharacterGrowthS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthS.Location = new System.Drawing.Point(496, 1010);
-            this.CharacterGrowthS.Name = "CharacterGrowthS";
-            this.CharacterGrowthS.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthS.TabIndex = 52;
-            this.CharacterGrowthS.ValueChanged += new System.EventHandler(this.CharacterGrowthS_ValueChanged);
-            // 
-            // CharacterGrowthZyw
-            // 
-            this.CharacterGrowthZyw.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthZyw.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthZyw.Location = new System.Drawing.Point(424, 1010);
-            this.CharacterGrowthZyw.Name = "CharacterGrowthZyw";
-            this.CharacterGrowthZyw.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthZyw.TabIndex = 51;
-            this.CharacterGrowthZyw.ValueChanged += new System.EventHandler(this.CharacterGrowthZyw_ValueChanged);
-            // 
-            // CharacterGrowthA
-            // 
-            this.CharacterGrowthA.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthA.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthA.Location = new System.Drawing.Point(352, 1010);
-            this.CharacterGrowthA.Name = "CharacterGrowthA";
-            this.CharacterGrowthA.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthA.TabIndex = 50;
-            this.CharacterGrowthA.ValueChanged += new System.EventHandler(this.CharacterGrowthA_ValueChanged);
-            // 
-            // CharacterStartingPP
-            // 
-            this.CharacterStartingPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingPP.Location = new System.Drawing.Point(856, 962);
-            this.CharacterStartingPP.Name = "CharacterStartingPP";
-            this.CharacterStartingPP.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingPP.TabIndex = 49;
-            this.CharacterStartingPP.ValueChanged += new System.EventHandler(this.CharacterStartingPP_ValueChanged);
-            // 
-            // CharacterStartingPO
-            // 
-            this.CharacterStartingPO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingPO.Location = new System.Drawing.Point(784, 962);
-            this.CharacterStartingPO.Name = "CharacterStartingPO";
-            this.CharacterStartingPO.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingPO.TabIndex = 48;
-            this.CharacterStartingPO.ValueChanged += new System.EventHandler(this.CharacterStartingPO_ValueChanged);
-            // 
-            // CharacterStartingMag
-            // 
-            this.CharacterStartingMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingMag.Location = new System.Drawing.Point(712, 962);
-            this.CharacterStartingMag.Name = "CharacterStartingMag";
-            this.CharacterStartingMag.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingMag.TabIndex = 47;
-            this.CharacterStartingMag.ValueChanged += new System.EventHandler(this.CharacterStartingMag_ValueChanged);
-            // 
-            // CharacterStartingSz
-            // 
-            this.CharacterStartingSz.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingSz.Location = new System.Drawing.Point(640, 962);
-            this.CharacterStartingSz.Name = "CharacterStartingSz";
-            this.CharacterStartingSz.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingSz.TabIndex = 46;
-            this.CharacterStartingSz.ValueChanged += new System.EventHandler(this.CharacterStartingSz_ValueChanged);
-            // 
-            // CharacterStartingWt
-            // 
-            this.CharacterStartingWt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingWt.Location = new System.Drawing.Point(568, 962);
-            this.CharacterStartingWt.Name = "CharacterStartingWt";
-            this.CharacterStartingWt.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingWt.TabIndex = 45;
-            this.CharacterStartingWt.ValueChanged += new System.EventHandler(this.CharacterStartingWt_ValueChanged);
-            // 
-            // CharacterStartingS
-            // 
-            this.CharacterStartingS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingS.Location = new System.Drawing.Point(496, 962);
-            this.CharacterStartingS.Name = "CharacterStartingS";
-            this.CharacterStartingS.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingS.TabIndex = 44;
-            this.CharacterStartingS.ValueChanged += new System.EventHandler(this.CharacterStartingS_ValueChanged);
-            // 
-            // CharacterStartingZyw
-            // 
-            this.CharacterStartingZyw.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingZyw.Location = new System.Drawing.Point(424, 962);
-            this.CharacterStartingZyw.Name = "CharacterStartingZyw";
-            this.CharacterStartingZyw.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingZyw.TabIndex = 43;
-            this.CharacterStartingZyw.ValueChanged += new System.EventHandler(this.CharacterStartingZyw_ValueChanged);
-            // 
-            // CharacterStartingA
-            // 
-            this.CharacterStartingA.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingA.Location = new System.Drawing.Point(352, 962);
-            this.CharacterStartingA.Name = "CharacterStartingA";
-            this.CharacterStartingA.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingA.TabIndex = 42;
-            this.CharacterStartingA.ValueChanged += new System.EventHandler(this.CharacterStartingA_ValueChanged);
-            // 
-            // CharacterActualOgd
-            // 
-            this.CharacterActualOgd.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualOgd.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualOgd.Location = new System.Drawing.Point(856, 866);
-            this.CharacterActualOgd.Name = "CharacterActualOgd";
-            this.CharacterActualOgd.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualOgd.TabIndex = 41;
-            this.CharacterActualOgd.ValueChanged += new System.EventHandler(this.CharacterActualOgd_ValueChanged);
-            // 
-            // CharacterActualSW
-            // 
-            this.CharacterActualSW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualSW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualSW.Location = new System.Drawing.Point(784, 866);
-            this.CharacterActualSW.Name = "CharacterActualSW";
-            this.CharacterActualSW.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualSW.TabIndex = 40;
-            this.CharacterActualSW.ValueChanged += new System.EventHandler(this.CharacterActualSW_ValueChanged);
-            // 
-            // CharacterActualInt
-            // 
-            this.CharacterActualInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualInt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualInt.Location = new System.Drawing.Point(712, 866);
-            this.CharacterActualInt.Name = "CharacterActualInt";
-            this.CharacterActualInt.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualInt.TabIndex = 39;
-            this.CharacterActualInt.ValueChanged += new System.EventHandler(this.CharacterActualInt_ValueChanged);
-            // 
-            // CharacterActualZr
-            // 
-            this.CharacterActualZr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualZr.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualZr.Location = new System.Drawing.Point(640, 866);
-            this.CharacterActualZr.Name = "CharacterActualZr";
-            this.CharacterActualZr.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualZr.TabIndex = 38;
-            this.CharacterActualZr.ValueChanged += new System.EventHandler(this.CharacterActualZr_ValueChanged);
-            // 
-            // CharacterActualOdp
-            // 
-            this.CharacterActualOdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualOdp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualOdp.Location = new System.Drawing.Point(568, 866);
-            this.CharacterActualOdp.Name = "CharacterActualOdp";
-            this.CharacterActualOdp.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualOdp.TabIndex = 37;
-            this.CharacterActualOdp.ValueChanged += new System.EventHandler(this.CharacterActualOdp_ValueChanged);
-            // 
-            // CharacterActualK
-            // 
-            this.CharacterActualK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualK.Location = new System.Drawing.Point(496, 866);
-            this.CharacterActualK.Name = "CharacterActualK";
-            this.CharacterActualK.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualK.TabIndex = 36;
-            this.CharacterActualK.ValueChanged += new System.EventHandler(this.CharacterActualK_ValueChanged);
-            // 
-            // CharacterActualUS
-            // 
-            this.CharacterActualUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualUS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualUS.Location = new System.Drawing.Point(424, 866);
-            this.CharacterActualUS.Name = "CharacterActualUS";
-            this.CharacterActualUS.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualUS.TabIndex = 35;
-            this.CharacterActualUS.ValueChanged += new System.EventHandler(this.CharacterActualUS_ValueChanged);
-            // 
-            // CharacterActualWW
-            // 
-            this.CharacterActualWW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterActualWW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterActualWW.Location = new System.Drawing.Point(352, 866);
-            this.CharacterActualWW.Name = "CharacterActualWW";
-            this.CharacterActualWW.Size = new System.Drawing.Size(71, 47);
-            this.CharacterActualWW.TabIndex = 34;
-            this.CharacterActualWW.ValueChanged += new System.EventHandler(this.CharacterActualWW_ValueChanged);
-            // 
-            // CharacterGrowthOgd
-            // 
-            this.CharacterGrowthOgd.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthOgd.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthOgd.Location = new System.Drawing.Point(856, 818);
-            this.CharacterGrowthOgd.Name = "CharacterGrowthOgd";
-            this.CharacterGrowthOgd.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthOgd.TabIndex = 33;
-            this.CharacterGrowthOgd.ValueChanged += new System.EventHandler(this.CharacterGrowthOgd_ValueChanged);
-            // 
-            // CharacterGrowthSW
-            // 
-            this.CharacterGrowthSW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthSW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthSW.Location = new System.Drawing.Point(784, 818);
-            this.CharacterGrowthSW.Name = "CharacterGrowthSW";
-            this.CharacterGrowthSW.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthSW.TabIndex = 32;
-            this.CharacterGrowthSW.ValueChanged += new System.EventHandler(this.CharacterGrowthSW_ValueChanged);
-            // 
-            // CharacterGrowthInt
-            // 
-            this.CharacterGrowthInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthInt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthInt.Location = new System.Drawing.Point(712, 818);
-            this.CharacterGrowthInt.Name = "CharacterGrowthInt";
-            this.CharacterGrowthInt.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthInt.TabIndex = 31;
-            this.CharacterGrowthInt.ValueChanged += new System.EventHandler(this.CharacterGrowthInt_ValueChanged);
-            // 
-            // CharacterGrowthZr
-            // 
-            this.CharacterGrowthZr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthZr.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthZr.Location = new System.Drawing.Point(640, 818);
-            this.CharacterGrowthZr.Name = "CharacterGrowthZr";
-            this.CharacterGrowthZr.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthZr.TabIndex = 30;
-            this.CharacterGrowthZr.ValueChanged += new System.EventHandler(this.CharacterGrowthZr_ValueChanged);
-            // 
-            // CharacterGrowthOdp
-            // 
-            this.CharacterGrowthOdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthOdp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthOdp.Location = new System.Drawing.Point(568, 818);
-            this.CharacterGrowthOdp.Name = "CharacterGrowthOdp";
-            this.CharacterGrowthOdp.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthOdp.TabIndex = 29;
-            this.CharacterGrowthOdp.ValueChanged += new System.EventHandler(this.CharacterGrowthOdp_ValueChanged);
-            // 
-            // CharacterGrowthK
-            // 
-            this.CharacterGrowthK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthK.Location = new System.Drawing.Point(496, 818);
-            this.CharacterGrowthK.Name = "CharacterGrowthK";
-            this.CharacterGrowthK.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthK.TabIndex = 28;
-            this.CharacterGrowthK.ValueChanged += new System.EventHandler(this.CharacterGrowthK_ValueChanged);
-            // 
-            // CharacterGrowthUS
-            // 
-            this.CharacterGrowthUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthUS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthUS.Location = new System.Drawing.Point(424, 818);
-            this.CharacterGrowthUS.Name = "CharacterGrowthUS";
-            this.CharacterGrowthUS.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthUS.TabIndex = 27;
-            this.CharacterGrowthUS.ValueChanged += new System.EventHandler(this.CharacterGrowthUS_ValueChanged);
-            // 
-            // CharacterGrowthWW
-            // 
-            this.CharacterGrowthWW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterGrowthWW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharacterGrowthWW.Location = new System.Drawing.Point(352, 818);
-            this.CharacterGrowthWW.Name = "CharacterGrowthWW";
-            this.CharacterGrowthWW.Size = new System.Drawing.Size(71, 47);
-            this.CharacterGrowthWW.TabIndex = 26;
-            this.CharacterGrowthWW.ValueChanged += new System.EventHandler(this.CharacterGrowthWW_ValueChanged);
-            // 
-            // CharacterStartingOgd
-            // 
-            this.CharacterStartingOgd.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingOgd.Location = new System.Drawing.Point(856, 770);
-            this.CharacterStartingOgd.Name = "CharacterStartingOgd";
-            this.CharacterStartingOgd.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingOgd.TabIndex = 25;
-            this.CharacterStartingOgd.ValueChanged += new System.EventHandler(this.CharacterStartingOgd_ValueChanged);
-            // 
-            // CharacterStartingSW
-            // 
-            this.CharacterStartingSW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingSW.Location = new System.Drawing.Point(784, 770);
-            this.CharacterStartingSW.Name = "CharacterStartingSW";
-            this.CharacterStartingSW.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingSW.TabIndex = 24;
-            this.CharacterStartingSW.ValueChanged += new System.EventHandler(this.CharacterStartingSW_ValueChanged);
-            // 
-            // CharacterStartingInt
-            // 
-            this.CharacterStartingInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingInt.Location = new System.Drawing.Point(712, 770);
-            this.CharacterStartingInt.Name = "CharacterStartingInt";
-            this.CharacterStartingInt.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingInt.TabIndex = 23;
-            this.CharacterStartingInt.ValueChanged += new System.EventHandler(this.CharacterStartingInt_ValueChanged);
-            // 
-            // CharacterStartingZr
-            // 
-            this.CharacterStartingZr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingZr.Location = new System.Drawing.Point(640, 770);
-            this.CharacterStartingZr.Name = "CharacterStartingZr";
-            this.CharacterStartingZr.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingZr.TabIndex = 22;
-            this.CharacterStartingZr.ValueChanged += new System.EventHandler(this.CharacterStartingZr_ValueChanged);
-            // 
-            // CharacterStartingOdp
-            // 
-            this.CharacterStartingOdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingOdp.Location = new System.Drawing.Point(568, 770);
-            this.CharacterStartingOdp.Name = "CharacterStartingOdp";
-            this.CharacterStartingOdp.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingOdp.TabIndex = 21;
-            this.CharacterStartingOdp.ValueChanged += new System.EventHandler(this.CharacterStartingOdp_ValueChanged);
-            // 
-            // CharacterStartingK
-            // 
-            this.CharacterStartingK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingK.Location = new System.Drawing.Point(496, 770);
-            this.CharacterStartingK.Name = "CharacterStartingK";
-            this.CharacterStartingK.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingK.TabIndex = 20;
-            this.CharacterStartingK.ValueChanged += new System.EventHandler(this.CharacterStartingK_ValueChanged);
-            // 
-            // CharacterStartingUS
-            // 
-            this.CharacterStartingUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingUS.Location = new System.Drawing.Point(424, 770);
-            this.CharacterStartingUS.Name = "CharacterStartingUS";
-            this.CharacterStartingUS.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingUS.TabIndex = 19;
-            this.CharacterStartingUS.ValueChanged += new System.EventHandler(this.CharacterStartingUS_ValueChanged);
-            // 
-            // CharacterStartingWW
-            // 
-            this.CharacterStartingWW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterStartingWW.Location = new System.Drawing.Point(352, 770);
-            this.CharacterStartingWW.Name = "CharacterStartingWW";
-            this.CharacterStartingWW.Size = new System.Drawing.Size(71, 47);
-            this.CharacterStartingWW.TabIndex = 18;
-            this.CharacterStartingWW.ValueChanged += new System.EventHandler(this.CharacterStartingWW_ValueChanged);
-            // 
             // CharacterFeatures
             // 
             this.CharacterFeatures.BackColor = System.Drawing.SystemColors.Window;
@@ -2475,33 +2013,6 @@
             this.LeftFlowPanel.Name = "LeftFlowPanel";
             this.LeftFlowPanel.Size = new System.Drawing.Size(200, 2175);
             this.LeftFlowPanel.TabIndex = 2;
-            // 
-            // CharacterMoneyP
-            // 
-            this.CharacterMoneyP.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterMoneyP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterMoneyP.Location = new System.Drawing.Point(1250, 2007);
-            this.CharacterMoneyP.Name = "CharacterMoneyP";
-            this.CharacterMoneyP.Size = new System.Drawing.Size(541, 43);
-            this.CharacterMoneyP.TabIndex = 378;
-            // 
-            // CharacterMoneyS
-            // 
-            this.CharacterMoneyS.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterMoneyS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterMoneyS.Location = new System.Drawing.Point(1250, 1962);
-            this.CharacterMoneyS.Name = "CharacterMoneyS";
-            this.CharacterMoneyS.Size = new System.Drawing.Size(541, 43);
-            this.CharacterMoneyS.TabIndex = 377;
-            // 
-            // CharacterMoneyZK
-            // 
-            this.CharacterMoneyZK.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterMoneyZK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterMoneyZK.Location = new System.Drawing.Point(1250, 1914);
-            this.CharacterMoneyZK.Name = "CharacterMoneyZK";
-            this.CharacterMoneyZK.Size = new System.Drawing.Size(541, 43);
-            this.CharacterMoneyZK.TabIndex = 376;
             // 
             // CharacterItem14
             // 
@@ -4560,9 +4071,507 @@
             // jSONDebugToolStripMenuItem
             // 
             this.jSONDebugToolStripMenuItem.Name = "jSONDebugToolStripMenuItem";
-            this.jSONDebugToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
-            this.jSONDebugToolStripMenuItem.Text = "JSON Debug";
+            this.jSONDebugToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
+            this.jSONDebugToolStripMenuItem.Text = "JSON Export";
             this.jSONDebugToolStripMenuItem.Click += new System.EventHandler(this.JSONDebugToolStripMenuItem_Click);
+            // 
+            // CharacterActualPP
+            // 
+            this.CharacterActualPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualPP.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualPP.Location = new System.Drawing.Point(856, 1058);
+            this.CharacterActualPP.Name = "CharacterActualPP";
+            this.CharacterActualPP.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualPP.TabIndex = 65;
+            this.CharacterActualPP.ValueChanged += new System.EventHandler(this.CharacterActualPP_ValueChanged);
+            // 
+            // CharacterActualPO
+            // 
+            this.CharacterActualPO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualPO.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualPO.Location = new System.Drawing.Point(784, 1058);
+            this.CharacterActualPO.Name = "CharacterActualPO";
+            this.CharacterActualPO.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualPO.TabIndex = 64;
+            this.CharacterActualPO.ValueChanged += new System.EventHandler(this.CharacterActualPO_ValueChanged);
+            // 
+            // CharacterActualMag
+            // 
+            this.CharacterActualMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualMag.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualMag.Location = new System.Drawing.Point(712, 1058);
+            this.CharacterActualMag.Name = "CharacterActualMag";
+            this.CharacterActualMag.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualMag.TabIndex = 63;
+            this.CharacterActualMag.ValueChanged += new System.EventHandler(this.CharacterActualMag_ValueChanged);
+            // 
+            // CharacterActualSz
+            // 
+            this.CharacterActualSz.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualSz.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualSz.Location = new System.Drawing.Point(640, 1058);
+            this.CharacterActualSz.Name = "CharacterActualSz";
+            this.CharacterActualSz.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualSz.TabIndex = 62;
+            this.CharacterActualSz.ValueChanged += new System.EventHandler(this.CharacterActualSz_ValueChanged);
+            // 
+            // CharacterActualWt
+            // 
+            this.CharacterActualWt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualWt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualWt.Location = new System.Drawing.Point(568, 1058);
+            this.CharacterActualWt.Name = "CharacterActualWt";
+            this.CharacterActualWt.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualWt.TabIndex = 61;
+            this.CharacterActualWt.ValueChanged += new System.EventHandler(this.CharacterActualWt_ValueChanged);
+            // 
+            // CharacterActualS
+            // 
+            this.CharacterActualS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualS.Location = new System.Drawing.Point(496, 1058);
+            this.CharacterActualS.Name = "CharacterActualS";
+            this.CharacterActualS.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualS.TabIndex = 60;
+            this.CharacterActualS.ValueChanged += new System.EventHandler(this.CharacterActualS_ValueChanged);
+            // 
+            // CharacterActualZyw
+            // 
+            this.CharacterActualZyw.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualZyw.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualZyw.Location = new System.Drawing.Point(424, 1058);
+            this.CharacterActualZyw.Name = "CharacterActualZyw";
+            this.CharacterActualZyw.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualZyw.TabIndex = 59;
+            this.CharacterActualZyw.ValueChanged += new System.EventHandler(this.CharacterActualZyw_ValueChanged);
+            // 
+            // CharacterActualA
+            // 
+            this.CharacterActualA.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualA.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualA.Location = new System.Drawing.Point(352, 1058);
+            this.CharacterActualA.Name = "CharacterActualA";
+            this.CharacterActualA.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualA.TabIndex = 58;
+            this.CharacterActualA.ValueChanged += new System.EventHandler(this.CharacterActualA_ValueChanged);
+            // 
+            // CharacterGrowthPP
+            // 
+            this.CharacterGrowthPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthPP.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthPP.Location = new System.Drawing.Point(856, 1010);
+            this.CharacterGrowthPP.Name = "CharacterGrowthPP";
+            this.CharacterGrowthPP.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthPP.TabIndex = 57;
+            this.CharacterGrowthPP.ValueChanged += new System.EventHandler(this.CharacterGrowthPP_ValueChanged);
+            // 
+            // CharacterGrowthPO
+            // 
+            this.CharacterGrowthPO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthPO.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthPO.Location = new System.Drawing.Point(784, 1010);
+            this.CharacterGrowthPO.Name = "CharacterGrowthPO";
+            this.CharacterGrowthPO.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthPO.TabIndex = 56;
+            this.CharacterGrowthPO.ValueChanged += new System.EventHandler(this.CharacterGrowthPO_ValueChanged);
+            // 
+            // CharacterGrowthMag
+            // 
+            this.CharacterGrowthMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthMag.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthMag.Location = new System.Drawing.Point(712, 1010);
+            this.CharacterGrowthMag.Name = "CharacterGrowthMag";
+            this.CharacterGrowthMag.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthMag.TabIndex = 55;
+            this.CharacterGrowthMag.ValueChanged += new System.EventHandler(this.CharacterGrowthMag_ValueChanged);
+            // 
+            // CharacterGrowthSz
+            // 
+            this.CharacterGrowthSz.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthSz.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthSz.Location = new System.Drawing.Point(640, 1010);
+            this.CharacterGrowthSz.Name = "CharacterGrowthSz";
+            this.CharacterGrowthSz.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthSz.TabIndex = 54;
+            this.CharacterGrowthSz.ValueChanged += new System.EventHandler(this.CharacterGrowthSz_ValueChanged);
+            // 
+            // CharacterGrowthWt
+            // 
+            this.CharacterGrowthWt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthWt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthWt.Location = new System.Drawing.Point(568, 1010);
+            this.CharacterGrowthWt.Name = "CharacterGrowthWt";
+            this.CharacterGrowthWt.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthWt.TabIndex = 53;
+            this.CharacterGrowthWt.ValueChanged += new System.EventHandler(this.CharacterGrowthWt_ValueChanged);
+            // 
+            // CharacterGrowthS
+            // 
+            this.CharacterGrowthS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthS.Location = new System.Drawing.Point(496, 1010);
+            this.CharacterGrowthS.Name = "CharacterGrowthS";
+            this.CharacterGrowthS.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthS.TabIndex = 52;
+            this.CharacterGrowthS.ValueChanged += new System.EventHandler(this.CharacterGrowthS_ValueChanged);
+            // 
+            // CharacterGrowthZyw
+            // 
+            this.CharacterGrowthZyw.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthZyw.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthZyw.Location = new System.Drawing.Point(424, 1010);
+            this.CharacterGrowthZyw.Name = "CharacterGrowthZyw";
+            this.CharacterGrowthZyw.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthZyw.TabIndex = 51;
+            this.CharacterGrowthZyw.ValueChanged += new System.EventHandler(this.CharacterGrowthZyw_ValueChanged);
+            // 
+            // CharacterGrowthA
+            // 
+            this.CharacterGrowthA.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthA.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthA.Location = new System.Drawing.Point(352, 1010);
+            this.CharacterGrowthA.Name = "CharacterGrowthA";
+            this.CharacterGrowthA.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthA.TabIndex = 50;
+            this.CharacterGrowthA.ValueChanged += new System.EventHandler(this.CharacterGrowthA_ValueChanged);
+            // 
+            // CharacterStartingPP
+            // 
+            this.CharacterStartingPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingPP.Location = new System.Drawing.Point(856, 962);
+            this.CharacterStartingPP.Name = "CharacterStartingPP";
+            this.CharacterStartingPP.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingPP.TabIndex = 49;
+            this.CharacterStartingPP.ValueChanged += new System.EventHandler(this.CharacterStartingPP_ValueChanged);
+            // 
+            // CharacterStartingPO
+            // 
+            this.CharacterStartingPO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingPO.Location = new System.Drawing.Point(784, 962);
+            this.CharacterStartingPO.Name = "CharacterStartingPO";
+            this.CharacterStartingPO.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingPO.TabIndex = 48;
+            this.CharacterStartingPO.ValueChanged += new System.EventHandler(this.CharacterStartingPO_ValueChanged);
+            // 
+            // CharacterStartingMag
+            // 
+            this.CharacterStartingMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingMag.Location = new System.Drawing.Point(712, 962);
+            this.CharacterStartingMag.Name = "CharacterStartingMag";
+            this.CharacterStartingMag.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingMag.TabIndex = 47;
+            this.CharacterStartingMag.ValueChanged += new System.EventHandler(this.CharacterStartingMag_ValueChanged);
+            // 
+            // CharacterStartingSz
+            // 
+            this.CharacterStartingSz.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingSz.Location = new System.Drawing.Point(640, 962);
+            this.CharacterStartingSz.Name = "CharacterStartingSz";
+            this.CharacterStartingSz.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingSz.TabIndex = 46;
+            this.CharacterStartingSz.ValueChanged += new System.EventHandler(this.CharacterStartingSz_ValueChanged);
+            // 
+            // CharacterStartingWt
+            // 
+            this.CharacterStartingWt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingWt.Location = new System.Drawing.Point(568, 962);
+            this.CharacterStartingWt.Name = "CharacterStartingWt";
+            this.CharacterStartingWt.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingWt.TabIndex = 45;
+            this.CharacterStartingWt.ValueChanged += new System.EventHandler(this.CharacterStartingWt_ValueChanged);
+            // 
+            // CharacterStartingS
+            // 
+            this.CharacterStartingS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingS.Location = new System.Drawing.Point(496, 962);
+            this.CharacterStartingS.Name = "CharacterStartingS";
+            this.CharacterStartingS.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingS.TabIndex = 44;
+            this.CharacterStartingS.ValueChanged += new System.EventHandler(this.CharacterStartingS_ValueChanged);
+            // 
+            // CharacterStartingZyw
+            // 
+            this.CharacterStartingZyw.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingZyw.Location = new System.Drawing.Point(424, 962);
+            this.CharacterStartingZyw.Name = "CharacterStartingZyw";
+            this.CharacterStartingZyw.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingZyw.TabIndex = 43;
+            this.CharacterStartingZyw.ValueChanged += new System.EventHandler(this.CharacterStartingZyw_ValueChanged);
+            // 
+            // CharacterStartingA
+            // 
+            this.CharacterStartingA.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingA.Location = new System.Drawing.Point(352, 962);
+            this.CharacterStartingA.Name = "CharacterStartingA";
+            this.CharacterStartingA.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingA.TabIndex = 42;
+            this.CharacterStartingA.ValueChanged += new System.EventHandler(this.CharacterStartingA_ValueChanged);
+            // 
+            // CharacterActualOgd
+            // 
+            this.CharacterActualOgd.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualOgd.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualOgd.Location = new System.Drawing.Point(856, 866);
+            this.CharacterActualOgd.Name = "CharacterActualOgd";
+            this.CharacterActualOgd.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualOgd.TabIndex = 41;
+            this.CharacterActualOgd.ValueChanged += new System.EventHandler(this.CharacterActualOgd_ValueChanged);
+            // 
+            // CharacterActualSW
+            // 
+            this.CharacterActualSW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualSW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualSW.Location = new System.Drawing.Point(784, 866);
+            this.CharacterActualSW.Name = "CharacterActualSW";
+            this.CharacterActualSW.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualSW.TabIndex = 40;
+            this.CharacterActualSW.ValueChanged += new System.EventHandler(this.CharacterActualSW_ValueChanged);
+            // 
+            // CharacterActualInt
+            // 
+            this.CharacterActualInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualInt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualInt.Location = new System.Drawing.Point(712, 866);
+            this.CharacterActualInt.Name = "CharacterActualInt";
+            this.CharacterActualInt.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualInt.TabIndex = 39;
+            this.CharacterActualInt.ValueChanged += new System.EventHandler(this.CharacterActualInt_ValueChanged);
+            // 
+            // CharacterActualZr
+            // 
+            this.CharacterActualZr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualZr.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualZr.Location = new System.Drawing.Point(640, 866);
+            this.CharacterActualZr.Name = "CharacterActualZr";
+            this.CharacterActualZr.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualZr.TabIndex = 38;
+            this.CharacterActualZr.ValueChanged += new System.EventHandler(this.CharacterActualZr_ValueChanged);
+            // 
+            // CharacterActualOdp
+            // 
+            this.CharacterActualOdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualOdp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualOdp.Location = new System.Drawing.Point(568, 866);
+            this.CharacterActualOdp.Name = "CharacterActualOdp";
+            this.CharacterActualOdp.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualOdp.TabIndex = 37;
+            this.CharacterActualOdp.ValueChanged += new System.EventHandler(this.CharacterActualOdp_ValueChanged);
+            // 
+            // CharacterActualK
+            // 
+            this.CharacterActualK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualK.Location = new System.Drawing.Point(496, 866);
+            this.CharacterActualK.Name = "CharacterActualK";
+            this.CharacterActualK.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualK.TabIndex = 36;
+            this.CharacterActualK.ValueChanged += new System.EventHandler(this.CharacterActualK_ValueChanged);
+            // 
+            // CharacterActualUS
+            // 
+            this.CharacterActualUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualUS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualUS.Location = new System.Drawing.Point(424, 866);
+            this.CharacterActualUS.Name = "CharacterActualUS";
+            this.CharacterActualUS.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualUS.TabIndex = 35;
+            this.CharacterActualUS.ValueChanged += new System.EventHandler(this.CharacterActualUS_ValueChanged);
+            // 
+            // CharacterActualWW
+            // 
+            this.CharacterActualWW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterActualWW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterActualWW.Location = new System.Drawing.Point(352, 866);
+            this.CharacterActualWW.Name = "CharacterActualWW";
+            this.CharacterActualWW.Size = new System.Drawing.Size(71, 47);
+            this.CharacterActualWW.TabIndex = 34;
+            this.CharacterActualWW.ValueChanged += new System.EventHandler(this.CharacterActualWW_ValueChanged);
+            // 
+            // CharacterGrowthOgd
+            // 
+            this.CharacterGrowthOgd.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthOgd.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthOgd.Location = new System.Drawing.Point(856, 818);
+            this.CharacterGrowthOgd.Name = "CharacterGrowthOgd";
+            this.CharacterGrowthOgd.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthOgd.TabIndex = 33;
+            this.CharacterGrowthOgd.ValueChanged += new System.EventHandler(this.CharacterGrowthOgd_ValueChanged);
+            // 
+            // CharacterGrowthSW
+            // 
+            this.CharacterGrowthSW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthSW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthSW.Location = new System.Drawing.Point(784, 818);
+            this.CharacterGrowthSW.Name = "CharacterGrowthSW";
+            this.CharacterGrowthSW.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthSW.TabIndex = 32;
+            this.CharacterGrowthSW.ValueChanged += new System.EventHandler(this.CharacterGrowthSW_ValueChanged);
+            // 
+            // CharacterGrowthInt
+            // 
+            this.CharacterGrowthInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthInt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthInt.Location = new System.Drawing.Point(712, 818);
+            this.CharacterGrowthInt.Name = "CharacterGrowthInt";
+            this.CharacterGrowthInt.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthInt.TabIndex = 31;
+            this.CharacterGrowthInt.ValueChanged += new System.EventHandler(this.CharacterGrowthInt_ValueChanged);
+            // 
+            // CharacterGrowthZr
+            // 
+            this.CharacterGrowthZr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthZr.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthZr.Location = new System.Drawing.Point(640, 818);
+            this.CharacterGrowthZr.Name = "CharacterGrowthZr";
+            this.CharacterGrowthZr.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthZr.TabIndex = 30;
+            this.CharacterGrowthZr.ValueChanged += new System.EventHandler(this.CharacterGrowthZr_ValueChanged);
+            // 
+            // CharacterGrowthOdp
+            // 
+            this.CharacterGrowthOdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthOdp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthOdp.Location = new System.Drawing.Point(568, 818);
+            this.CharacterGrowthOdp.Name = "CharacterGrowthOdp";
+            this.CharacterGrowthOdp.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthOdp.TabIndex = 29;
+            this.CharacterGrowthOdp.ValueChanged += new System.EventHandler(this.CharacterGrowthOdp_ValueChanged);
+            // 
+            // CharacterGrowthK
+            // 
+            this.CharacterGrowthK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthK.Location = new System.Drawing.Point(496, 818);
+            this.CharacterGrowthK.Name = "CharacterGrowthK";
+            this.CharacterGrowthK.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthK.TabIndex = 28;
+            this.CharacterGrowthK.ValueChanged += new System.EventHandler(this.CharacterGrowthK_ValueChanged);
+            // 
+            // CharacterGrowthUS
+            // 
+            this.CharacterGrowthUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthUS.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthUS.Location = new System.Drawing.Point(424, 818);
+            this.CharacterGrowthUS.Name = "CharacterGrowthUS";
+            this.CharacterGrowthUS.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthUS.TabIndex = 27;
+            this.CharacterGrowthUS.ValueChanged += new System.EventHandler(this.CharacterGrowthUS_ValueChanged);
+            // 
+            // CharacterGrowthWW
+            // 
+            this.CharacterGrowthWW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterGrowthWW.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CharacterGrowthWW.Location = new System.Drawing.Point(352, 818);
+            this.CharacterGrowthWW.Name = "CharacterGrowthWW";
+            this.CharacterGrowthWW.Size = new System.Drawing.Size(71, 47);
+            this.CharacterGrowthWW.TabIndex = 26;
+            this.CharacterGrowthWW.ValueChanged += new System.EventHandler(this.CharacterGrowthWW_ValueChanged);
+            // 
+            // CharacterStartingOgd
+            // 
+            this.CharacterStartingOgd.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingOgd.Location = new System.Drawing.Point(856, 770);
+            this.CharacterStartingOgd.Name = "CharacterStartingOgd";
+            this.CharacterStartingOgd.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingOgd.TabIndex = 25;
+            this.CharacterStartingOgd.ValueChanged += new System.EventHandler(this.CharacterStartingOgd_ValueChanged);
+            // 
+            // CharacterStartingSW
+            // 
+            this.CharacterStartingSW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingSW.Location = new System.Drawing.Point(784, 770);
+            this.CharacterStartingSW.Name = "CharacterStartingSW";
+            this.CharacterStartingSW.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingSW.TabIndex = 24;
+            this.CharacterStartingSW.ValueChanged += new System.EventHandler(this.CharacterStartingSW_ValueChanged);
+            // 
+            // CharacterStartingInt
+            // 
+            this.CharacterStartingInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingInt.Location = new System.Drawing.Point(712, 770);
+            this.CharacterStartingInt.Name = "CharacterStartingInt";
+            this.CharacterStartingInt.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingInt.TabIndex = 23;
+            this.CharacterStartingInt.ValueChanged += new System.EventHandler(this.CharacterStartingInt_ValueChanged);
+            // 
+            // CharacterStartingZr
+            // 
+            this.CharacterStartingZr.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingZr.Location = new System.Drawing.Point(640, 770);
+            this.CharacterStartingZr.Name = "CharacterStartingZr";
+            this.CharacterStartingZr.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingZr.TabIndex = 22;
+            this.CharacterStartingZr.ValueChanged += new System.EventHandler(this.CharacterStartingZr_ValueChanged);
+            // 
+            // CharacterStartingOdp
+            // 
+            this.CharacterStartingOdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingOdp.Location = new System.Drawing.Point(568, 770);
+            this.CharacterStartingOdp.Name = "CharacterStartingOdp";
+            this.CharacterStartingOdp.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingOdp.TabIndex = 21;
+            this.CharacterStartingOdp.ValueChanged += new System.EventHandler(this.CharacterStartingOdp_ValueChanged);
+            // 
+            // CharacterStartingK
+            // 
+            this.CharacterStartingK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingK.Location = new System.Drawing.Point(496, 770);
+            this.CharacterStartingK.Name = "CharacterStartingK";
+            this.CharacterStartingK.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingK.TabIndex = 20;
+            this.CharacterStartingK.ValueChanged += new System.EventHandler(this.CharacterStartingK_ValueChanged);
+            // 
+            // CharacterStartingUS
+            // 
+            this.CharacterStartingUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingUS.Location = new System.Drawing.Point(424, 770);
+            this.CharacterStartingUS.Name = "CharacterStartingUS";
+            this.CharacterStartingUS.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingUS.TabIndex = 19;
+            this.CharacterStartingUS.ValueChanged += new System.EventHandler(this.CharacterStartingUS_ValueChanged);
+            // 
+            // CharacterStartingWW
+            // 
+            this.CharacterStartingWW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterStartingWW.Location = new System.Drawing.Point(352, 770);
+            this.CharacterStartingWW.Name = "CharacterStartingWW";
+            this.CharacterStartingWW.Size = new System.Drawing.Size(71, 47);
+            this.CharacterStartingWW.TabIndex = 18;
+            this.CharacterStartingWW.ValueChanged += new System.EventHandler(this.CharacterStartingWW_ValueChanged);
+            // 
+            // CharacterMoneyP
+            // 
+            this.CharacterMoneyP.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterMoneyP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterMoneyP.Location = new System.Drawing.Point(1250, 2007);
+            this.CharacterMoneyP.Name = "CharacterMoneyP";
+            this.CharacterMoneyP.Size = new System.Drawing.Size(541, 43);
+            this.CharacterMoneyP.TabIndex = 378;
+            // 
+            // CharacterMoneyS
+            // 
+            this.CharacterMoneyS.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterMoneyS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterMoneyS.Location = new System.Drawing.Point(1250, 1962);
+            this.CharacterMoneyS.Name = "CharacterMoneyS";
+            this.CharacterMoneyS.Size = new System.Drawing.Size(541, 43);
+            this.CharacterMoneyS.TabIndex = 377;
+            // 
+            // CharacterMoneyZK
+            // 
+            this.CharacterMoneyZK.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterMoneyZK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterMoneyZK.Location = new System.Drawing.Point(1250, 1914);
+            this.CharacterMoneyZK.Name = "CharacterMoneyZK";
+            this.CharacterMoneyZK.Size = new System.Drawing.Size(541, 43);
+            this.CharacterMoneyZK.TabIndex = 376;
+            // 
+            // jSONImportToolStripMenuItem
+            // 
+            this.jSONImportToolStripMenuItem.Name = "jSONImportToolStripMenuItem";
+            this.jSONImportToolStripMenuItem.Size = new System.Drawing.Size(86, 20);
+            this.jSONImportToolStripMenuItem.Text = "JSON Import";
+            this.jSONImportToolStripMenuItem.Click += new System.EventHandler(this.JSONImportToolStripMenuItem_Click);
             // 
             // MainWindow
             // 
@@ -4584,6 +4593,9 @@
             this.BottomStatusStrip.PerformLayout();
             this.MainPanel.ResumeLayout(false);
             this.MainPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.FirstPictureBox)).EndInit();
+            this.PageMenuStrip.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SecondPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualPP)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualPO)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualMag)).EndInit();
@@ -4632,12 +4644,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingK)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingUS)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingWW)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FirstPictureBox)).EndInit();
-            this.PageMenuStrip.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyP)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyS)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyZK)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SecondPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -5032,6 +5041,7 @@
         private System.Windows.Forms.TextBox CharacterAbility1;
         private System.Windows.Forms.TextBox CharacterItemWeight1;
         private System.Windows.Forms.ToolStripMenuItem jSONDebugToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem jSONImportToolStripMenuItem;
     }
 }
 
