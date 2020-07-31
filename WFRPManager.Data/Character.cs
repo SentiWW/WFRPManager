@@ -38,45 +38,10 @@ namespace WFRPManager.Data
         public string MovementRetreat { get; set; }
         public string Charge { get; set; }
         public string Sprint { get; set; }
-
-        public List<Trait> Traits = new List<Trait>()
-        {
-            new Trait(TRAITNAME.WW),
-            new Trait(TRAITNAME.US),
-            new Trait(TRAITNAME.K),
-            new Trait(TRAITNAME.Odp),
-            new Trait(TRAITNAME.Zr),
-            new Trait(TRAITNAME.Int),
-            new Trait(TRAITNAME.SW),
-            new Trait(TRAITNAME.Ogd),
-            new Trait(TRAITNAME.A),
-            new Trait(TRAITNAME.Zyw),
-            new Trait(TRAITNAME.S),
-            new Trait(TRAITNAME.Wt),
-            new Trait(TRAITNAME.Sz),
-            new Trait(TRAITNAME.Mag),
-            new Trait(TRAITNAME.PO),
-            new Trait(TRAITNAME.PP)
-        };
-        public List<Weapon> Weapons = new List<Weapon>()
-        {
-            new Weapon(),
-            new Weapon(),
-            new Weapon(),
-            new Weapon(),
-            new Weapon(),
-            new Weapon()
-        };
-        public SimpleArmor SArmor = new SimpleArmor();
-        public List<AdvancedArmor> Armors = new List<AdvancedArmor>()
-        {
-            new AdvancedArmor(),
-            new AdvancedArmor(),
-            new AdvancedArmor(),
-            new AdvancedArmor(),
-            new AdvancedArmor(),
-            new AdvancedArmor()
-        };
+        public List<Trait> Traits { get; set; }
+        public List<Weapon> Weapons { get; set; }
+        public SimpleArmor SArmor { get; set; }
+        public List<AdvancedArmor> Armors { get; set; }
 
 #if DEBUG
         public void Debug()
@@ -91,5 +56,50 @@ namespace WFRPManager.Data
             }
         }
 #endif
+
+        public Character()
+        {
+            Traits = new List<Trait>()
+            {
+                new Trait(TRAITNAME.WW),
+                new Trait(TRAITNAME.US),
+                new Trait(TRAITNAME.K),
+                new Trait(TRAITNAME.Odp),
+                new Trait(TRAITNAME.Zr),
+                new Trait(TRAITNAME.Int),
+                new Trait(TRAITNAME.SW),
+                new Trait(TRAITNAME.Ogd),
+                new Trait(TRAITNAME.A),
+                new Trait(TRAITNAME.Zyw),
+                new Trait(TRAITNAME.S),
+                new Trait(TRAITNAME.Wt),
+                new Trait(TRAITNAME.Sz),
+                new Trait(TRAITNAME.Mag),
+                new Trait(TRAITNAME.PO),
+                new Trait(TRAITNAME.PP)
+            };
+
+            Weapons = new List<Weapon>()
+            {
+                new Weapon(),
+                new Weapon(),
+                new Weapon(),
+                new Weapon(),
+                new Weapon(),
+                new Weapon()
+            };
+
+            SArmor = new SimpleArmor();
+
+            Armors = new List<AdvancedArmor>()
+            {
+                new AdvancedArmor(),
+                new AdvancedArmor(),
+                new AdvancedArmor(),
+                new AdvancedArmor(),
+                new AdvancedArmor(),
+                new AdvancedArmor()
+            };
+        }
     }
 }

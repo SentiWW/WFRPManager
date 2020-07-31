@@ -23,7 +23,8 @@ namespace WFRPManager.Data
         Sz = 12,
         Mag = 13,
         PO = 14,
-        PP = 15
+        PP = 15,
+        NULL = 16
     };
     public class Trait
     {
@@ -32,6 +33,13 @@ namespace WFRPManager.Data
         public int Growth { get; set; }
         public int Actual { get; set; }
 
+        public Trait()
+        {
+            this.Name = TRAITNAME.NULL;
+            this.Starting = 0;
+            this.Growth = 0;
+            this.Actual = 0;
+        }
         public Trait(TRAITNAME Name)
         {
             this.Name = Name;

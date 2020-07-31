@@ -578,28 +578,6 @@ namespace WFRPManager.UI
             }
         }
 
-        private async Task RefreshControls()
-        {
-            foreach (var element in FirstPageTextBoxs)
-                element.Update();
-            await Task.Delay(0);
-
-            foreach (var element in FirstPageNumericUpDown)
-                element.Update();
-                await Task.Delay(0);
-
-            foreach (var element in SecondPageTextBoxs)
-                element.Update();
-            await Task.Delay(0);
-
-            foreach (var element in SecondPageCheckBoxs)
-                element.Update();
-            await Task.Delay(0);
-
-            foreach (var element in SecondPageNumericUpDown)
-                element.Update();
-        }
-
         private void NextPage_Click(object sender, EventArgs e) => _ = SwitchPage();
 
         private void TurnPageMenuStripOption_Click(object sender, EventArgs e) => _ = SwitchPage();
@@ -909,7 +887,7 @@ namespace WFRPManager.UI
         private void JSONImportToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CurrentCharacter = Serialization.ImportFromJSON();
-            RefreshControls();
+            MessageBox.Show(CurrentCharacter.ToString());
         }
     }
 }
