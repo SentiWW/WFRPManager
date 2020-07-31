@@ -9,8 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WFRPManager.Logic;
+using WFRPManager.Data;
 
-namespace WFRPManager
+namespace WFRPManager.UI
 {
     public partial class MainWindow : Form
     {

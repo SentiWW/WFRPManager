@@ -99,12 +99,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WFRPManager.Logic\WFRPManager.Logic.csproj">
-      <Project>{6680ec6a-6b93-46ea-8448-4ec9731a9cd6}</Project>
-      <Name>WFRPManager.Logic</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
@@ -123,6 +117,16 @@
     <Content Include="resources\w1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WFRPManager.Data\WFRPManager.Data.csproj">
+      <Project>{a788629b-52a4-4c3d-b5f4-c36bfd5323d3}</Project>
+      <Name>WFRPManager.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WFRPManager.Logic\WFRPManager.Logic.csproj">
+      <Project>{6680ec6a-6b93-46ea-8448-4ec9731a9cd6}</Project>
+      <Name>WFRPManager.Logic</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

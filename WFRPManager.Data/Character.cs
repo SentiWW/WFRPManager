@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace WFRPManager.Logic
+namespace WFRPManager.Data
 {
     public class Character
     {

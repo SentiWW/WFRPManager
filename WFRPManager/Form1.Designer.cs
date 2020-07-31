@@ -1,4 +1,4 @@
-﻿namespace WFRPManager
+﻿namespace WFRPManager.UI
 {
     partial class MainWindow
     {
