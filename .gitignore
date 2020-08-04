@@ -3,8 +3,11 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-# Debug log
+# Debug files
 debug_log.txt
+debug.json
+debug2.json
+importeddebug.json
 
 # User-specific files
 *.rsuser

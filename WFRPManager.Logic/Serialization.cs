@@ -12,10 +12,16 @@ namespace WFRPManager.Logic
 {
     public class Serialization
     {
+        private static string WorkingDirectory { get; set; }
+
+        private static void GetWorkingDirectory()
+        {
+            WorkingDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+        }
         public static void ExportToJSON(Character character)
         {
             string json = Newtonsoft.Json.JsonConvert.SerializeObject(character, Newtonsoft.Json.Formatting.Indented);
-            using (StreamWriter sw = new StreamWriter($"{Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)}\\debug.json"))
+            using (StreamWriter sw = new StreamWriter($"{WorkingDirectory}\\debug.json"))
             {
                 sw.Write(json);
                 sw.Close();
@@ -23,17 +29,18 @@ namespace WFRPManager.Logic
         }
         public static Character ImportFromJSON()
         {
-            using (StreamReader sr = File.OpenText($"{Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)}\\debug.json"))
+            using (StreamReader sr = File.OpenText($"{WorkingDirectory}\\debug.json"))
             {
                 string json = sr.ReadToEnd();
-                using (StreamWriter sw = new StreamWriter($"{Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)}\\debug2.json"))
+                using (StreamWriter sw = new StreamWriter($"{WorkingDirectory}\\debug2.json"))
                 {
                     Task.Run(() => sw.Write(json));
                     sw.Close();
                 }
-                Character character = (Character)Newtonsoft.Json.JsonConvert.DeserializeObject<Character>(json);
+                Character character = Newtonsoft.Json.JsonConvert.DeserializeObject<Character>(json);
                 return character;
             }
         }
+        public Serialization() => GetWorkingDirectory();
     }
 }

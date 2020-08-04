@@ -128,7 +128,7 @@
       <Name>WFRPManager.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\WFRPManager.Logic\WFRPManager.Logic.csproj">
-      <Project>{6680ec6a-6b93-46ea-8448-4ec9731a9cd6}</Project>
+      <Project>{0bb962b9-f8ca-4745-a69a-24ec9340733d}</Project>
       <Name>WFRPManager.Logic</Name>
     </ProjectReference>
   </ItemGroup>

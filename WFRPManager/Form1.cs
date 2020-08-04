@@ -16,28 +16,30 @@ namespace WFRPManager.UI
     public partial class MainWindow : Form
     {
         private List<TextBox> FirstPageTextBoxsTemp = new List<TextBox>();
-        private LinkedList<TextBox> FirstPageTextBoxs = new LinkedList<TextBox>();
         private List<NumericUpDownNoScroll> FirstPageNumericUpDownTemp = new List<NumericUpDownNoScroll>();
-        private LinkedList<NumericUpDownNoScroll> FirstPageNumericUpDown = new LinkedList<NumericUpDownNoScroll>();
         private List<TextBox> SecondPageTextBoxsTemp = new List<TextBox>();
-        private LinkedList<TextBox> SecondPageTextBoxs = new LinkedList<TextBox>();
         private List<CheckBox> SecondPageCheckBoxsTemp = new List<CheckBox>();
-        private LinkedList<CheckBox> SecondPageCheckBoxs = new LinkedList<CheckBox>();
         private List<NumericUpDownNoScroll> SecondPageNumericUpDownTemp = new List<NumericUpDownNoScroll>();
+
+        private LinkedList<TextBox> FirstPageTextBoxs = new LinkedList<TextBox>();
+        private LinkedList<NumericUpDownNoScroll> FirstPageNumericUpDown = new LinkedList<NumericUpDownNoScroll>();
+        private LinkedList<TextBox> SecondPageTextBoxs = new LinkedList<TextBox>();
+        private LinkedList<CheckBox> SecondPageCheckBoxs = new LinkedList<CheckBox>();
         private LinkedList<NumericUpDownNoScroll> SecondPageNumericUpDown = new LinkedList<NumericUpDownNoScroll>();
+
         private Player CurrentPlayer = new Player();
         private Character CurrentCharacter = new Character();
 
         public MainWindow()
         {
             InitializeComponent();
-            _ = FillElementsToLinkedList();
-            _ = EnableSecondPage(false);
+            _ = FillElementsToLinkedListAsync();
+            _ = EnableSecondPageAsync(false);
         }
 
-        private async Task FillElementsToLinkedList()
+        private async Task FillElementsToLinkedListAsync()
         {
-            _ = FillElementsLists();
+            _ = FillElementsListsAsync();
             foreach (var element in FirstPageTextBoxsTemp)
                 FirstPageTextBoxs.AddLast(element);
             FirstPageTextBoxsTemp.Clear();
@@ -63,7 +65,7 @@ namespace WFRPManager.UI
             SecondPageNumericUpDownTemp.Clear();
         }
 
-        private async Task FillElementsLists()
+        private async Task FillElementsListsAsync()
         {
             FirstPageTextBoxsTemp.AddRange(new List<TextBox>()
             {
@@ -77,7 +79,7 @@ namespace WFRPManager.UI
                 CharacterAge,
                 CharacterEyeColor,
                 CharacterHairColor,
-                CharacterStartSign,
+                CharacterStarSign,
                 CharacterBirthplace,
                 CharacterFeatures,
                 CharacterSex,
@@ -500,7 +502,7 @@ namespace WFRPManager.UI
             });
         }
 
-        private async Task EnablePictureBox(bool enable, PictureBox picture)
+        private async Task EnablePictureBoxAsync(bool enable, PictureBox picture)
         {
             if (enable)
             {
@@ -514,7 +516,7 @@ namespace WFRPManager.UI
             }
         }
 
-        private async Task EnableFirstPage(bool enable)
+        private async Task EnableFirstPageAsync(bool enable)
         {
             foreach (var element in FirstPageTextBoxs)
             {
@@ -530,12 +532,12 @@ namespace WFRPManager.UI
             }
             await Task.Delay(0);
             if (enable)
-                await EnablePictureBox(true, FirstPictureBox);
+                await EnablePictureBoxAsync(true, FirstPictureBox);
             else
-                await EnablePictureBox(false, FirstPictureBox);
+                await EnablePictureBoxAsync(false, FirstPictureBox);
         }
 
-        private async Task EnableSecondPage(bool enable)
+        private async Task EnableSecondPageAsync(bool enable)
         {
             foreach (var element in SecondPageTextBoxs)
             {
@@ -559,39 +561,71 @@ namespace WFRPManager.UI
             await Task.Delay(0);
 
             if (enable)
-                await EnablePictureBox(true, SecondPictureBox);
+                await EnablePictureBoxAsync(true, SecondPictureBox);
             else
-                await EnablePictureBox(false, SecondPictureBox);
+                await EnablePictureBoxAsync(false, SecondPictureBox);
         }
 
-        private async Task SwitchPage()
+        private async Task SwitchPageAsync()
         {
             if (FirstPictureBox.Enabled)
             {
-                await EnableFirstPage(false);
-                await EnableSecondPage(true);
+                await EnableFirstPageAsync(false);
+                await EnableSecondPageAsync(true);
             }
             else
             {
-                await EnableSecondPage(false);
-                await EnableFirstPage(true);
+                await EnableSecondPageAsync(false);
+                await EnableFirstPageAsync(true);
             }
         }
 
-        private void NextPage_Click(object sender, EventArgs e) => _ = SwitchPage();
+        private async Task RefreshAsync()
+        {
+            CharacterName.Text = CurrentCharacter.Name;
+            CharacterRace.Text = CurrentCharacter.Race;
+            CharacterCurrentRole.Text = CurrentCharacter.CurrentRole;
+            CharacterPreviousRole.Text = CurrentCharacter.PreviousRole;
+            CharacterAge.Text = CurrentCharacter.Age;
+            CharacterEyeColor.Text = CurrentCharacter.EyeColor;
+            CharacterHairColor.Text = CurrentCharacter.HairColor;
+            CharacterStarSign.Text = CurrentCharacter.StarSign;
+            CharacterBirthplace.Text = CurrentCharacter.Birthplace;
+            CharacterFeatures.Text = CurrentCharacter.Features;
+            CharacterSex.Text = CurrentCharacter.Sex;
+            CharacterWeight.Text = CurrentCharacter.Weight;
+            CharacterHeight.Text = CurrentCharacter.Height;
+            CharacterSiblings.Text = CurrentCharacter.Siblings;
+            CharacterHead.Text = CurrentCharacter.Head;
+            CharacterBody.Text = CurrentCharacter.Body;
+            CharacterLeftArm.Text = CurrentCharacter.LeftArm;
+            CharacterRightArm.Text = CurrentCharacter.RightArm;
+            CharacterLeftLeg.Text = CurrentCharacter.LeftLeg;
+            CharacterRightLeg.Text = CurrentCharacter.RightLeg;
+            CharacterCurrentXP.Text = CurrentCharacter.CurrentXP;
+            CharacterTotalXP.Text = CurrentCharacter.TotalXP;
+            CharacterMovementRetreat.Text = CurrentCharacter.MovementRetreat;
+            CharacterCharge.Text = CurrentCharacter.Charge;
+            CharacterSprint.Text = CurrentCharacter.Sprint;
+        }
 
-        private void TurnPageMenuStripOption_Click(object sender, EventArgs e) => _ = SwitchPage();
+        private void NextPage_Click(object sender, EventArgs e) => _ = SwitchPageAsync();
+
+        private void TurnPageMenuStripOption_Click(object sender, EventArgs e) => _ = SwitchPageAsync();
+
+        private void PlaceholderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+#if Debug
+            MessageBox.Show("Dane testowe zapisane w pliku.");
+
+            CurrentCharacter.Debug();
+#endif
+        }
 
         //
         //  Update data localy on input
         //
         #region firstpage
-        private void PlaceholderToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Dane testowe zapisane w pliku.");
-            CurrentCharacter.Debug();
-        }
-
         private void CharacterName_TextChanged(object sender, EventArgs e) => CurrentCharacter.Name = CharacterName.Text;
 
         private void CharacterRace_TextChanged(object sender, EventArgs e) => CurrentCharacter.Race = CharacterRace.Text;
@@ -606,7 +640,7 @@ namespace WFRPManager.UI
 
         private void CharacterHairColor_TextChanged(object sender, EventArgs e) => CurrentCharacter.HairColor = CharacterHairColor.Text;
 
-        private void CharacterStartSign_TextChanged(object sender, EventArgs e) => CurrentCharacter.StarSign = CharacterStartSign.Text;
+        private void CharacterStartSign_TextChanged(object sender, EventArgs e) => CurrentCharacter.StarSign = CharacterStarSign.Text;
 
         private void CharacterBirthplace_TextChanged(object sender, EventArgs e) => CurrentCharacter.Birthplace = CharacterBirthplace.Text;
 
@@ -881,13 +915,13 @@ namespace WFRPManager.UI
         private void AdvancedArmorLocation6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[5].PZ = AdvancedArmorPZ6.Text;
 
         private void AdvancedArmorPZ6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[5].PZ = AdvancedArmorPZ6.Text;
-        #endregion
+#endregion
         private void JSONDebugToolStripMenuItem_Click(object sender, EventArgs e) => Serialization.ExportToJSON(CurrentCharacter);
 
         private void JSONImportToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CurrentCharacter = Serialization.ImportFromJSON();
-            MessageBox.Show(CurrentCharacter.ToString());
+            RefreshAsync();
         }
     }
 }
