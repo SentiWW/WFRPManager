@@ -40,7 +40,7 @@ namespace WFRPManager.Data
             this.Growth = 0;
             this.Actual = 0;
         }
-        public Trait(TRAITNAME Name)
+        public Trait(TRAITNAME Name) : this()
         {
             this.Name = Name;
             this.Starting = 0;

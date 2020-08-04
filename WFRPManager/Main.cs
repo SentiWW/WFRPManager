@@ -582,31 +582,83 @@ namespace WFRPManager.UI
 
         private async Task RefreshAsync()
         {
-            CharacterName.Text = CurrentCharacter.Name;
-            CharacterRace.Text = CurrentCharacter.Race;
-            CharacterCurrentRole.Text = CurrentCharacter.CurrentRole;
-            CharacterPreviousRole.Text = CurrentCharacter.PreviousRole;
-            CharacterAge.Text = CurrentCharacter.Age;
-            CharacterEyeColor.Text = CurrentCharacter.EyeColor;
-            CharacterHairColor.Text = CurrentCharacter.HairColor;
-            CharacterStarSign.Text = CurrentCharacter.StarSign;
-            CharacterBirthplace.Text = CurrentCharacter.Birthplace;
-            CharacterFeatures.Text = CurrentCharacter.Features;
-            CharacterSex.Text = CurrentCharacter.Sex;
-            CharacterWeight.Text = CurrentCharacter.Weight;
-            CharacterHeight.Text = CurrentCharacter.Height;
-            CharacterSiblings.Text = CurrentCharacter.Siblings;
-            CharacterHead.Text = CurrentCharacter.Head;
-            CharacterBody.Text = CurrentCharacter.Body;
-            CharacterLeftArm.Text = CurrentCharacter.LeftArm;
-            CharacterRightArm.Text = CurrentCharacter.RightArm;
-            CharacterLeftLeg.Text = CurrentCharacter.LeftLeg;
-            CharacterRightLeg.Text = CurrentCharacter.RightLeg;
-            CharacterCurrentXP.Text = CurrentCharacter.CurrentXP;
-            CharacterTotalXP.Text = CurrentCharacter.TotalXP;
-            CharacterMovementRetreat.Text = CurrentCharacter.MovementRetreat;
-            CharacterCharge.Text = CurrentCharacter.Charge;
-            CharacterSprint.Text = CurrentCharacter.Sprint;
+            await Task.Run(() =>
+            {
+                CharacterName.Text = CurrentCharacter.Name;
+                CharacterRace.Text = CurrentCharacter.Race;
+                CharacterCurrentRole.Text = CurrentCharacter.CurrentRole;
+                CharacterPreviousRole.Text = CurrentCharacter.PreviousRole;
+                CharacterAge.Text = CurrentCharacter.Age;
+                CharacterEyeColor.Text = CurrentCharacter.EyeColor;
+                CharacterHairColor.Text = CurrentCharacter.HairColor;
+                CharacterStarSign.Text = CurrentCharacter.StarSign;
+                CharacterBirthplace.Text = CurrentCharacter.Birthplace;
+                CharacterFeatures.Text = CurrentCharacter.Features;
+                CharacterSex.Text = CurrentCharacter.Sex;
+                CharacterWeight.Text = CurrentCharacter.Weight;
+                CharacterHeight.Text = CurrentCharacter.Height;
+                CharacterSiblings.Text = CurrentCharacter.Siblings;
+                CharacterHead.Text = CurrentCharacter.Head;
+                CharacterBody.Text = CurrentCharacter.Body;
+                CharacterLeftArm.Text = CurrentCharacter.LeftArm;
+                CharacterRightArm.Text = CurrentCharacter.RightArm;
+                CharacterLeftLeg.Text = CurrentCharacter.LeftLeg;
+                CharacterRightLeg.Text = CurrentCharacter.RightLeg;
+                CharacterCurrentXP.Text = CurrentCharacter.CurrentXP;
+                CharacterTotalXP.Text = CurrentCharacter.TotalXP;
+                CharacterMovementRetreat.Text = CurrentCharacter.MovementRetreat;
+                CharacterCharge.Text = CurrentCharacter.Charge;
+                CharacterSprint.Text = CurrentCharacter.Sprint;
+
+                CharacterStartingWW.Value = CurrentCharacter.Traits[0].Starting;
+                CharacterGrowthWW.Value = CurrentCharacter.Traits[0].Growth;
+                CharacterActualWW.Value = CurrentCharacter.Traits[0].Actual;
+                CharacterStartingUS.Value = CurrentCharacter.Traits[1].Starting;
+                CharacterGrowthUS.Value = CurrentCharacter.Traits[1].Growth;
+                CharacterActualUS.Value = CurrentCharacter.Traits[1].Actual;
+                CharacterStartingK.Value = CurrentCharacter.Traits[2].Starting;
+                CharacterGrowthK.Value = CurrentCharacter.Traits[2].Growth;
+                CharacterActualK.Value = CurrentCharacter.Traits[2].Actual;
+                //CurrentCharacter.Traits[3].Starting = (int)CharacterStartingOdp.Value;
+                //CurrentCharacter.Traits[3].Growth = (int)CharacterGrowthOdp.Value;
+                //CurrentCharacter.Traits[3].Actual = (int)CharacterActualOdp.Value;
+                //CurrentCharacter.Traits[4].Starting = (int)CharacterStartingZr.Value;
+                //CurrentCharacter.Traits[4].Growth = (int)CharacterGrowthZr.Value;
+                //CurrentCharacter.Traits[4].Actual = (int)CharacterActualZr.Value;
+                //CurrentCharacter.Traits[5].Starting = (int)CharacterStartingInt.Value;
+                //CurrentCharacter.Traits[5].Growth = (int)CharacterGrowthInt.Value;
+                //CurrentCharacter.Traits[5].Actual = (int)CharacterActualInt.Value;
+                //CurrentCharacter.Traits[6].Starting = (int)CharacterStartingSW.Value;
+                //CurrentCharacter.Traits[6].Growth = (int)CharacterGrowthSW.Value;
+                //CurrentCharacter.Traits[6].Actual = (int)CharacterActualSW.Value;
+                //CurrentCharacter.Traits[7].Starting = (int)CharacterStartingOgd.Value;
+                //CurrentCharacter.Traits[7].Growth = (int)CharacterGrowthOgd.Value;
+                //CurrentCharacter.Traits[7].Actual = (int)CharacterActualOgd.Value;
+                //CurrentCharacter.Traits[8].Starting = (int)CharacterStartingA.Value;
+                //CurrentCharacter.Traits[8].Growth = (int)CharacterGrowthA.Value;
+                //CurrentCharacter.Traits[8].Actual = (int)CharacterActualA.Value;
+                //CurrentCharacter.Traits[9].Starting = (int)CharacterStartingZyw.Value;
+                //CurrentCharacter.Traits[9].Growth = (int)CharacterGrowthZyw.Value;
+                //CurrentCharacter.Traits[9].Actual = (int)CharacterActualZyw.Value;
+                //CurrentCharacter.Traits[10].Starting = (int)CharacterStartingS.Value;
+                //CurrentCharacter.Traits[10].Growth = (int)CharacterGrowthS.Value;
+                //CurrentCharacter.Traits[10].Actual = (int)CharacterActualS.Value;
+                //CurrentCharacter.Traits[11].Starting = (int)CharacterStartingWt.Value;
+                //CurrentCharacter.Traits[11].Growth = (int)CharacterGrowthWt.Value;
+                //CurrentCharacter.Traits[11].Actual = (int)CharacterActualWt.Value;
+                //CurrentCharacter.Traits[12].Starting = (int)CharacterStartingSz.Value;
+                //CurrentCharacter.Traits[12].Growth = (int)CharacterGrowthSz.Value;
+                //CurrentCharacter.Traits[12].Actual = (int)CharacterActualSz.Value;
+                //CurrentCharacter.Traits[13].Starting = (int)CharacterStartingMag.Value;
+                //CurrentCharacter.Traits[13].Growth = (int)CharacterGrowthMag.Value;
+                //CurrentCharacter.Traits[13].Actual = (int)CharacterActualMag.Value;
+                //CurrentCharacter.Traits[14].Starting = (int)CharacterStartingPO.Value;
+                //CurrentCharacter.Traits[14].Growth = (int)CharacterGrowthPO.Value;
+                //CurrentCharacter.Traits[14].Actual = (int)CharacterActualPO.Value;
+                //CurrentCharacter.Traits[15].Starting = (int)CharacterStartingPP.Value;
+                //CurrentCharacter.Traits[15].Growth = (int)CharacterGrowthPP.Value;
+                //CurrentCharacter.Traits[15].Actual = (int)CharacterActualPP.Value;
+        });
         }
 
         private void NextPage_Click(object sender, EventArgs e) => _ = SwitchPageAsync();
@@ -921,7 +973,7 @@ namespace WFRPManager.UI
         private void JSONImportToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CurrentCharacter = Serialization.ImportFromJSON();
-            RefreshAsync();
+            _ = RefreshAsync();
         }
     }
 }

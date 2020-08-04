@@ -28,11 +28,6 @@ namespace WFRPManager.Logic
             using (StreamReader sr = File.OpenText($"{WorkingDirectory}\\debug.json"))
             {
                 string json = sr.ReadToEnd();
-                using (StreamWriter sw = new StreamWriter($"{WorkingDirectory}\\debug2.json"))
-                {
-                    Task.Run(() => sw.Write(json));
-                    sw.Close();
-                }
                 Character character = Newtonsoft.Json.JsonConvert.DeserializeObject<Character>(json);
                 return character;
             }
