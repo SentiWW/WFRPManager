@@ -12,12 +12,8 @@ namespace WFRPManager.Logic
 {
     public class Serialization
     {
-        private static string WorkingDirectory { get; set; }
+        private static string WorkingDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
-        private static void GetWorkingDirectory()
-        {
-            WorkingDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-        }
         public static void ExportToJSON(Character character)
         {
             string json = Newtonsoft.Json.JsonConvert.SerializeObject(character, Newtonsoft.Json.Formatting.Indented);
@@ -41,6 +37,5 @@ namespace WFRPManager.Logic
                 return character;
             }
         }
-        public Serialization() => GetWorkingDirectory();
     }
 }
