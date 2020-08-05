@@ -745,6 +745,11 @@ namespace WFRPManager.UI
                 AdvancedArmorWeight6.Text = CurrentCharacter.Armors[5].Weight;
                 AdvancedArmorPZ6.Text = CurrentCharacter.Armors[5].PZ;
                 AdvancedArmorLocation6.Text = CurrentCharacter.Armors[5].Location;
+
+                CharacterSkill1_1.Checked = CurrentCharacter.Skills[0].Skill1;
+                CharacterSkill1_2.Checked = CurrentCharacter.Skills[0].Skill2;
+                CharacterSkill1_3.Checked = CurrentCharacter.Skills[0].Skill3;
+                CharacterConnectedSkill1.Text = CurrentCharacter.Skills[0].ConnectedSkill;
             });
         }
 
@@ -759,6 +764,21 @@ namespace WFRPManager.UI
 
             CurrentCharacter.Debug();
 #endif
+        }
+
+        private void EksportujToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog.FileName = $"Karta-{DateTime.Now.Date.ToShortDateString().Replace('/', '-')}";
+            SaveFileDialog.ShowDialog();
+            Serialization.ExportToJSON(CurrentCharacter, Path.GetFullPath(SaveFileDialog.FileName));
+        }
+
+        private void ImportujToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog.FileName = $"Karta-{DateTime.Now.Date.ToShortDateString().Replace('/', '-')}";
+            OpenFileDialog.ShowDialog();
+            if (SaveFileDialog.CheckFileExists) CurrentCharacter = Serialization.ImportFromJSON(Path.GetFullPath(OpenFileDialog.FileName));
+            _ = RefreshAsync();
         }
 
         //
@@ -1055,19 +1075,13 @@ namespace WFRPManager.UI
 
         private void AdvancedArmorPZ6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[5].PZ = AdvancedArmorPZ6.Text;
         #endregion
-        private void EksportujToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            SaveFileDialog.FileName = $"Karta-{DateTime.Now.Date.ToShortDateString().Replace('/', '-')}";
-            SaveFileDialog.ShowDialog();
-            Serialization.ExportToJSON(CurrentCharacter, Path.GetFullPath(SaveFileDialog.FileName));
-        }
 
-        private void ImportujToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog.FileName = $"Karta-{DateTime.Now.Date.ToShortDateString().Replace('/', '-')}";
-            OpenFileDialog.ShowDialog();
-            if (SaveFileDialog.CheckFileExists) CurrentCharacter = Serialization.ImportFromJSON(Path.GetFullPath(OpenFileDialog.FileName));
-            _ = RefreshAsync();
-        }
+        private void CharacterSkill1_1_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[0].Skill1 = CharacterSkill1_1.Checked;
+
+        private void CharacterSkill1_2_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[0].Skill2 = CharacterSkill1_2.Checked;
+
+        private void CharacterSkill1_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[0].Skill3 = CharacterSkill1_3.Checked;
+
+        private void CharacterConnectedSkill1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[0].ConnectedSkill = CharacterConnectedSkill1.Text;
     }
 }
