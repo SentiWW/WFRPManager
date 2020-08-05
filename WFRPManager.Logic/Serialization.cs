@@ -12,8 +12,6 @@ namespace WFRPManager.Logic
 {
     public class Serialization
     {
-        private static string WorkingDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-
         public static void ExportToJSON(Character character, string path)
         {
             string json = Newtonsoft.Json.JsonConvert.SerializeObject(character, Newtonsoft.Json.Formatting.Indented);
@@ -25,15 +23,29 @@ namespace WFRPManager.Logic
         }
         public static Character ImportFromJSON(string path)
         {
+            string json;
             using (StreamReader sr = File.OpenText(path))
             {
-                string json = sr.ReadToEnd();
-                Character character = Newtonsoft.Json.JsonConvert.DeserializeObject<Character>(json);
+                json = sr.ReadToEnd();
+                sr.Close();
+            }
+            Character character = Newtonsoft.Json.JsonConvert.DeserializeObject<Character>(json);
+            _ = RemoveOldObjectsFromLists(character);
+            return character;
+        }
+
+        private static async Task RemoveOldObjectsFromLists(Character character)
+        {
+            await Task.Run(() =>
+            {
                 character.Traits.RemoveRange(0, 16);
                 character.Weapons.RemoveRange(0, 6);
                 character.Armors.RemoveRange(0, 6);
-                return character;
-            }
+                character.Skills.RemoveRange(0, 19);
+                character.AdvancedSkills.RemoveRange(0, 14);
+                character.Abilities.RemoveRange(0, 14);
+                character.Items.RemoveRange(0, 13);
+            });
         }
     }
 }

@@ -37,6 +37,7 @@ namespace WFRPManager.UI
             InitializeComponentOverride();
             _ = FillElementsToLinkedListAsync();
             _ = EnableSecondPageAsync(false);
+            _ = EnableFirstPageAsync(true);
         }
 
         private void InitializeComponentOverride()

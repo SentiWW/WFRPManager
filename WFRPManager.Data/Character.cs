@@ -39,11 +39,18 @@ namespace WFRPManager.Data
         public string MovementRetreat { get; set; }
         public string Charge { get; set; }
         public string Sprint { get; set; }
+        public int MoneyZK { get; set; }
+        public int MoneyS { get; set; }
+        public int MoneyP { get; set; }
         public List<Trait> Traits { get; set; }
         public List<Weapon> Weapons { get; set; }
         public SimpleArmor SArmor { get; set; }
         public List<AdvancedArmor> Armors { get; set; }
-
+        public List<Skill> Skills { get; set; }
+        public List<AdvancedSkill> AdvancedSkills { get; set; }
+        public List<Ability> Abilities { get; set; }
+        public List<Item> Items { get; set; }
+ 
 #if DEBUG
         public void Debug()
         {
@@ -100,6 +107,86 @@ namespace WFRPManager.Data
                 new AdvancedArmor(),
                 new AdvancedArmor(),
                 new AdvancedArmor()
+            };
+
+            Skills = new List<Skill>()
+            {
+                new Skill(),
+                new Skill(),
+                new Skill(),
+                new Skill(),
+                new Skill(),
+                new Skill(),
+                new Skill(),
+                new Skill(),
+                new Skill(),
+                new Skill(),
+                new Skill(),
+                new Skill(),
+                new Skill(),
+                new Skill(),
+                new Skill(),
+                new Skill(),
+                new Skill(),
+                new Skill(),
+                new Skill(),
+                new Skill()
+            };
+
+            AdvancedSkills = new List<AdvancedSkill>()
+            {
+                new AdvancedSkill(),
+                new AdvancedSkill(),
+                new AdvancedSkill(),
+                new AdvancedSkill(),
+                new AdvancedSkill(),
+                new AdvancedSkill(),
+                new AdvancedSkill(),
+                new AdvancedSkill(),
+                new AdvancedSkill(),
+                new AdvancedSkill(),
+                new AdvancedSkill(),
+                new AdvancedSkill(),
+                new AdvancedSkill(),
+                new AdvancedSkill(),
+                new AdvancedSkill()
+            };
+
+            Abilities = new List<Ability>()
+            {
+                new Ability(),
+                new Ability(),
+                new Ability(),
+                new Ability(),
+                new Ability(),
+                new Ability(),
+                new Ability(),
+                new Ability(),
+                new Ability(),
+                new Ability(),
+                new Ability(),
+                new Ability(),
+                new Ability(),
+                new Ability(),
+                new Ability()
+            };
+
+            Items = new List<Item>()
+            {
+                new Item(),
+                new Item(),
+                new Item(),
+                new Item(),
+                new Item(),
+                new Item(),
+                new Item(),
+                new Item(),
+                new Item(),
+                new Item(),
+                new Item(),
+                new Item(),
+                new Item(),
+                new Item()
             };
         }
     }
