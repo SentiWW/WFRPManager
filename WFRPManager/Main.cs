@@ -43,22 +43,18 @@ namespace WFRPManager.UI
             foreach (var element in FirstPageTextBoxsTemp)
                 FirstPageTextBoxs.AddLast(element);
             FirstPageTextBoxsTemp.Clear();
-            await Task.Delay(0);
 
             foreach (var element in FirstPageNumericUpDownTemp)
                 FirstPageNumericUpDown.AddLast(element);
             FirstPageNumericUpDownTemp.Clear();
-            await Task.Delay(0);
 
             foreach (var element in SecondPageTextBoxsTemp)
                 SecondPageTextBoxs.AddLast(element);
             SecondPageTextBoxsTemp.Clear();
-            await Task.Delay(0);
 
             foreach (var element in SecondPageCheckBoxsTemp)
                 SecondPageCheckBoxs.AddLast(element);
             SecondPageCheckBoxsTemp.Clear();
-            await Task.Delay(0);
 
             foreach (var element in SecondPageNumericUpDownTemp)
                 SecondPageNumericUpDown.AddLast(element);
@@ -179,7 +175,6 @@ namespace WFRPManager.UI
                 AdvancedArmorPZ5,
                 AdvancedArmorPZ6
             });
-            await Task.Delay(0);
             FirstPageNumericUpDownTemp.AddRange(new List<NumericUpDownNoScroll>()
             {
                 //
@@ -237,7 +232,6 @@ namespace WFRPManager.UI
                 CharacterActualPO,
                 CharacterActualPP
             });
-            await Task.Delay(0);
             SecondPageTextBoxsTemp.AddRange(new List<TextBox>()
             {
                 //
@@ -375,7 +369,6 @@ namespace WFRPManager.UI
                 CharacterItemDescription13,
                 CharacterItemDescription14
             });
-            await Task.Delay(0);
             SecondPageCheckBoxsTemp.AddRange(new List<CheckBox>()
             {
                 //
@@ -490,7 +483,6 @@ namespace WFRPManager.UI
                 CharacterAdvancedSkill14_3,
                 CharacterAdvancedSkill15_3
             });
-            await Task.Delay(0);
             SecondPageNumericUpDownTemp.AddRange(new List<NumericUpDownNoScroll>()
             {
                 //
@@ -584,6 +576,11 @@ namespace WFRPManager.UI
         {
             await Task.Run(() =>
             {
+                PlayerName.Text = CurrentPlayer.Name;
+                GameMaster.Text = CurrentPlayer.GameMaster;
+                CampaignName.Text = CurrentPlayer.Campaign;
+                CampaignYear.Text = CurrentPlayer.CampaignYear;
+
                 CharacterName.Text = CurrentCharacter.Name;
                 CharacterRace.Text = CurrentCharacter.Race;
                 CharacterCurrentRole.Text = CurrentCharacter.CurrentRole;
@@ -619,46 +616,129 @@ namespace WFRPManager.UI
                 CharacterStartingK.Value = CurrentCharacter.Traits[2].Starting;
                 CharacterGrowthK.Value = CurrentCharacter.Traits[2].Growth;
                 CharacterActualK.Value = CurrentCharacter.Traits[2].Actual;
-                //CurrentCharacter.Traits[3].Starting = (int)CharacterStartingOdp.Value;
-                //CurrentCharacter.Traits[3].Growth = (int)CharacterGrowthOdp.Value;
-                //CurrentCharacter.Traits[3].Actual = (int)CharacterActualOdp.Value;
-                //CurrentCharacter.Traits[4].Starting = (int)CharacterStartingZr.Value;
-                //CurrentCharacter.Traits[4].Growth = (int)CharacterGrowthZr.Value;
-                //CurrentCharacter.Traits[4].Actual = (int)CharacterActualZr.Value;
-                //CurrentCharacter.Traits[5].Starting = (int)CharacterStartingInt.Value;
-                //CurrentCharacter.Traits[5].Growth = (int)CharacterGrowthInt.Value;
-                //CurrentCharacter.Traits[5].Actual = (int)CharacterActualInt.Value;
-                //CurrentCharacter.Traits[6].Starting = (int)CharacterStartingSW.Value;
-                //CurrentCharacter.Traits[6].Growth = (int)CharacterGrowthSW.Value;
-                //CurrentCharacter.Traits[6].Actual = (int)CharacterActualSW.Value;
-                //CurrentCharacter.Traits[7].Starting = (int)CharacterStartingOgd.Value;
-                //CurrentCharacter.Traits[7].Growth = (int)CharacterGrowthOgd.Value;
-                //CurrentCharacter.Traits[7].Actual = (int)CharacterActualOgd.Value;
-                //CurrentCharacter.Traits[8].Starting = (int)CharacterStartingA.Value;
-                //CurrentCharacter.Traits[8].Growth = (int)CharacterGrowthA.Value;
-                //CurrentCharacter.Traits[8].Actual = (int)CharacterActualA.Value;
-                //CurrentCharacter.Traits[9].Starting = (int)CharacterStartingZyw.Value;
-                //CurrentCharacter.Traits[9].Growth = (int)CharacterGrowthZyw.Value;
-                //CurrentCharacter.Traits[9].Actual = (int)CharacterActualZyw.Value;
-                //CurrentCharacter.Traits[10].Starting = (int)CharacterStartingS.Value;
-                //CurrentCharacter.Traits[10].Growth = (int)CharacterGrowthS.Value;
-                //CurrentCharacter.Traits[10].Actual = (int)CharacterActualS.Value;
-                //CurrentCharacter.Traits[11].Starting = (int)CharacterStartingWt.Value;
-                //CurrentCharacter.Traits[11].Growth = (int)CharacterGrowthWt.Value;
-                //CurrentCharacter.Traits[11].Actual = (int)CharacterActualWt.Value;
-                //CurrentCharacter.Traits[12].Starting = (int)CharacterStartingSz.Value;
-                //CurrentCharacter.Traits[12].Growth = (int)CharacterGrowthSz.Value;
-                //CurrentCharacter.Traits[12].Actual = (int)CharacterActualSz.Value;
-                //CurrentCharacter.Traits[13].Starting = (int)CharacterStartingMag.Value;
-                //CurrentCharacter.Traits[13].Growth = (int)CharacterGrowthMag.Value;
-                //CurrentCharacter.Traits[13].Actual = (int)CharacterActualMag.Value;
-                //CurrentCharacter.Traits[14].Starting = (int)CharacterStartingPO.Value;
-                //CurrentCharacter.Traits[14].Growth = (int)CharacterGrowthPO.Value;
-                //CurrentCharacter.Traits[14].Actual = (int)CharacterActualPO.Value;
-                //CurrentCharacter.Traits[15].Starting = (int)CharacterStartingPP.Value;
-                //CurrentCharacter.Traits[15].Growth = (int)CharacterGrowthPP.Value;
-                //CurrentCharacter.Traits[15].Actual = (int)CharacterActualPP.Value;
-        });
+                CharacterStartingOdp.Value = CurrentCharacter.Traits[3].Starting;
+                CharacterGrowthOdp.Value = CurrentCharacter.Traits[3].Growth;
+                CharacterActualOdp.Value = CurrentCharacter.Traits[3].Actual;
+                CharacterStartingZr.Value = CurrentCharacter.Traits[4].Starting;
+                CharacterGrowthZr.Value = CurrentCharacter.Traits[4].Growth;
+                CharacterActualZr.Value = CurrentCharacter.Traits[4].Actual;
+                CharacterStartingInt.Value = CurrentCharacter.Traits[5].Starting;
+                CharacterGrowthInt.Value = CurrentCharacter.Traits[5].Growth;
+                CharacterActualInt.Value = CurrentCharacter.Traits[5].Actual;
+                CharacterStartingSW.Value = CurrentCharacter.Traits[6].Starting;
+                CharacterGrowthSW.Value = CurrentCharacter.Traits[6].Growth;
+                CharacterActualSW.Value = CurrentCharacter.Traits[6].Actual;
+                CharacterStartingOgd.Value = CurrentCharacter.Traits[7].Starting;
+                CharacterGrowthOgd.Value = CurrentCharacter.Traits[7].Growth;
+                CharacterActualOgd.Value = CurrentCharacter.Traits[7].Actual;
+                CharacterStartingA.Value = CurrentCharacter.Traits[8].Starting;
+                CharacterGrowthA.Value = CurrentCharacter.Traits[8].Growth;
+                CharacterActualA.Value = CurrentCharacter.Traits[8].Actual;
+                CharacterStartingZyw.Value = CurrentCharacter.Traits[9].Starting;
+                CharacterGrowthZyw.Value = CurrentCharacter.Traits[9].Growth;
+                CharacterActualZyw.Value = CurrentCharacter.Traits[9].Actual;
+                CharacterStartingS.Value = CurrentCharacter.Traits[10].Starting;
+                CharacterGrowthS.Value = CurrentCharacter.Traits[10].Growth;
+                CharacterActualS.Value = CurrentCharacter.Traits[10].Actual;
+                CharacterStartingWt.Value = CurrentCharacter.Traits[11].Starting;
+                CharacterGrowthWt.Value = CurrentCharacter.Traits[11].Growth;
+                CharacterActualWt.Value = CurrentCharacter.Traits[11].Actual;
+                CharacterStartingSz.Value = CurrentCharacter.Traits[12].Starting;
+                CharacterGrowthSz.Value = CurrentCharacter.Traits[12].Growth;
+                CharacterActualSz.Value = CurrentCharacter.Traits[12].Actual;
+                CharacterStartingMag.Value = CurrentCharacter.Traits[13].Starting;
+                CharacterGrowthMag.Value = CurrentCharacter.Traits[13].Growth;
+                CharacterActualMag.Value = CurrentCharacter.Traits[13].Actual;
+                CharacterStartingPO.Value = CurrentCharacter.Traits[14].Starting;
+                CharacterGrowthPO.Value = CurrentCharacter.Traits[14].Growth;
+                CharacterActualPO.Value = CurrentCharacter.Traits[14].Actual;
+                CharacterStartingPP.Value = CurrentCharacter.Traits[15].Starting;
+                CharacterGrowthPP.Value = CurrentCharacter.Traits[15].Growth;
+                CharacterActualPP.Value = CurrentCharacter.Traits[15].Actual;
+
+                WeaponWeight1.Text = CurrentCharacter.Weapons[0].Weight;
+                WeaponCategory1.Text = CurrentCharacter.Weapons[0].Category;
+                WeaponStrength1.Text = CurrentCharacter.Weapons[0].Strength;
+                WeaponRange1.Text = CurrentCharacter.Weapons[0].Range;
+                WeaponReload1.Text = CurrentCharacter.Weapons[0].Reload;
+                WeaponTraits1.Text = CurrentCharacter.Weapons[0].Traits;
+                WeaponName2.Text = CurrentCharacter.Weapons[1].Name;
+                WeaponWeight2.Text = CurrentCharacter.Weapons[1].Weight;
+                WeaponCategory2.Text = CurrentCharacter.Weapons[1].Category;
+                WeaponStrength2.Text = CurrentCharacter.Weapons[1].Strength;
+                WeaponRange2.Text = CurrentCharacter.Weapons[1].Range;
+                WeaponReload2.Text = CurrentCharacter.Weapons[1].Reload;
+                WeaponTraits2.Text = CurrentCharacter.Weapons[1].Traits;
+                WeaponName3.Text = CurrentCharacter.Weapons[2].Name;
+                WeaponWeight3.Text = CurrentCharacter.Weapons[2].Weight;
+                WeaponCategory3.Text = CurrentCharacter.Weapons[2].Category;
+                WeaponStrength3.Text = CurrentCharacter.Weapons[2].Strength;
+                WeaponRange3.Text = CurrentCharacter.Weapons[2].Range;
+                WeaponReload3.Text = CurrentCharacter.Weapons[2].Reload;
+                WeaponTraits3.Text = CurrentCharacter.Weapons[2].Traits;
+                WeaponName4.Text = CurrentCharacter.Weapons[3].Name;
+                WeaponWeight4.Text = CurrentCharacter.Weapons[3].Weight;
+                WeaponCategory4.Text = CurrentCharacter.Weapons[3].Category;
+                WeaponStrength4.Text = CurrentCharacter.Weapons[3].Strength;
+                WeaponRange4.Text = CurrentCharacter.Weapons[3].Range;
+                WeaponReload4.Text = CurrentCharacter.Weapons[3].Reload;
+                WeaponTraits4.Text = CurrentCharacter.Weapons[3].Traits;
+                WeaponName5.Text = CurrentCharacter.Weapons[4].Name;
+                WeaponWeight5.Text = CurrentCharacter.Weapons[4].Weight;
+                WeaponCategory5.Text = CurrentCharacter.Weapons[4].Category;
+                WeaponStrength5.Text = CurrentCharacter.Weapons[4].Strength;
+                WeaponRange5.Text = CurrentCharacter.Weapons[4].Range;
+                WeaponReload5.Text = CurrentCharacter.Weapons[4].Reload;
+                WeaponTraits5.Text = CurrentCharacter.Weapons[4].Traits;
+                WeaponName6.Text = CurrentCharacter.Weapons[5].Name;
+                WeaponWeight6.Text = CurrentCharacter.Weapons[5].Weight;
+                WeaponCategory6.Text = CurrentCharacter.Weapons[5].Category;
+                WeaponStrength6.Text = CurrentCharacter.Weapons[5].Strength;
+                WeaponRange6.Text = CurrentCharacter.Weapons[5].Range;
+                WeaponReload6.Text = CurrentCharacter.Weapons[5].Reload;
+                WeaponTraits6.Text = CurrentCharacter.Weapons[5].Traits;
+
+                CharacterCurrentXP.Text = CurrentCharacter.CurrentXP;
+                CharacterTotalXP.Text = CurrentCharacter.TotalXP;
+                CharacterMovementRetreat.Text = CurrentCharacter.MovementRetreat;
+                CharacterCharge.Text = CurrentCharacter.Charge;
+                CharacterSprint.Text = CurrentCharacter.Sprint;
+
+                CharacterHead.Text = CurrentCharacter.Head;
+                CharacterBody.Text = CurrentCharacter.Body;
+                CharacterRightArm.Text = CurrentCharacter.RightArm;
+                CharacterLeftArm.Text = CurrentCharacter.LeftArm;
+                CharacterRightLeg.Text = CurrentCharacter.RightLeg;
+                CharacterLeftLeg.Text = CurrentCharacter.LeftLeg;
+
+                SimpleArmorType.Text = CurrentCharacter.SArmor.Type;
+                SimpleArmorPZ.Text = CurrentCharacter.SArmor.PZ;
+
+                AdvancedArmorType1.Text = CurrentCharacter.Armors[0].Type;
+                AdvancedArmorWeight1.Text = CurrentCharacter.Armors[0].Weight;
+                AdvancedArmorLocation1.Text = CurrentCharacter.Armors[0].Location;
+                AdvancedArmorPZ1.Text = CurrentCharacter.Armors[0].PZ;
+                AdvancedArmorType2.Text = CurrentCharacter.Armors[1].Type;
+                AdvancedArmorWeight2.Text = CurrentCharacter.Armors[1].Weight;
+                AdvancedArmorLocation2.Text = CurrentCharacter.Armors[1].Location;
+                AdvancedArmorPZ2.Text = CurrentCharacter.Armors[1].PZ;
+                AdvancedArmorType3.Text = CurrentCharacter.Armors[2].Type;
+                AdvancedArmorWeight3.Text = CurrentCharacter.Armors[2].Weight;
+                AdvancedArmorLocation3.Text = CurrentCharacter.Armors[2].Location;
+                AdvancedArmorPZ3.Text = CurrentCharacter.Armors[2].PZ;
+                AdvancedArmorType4.Text = CurrentCharacter.Armors[3].Type;
+                AdvancedArmorWeight4.Text = CurrentCharacter.Armors[3].Weight;
+                AdvancedArmorLocation4.Text = CurrentCharacter.Armors[3].Location;
+                AdvancedArmorPZ4.Text = CurrentCharacter.Armors[3].PZ;
+                AdvancedArmorType5.Text = CurrentCharacter.Armors[4].Type;
+                AdvancedArmorWeight5.Text = CurrentCharacter.Armors[4].Weight;
+                AdvancedArmorLocation5.Text = CurrentCharacter.Armors[4].Location;
+                AdvancedArmorPZ5.Text = CurrentCharacter.Armors[4].PZ;
+                AdvancedArmorType6.Text = CurrentCharacter.Armors[5].Type;
+                AdvancedArmorWeight6.Text = CurrentCharacter.Armors[5].Weight;
+                AdvancedArmorPZ6.Text = CurrentCharacter.Armors[5].PZ;
+                AdvancedArmorLocation6.Text = CurrentCharacter.Armors[5].Location;
+            });
         }
 
         private void NextPage_Click(object sender, EventArgs e) => _ = SwitchPageAsync();

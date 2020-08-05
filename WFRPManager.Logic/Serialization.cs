@@ -29,6 +29,9 @@ namespace WFRPManager.Logic
             {
                 string json = sr.ReadToEnd();
                 Character character = Newtonsoft.Json.JsonConvert.DeserializeObject<Character>(json);
+                character.Traits.RemoveRange(0, 16);
+                character.Weapons.RemoveRange(0, 6);
+                character.Armors.RemoveRange(0, 6);
                 return character;
             }
         }
