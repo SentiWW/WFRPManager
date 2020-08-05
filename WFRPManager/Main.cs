@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WFRPManager.Logic;
 using WFRPManager.Data;
+using System.IO;
 
 namespace WFRPManager.UI
 {
@@ -33,10 +34,15 @@ namespace WFRPManager.UI
         public MainWindow()
         {
             InitializeComponent();
+            InitializeComponentOverride();
             _ = FillElementsToLinkedListAsync();
             _ = EnableSecondPageAsync(false);
         }
 
+        private void InitializeComponentOverride()
+        {
+            
+        }
         private async Task FillElementsToLinkedListAsync()
         {
             _ = FillElementsListsAsync();
@@ -1047,12 +1053,19 @@ namespace WFRPManager.UI
         private void AdvancedArmorLocation6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[5].PZ = AdvancedArmorPZ6.Text;
 
         private void AdvancedArmorPZ6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[5].PZ = AdvancedArmorPZ6.Text;
-#endregion
-        private void JSONDebugToolStripMenuItem_Click(object sender, EventArgs e) => Serialization.ExportToJSON(CurrentCharacter);
-
-        private void JSONImportToolStripMenuItem_Click(object sender, EventArgs e)
+        #endregion
+        private void EksportujToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            CurrentCharacter = Serialization.ImportFromJSON();
+            SaveFileDialog.FileName = $"Karta-{DateTime.Now.Date.ToShortDateString().Replace('/', '-')}";
+            SaveFileDialog.ShowDialog();
+            Serialization.ExportToJSON(CurrentCharacter, Path.GetFullPath(SaveFileDialog.FileName));
+        }
+
+        private void ImportujToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog.FileName = $"Karta-{DateTime.Now.Date.ToShortDateString().Replace('/', '-')}";
+            OpenFileDialog.ShowDialog();
+            if (SaveFileDialog.CheckFileExists) CurrentCharacter = Serialization.ImportFromJSON(Path.GetFullPath(OpenFileDialog.FileName));
             _ = RefreshAsync();
         }
     }

@@ -14,18 +14,18 @@ namespace WFRPManager.Logic
     {
         private static string WorkingDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
-        public static void ExportToJSON(Character character)
+        public static void ExportToJSON(Character character, string path)
         {
             string json = Newtonsoft.Json.JsonConvert.SerializeObject(character, Newtonsoft.Json.Formatting.Indented);
-            using (StreamWriter sw = new StreamWriter($"{WorkingDirectory}\\debug.json"))
+            using (StreamWriter sw = new StreamWriter(path))
             {
                 sw.Write(json);
                 sw.Close();
             }
         }
-        public static Character ImportFromJSON()
+        public static Character ImportFromJSON(string path)
         {
-            using (StreamReader sr = File.OpenText($"{WorkingDirectory}\\debug.json"))
+            using (StreamReader sr = File.OpenText(path))
             {
                 string json = sr.ReadToEnd();
                 Character character = Newtonsoft.Json.JsonConvert.DeserializeObject<Character>(json);
