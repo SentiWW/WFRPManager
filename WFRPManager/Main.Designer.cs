@@ -368,6 +368,10 @@
             this.CharacterSkill1_1 = new System.Windows.Forms.CheckBox();
             this.SecondPictureBox = new System.Windows.Forms.PictureBox();
             this.OpenFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.SaveFileDialog = new System.Windows.Forms.SaveFileDialog();
+            this.CharacterMoneyP = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterMoneyS = new WFRPManager.NumericUpDownNoScroll();
+            this.CharacterMoneyZK = new WFRPManager.NumericUpDownNoScroll();
             this.CharacterActualPP = new WFRPManager.NumericUpDownNoScroll();
             this.CharacterActualPO = new WFRPManager.NumericUpDownNoScroll();
             this.CharacterActualMag = new WFRPManager.NumericUpDownNoScroll();
@@ -416,16 +420,15 @@
             this.CharacterStartingK = new WFRPManager.NumericUpDownNoScroll();
             this.CharacterStartingUS = new WFRPManager.NumericUpDownNoScroll();
             this.CharacterStartingWW = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterMoneyP = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterMoneyS = new WFRPManager.NumericUpDownNoScroll();
-            this.CharacterMoneyZK = new WFRPManager.NumericUpDownNoScroll();
-            this.SaveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.TopMenuStrip.SuspendLayout();
             this.BottomStatusStrip.SuspendLayout();
             this.MainPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.FirstPictureBox)).BeginInit();
             this.PageMenuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SecondPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyZK)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualPP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualPO)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualMag)).BeginInit();
@@ -474,9 +477,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingK)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingUS)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingWW)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyP)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyS)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyZK)).BeginInit();
             this.SuspendLayout();
             // 
             // TopMenuStrip
@@ -531,153 +531,7 @@
             // MainPanel
             // 
             this.MainPanel.AutoScroll = true;
-            this.MainPanel.Controls.Add(this.CharacterBody);
-            this.MainPanel.Controls.Add(this.CharacterLeftLeg);
-            this.MainPanel.Controls.Add(this.CharacterLeftArm);
-            this.MainPanel.Controls.Add(this.CharacterRightLeg);
-            this.MainPanel.Controls.Add(this.CharacterRightArm);
-            this.MainPanel.Controls.Add(this.CharacterHead);
-            this.MainPanel.Controls.Add(this.CharacterSprint);
-            this.MainPanel.Controls.Add(this.CharacterCharge);
-            this.MainPanel.Controls.Add(this.CharacterMovementRetreat);
-            this.MainPanel.Controls.Add(this.CharacterTotalXP);
-            this.MainPanel.Controls.Add(this.CharacterCurrentXP);
-            this.MainPanel.Controls.Add(this.CampaignYear);
-            this.MainPanel.Controls.Add(this.GameMaster);
-            this.MainPanel.Controls.Add(this.CampaignName);
-            this.MainPanel.Controls.Add(this.PlayerName);
-            this.MainPanel.Controls.Add(this.AdvancedArmorPZ6);
-            this.MainPanel.Controls.Add(this.AdvancedArmorLocation6);
-            this.MainPanel.Controls.Add(this.AdvancedArmorWeight6);
-            this.MainPanel.Controls.Add(this.AdvancedArmorType6);
-            this.MainPanel.Controls.Add(this.AdvancedArmorPZ5);
-            this.MainPanel.Controls.Add(this.AdvancedArmorLocation5);
-            this.MainPanel.Controls.Add(this.AdvancedArmorWeight5);
-            this.MainPanel.Controls.Add(this.AdvancedArmorType5);
-            this.MainPanel.Controls.Add(this.AdvancedArmorPZ4);
-            this.MainPanel.Controls.Add(this.AdvancedArmorLocation4);
-            this.MainPanel.Controls.Add(this.AdvancedArmorWeight4);
-            this.MainPanel.Controls.Add(this.AdvancedArmorType4);
-            this.MainPanel.Controls.Add(this.AdvancedArmorPZ3);
-            this.MainPanel.Controls.Add(this.AdvancedArmorLocation3);
-            this.MainPanel.Controls.Add(this.AdvancedArmorWeight3);
-            this.MainPanel.Controls.Add(this.AdvancedArmorType3);
-            this.MainPanel.Controls.Add(this.AdvancedArmorPZ2);
-            this.MainPanel.Controls.Add(this.AdvancedArmorLocation2);
-            this.MainPanel.Controls.Add(this.AdvancedArmorWeight2);
-            this.MainPanel.Controls.Add(this.AdvancedArmorType2);
-            this.MainPanel.Controls.Add(this.AdvancedArmorPZ1);
-            this.MainPanel.Controls.Add(this.AdvancedArmorLocation1);
-            this.MainPanel.Controls.Add(this.AdvancedArmorWeight1);
-            this.MainPanel.Controls.Add(this.AdvancedArmorType1);
-            this.MainPanel.Controls.Add(this.SimpleArmorPZ);
-            this.MainPanel.Controls.Add(this.SimpleArmorType);
-            this.MainPanel.Controls.Add(this.WeaponTraits6);
-            this.MainPanel.Controls.Add(this.WeaponReload6);
-            this.MainPanel.Controls.Add(this.WeaponRange6);
-            this.MainPanel.Controls.Add(this.WeaponStrength6);
-            this.MainPanel.Controls.Add(this.WeaponCategory6);
-            this.MainPanel.Controls.Add(this.WeaponWeight6);
-            this.MainPanel.Controls.Add(this.WeaponName6);
-            this.MainPanel.Controls.Add(this.WeaponTraits5);
-            this.MainPanel.Controls.Add(this.WeaponReload5);
-            this.MainPanel.Controls.Add(this.WeaponRange5);
-            this.MainPanel.Controls.Add(this.WeaponStrength5);
-            this.MainPanel.Controls.Add(this.WeaponCategory5);
-            this.MainPanel.Controls.Add(this.WeaponWeight5);
-            this.MainPanel.Controls.Add(this.WeaponName5);
-            this.MainPanel.Controls.Add(this.WeaponTraits4);
-            this.MainPanel.Controls.Add(this.WeaponReload4);
-            this.MainPanel.Controls.Add(this.WeaponRange4);
-            this.MainPanel.Controls.Add(this.WeaponStrength4);
-            this.MainPanel.Controls.Add(this.WeaponCategory4);
-            this.MainPanel.Controls.Add(this.WeaponWeight4);
-            this.MainPanel.Controls.Add(this.WeaponName4);
-            this.MainPanel.Controls.Add(this.WeaponTraits3);
-            this.MainPanel.Controls.Add(this.WeaponReload3);
-            this.MainPanel.Controls.Add(this.WeaponRange3);
-            this.MainPanel.Controls.Add(this.WeaponStrength3);
-            this.MainPanel.Controls.Add(this.WeaponCategory3);
-            this.MainPanel.Controls.Add(this.WeaponWeight3);
-            this.MainPanel.Controls.Add(this.WeaponName3);
-            this.MainPanel.Controls.Add(this.WeaponTraits2);
-            this.MainPanel.Controls.Add(this.WeaponReload2);
-            this.MainPanel.Controls.Add(this.WeaponRange2);
-            this.MainPanel.Controls.Add(this.WeaponStrength2);
-            this.MainPanel.Controls.Add(this.WeaponCategory2);
-            this.MainPanel.Controls.Add(this.WeaponWeight2);
-            this.MainPanel.Controls.Add(this.WeaponName2);
-            this.MainPanel.Controls.Add(this.WeaponTraits1);
-            this.MainPanel.Controls.Add(this.WeaponReload1);
-            this.MainPanel.Controls.Add(this.WeaponRange1);
-            this.MainPanel.Controls.Add(this.WeaponStrength1);
-            this.MainPanel.Controls.Add(this.WeaponCategory1);
-            this.MainPanel.Controls.Add(this.WeaponWeight1);
-            this.MainPanel.Controls.Add(this.WeaponName1);
-            this.MainPanel.Controls.Add(this.CharacterActualPP);
-            this.MainPanel.Controls.Add(this.CharacterActualPO);
-            this.MainPanel.Controls.Add(this.CharacterActualMag);
-            this.MainPanel.Controls.Add(this.CharacterActualSz);
-            this.MainPanel.Controls.Add(this.CharacterActualWt);
-            this.MainPanel.Controls.Add(this.CharacterActualS);
-            this.MainPanel.Controls.Add(this.CharacterActualZyw);
-            this.MainPanel.Controls.Add(this.CharacterActualA);
-            this.MainPanel.Controls.Add(this.CharacterGrowthPP);
-            this.MainPanel.Controls.Add(this.CharacterGrowthPO);
-            this.MainPanel.Controls.Add(this.CharacterGrowthMag);
-            this.MainPanel.Controls.Add(this.CharacterGrowthSz);
-            this.MainPanel.Controls.Add(this.CharacterGrowthWt);
-            this.MainPanel.Controls.Add(this.CharacterGrowthS);
-            this.MainPanel.Controls.Add(this.CharacterGrowthZyw);
-            this.MainPanel.Controls.Add(this.CharacterGrowthA);
-            this.MainPanel.Controls.Add(this.CharacterStartingPP);
-            this.MainPanel.Controls.Add(this.CharacterStartingPO);
-            this.MainPanel.Controls.Add(this.CharacterStartingMag);
-            this.MainPanel.Controls.Add(this.CharacterStartingSz);
-            this.MainPanel.Controls.Add(this.CharacterStartingWt);
-            this.MainPanel.Controls.Add(this.CharacterStartingS);
-            this.MainPanel.Controls.Add(this.CharacterStartingZyw);
-            this.MainPanel.Controls.Add(this.CharacterStartingA);
-            this.MainPanel.Controls.Add(this.CharacterActualOgd);
-            this.MainPanel.Controls.Add(this.CharacterActualSW);
-            this.MainPanel.Controls.Add(this.CharacterActualInt);
-            this.MainPanel.Controls.Add(this.CharacterActualZr);
-            this.MainPanel.Controls.Add(this.CharacterActualOdp);
-            this.MainPanel.Controls.Add(this.CharacterActualK);
-            this.MainPanel.Controls.Add(this.CharacterActualUS);
-            this.MainPanel.Controls.Add(this.CharacterActualWW);
-            this.MainPanel.Controls.Add(this.CharacterGrowthOgd);
-            this.MainPanel.Controls.Add(this.CharacterGrowthSW);
-            this.MainPanel.Controls.Add(this.CharacterGrowthInt);
-            this.MainPanel.Controls.Add(this.CharacterGrowthZr);
-            this.MainPanel.Controls.Add(this.CharacterGrowthOdp);
-            this.MainPanel.Controls.Add(this.CharacterGrowthK);
-            this.MainPanel.Controls.Add(this.CharacterGrowthUS);
-            this.MainPanel.Controls.Add(this.CharacterGrowthWW);
-            this.MainPanel.Controls.Add(this.CharacterStartingOgd);
-            this.MainPanel.Controls.Add(this.CharacterStartingSW);
-            this.MainPanel.Controls.Add(this.CharacterStartingInt);
-            this.MainPanel.Controls.Add(this.CharacterStartingZr);
-            this.MainPanel.Controls.Add(this.CharacterStartingOdp);
-            this.MainPanel.Controls.Add(this.CharacterStartingK);
-            this.MainPanel.Controls.Add(this.CharacterStartingUS);
-            this.MainPanel.Controls.Add(this.CharacterStartingWW);
-            this.MainPanel.Controls.Add(this.CharacterFeatures);
-            this.MainPanel.Controls.Add(this.CharacterBirthplace);
-            this.MainPanel.Controls.Add(this.CharacterStarSign);
-            this.MainPanel.Controls.Add(this.CharacterHairColor);
-            this.MainPanel.Controls.Add(this.CharacterEyeColor);
-            this.MainPanel.Controls.Add(this.CharacterSiblings);
-            this.MainPanel.Controls.Add(this.CharacterHeight);
-            this.MainPanel.Controls.Add(this.CharacterWeight);
-            this.MainPanel.Controls.Add(this.CharacterSex);
-            this.MainPanel.Controls.Add(this.CharacterAge);
-            this.MainPanel.Controls.Add(this.CharacterPreviousRole);
-            this.MainPanel.Controls.Add(this.CharacterCurrentRole);
-            this.MainPanel.Controls.Add(this.CharacterRace);
-            this.MainPanel.Controls.Add(this.CharacterName);
             this.MainPanel.Controls.Add(this.NextPage);
-            this.MainPanel.Controls.Add(this.FirstPictureBox);
             this.MainPanel.Controls.Add(this.LeftFlowPanel);
             this.MainPanel.Controls.Add(this.CharacterMoneyP);
             this.MainPanel.Controls.Add(this.CharacterMoneyS);
@@ -910,6 +764,152 @@
             this.MainPanel.Controls.Add(this.CharacterSkill1_2);
             this.MainPanel.Controls.Add(this.CharacterSkill1_1);
             this.MainPanel.Controls.Add(this.SecondPictureBox);
+            this.MainPanel.Controls.Add(this.CharacterBody);
+            this.MainPanel.Controls.Add(this.CharacterLeftLeg);
+            this.MainPanel.Controls.Add(this.CharacterLeftArm);
+            this.MainPanel.Controls.Add(this.CharacterRightLeg);
+            this.MainPanel.Controls.Add(this.CharacterRightArm);
+            this.MainPanel.Controls.Add(this.CharacterHead);
+            this.MainPanel.Controls.Add(this.CharacterSprint);
+            this.MainPanel.Controls.Add(this.CharacterCharge);
+            this.MainPanel.Controls.Add(this.CharacterMovementRetreat);
+            this.MainPanel.Controls.Add(this.CharacterTotalXP);
+            this.MainPanel.Controls.Add(this.CharacterCurrentXP);
+            this.MainPanel.Controls.Add(this.CampaignYear);
+            this.MainPanel.Controls.Add(this.GameMaster);
+            this.MainPanel.Controls.Add(this.CampaignName);
+            this.MainPanel.Controls.Add(this.PlayerName);
+            this.MainPanel.Controls.Add(this.AdvancedArmorPZ6);
+            this.MainPanel.Controls.Add(this.AdvancedArmorLocation6);
+            this.MainPanel.Controls.Add(this.AdvancedArmorWeight6);
+            this.MainPanel.Controls.Add(this.AdvancedArmorType6);
+            this.MainPanel.Controls.Add(this.AdvancedArmorPZ5);
+            this.MainPanel.Controls.Add(this.AdvancedArmorLocation5);
+            this.MainPanel.Controls.Add(this.AdvancedArmorWeight5);
+            this.MainPanel.Controls.Add(this.AdvancedArmorType5);
+            this.MainPanel.Controls.Add(this.AdvancedArmorPZ4);
+            this.MainPanel.Controls.Add(this.AdvancedArmorLocation4);
+            this.MainPanel.Controls.Add(this.AdvancedArmorWeight4);
+            this.MainPanel.Controls.Add(this.AdvancedArmorType4);
+            this.MainPanel.Controls.Add(this.AdvancedArmorPZ3);
+            this.MainPanel.Controls.Add(this.AdvancedArmorLocation3);
+            this.MainPanel.Controls.Add(this.AdvancedArmorWeight3);
+            this.MainPanel.Controls.Add(this.AdvancedArmorType3);
+            this.MainPanel.Controls.Add(this.AdvancedArmorPZ2);
+            this.MainPanel.Controls.Add(this.AdvancedArmorLocation2);
+            this.MainPanel.Controls.Add(this.AdvancedArmorWeight2);
+            this.MainPanel.Controls.Add(this.AdvancedArmorType2);
+            this.MainPanel.Controls.Add(this.AdvancedArmorPZ1);
+            this.MainPanel.Controls.Add(this.AdvancedArmorLocation1);
+            this.MainPanel.Controls.Add(this.AdvancedArmorWeight1);
+            this.MainPanel.Controls.Add(this.AdvancedArmorType1);
+            this.MainPanel.Controls.Add(this.SimpleArmorPZ);
+            this.MainPanel.Controls.Add(this.SimpleArmorType);
+            this.MainPanel.Controls.Add(this.WeaponTraits6);
+            this.MainPanel.Controls.Add(this.WeaponReload6);
+            this.MainPanel.Controls.Add(this.WeaponRange6);
+            this.MainPanel.Controls.Add(this.WeaponStrength6);
+            this.MainPanel.Controls.Add(this.WeaponCategory6);
+            this.MainPanel.Controls.Add(this.WeaponWeight6);
+            this.MainPanel.Controls.Add(this.WeaponName6);
+            this.MainPanel.Controls.Add(this.WeaponTraits5);
+            this.MainPanel.Controls.Add(this.WeaponReload5);
+            this.MainPanel.Controls.Add(this.WeaponRange5);
+            this.MainPanel.Controls.Add(this.WeaponStrength5);
+            this.MainPanel.Controls.Add(this.WeaponCategory5);
+            this.MainPanel.Controls.Add(this.WeaponWeight5);
+            this.MainPanel.Controls.Add(this.WeaponName5);
+            this.MainPanel.Controls.Add(this.WeaponTraits4);
+            this.MainPanel.Controls.Add(this.WeaponReload4);
+            this.MainPanel.Controls.Add(this.WeaponRange4);
+            this.MainPanel.Controls.Add(this.WeaponStrength4);
+            this.MainPanel.Controls.Add(this.WeaponCategory4);
+            this.MainPanel.Controls.Add(this.WeaponWeight4);
+            this.MainPanel.Controls.Add(this.WeaponName4);
+            this.MainPanel.Controls.Add(this.WeaponTraits3);
+            this.MainPanel.Controls.Add(this.WeaponReload3);
+            this.MainPanel.Controls.Add(this.WeaponRange3);
+            this.MainPanel.Controls.Add(this.WeaponStrength3);
+            this.MainPanel.Controls.Add(this.WeaponCategory3);
+            this.MainPanel.Controls.Add(this.WeaponWeight3);
+            this.MainPanel.Controls.Add(this.WeaponName3);
+            this.MainPanel.Controls.Add(this.WeaponTraits2);
+            this.MainPanel.Controls.Add(this.WeaponReload2);
+            this.MainPanel.Controls.Add(this.WeaponRange2);
+            this.MainPanel.Controls.Add(this.WeaponStrength2);
+            this.MainPanel.Controls.Add(this.WeaponCategory2);
+            this.MainPanel.Controls.Add(this.WeaponWeight2);
+            this.MainPanel.Controls.Add(this.WeaponName2);
+            this.MainPanel.Controls.Add(this.WeaponTraits1);
+            this.MainPanel.Controls.Add(this.WeaponReload1);
+            this.MainPanel.Controls.Add(this.WeaponRange1);
+            this.MainPanel.Controls.Add(this.WeaponStrength1);
+            this.MainPanel.Controls.Add(this.WeaponCategory1);
+            this.MainPanel.Controls.Add(this.WeaponWeight1);
+            this.MainPanel.Controls.Add(this.WeaponName1);
+            this.MainPanel.Controls.Add(this.CharacterActualPP);
+            this.MainPanel.Controls.Add(this.CharacterActualPO);
+            this.MainPanel.Controls.Add(this.CharacterActualMag);
+            this.MainPanel.Controls.Add(this.CharacterActualSz);
+            this.MainPanel.Controls.Add(this.CharacterActualWt);
+            this.MainPanel.Controls.Add(this.CharacterActualS);
+            this.MainPanel.Controls.Add(this.CharacterActualZyw);
+            this.MainPanel.Controls.Add(this.CharacterActualA);
+            this.MainPanel.Controls.Add(this.CharacterGrowthPP);
+            this.MainPanel.Controls.Add(this.CharacterGrowthPO);
+            this.MainPanel.Controls.Add(this.CharacterGrowthMag);
+            this.MainPanel.Controls.Add(this.CharacterGrowthSz);
+            this.MainPanel.Controls.Add(this.CharacterGrowthWt);
+            this.MainPanel.Controls.Add(this.CharacterGrowthS);
+            this.MainPanel.Controls.Add(this.CharacterGrowthZyw);
+            this.MainPanel.Controls.Add(this.CharacterGrowthA);
+            this.MainPanel.Controls.Add(this.CharacterStartingPP);
+            this.MainPanel.Controls.Add(this.CharacterStartingPO);
+            this.MainPanel.Controls.Add(this.CharacterStartingMag);
+            this.MainPanel.Controls.Add(this.CharacterStartingSz);
+            this.MainPanel.Controls.Add(this.CharacterStartingWt);
+            this.MainPanel.Controls.Add(this.CharacterStartingS);
+            this.MainPanel.Controls.Add(this.CharacterStartingZyw);
+            this.MainPanel.Controls.Add(this.CharacterStartingA);
+            this.MainPanel.Controls.Add(this.CharacterActualOgd);
+            this.MainPanel.Controls.Add(this.CharacterActualSW);
+            this.MainPanel.Controls.Add(this.CharacterActualInt);
+            this.MainPanel.Controls.Add(this.CharacterActualZr);
+            this.MainPanel.Controls.Add(this.CharacterActualOdp);
+            this.MainPanel.Controls.Add(this.CharacterActualK);
+            this.MainPanel.Controls.Add(this.CharacterActualUS);
+            this.MainPanel.Controls.Add(this.CharacterActualWW);
+            this.MainPanel.Controls.Add(this.CharacterGrowthOgd);
+            this.MainPanel.Controls.Add(this.CharacterGrowthSW);
+            this.MainPanel.Controls.Add(this.CharacterGrowthInt);
+            this.MainPanel.Controls.Add(this.CharacterGrowthZr);
+            this.MainPanel.Controls.Add(this.CharacterGrowthOdp);
+            this.MainPanel.Controls.Add(this.CharacterGrowthK);
+            this.MainPanel.Controls.Add(this.CharacterGrowthUS);
+            this.MainPanel.Controls.Add(this.CharacterGrowthWW);
+            this.MainPanel.Controls.Add(this.CharacterStartingOgd);
+            this.MainPanel.Controls.Add(this.CharacterStartingSW);
+            this.MainPanel.Controls.Add(this.CharacterStartingInt);
+            this.MainPanel.Controls.Add(this.CharacterStartingZr);
+            this.MainPanel.Controls.Add(this.CharacterStartingOdp);
+            this.MainPanel.Controls.Add(this.CharacterStartingK);
+            this.MainPanel.Controls.Add(this.CharacterStartingUS);
+            this.MainPanel.Controls.Add(this.CharacterStartingWW);
+            this.MainPanel.Controls.Add(this.CharacterFeatures);
+            this.MainPanel.Controls.Add(this.CharacterBirthplace);
+            this.MainPanel.Controls.Add(this.CharacterStarSign);
+            this.MainPanel.Controls.Add(this.CharacterHairColor);
+            this.MainPanel.Controls.Add(this.CharacterEyeColor);
+            this.MainPanel.Controls.Add(this.CharacterSiblings);
+            this.MainPanel.Controls.Add(this.CharacterHeight);
+            this.MainPanel.Controls.Add(this.CharacterWeight);
+            this.MainPanel.Controls.Add(this.CharacterSex);
+            this.MainPanel.Controls.Add(this.CharacterAge);
+            this.MainPanel.Controls.Add(this.CharacterPreviousRole);
+            this.MainPanel.Controls.Add(this.CharacterCurrentRole);
+            this.MainPanel.Controls.Add(this.CharacterRace);
+            this.MainPanel.Controls.Add(this.CharacterName);
+            this.MainPanel.Controls.Add(this.FirstPictureBox);
             this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainPanel.Location = new System.Drawing.Point(0, 24);
             this.MainPanel.Name = "MainPanel";
@@ -4086,6 +4086,37 @@
             // 
             this.OpenFileDialog.Filter = "Pliki WFRP|*.wfrp";
             // 
+            // SaveFileDialog
+            // 
+            this.SaveFileDialog.Filter = "Pliki WFRP|*.wfrp";
+            // 
+            // CharacterMoneyP
+            // 
+            this.CharacterMoneyP.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterMoneyP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterMoneyP.Location = new System.Drawing.Point(1250, 2007);
+            this.CharacterMoneyP.Name = "CharacterMoneyP";
+            this.CharacterMoneyP.Size = new System.Drawing.Size(541, 43);
+            this.CharacterMoneyP.TabIndex = 378;
+            // 
+            // CharacterMoneyS
+            // 
+            this.CharacterMoneyS.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterMoneyS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterMoneyS.Location = new System.Drawing.Point(1250, 1962);
+            this.CharacterMoneyS.Name = "CharacterMoneyS";
+            this.CharacterMoneyS.Size = new System.Drawing.Size(541, 43);
+            this.CharacterMoneyS.TabIndex = 377;
+            // 
+            // CharacterMoneyZK
+            // 
+            this.CharacterMoneyZK.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CharacterMoneyZK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharacterMoneyZK.Location = new System.Drawing.Point(1250, 1914);
+            this.CharacterMoneyZK.Name = "CharacterMoneyZK";
+            this.CharacterMoneyZK.Size = new System.Drawing.Size(541, 43);
+            this.CharacterMoneyZK.TabIndex = 376;
+            // 
             // CharacterActualPP
             // 
             this.CharacterActualPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -4550,37 +4581,6 @@
             this.CharacterStartingWW.TabIndex = 18;
             this.CharacterStartingWW.ValueChanged += new System.EventHandler(this.CharacterStartingWW_ValueChanged);
             // 
-            // CharacterMoneyP
-            // 
-            this.CharacterMoneyP.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterMoneyP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterMoneyP.Location = new System.Drawing.Point(1250, 2007);
-            this.CharacterMoneyP.Name = "CharacterMoneyP";
-            this.CharacterMoneyP.Size = new System.Drawing.Size(541, 43);
-            this.CharacterMoneyP.TabIndex = 378;
-            // 
-            // CharacterMoneyS
-            // 
-            this.CharacterMoneyS.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterMoneyS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterMoneyS.Location = new System.Drawing.Point(1250, 1962);
-            this.CharacterMoneyS.Name = "CharacterMoneyS";
-            this.CharacterMoneyS.Size = new System.Drawing.Size(541, 43);
-            this.CharacterMoneyS.TabIndex = 377;
-            // 
-            // CharacterMoneyZK
-            // 
-            this.CharacterMoneyZK.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CharacterMoneyZK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterMoneyZK.Location = new System.Drawing.Point(1250, 1914);
-            this.CharacterMoneyZK.Name = "CharacterMoneyZK";
-            this.CharacterMoneyZK.Size = new System.Drawing.Size(541, 43);
-            this.CharacterMoneyZK.TabIndex = 376;
-            // 
-            // SaveFileDialog
-            // 
-            this.SaveFileDialog.Filter = "Pliki WFRP|*.wfrp";
-            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4604,6 +4604,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.FirstPictureBox)).EndInit();
             this.PageMenuStrip.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SecondPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyZK)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualPP)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualPO)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterActualMag)).EndInit();
@@ -4652,9 +4655,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingK)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingUS)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterStartingWW)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyP)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyS)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CharacterMoneyZK)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
