@@ -11,11 +11,11 @@ namespace WFRPManager.Data
         public bool Skill3 { get; set; }
         public string ConnectedSkill { get; set; }
 
-        public void CascadeTraitAssign()
-        {
-            if (Skill3) Skill2 = true;
-            if (Skill2) Skill1 = true;
-        }
+        //public void CascadeTraitAssign()
+        //{
+        //    if (Skill3) Skill2 = true;
+        //    if (Skill2) Skill1 = true;
+        //}
 
         public Skill()
         {

@@ -41,10 +41,10 @@ namespace WFRPManager.Logic
                 character.Traits.RemoveRange(0, 16);
                 character.Weapons.RemoveRange(0, 6);
                 character.Armors.RemoveRange(0, 6);
-                character.Skills.RemoveRange(0, 19);
-                character.AdvancedSkills.RemoveRange(0, 14);
-                character.Abilities.RemoveRange(0, 14);
-                character.Items.RemoveRange(0, 13);
+                //character.Skills.RemoveRange(0, 19);
+                //character.AdvancedSkills.RemoveRange(0, 14);
+                //character.Abilities.RemoveRange(0, 14);
+                //character.Items.RemoveRange(0, 13);
             });
         }
     }

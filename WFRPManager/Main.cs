@@ -705,19 +705,6 @@ namespace WFRPManager.UI
                 WeaponReload6.Text = CurrentCharacter.Weapons[5].Reload;
                 WeaponTraits6.Text = CurrentCharacter.Weapons[5].Traits;
 
-                CharacterCurrentXP.Text = CurrentCharacter.CurrentXP;
-                CharacterTotalXP.Text = CurrentCharacter.TotalXP;
-                CharacterMovementRetreat.Text = CurrentCharacter.MovementRetreat;
-                CharacterCharge.Text = CurrentCharacter.Charge;
-                CharacterSprint.Text = CurrentCharacter.Sprint;
-
-                CharacterHead.Text = CurrentCharacter.Head;
-                CharacterBody.Text = CurrentCharacter.Body;
-                CharacterRightArm.Text = CurrentCharacter.RightArm;
-                CharacterLeftArm.Text = CurrentCharacter.LeftArm;
-                CharacterRightLeg.Text = CurrentCharacter.RightLeg;
-                CharacterLeftLeg.Text = CurrentCharacter.LeftLeg;
-
                 SimpleArmorType.Text = CurrentCharacter.SArmor.Type;
                 SimpleArmorPZ.Text = CurrentCharacter.SArmor.PZ;
 
@@ -1083,5 +1070,61 @@ namespace WFRPManager.UI
         private void CharacterSkill1_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[0].Skill3 = CharacterSkill1_3.Checked;
 
         private void CharacterConnectedSkill1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[0].ConnectedSkill = CharacterConnectedSkill1.Text;
+
+        private void CharacterSkill2_1_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[1].Skill1 = CharacterSkill2_1.Checked;
+
+        private void CharacterSkill2_2_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[1].Skill2 = CharacterSkill2_2.Checked;
+
+        private void CharacterSkill2_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[1].Skill3 = CharacterSkill2_3.Checked;
+
+        private void CharacterConnectedSkill2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[1].ConnectedSkill = CharacterConnectedSkill2.Text;
+
+        private void CharacterSkill3_1_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[2].Skill1 = CharacterSkill3_1.Checked;
+
+        private void CharacterSkill3_2_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[2].Skill2 = CharacterSkill3_2.Checked;
+
+        private void CharacterSkill3_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[2].Skill3 = CharacterSkill3_3.Checked;
+
+        private void CharacterConnectedSkill3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[2].ConnectedSkill = CharacterConnectedSkill3.Text;
+
+        private void CharacterSkill4_1_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[3].Skill1 = CharacterSkill4_1.Checked;
+
+        private void CharacterSkill4_2_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[3].Skill2 = CharacterSkill4_2.Checked;
+
+        private void CharacterSkill4_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[3].Skill3 = CharacterSkill4_3.Checked;
+
+        private void CharacterConnectedSkill4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[3].ConnectedSkill = CharacterConnectedSkill4.Text;
+
+        private void CharacterSkill5_1_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[4].Skill1 = CharacterSkill5_1.Checked;
+
+        private void CharacterSkill5_2_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[4].Skill2 = CharacterSkill5_2.Checked;
+
+        private void CharacterSkill5_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[4].Skill3 = CharacterSkill5_3.Checked;
+
+        private void CharacterConnectedSkill5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[4].ConnectedSkill = CharacterConnectedSkill5.Text;
+
+        private void CharacterSkill6_1_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[5].Skill1 = CharacterSkill6_1.Checked;
+
+        private void CharacterSkill6_2_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[5].Skill2 = CharacterSkill6_2.Checked;
+
+        private void CharacterSkill6_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[5].Skill3 = CharacterSkill6_3.Checked;
+
+        private void CharacterConnectedSkill6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[5].ConnectedSkill = CharacterConnectedSkill6.Text;
+
+        private void CharacterSkill7_1_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[6].Skill1 = CharacterSkill7_1.Checked;
+
+        private void CharacterSkill7_2_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[6].Skill2 = CharacterSkill7_2.Checked;
+
+        private void CharacterSkill7_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[6].Skill3 = CharacterSkill7_3.Checked;
+
+        private void CharacterConnectedSkill7_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[6].ConnectedSkill = CharacterConnectedSkill7.Text;
+
+        private void CharacterSkill8_1_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[7].Skill1 = CharacterSkill8_1.Checked;
+
+        private void CharacterSkill8_2_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[7].Skill2 = CharacterSkill8_2.Checked;
+
+        private void CharacterSkill8_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[7].Skill3 = CharacterSkill8_3.Checked;
+
+        private void CharacterConnectedSkill8_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[7].ConnectedSkill = CharacterConnectedSkill8.Text;
     }
 }
