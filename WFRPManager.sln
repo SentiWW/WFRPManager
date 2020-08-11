@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFRPManager.UI", "WFRPManag
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WFRPManager.Logic", "WFRPManager.Logic\WFRPManager.Logic.csproj", "{6680EC6A-6B93-46EA-8448-4EC9731A9CD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFRPManager.Data", "WFRPManager.Data\WFRPManager.Data.csproj", "{A788629B-52A4-4C3D-B5F4-C36BFD5323D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WFRPManager.Data", "WFRPManager.Data\WFRPManager.Data.csproj", "{A788629B-52A4-4C3D-B5F4-C36BFD5323D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
