@@ -36,8 +36,6 @@ namespace WFRPManager.UI
             InitializeComponent();
             InitializeComponentOverride();
             _ = FillElementsToLinkedListAsync();
-            _ = EnableSecondPageAsync(false);
-            _ = EnableFirstPageAsync(true);
         }
 
         private void InitializeComponentOverride()
@@ -1126,5 +1124,10 @@ namespace WFRPManager.UI
         private void CharacterSkill8_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[7].Skill3 = CharacterSkill8_3.Checked;
 
         private void CharacterConnectedSkill8_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[7].ConnectedSkill = CharacterConnectedSkill8.Text;
+
+        private void MainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
