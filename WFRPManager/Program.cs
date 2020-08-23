@@ -16,7 +16,8 @@ namespace WFRPManager.UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainWindow());
+            Application.Run(new LoginRegistration());
+            //Application.Run(new MainWindow());
         }
     }
 }

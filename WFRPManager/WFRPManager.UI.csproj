@@ -67,6 +67,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LoginRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginRegistration.Designer.cs">
+      <DependentUpon>LoginRegistration.cs</DependentUpon>
+    </Compile>
     <Compile Include="NumericUpDownNoScroll.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="LoginRegistration.resx">
+      <DependentUpon>LoginRegistration.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
