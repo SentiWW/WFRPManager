@@ -1,43 +1,51 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using WFRPManager;
+using WFRPManager.Data;
 
 namespace WFRPManager.Logic
 {
-    class Serialization
+    public class Serialization
     {
-        /*
-        private async Task PackData()
+        public static void ExportToJSON(Character character, string path)
         {
-            throw new NotImplementedException();
+            string json = Newtonsoft.Json.JsonConvert.SerializeObject(character, Newtonsoft.Json.Formatting.Indented);
+            using (StreamWriter sw = new StreamWriter(path))
+            {
+                sw.Write(json);
+                sw.Close();
+            }
         }
-        public async Task ExportToJSON()
+        public static Character ImportFromJSON(string path)
         {
-            throw new NotImplementedException();
+            string json;
+            using (StreamReader sr = File.OpenText(path))
+            {
+                json = sr.ReadToEnd();
+                sr.Close();
+            }
+            Character character = Newtonsoft.Json.JsonConvert.DeserializeObject<Character>(json);
+            _ = RemoveOldObjectsFromLists(character);
+            return character;
         }
-        public async Task ImportFromJSON()
+
+        private static async Task RemoveOldObjectsFromLists(Character character)
         {
-            throw new NotImplementedException();
+            await Task.Run(() =>
+            {
+                character.Traits.RemoveRange(0, 16);
+                character.Weapons.RemoveRange(0, 6);
+                character.Armors.RemoveRange(0, 6);
+                //character.Skills.RemoveRange(0, 19);
+                //character.AdvancedSkills.RemoveRange(0, 14);
+                //character.Abilities.RemoveRange(0, 14);
+                //character.Items.RemoveRange(0, 13);
+            });
         }
-        public async Task ExportToXML()
-        {
-            throw new NotImplementedException();
-        }
-        public async Task ImportFromXML()
-        {
-            throw new NotImplementedException();
-        }
-        public async Task ExportToTXT()
-        {
-            throw new NotImplementedException();
-        }
-        public async Task ImportFromTXT()
-        {
-            throw new NotImplementedException();
-        }
-        */
     }
 }

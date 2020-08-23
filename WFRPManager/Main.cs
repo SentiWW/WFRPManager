@@ -10,60 +10,63 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WFRPManager.Logic;
 using WFRPManager.Data;
+using System.IO;
 
 namespace WFRPManager.UI
 {
     public partial class MainWindow : Form
     {
         private List<TextBox> FirstPageTextBoxsTemp = new List<TextBox>();
-        private LinkedList<TextBox> FirstPageTextBoxs = new LinkedList<TextBox>();
         private List<NumericUpDownNoScroll> FirstPageNumericUpDownTemp = new List<NumericUpDownNoScroll>();
-        private LinkedList<NumericUpDownNoScroll> FirstPageNumericUpDown = new LinkedList<NumericUpDownNoScroll>();
         private List<TextBox> SecondPageTextBoxsTemp = new List<TextBox>();
-        private LinkedList<TextBox> SecondPageTextBoxs = new LinkedList<TextBox>();
         private List<CheckBox> SecondPageCheckBoxsTemp = new List<CheckBox>();
-        private LinkedList<CheckBox> SecondPageCheckBoxs = new LinkedList<CheckBox>();
         private List<NumericUpDownNoScroll> SecondPageNumericUpDownTemp = new List<NumericUpDownNoScroll>();
+
+        private LinkedList<TextBox> FirstPageTextBoxs = new LinkedList<TextBox>();
+        private LinkedList<NumericUpDownNoScroll> FirstPageNumericUpDown = new LinkedList<NumericUpDownNoScroll>();
+        private LinkedList<TextBox> SecondPageTextBoxs = new LinkedList<TextBox>();
+        private LinkedList<CheckBox> SecondPageCheckBoxs = new LinkedList<CheckBox>();
         private LinkedList<NumericUpDownNoScroll> SecondPageNumericUpDown = new LinkedList<NumericUpDownNoScroll>();
+
         private Player CurrentPlayer = new Player();
         private Character CurrentCharacter = new Character();
 
         public MainWindow()
         {
             InitializeComponent();
-            _ = FillElementsToLinkedList();
-            _ = EnableSecondPage(false);
+            InitializeComponentOverride();
+            _ = FillElementsToLinkedListAsync();
         }
 
-        private async Task FillElementsToLinkedList()
+        private void InitializeComponentOverride()
         {
-            _ = FillElementsLists();
+            
+        }
+        private async Task FillElementsToLinkedListAsync()
+        {
+            _ = FillElementsListsAsync();
             foreach (var element in FirstPageTextBoxsTemp)
                 FirstPageTextBoxs.AddLast(element);
             FirstPageTextBoxsTemp.Clear();
-            await Task.Delay(0);
 
             foreach (var element in FirstPageNumericUpDownTemp)
                 FirstPageNumericUpDown.AddLast(element);
             FirstPageNumericUpDownTemp.Clear();
-            await Task.Delay(0);
 
             foreach (var element in SecondPageTextBoxsTemp)
                 SecondPageTextBoxs.AddLast(element);
             SecondPageTextBoxsTemp.Clear();
-            await Task.Delay(0);
 
             foreach (var element in SecondPageCheckBoxsTemp)
                 SecondPageCheckBoxs.AddLast(element);
             SecondPageCheckBoxsTemp.Clear();
-            await Task.Delay(0);
 
             foreach (var element in SecondPageNumericUpDownTemp)
                 SecondPageNumericUpDown.AddLast(element);
             SecondPageNumericUpDownTemp.Clear();
         }
 
-        private async Task FillElementsLists()
+        private async Task FillElementsListsAsync()
         {
             FirstPageTextBoxsTemp.AddRange(new List<TextBox>()
             {
@@ -77,7 +80,7 @@ namespace WFRPManager.UI
                 CharacterAge,
                 CharacterEyeColor,
                 CharacterHairColor,
-                CharacterStartSign,
+                CharacterStarSign,
                 CharacterBirthplace,
                 CharacterFeatures,
                 CharacterSex,
@@ -177,7 +180,6 @@ namespace WFRPManager.UI
                 AdvancedArmorPZ5,
                 AdvancedArmorPZ6
             });
-            await Task.Delay(0);
             FirstPageNumericUpDownTemp.AddRange(new List<NumericUpDownNoScroll>()
             {
                 //
@@ -235,7 +237,6 @@ namespace WFRPManager.UI
                 CharacterActualPO,
                 CharacterActualPP
             });
-            await Task.Delay(0);
             SecondPageTextBoxsTemp.AddRange(new List<TextBox>()
             {
                 //
@@ -373,7 +374,6 @@ namespace WFRPManager.UI
                 CharacterItemDescription13,
                 CharacterItemDescription14
             });
-            await Task.Delay(0);
             SecondPageCheckBoxsTemp.AddRange(new List<CheckBox>()
             {
                 //
@@ -488,7 +488,6 @@ namespace WFRPManager.UI
                 CharacterAdvancedSkill14_3,
                 CharacterAdvancedSkill15_3
             });
-            await Task.Delay(0);
             SecondPageNumericUpDownTemp.AddRange(new List<NumericUpDownNoScroll>()
             {
                 //
@@ -500,7 +499,7 @@ namespace WFRPManager.UI
             });
         }
 
-        private async Task EnablePictureBox(bool enable, PictureBox picture)
+        private async Task EnablePictureBoxAsync(bool enable, PictureBox picture)
         {
             if (enable)
             {
@@ -514,7 +513,7 @@ namespace WFRPManager.UI
             }
         }
 
-        private async Task EnableFirstPage(bool enable)
+        private async Task EnableFirstPageAsync(bool enable)
         {
             foreach (var element in FirstPageTextBoxs)
             {
@@ -530,12 +529,12 @@ namespace WFRPManager.UI
             }
             await Task.Delay(0);
             if (enable)
-                await EnablePictureBox(true, FirstPictureBox);
+                await EnablePictureBoxAsync(true, FirstPictureBox);
             else
-                await EnablePictureBox(false, FirstPictureBox);
+                await EnablePictureBoxAsync(false, FirstPictureBox);
         }
 
-        private async Task EnableSecondPage(bool enable)
+        private async Task EnableSecondPageAsync(bool enable)
         {
             foreach (var element in SecondPageTextBoxs)
             {
@@ -559,39 +558,218 @@ namespace WFRPManager.UI
             await Task.Delay(0);
 
             if (enable)
-                await EnablePictureBox(true, SecondPictureBox);
+                await EnablePictureBoxAsync(true, SecondPictureBox);
             else
-                await EnablePictureBox(false, SecondPictureBox);
+                await EnablePictureBoxAsync(false, SecondPictureBox);
         }
 
-        private async Task SwitchPage()
+        private async Task SwitchPageAsync()
         {
             if (FirstPictureBox.Enabled)
             {
-                await EnableFirstPage(false);
-                await EnableSecondPage(true);
+                await EnableFirstPageAsync(false);
+                await EnableSecondPageAsync(true);
             }
             else
             {
-                await EnableSecondPage(false);
-                await EnableFirstPage(true);
+                await EnableSecondPageAsync(false);
+                await EnableFirstPageAsync(true);
             }
         }
 
-        private void NextPage_Click(object sender, EventArgs e) => _ = SwitchPage();
+        private async Task RefreshAsync()
+        {
+            await Task.Run(() =>
+            {
+                PlayerName.Text = CurrentPlayer.Name;
+                GameMaster.Text = CurrentPlayer.GameMaster;
+                CampaignName.Text = CurrentPlayer.Campaign;
+                CampaignYear.Text = CurrentPlayer.CampaignYear;
 
-        private void TurnPageMenuStripOption_Click(object sender, EventArgs e) => _ = SwitchPage();
+                CharacterName.Text = CurrentCharacter.Name;
+                CharacterRace.Text = CurrentCharacter.Race;
+                CharacterCurrentRole.Text = CurrentCharacter.CurrentRole;
+                CharacterPreviousRole.Text = CurrentCharacter.PreviousRole;
+                CharacterAge.Text = CurrentCharacter.Age;
+                CharacterEyeColor.Text = CurrentCharacter.EyeColor;
+                CharacterHairColor.Text = CurrentCharacter.HairColor;
+                CharacterStarSign.Text = CurrentCharacter.StarSign;
+                CharacterBirthplace.Text = CurrentCharacter.Birthplace;
+                CharacterFeatures.Text = CurrentCharacter.Features;
+                CharacterSex.Text = CurrentCharacter.Sex;
+                CharacterWeight.Text = CurrentCharacter.Weight;
+                CharacterHeight.Text = CurrentCharacter.Height;
+                CharacterSiblings.Text = CurrentCharacter.Siblings;
+                CharacterHead.Text = CurrentCharacter.Head;
+                CharacterBody.Text = CurrentCharacter.Body;
+                CharacterLeftArm.Text = CurrentCharacter.LeftArm;
+                CharacterRightArm.Text = CurrentCharacter.RightArm;
+                CharacterLeftLeg.Text = CurrentCharacter.LeftLeg;
+                CharacterRightLeg.Text = CurrentCharacter.RightLeg;
+                CharacterCurrentXP.Text = CurrentCharacter.CurrentXP;
+                CharacterTotalXP.Text = CurrentCharacter.TotalXP;
+                CharacterMovementRetreat.Text = CurrentCharacter.MovementRetreat;
+                CharacterCharge.Text = CurrentCharacter.Charge;
+                CharacterSprint.Text = CurrentCharacter.Sprint;
+
+                CharacterStartingWW.Value = CurrentCharacter.Traits[0].Starting;
+                CharacterGrowthWW.Value = CurrentCharacter.Traits[0].Growth;
+                CharacterActualWW.Value = CurrentCharacter.Traits[0].Actual;
+                CharacterStartingUS.Value = CurrentCharacter.Traits[1].Starting;
+                CharacterGrowthUS.Value = CurrentCharacter.Traits[1].Growth;
+                CharacterActualUS.Value = CurrentCharacter.Traits[1].Actual;
+                CharacterStartingK.Value = CurrentCharacter.Traits[2].Starting;
+                CharacterGrowthK.Value = CurrentCharacter.Traits[2].Growth;
+                CharacterActualK.Value = CurrentCharacter.Traits[2].Actual;
+                CharacterStartingOdp.Value = CurrentCharacter.Traits[3].Starting;
+                CharacterGrowthOdp.Value = CurrentCharacter.Traits[3].Growth;
+                CharacterActualOdp.Value = CurrentCharacter.Traits[3].Actual;
+                CharacterStartingZr.Value = CurrentCharacter.Traits[4].Starting;
+                CharacterGrowthZr.Value = CurrentCharacter.Traits[4].Growth;
+                CharacterActualZr.Value = CurrentCharacter.Traits[4].Actual;
+                CharacterStartingInt.Value = CurrentCharacter.Traits[5].Starting;
+                CharacterGrowthInt.Value = CurrentCharacter.Traits[5].Growth;
+                CharacterActualInt.Value = CurrentCharacter.Traits[5].Actual;
+                CharacterStartingSW.Value = CurrentCharacter.Traits[6].Starting;
+                CharacterGrowthSW.Value = CurrentCharacter.Traits[6].Growth;
+                CharacterActualSW.Value = CurrentCharacter.Traits[6].Actual;
+                CharacterStartingOgd.Value = CurrentCharacter.Traits[7].Starting;
+                CharacterGrowthOgd.Value = CurrentCharacter.Traits[7].Growth;
+                CharacterActualOgd.Value = CurrentCharacter.Traits[7].Actual;
+                CharacterStartingA.Value = CurrentCharacter.Traits[8].Starting;
+                CharacterGrowthA.Value = CurrentCharacter.Traits[8].Growth;
+                CharacterActualA.Value = CurrentCharacter.Traits[8].Actual;
+                CharacterStartingZyw.Value = CurrentCharacter.Traits[9].Starting;
+                CharacterGrowthZyw.Value = CurrentCharacter.Traits[9].Growth;
+                CharacterActualZyw.Value = CurrentCharacter.Traits[9].Actual;
+                CharacterStartingS.Value = CurrentCharacter.Traits[10].Starting;
+                CharacterGrowthS.Value = CurrentCharacter.Traits[10].Growth;
+                CharacterActualS.Value = CurrentCharacter.Traits[10].Actual;
+                CharacterStartingWt.Value = CurrentCharacter.Traits[11].Starting;
+                CharacterGrowthWt.Value = CurrentCharacter.Traits[11].Growth;
+                CharacterActualWt.Value = CurrentCharacter.Traits[11].Actual;
+                CharacterStartingSz.Value = CurrentCharacter.Traits[12].Starting;
+                CharacterGrowthSz.Value = CurrentCharacter.Traits[12].Growth;
+                CharacterActualSz.Value = CurrentCharacter.Traits[12].Actual;
+                CharacterStartingMag.Value = CurrentCharacter.Traits[13].Starting;
+                CharacterGrowthMag.Value = CurrentCharacter.Traits[13].Growth;
+                CharacterActualMag.Value = CurrentCharacter.Traits[13].Actual;
+                CharacterStartingPO.Value = CurrentCharacter.Traits[14].Starting;
+                CharacterGrowthPO.Value = CurrentCharacter.Traits[14].Growth;
+                CharacterActualPO.Value = CurrentCharacter.Traits[14].Actual;
+                CharacterStartingPP.Value = CurrentCharacter.Traits[15].Starting;
+                CharacterGrowthPP.Value = CurrentCharacter.Traits[15].Growth;
+                CharacterActualPP.Value = CurrentCharacter.Traits[15].Actual;
+
+                WeaponWeight1.Text = CurrentCharacter.Weapons[0].Weight;
+                WeaponCategory1.Text = CurrentCharacter.Weapons[0].Category;
+                WeaponStrength1.Text = CurrentCharacter.Weapons[0].Strength;
+                WeaponRange1.Text = CurrentCharacter.Weapons[0].Range;
+                WeaponReload1.Text = CurrentCharacter.Weapons[0].Reload;
+                WeaponTraits1.Text = CurrentCharacter.Weapons[0].Traits;
+                WeaponName2.Text = CurrentCharacter.Weapons[1].Name;
+                WeaponWeight2.Text = CurrentCharacter.Weapons[1].Weight;
+                WeaponCategory2.Text = CurrentCharacter.Weapons[1].Category;
+                WeaponStrength2.Text = CurrentCharacter.Weapons[1].Strength;
+                WeaponRange2.Text = CurrentCharacter.Weapons[1].Range;
+                WeaponReload2.Text = CurrentCharacter.Weapons[1].Reload;
+                WeaponTraits2.Text = CurrentCharacter.Weapons[1].Traits;
+                WeaponName3.Text = CurrentCharacter.Weapons[2].Name;
+                WeaponWeight3.Text = CurrentCharacter.Weapons[2].Weight;
+                WeaponCategory3.Text = CurrentCharacter.Weapons[2].Category;
+                WeaponStrength3.Text = CurrentCharacter.Weapons[2].Strength;
+                WeaponRange3.Text = CurrentCharacter.Weapons[2].Range;
+                WeaponReload3.Text = CurrentCharacter.Weapons[2].Reload;
+                WeaponTraits3.Text = CurrentCharacter.Weapons[2].Traits;
+                WeaponName4.Text = CurrentCharacter.Weapons[3].Name;
+                WeaponWeight4.Text = CurrentCharacter.Weapons[3].Weight;
+                WeaponCategory4.Text = CurrentCharacter.Weapons[3].Category;
+                WeaponStrength4.Text = CurrentCharacter.Weapons[3].Strength;
+                WeaponRange4.Text = CurrentCharacter.Weapons[3].Range;
+                WeaponReload4.Text = CurrentCharacter.Weapons[3].Reload;
+                WeaponTraits4.Text = CurrentCharacter.Weapons[3].Traits;
+                WeaponName5.Text = CurrentCharacter.Weapons[4].Name;
+                WeaponWeight5.Text = CurrentCharacter.Weapons[4].Weight;
+                WeaponCategory5.Text = CurrentCharacter.Weapons[4].Category;
+                WeaponStrength5.Text = CurrentCharacter.Weapons[4].Strength;
+                WeaponRange5.Text = CurrentCharacter.Weapons[4].Range;
+                WeaponReload5.Text = CurrentCharacter.Weapons[4].Reload;
+                WeaponTraits5.Text = CurrentCharacter.Weapons[4].Traits;
+                WeaponName6.Text = CurrentCharacter.Weapons[5].Name;
+                WeaponWeight6.Text = CurrentCharacter.Weapons[5].Weight;
+                WeaponCategory6.Text = CurrentCharacter.Weapons[5].Category;
+                WeaponStrength6.Text = CurrentCharacter.Weapons[5].Strength;
+                WeaponRange6.Text = CurrentCharacter.Weapons[5].Range;
+                WeaponReload6.Text = CurrentCharacter.Weapons[5].Reload;
+                WeaponTraits6.Text = CurrentCharacter.Weapons[5].Traits;
+
+                SimpleArmorType.Text = CurrentCharacter.SArmor.Type;
+                SimpleArmorPZ.Text = CurrentCharacter.SArmor.PZ;
+
+                AdvancedArmorType1.Text = CurrentCharacter.Armors[0].Type;
+                AdvancedArmorWeight1.Text = CurrentCharacter.Armors[0].Weight;
+                AdvancedArmorLocation1.Text = CurrentCharacter.Armors[0].Location;
+                AdvancedArmorPZ1.Text = CurrentCharacter.Armors[0].PZ;
+                AdvancedArmorType2.Text = CurrentCharacter.Armors[1].Type;
+                AdvancedArmorWeight2.Text = CurrentCharacter.Armors[1].Weight;
+                AdvancedArmorLocation2.Text = CurrentCharacter.Armors[1].Location;
+                AdvancedArmorPZ2.Text = CurrentCharacter.Armors[1].PZ;
+                AdvancedArmorType3.Text = CurrentCharacter.Armors[2].Type;
+                AdvancedArmorWeight3.Text = CurrentCharacter.Armors[2].Weight;
+                AdvancedArmorLocation3.Text = CurrentCharacter.Armors[2].Location;
+                AdvancedArmorPZ3.Text = CurrentCharacter.Armors[2].PZ;
+                AdvancedArmorType4.Text = CurrentCharacter.Armors[3].Type;
+                AdvancedArmorWeight4.Text = CurrentCharacter.Armors[3].Weight;
+                AdvancedArmorLocation4.Text = CurrentCharacter.Armors[3].Location;
+                AdvancedArmorPZ4.Text = CurrentCharacter.Armors[3].PZ;
+                AdvancedArmorType5.Text = CurrentCharacter.Armors[4].Type;
+                AdvancedArmorWeight5.Text = CurrentCharacter.Armors[4].Weight;
+                AdvancedArmorLocation5.Text = CurrentCharacter.Armors[4].Location;
+                AdvancedArmorPZ5.Text = CurrentCharacter.Armors[4].PZ;
+                AdvancedArmorType6.Text = CurrentCharacter.Armors[5].Type;
+                AdvancedArmorWeight6.Text = CurrentCharacter.Armors[5].Weight;
+                AdvancedArmorPZ6.Text = CurrentCharacter.Armors[5].PZ;
+                AdvancedArmorLocation6.Text = CurrentCharacter.Armors[5].Location;
+
+                CharacterSkill1_1.Checked = CurrentCharacter.Skills[0].Skill1;
+                CharacterSkill1_2.Checked = CurrentCharacter.Skills[0].Skill2;
+                CharacterSkill1_3.Checked = CurrentCharacter.Skills[0].Skill3;
+                CharacterConnectedSkill1.Text = CurrentCharacter.Skills[0].ConnectedSkill;
+            });
+        }
+
+        private void NextPage_Click(object sender, EventArgs e) => _ = SwitchPageAsync();
+
+        private void TurnPageMenuStripOption_Click(object sender, EventArgs e) => _ = SwitchPageAsync();
+
+        private void PlaceholderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+#if Debug
+            MessageBox.Show("Dane testowe zapisane w pliku.");
+
+            CurrentCharacter.Debug();
+#endif
+        }
+
+        private void EksportujToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog.FileName = $"Karta-{DateTime.Now.Date.ToShortDateString().Replace('/', '-')}";
+            SaveFileDialog.ShowDialog();
+            Serialization.ExportToJSON(CurrentCharacter, Path.GetFullPath(SaveFileDialog.FileName));
+        }
+
+        private void ImportujToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog.FileName = $"Karta-{DateTime.Now.Date.ToShortDateString().Replace('/', '-')}";
+            OpenFileDialog.ShowDialog();
+            if (SaveFileDialog.CheckFileExists) CurrentCharacter = Serialization.ImportFromJSON(Path.GetFullPath(OpenFileDialog.FileName));
+            _ = RefreshAsync();
+        }
 
         //
         //  Update data localy on input
         //
-        #region data
-        private void PlaceholderToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Dane testowe zapisane w pliku.");
-            CurrentCharacter.Debug();
-        }
-
+        #region firstpage
         private void CharacterName_TextChanged(object sender, EventArgs e) => CurrentCharacter.Name = CharacterName.Text;
 
         private void CharacterRace_TextChanged(object sender, EventArgs e) => CurrentCharacter.Race = CharacterRace.Text;
@@ -606,7 +784,7 @@ namespace WFRPManager.UI
 
         private void CharacterHairColor_TextChanged(object sender, EventArgs e) => CurrentCharacter.HairColor = CharacterHairColor.Text;
 
-        private void CharacterStartSign_TextChanged(object sender, EventArgs e) => CurrentCharacter.StarSign = CharacterStartSign.Text;
+        private void CharacterStartSign_TextChanged(object sender, EventArgs e) => CurrentCharacter.StarSign = CharacterStarSign.Text;
 
         private void CharacterBirthplace_TextChanged(object sender, EventArgs e) => CurrentCharacter.Birthplace = CharacterBirthplace.Text;
 
@@ -808,8 +986,6 @@ namespace WFRPManager.UI
 
         private void CampaignYear_TextChanged(object sender, EventArgs e) => CurrentPlayer.CampaignYear = CampaignYear.Text;
 
-        #endregion
-
         private void CharacterCurrentXP_TextChanged(object sender, EventArgs e) => CurrentCharacter.CurrentXP = CharacterCurrentXP.Text;
 
         private void CharacterTotalXP_TextChanged(object sender, EventArgs e) => CurrentCharacter.TotalXP = CharacterTotalXP.Text;
@@ -883,5 +1059,75 @@ namespace WFRPManager.UI
         private void AdvancedArmorLocation6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[5].PZ = AdvancedArmorPZ6.Text;
 
         private void AdvancedArmorPZ6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Armors[5].PZ = AdvancedArmorPZ6.Text;
+        #endregion
+
+        private void CharacterSkill1_1_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[0].Skill1 = CharacterSkill1_1.Checked;
+
+        private void CharacterSkill1_2_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[0].Skill2 = CharacterSkill1_2.Checked;
+
+        private void CharacterSkill1_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[0].Skill3 = CharacterSkill1_3.Checked;
+
+        private void CharacterConnectedSkill1_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[0].ConnectedSkill = CharacterConnectedSkill1.Text;
+
+        private void CharacterSkill2_1_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[1].Skill1 = CharacterSkill2_1.Checked;
+
+        private void CharacterSkill2_2_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[1].Skill2 = CharacterSkill2_2.Checked;
+
+        private void CharacterSkill2_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[1].Skill3 = CharacterSkill2_3.Checked;
+
+        private void CharacterConnectedSkill2_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[1].ConnectedSkill = CharacterConnectedSkill2.Text;
+
+        private void CharacterSkill3_1_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[2].Skill1 = CharacterSkill3_1.Checked;
+
+        private void CharacterSkill3_2_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[2].Skill2 = CharacterSkill3_2.Checked;
+
+        private void CharacterSkill3_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[2].Skill3 = CharacterSkill3_3.Checked;
+
+        private void CharacterConnectedSkill3_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[2].ConnectedSkill = CharacterConnectedSkill3.Text;
+
+        private void CharacterSkill4_1_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[3].Skill1 = CharacterSkill4_1.Checked;
+
+        private void CharacterSkill4_2_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[3].Skill2 = CharacterSkill4_2.Checked;
+
+        private void CharacterSkill4_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[3].Skill3 = CharacterSkill4_3.Checked;
+
+        private void CharacterConnectedSkill4_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[3].ConnectedSkill = CharacterConnectedSkill4.Text;
+
+        private void CharacterSkill5_1_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[4].Skill1 = CharacterSkill5_1.Checked;
+
+        private void CharacterSkill5_2_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[4].Skill2 = CharacterSkill5_2.Checked;
+
+        private void CharacterSkill5_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[4].Skill3 = CharacterSkill5_3.Checked;
+
+        private void CharacterConnectedSkill5_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[4].ConnectedSkill = CharacterConnectedSkill5.Text;
+
+        private void CharacterSkill6_1_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[5].Skill1 = CharacterSkill6_1.Checked;
+
+        private void CharacterSkill6_2_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[5].Skill2 = CharacterSkill6_2.Checked;
+
+        private void CharacterSkill6_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[5].Skill3 = CharacterSkill6_3.Checked;
+
+        private void CharacterConnectedSkill6_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[5].ConnectedSkill = CharacterConnectedSkill6.Text;
+
+        private void CharacterSkill7_1_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[6].Skill1 = CharacterSkill7_1.Checked;
+
+        private void CharacterSkill7_2_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[6].Skill2 = CharacterSkill7_2.Checked;
+
+        private void CharacterSkill7_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[6].Skill3 = CharacterSkill7_3.Checked;
+
+        private void CharacterConnectedSkill7_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[6].ConnectedSkill = CharacterConnectedSkill7.Text;
+
+        private void CharacterSkill8_1_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[7].Skill1 = CharacterSkill8_1.Checked;
+
+        private void CharacterSkill8_2_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[7].Skill2 = CharacterSkill8_2.Checked;
+
+        private void CharacterSkill8_3_CheckedChanged(object sender, EventArgs e) => CurrentCharacter.Skills[7].Skill3 = CharacterSkill8_3.Checked;
+
+        private void CharacterConnectedSkill8_TextChanged(object sender, EventArgs e) => CurrentCharacter.Skills[7].ConnectedSkill = CharacterConnectedSkill8.Text;
+
+        private void MainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
